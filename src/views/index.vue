@@ -1,0 +1,93 @@
+<style lang="less">
+    @import "../styles/index3.less";
+</style>
+<template>
+    <div class="index">
+        <div class="index-main">
+            <img src="../images/logo-doc.png" class="index-logo">
+            <div class="index-search">
+                <i-select
+                        ref="select"
+                        v-model="search"
+                        filterable
+                        :placeholder="searchText"
+                        :not-found-text="notFoundText"
+                        @on-change="handleSearch">
+                    <i-option v-for="item in navigateList" :key="item.path" :value="item.path">
+                        <template v-if="lang === 'zh-CN'">{{ item.title }}</template>
+                        <template v-else>{{ item.title.split(' ')[0] }}</template>
+                    </i-option>
+                </i-select>
+            </div>
+            <row type="flex" justify="center" align="middle" class="index-container">
+                <i-col span="24">
+                    <img src="../images/index-title.png" class="index-title">
+                    <div class="index-content">{{ $t('index.title1') }}</div>
+                    <div class="index-content">{{ $t('index.title2') }}</div>
+                    <div class="index-actions">
+                        <Button class="index-btn" size="large" type="primary" shape="circle" :to="handleGoToMenu('/mhc-iView-doc/guide/install')">{{ $t('index.start') }}</Button>
+                        <Button class="index-btn" size="large" type="primary" shape="circle" ghost icon="ios-construct" to="https://dev.iviewui.com" target="_blank" v-if="lang === 'zh-CN'">开发者社区</Button>
+                        <Button class="index-btn" size="large" type="primary" shape="circle" ghost icon="logo-github" to="https://github.com/iview/iview" target="_blank">GitHub</Button>
+                    </div>
+                </i-col>
+            </row>
+        </div>
+        <div class="index-bg-footer">
+            <img src="../images/bg-index-footer.png">
+        </div>
+    </div>
+</template>
+<script>
+    import bus from '../../src/components/bus';
+    import navigate from '../config/navigate';
+    import Config from '../config/config';
+
+    export default {
+        data () {
+            return {
+                lang: this.$lang,
+                searchText: this.$t('index.search'),
+                notFoundText: this.$t('index.notFound'),
+                navigateList: [],
+                search: '',
+            }
+        },
+        computed: {
+            suffix () {
+                return this.lang === 'zh-CN' ? '' : '-en';
+            }
+        },
+        methods: {
+            handleGoToMenu (name) {
+                if (this.lang === 'zh-CN') {
+                    return name;
+                } else {
+                    return name + '-en';
+                }
+            },
+            handleSearch (path) {
+                if (this.lang === 'en-US') path += '-en';
+                this.search = '';
+                this.$refs.select.setQuery('');
+                this.$nextTick(() => {
+                    setTimeout(() => {
+                        this.$router.push(path);
+                    }, 300);
+                });
+            },
+        },
+        mounted () {
+            this.lang = this.$lang;
+        },
+        created () {
+            this.lang = this.$lang;
+            let list = [];
+            for (let i = 0; i < navigate.components.length; i++) {
+                for (let j = 0; j < navigate.components[i].list.length; j++) {
+                    list.push(navigate.components[i].list[j]);
+                }
+            }
+            this.navigateList = list;
+        }
+    }
+</script>
