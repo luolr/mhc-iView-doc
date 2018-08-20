@@ -53,6 +53,20 @@ const routers = [
         component: (resolve) => require(['./views/components/icon.vue'], resolve)
     },
     {
+        path: '/mhc-iView-doc/components/grid',
+        meta: {
+            title: '栅格 Grid'
+        },
+        component: (resolve) => require(['./views/components/grid.vue'], resolve)
+    },
+    {
+        path: '/mhc-iView-doc/components/layout',
+        meta: {
+            title: '布局 Layout'
+        },
+        component: (resolve) => require(['./views/components/layout.vue'], resolve)
+    },
+    {
         path: '/mhc-iView-doc/components/exception',
         meta: {
             title: '异常页 Exception'

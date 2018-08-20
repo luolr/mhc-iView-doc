@@ -22,19 +22,19 @@ const list = {
                     title: 'Color 色彩',
                     path: '/mhc-iView-doc/components/color',
                     img: 'color.png',
-                    icon: 'ios-color-fill-outline'
+                    icon: 'android-color-palette'
                 },
                 {
                     title: 'Font 字体',
                     path: '/mhc-iView-doc/components/font',
                     img: 'font.png',
-                    icon: 'ios-at-outline'
+                    icon: 'at'
                 },
                 {
                     title: 'Button 按钮',
                     path: '/mhc-iView-doc/components/button',
                     img: 'button.png',
-                    icon: 'logo-youtube'
+                    icon: 'social-youtube-outline'
                 },
                 {
                     title: 'Icon 图标',
@@ -43,13 +43,32 @@ const list = {
                     icon: 'ios-heart-outline'
                 },
                 {
+                    title: 'Grid 栅格',
+                    path: '/mhc-iView-doc/components/grid',
+                    img: 'grid.png',
+                    icon: 'ios-grid-view-outline'
+                },
+                {
+                    title: 'Layout 布局',
+                    path: '/mhc-iView-doc/components/layout',
+                    img: 'layout-new.png',
+                    icon: 'ios-browsers-outline'
+                },
+
+            ]
+        },
+        {
+            type: 'Components',
+            title: '组件',
+            list: [
+                {
                     title: 'Exception 异常页',
                     path: '/mhc-iView-doc/components/exception',
                     img: 'error.png',
-                    icon: 'ios-heart-outline'
+                    icon: 'alert-circled'
                 }
             ]
-        },
+        }
     ]
 };
 

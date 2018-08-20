@@ -34,6 +34,7 @@
                     {{ $t('index.component') }}
                 </Menu-item>
                 <ButtonGroup size="small">
+                    <Button type="ghost" size="small" icon="social-github" @click="handleGoToGitHub"></Button>
                     <Button icon="ios-settings" @click="handleToggleSetting"></Button>
                 </ButtonGroup>
             </div>
@@ -145,7 +146,7 @@
             },
             handleGoToGitHub () {
                 _hmt.push(['_trackEvent', 'menu-go-github', 'click']);
-                window.open('https://github.com/iview/iview');
+                window.open('https://github.com/luolr/mhc-iView-doc');
             },
             handleGoToTwitter () {
                 _hmt.push(['_trackEvent', 'menu-go-twitter', 'click']);

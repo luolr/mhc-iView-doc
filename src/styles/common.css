@@ -151,9 +151,3 @@ color {  100%, 0% {
         stroke: #ffa700;
     }
 }
-
-/*注释*/
-.asd-car {
-    height: 160px;
-    overflow: hidden;
-}
