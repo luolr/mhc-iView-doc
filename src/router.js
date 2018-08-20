@@ -53,6 +53,13 @@ const routers = [
         component: (resolve) => require(['./views/components/icon.vue'], resolve)
     },
     {
+        path: '/mhc-iView-doc/components/exception',
+        meta: {
+            title: '异常页 Exception'
+        },
+        component: (resolve) => require(['./views/components/exception.vue'], resolve)
+    },
+    {
         path: '*',
         redirect: '/'
     }

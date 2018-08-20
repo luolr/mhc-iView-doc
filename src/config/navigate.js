@@ -41,6 +41,12 @@ const list = {
                     path: '/mhc-iView-doc/components/icon',
                     img: 'icon.png',
                     icon: 'ios-heart-outline'
+                },
+                {
+                    title: 'Exception 异常页',
+                    path: '/mhc-iView-doc/components/exception',
+                    img: 'error.png',
+                    icon: 'ios-heart-outline'
                 }
             ]
         },
