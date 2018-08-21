@@ -1,16 +1,20 @@
 webpackJsonp([5],{
 
-/***/ 481:
+/***/ 485:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_button_vue__ = __webpack_require__(532);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_button_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_button_vue__);
-/* harmony namespace reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_button_vue__) if(["default","default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_button_vue__[key]; }) }(__WEBPACK_IMPORT_KEY__));
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_064c47be_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_button_vue__ = __webpack_require__(540);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_064c47be_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_button_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_064c47be_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_button_vue__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_grid_vue__ = __webpack_require__(538);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_grid_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_grid_vue__);
+/* harmony namespace reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_grid_vue__) if(["default","default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_grid_vue__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_2250fff5_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_grid_vue__ = __webpack_require__(547);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_2250fff5_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_grid_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_2250fff5_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_grid_vue__);
 var disposed = false
+function injectStyle (ssrContext) {
+  if (disposed) return
+  __webpack_require__(562)
+}
 var normalizeComponent = __webpack_require__(197)
 /* script */
 
@@ -20,20 +24,20 @@ var normalizeComponent = __webpack_require__(197)
 /* template functional */
 var __vue_template_functional__ = false
 /* styles */
-var __vue_styles__ = null
+var __vue_styles__ = injectStyle
 /* scopeId */
-var __vue_scopeId__ = null
+var __vue_scopeId__ = "data-v-2250fff5"
 /* moduleIdentifier (server only) */
 var __vue_module_identifier__ = null
 var Component = normalizeComponent(
-  __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_button_vue___default.a,
-  __WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_064c47be_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_button_vue___default.a,
+  __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_grid_vue___default.a,
+  __WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_2250fff5_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_grid_vue___default.a,
   __vue_template_functional__,
   __vue_styles__,
   __vue_scopeId__,
   __vue_module_identifier__
 )
-Component.options.__file = "src/views/components/button.vue"
+Component.options.__file = "src/views/components/grid.vue"
 
 /* hot reload */
 if (false) {(function () {
@@ -42,9 +46,9 @@ if (false) {(function () {
   if (!hotAPI.compatible) return
   module.hot.accept()
   if (!module.hot.data) {
-    hotAPI.createRecord("data-v-064c47be", Component.options)
+    hotAPI.createRecord("data-v-2250fff5", Component.options)
   } else {
-    hotAPI.reload("data-v-064c47be", Component.options)
+    hotAPI.reload("data-v-2250fff5", Component.options)
   }
   module.hot.dispose(function (data) {
     disposed = true
@@ -56,7 +60,7 @@ if (false) {(function () {
 
 /***/ }),
 
-/***/ 487:
+/***/ 489:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -84,27 +88,41 @@ var list = {
             title: 'Color 色彩',
             path: '/mhc-iView-doc/components/color',
             img: 'color.png',
-            icon: 'ios-color-fill-outline'
+            icon: 'android-color-palette'
         }, {
             title: 'Font 字体',
             path: '/mhc-iView-doc/components/font',
             img: 'font.png',
-            icon: 'ios-at-outline'
+            icon: 'at'
         }, {
             title: 'Button 按钮',
             path: '/mhc-iView-doc/components/button',
             img: 'button.png',
-            icon: 'logo-youtube'
+            icon: 'social-youtube-outline'
         }, {
             title: 'Icon 图标',
             path: '/mhc-iView-doc/components/icon',
             img: 'icon.png',
             icon: 'ios-heart-outline'
         }, {
+            title: 'Grid 栅格',
+            path: '/mhc-iView-doc/components/grid',
+            img: 'grid.png',
+            icon: 'ios-grid-view-outline'
+        }, {
+            title: 'Layout 布局',
+            path: '/mhc-iView-doc/components/layout',
+            img: 'layout-new.png',
+            icon: 'ios-browsers-outline'
+        }]
+    }, {
+        type: 'Components',
+        title: '组件',
+        list: [{
             title: 'Exception 异常页',
             path: '/mhc-iView-doc/components/exception',
             img: 'error.png',
-            icon: 'ios-heart-outline'
+            icon: 'alert-circled'
         }]
     }]
 };
@@ -113,7 +131,7 @@ exports.default = list;
 
 /***/ }),
 
-/***/ 488:
+/***/ 490:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -139,7 +157,7 @@ exports.default = {
 
 /***/ }),
 
-/***/ 489:
+/***/ 491:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -149,7 +167,7 @@ Object.defineProperty(exports, "__esModule", {
     value: true
 });
 
-var _pinyinUtil = __webpack_require__(496);
+var _pinyinUtil = __webpack_require__(498);
 
 var _pinyinUtil2 = _interopRequireDefault(_pinyinUtil);
 
@@ -175,7 +193,7 @@ exports.default = {
 
 /***/ }),
 
-/***/ 490:
+/***/ 492:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -202,7 +220,7 @@ exports.default = {
 
 /***/ }),
 
-/***/ 491:
+/***/ 493:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -212,15 +230,15 @@ Object.defineProperty(exports, "__esModule", {
     value: true
 });
 
-var _navigate = __webpack_require__(525);
+var _navigate = __webpack_require__(527);
 
 var _navigate2 = _interopRequireDefault(_navigate);
 
-var _navigate3 = __webpack_require__(487);
+var _navigate3 = __webpack_require__(489);
 
 var _navigate4 = _interopRequireDefault(_navigate3);
 
-var _menu = __webpack_require__(524);
+var _menu = __webpack_require__(526);
 
 var _menu2 = _interopRequireDefault(_menu);
 
@@ -333,7 +351,7 @@ exports.default = {
 
 /***/ }),
 
-/***/ 492:
+/***/ 494:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -355,7 +373,7 @@ var _clipboard = __webpack_require__(133);
 
 var _clipboard2 = _interopRequireDefault(_clipboard);
 
-var _tagMap = __webpack_require__(505);
+var _tagMap = __webpack_require__(507);
 
 var _tagMap2 = _interopRequireDefault(_tagMap);
 
@@ -497,7 +515,7 @@ exports.default = {
 
 /***/ }),
 
-/***/ 493:
+/***/ 495:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -507,11 +525,11 @@ Object.defineProperty(exports, "__esModule", {
     value: true
 });
 
-var _navigate = __webpack_require__(487);
+var _navigate = __webpack_require__(489);
 
 var _navigate2 = _interopRequireDefault(_navigate);
 
-var _config = __webpack_require__(495);
+var _config = __webpack_require__(497);
 
 var _config2 = _interopRequireDefault(_config);
 
@@ -519,7 +537,7 @@ var _bus = __webpack_require__(88);
 
 var _bus2 = _interopRequireDefault(_bus);
 
-var _applications = __webpack_require__(521);
+var _applications = __webpack_require__(523);
 
 var _applications2 = _interopRequireDefault(_applications);
 
@@ -621,7 +639,7 @@ exports.default = {
         },
         handleGoToGitHub: function handleGoToGitHub() {
             _hmt.push(['_trackEvent', 'menu-go-github', 'click']);
-            window.open('https://github.com/iview/iview');
+            window.open('https://github.com/luolr/mhc-iView-doc');
         },
         handleGoToTwitter: function handleGoToTwitter() {
             _hmt.push(['_trackEvent', 'menu-go-twitter', 'click']);
@@ -659,7 +677,7 @@ exports.default = {
 
 /***/ }),
 
-/***/ 494:
+/***/ 496:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -669,11 +687,11 @@ Object.defineProperty(exports, "__esModule", {
     value: true
 });
 
-var _navigate = __webpack_require__(487);
+var _navigate = __webpack_require__(489);
 
 var _navigate2 = _interopRequireDefault(_navigate);
 
-var _config = __webpack_require__(495);
+var _config = __webpack_require__(497);
 
 var _config2 = _interopRequireDefault(_config);
 
@@ -681,7 +699,7 @@ var _bus = __webpack_require__(88);
 
 var _bus2 = _interopRequireDefault(_bus);
 
-var _adSend = __webpack_require__(519);
+var _adSend = __webpack_require__(521);
 
 var _adSend2 = _interopRequireDefault(_adSend);
 
@@ -761,7 +779,7 @@ exports.default = {
 
 /***/ }),
 
-/***/ 495:
+/***/ 497:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -792,7 +810,7 @@ exports.default = config;
 
 /***/ }),
 
-/***/ 496:
+/***/ 498:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -806,7 +824,7 @@ var _typeof2 = __webpack_require__(89);
 
 var _typeof3 = _interopRequireDefault(_typeof2);
 
-var _pinyin_dict_firstletter = __webpack_require__(506);
+var _pinyin_dict_firstletter = __webpack_require__(508);
 
 var _pinyin_dict_firstletter2 = _interopRequireDefault(_pinyin_dict_firstletter);
 
@@ -1068,7 +1086,7 @@ exports.default = pinyinUtil;
 
 /***/ }),
 
-/***/ 497:
+/***/ 499:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1078,7 +1096,7 @@ Object.defineProperty(exports, "__esModule", {
     value: true
 });
 
-var _pinyinUtil = __webpack_require__(496);
+var _pinyinUtil = __webpack_require__(498);
 
 var _pinyinUtil2 = _interopRequireDefault(_pinyinUtil);
 
@@ -1192,7 +1210,7 @@ exports.default = {
 
 /***/ }),
 
-/***/ 498:
+/***/ 500:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1221,7 +1239,7 @@ if (false) {
 
 /***/ }),
 
-/***/ 499:
+/***/ 501:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1294,7 +1312,7 @@ var staticRenderFns = [function () {
   var _c = _vm._self._c || _h;
   return _c("div", { staticClass: "asd-main" }, [_c("img", {
     staticStyle: { "border-radius": "6px" },
-    attrs: { src: __webpack_require__(515) }
+    attrs: { src: __webpack_require__(517) }
   })]);
 }];
 render._withStripped = true;
@@ -1310,7 +1328,7 @@ if (false) {
 
 /***/ }),
 
-/***/ 500:
+/***/ 502:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1401,8 +1419,8 @@ var render = function render() {
       href: "https://segmentfault.com/t/iview",
       target: "_blank"
     }
-  }, [_vm._v("SegmentFault")])])])]), _vm._v(" "), _c("i-col", { attrs: { span: "5", offset: "2" } }, [_c("div", { staticClass: "footer-aside" }, [_c("div", { staticClass: "footer-logo" }, [_c("img", { attrs: { src: __webpack_require__(518) } })]), _vm._v(" "), _c("div", { staticClass: "footer-author" }, [_c("a", { attrs: { href: "https://www.talkingdata.com/" } }, [_c("img", {
-    attrs: { src: __webpack_require__(517) }
+  }, [_vm._v("SegmentFault")])])])]), _vm._v(" "), _c("i-col", { attrs: { span: "5", offset: "2" } }, [_c("div", { staticClass: "footer-aside" }, [_c("div", { staticClass: "footer-logo" }, [_c("img", { attrs: { src: __webpack_require__(520) } })]), _vm._v(" "), _c("div", { staticClass: "footer-author" }, [_c("a", { attrs: { href: "https://www.talkingdata.com/" } }, [_c("img", {
+    attrs: { src: __webpack_require__(519) }
   })])])])])], 1)], 1)])]);
 };
 var staticRenderFns = [];
@@ -1419,7 +1437,7 @@ if (false) {
 
 /***/ }),
 
-/***/ 501:
+/***/ 503:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1456,7 +1474,7 @@ if (false) {
 
 /***/ }),
 
-/***/ 502:
+/***/ 504:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1472,7 +1490,7 @@ var render = function render() {
   return _c("Menu", {
     attrs: { mode: "horizontal", "active-name": _vm.currentActiveKey },
     on: { "on-select": _vm.handleSelect }
-  }, [_c("div", { staticClass: "wrapper-header-nav" }, [_c("router-link", { staticClass: "wrapper-header-nav-logo", attrs: { to: "/" } }, [_c("img", { attrs: { src: __webpack_require__(516) } })]), _vm._v(" "), _c("ApplicationMenu"), _vm._v(" "), _c("div", { staticClass: "wrapper-header-nav-search" }, [_c("i-select", {
+  }, [_c("div", { staticClass: "wrapper-header-nav" }, [_c("router-link", { staticClass: "wrapper-header-nav-logo", attrs: { to: "/" } }, [_c("img", { attrs: { src: __webpack_require__(518) } })]), _vm._v(" "), _c("ApplicationMenu"), _vm._v(" "), _c("div", { staticClass: "wrapper-header-nav-search" }, [_c("i-select", {
     ref: "select",
     attrs: {
       filterable: "",
@@ -1495,6 +1513,13 @@ var render = function render() {
       to: _vm.handleGoToMenu("/mhc-iView-doc/guide/install")
     }
   }, [_c("Icon", { attrs: { type: "ios-keypad" } }), _vm._v("\n                " + _vm._s(_vm.$t("index.component")) + "\n            ")], 1), _vm._v(" "), _c("ButtonGroup", { attrs: { size: "small" } }, [_c("Button", {
+    attrs: {
+      type: "ghost",
+      size: "small",
+      icon: "social-github"
+    },
+    on: { click: _vm.handleGoToGitHub }
+  }), _vm._v(" "), _c("Button", {
     attrs: { icon: "ios-settings" },
     on: { click: _vm.handleToggleSetting }
   })], 1)], 1)], 1)]);
@@ -1513,7 +1538,7 @@ if (false) {
 
 /***/ }),
 
-/***/ 503:
+/***/ 505:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1590,7 +1615,7 @@ if (false) {
 
 /***/ }),
 
-/***/ 504:
+/***/ 506:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1625,7 +1650,7 @@ if (false) {
 
 /***/ }),
 
-/***/ 505:
+/***/ 507:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1713,7 +1738,7 @@ exports.default = {
 
 /***/ }),
 
-/***/ 506:
+/***/ 508:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1738,20 +1763,6 @@ pinyin_dict_firstletter.all = "YDYQSXMWZSSXJBYMGCCZQPSSQBYCDSCDQLDYLYBSSJGYZZJJF
 pinyin_dict_firstletter.polyphone = (_pinyin_dict_firstlet = { "19969": "DZ", "19975": "WM", "19988": "QJ", "20048": "YL", "20056": "SC", "20060": "NM", "20094": "QG", "20127": "QJ", "20167": "QC", "20193": "YG", "20250": "KH", "20256": "ZC", "20282": "SC", "20285": "QJG", "20291": "TD", "20314": "YD", "20340": "NE", "20375": "TD", "20389": "YJ", "20391": "CZ", "20415": "PB", "20446": "YS", "20447": "SQ", "20504": "TC", "20608": "KG", "20854": "QJ", "20857": "ZC", "20911": "PF" }, (0, _defineProperty3.default)(_pinyin_dict_firstlet, "20504", "TC"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "20608", "KG"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "20854", "QJ"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "20857", "ZC"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "20911", "PF"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "20985", "AW"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "21032", "PB"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "21048", "XQ"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "21049", "SC"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "21089", "YS"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "21119", "JC"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "21242", "SB"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "21273", "SC"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "21305", "YP"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "21306", "QO"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "21330", "ZC"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "21333", "SDC"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "21345", "QK"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "21378", "CA"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "21397", "SC"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "21414", "XS"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "21442", "SC"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "21477", "JG"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "21480", "TD"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "21484", "ZS"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "21494", "YX"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "21505", "YX"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "21512", "HG"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "21523", "XH"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "21537", "PB"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "21542", "PF"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "21549", "KH"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "21571", "E"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "21574", "DA"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "21588", "TD"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "21589", "O"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "21618", "ZC"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "21621", "KHA"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "21632", "ZJ"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "21654", "KG"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "21679", "LKG"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "21683", "KH"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "21710", "A"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "21719", "YH"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "21734", "WOE"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "21769", "A"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "21780", "WN"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "21804", "XH"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "21834", "A"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "21899", "ZD"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "21903", "RN"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "21908", "WO"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "21939", "ZC"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "21956", "SA"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "21964", "YA"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "21970", "TD"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "22003", "A"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "22031", "JG"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "22040", "XS"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "22060", "ZC"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "22066", "ZC"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "22079", "MH"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "22129", "XJ"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "22179", "XA"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "22237", "NJ"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "22244", "TD"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "22280", "JQ"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "22300", "YH"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "22313", "XW"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "22331", "YQ"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "22343", "YJ"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "22351", "PH"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "22395", "DC"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "22412", "TD"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "22484", "PB"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "22500", "PB"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "22534", "ZD"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "22549", "DH"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "22561", "PB"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "22612", "TD"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "22771", "KQ"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "22831", "HB"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "22841", "JG"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "22855", "QJ"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "22865", "XQ"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "23013", "ML"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "23081", "WM"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "23487", "SX"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "23558", "QJ"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "23561", "YW"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "23586", "YW"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "23614", "YW"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "23615", "SN"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "23631", "PB"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "23646", "ZS"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "23663", "ZT"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "23673", "YG"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "23762", "TD"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "23769", "ZS"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "23780", "QJ"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "23884", "QK"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "24055", "XH"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "24113", "DC"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "24162", "ZC"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "24191", "GA"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "24273", "QJ"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "24324", "NL"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "24377", "TD"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "24378", "QJ"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "24439", "PF"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "24554", "ZS"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "24683", "TD"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "24694", "WE"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "24733", "LK"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "24925", "TN"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "25094", "ZG"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "25100", "XQ"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "25103", "XH"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "25153", "PB"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "25170", "PB"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "25179", "KG"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "25203", "PB"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "25240", "ZS"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "25282", "FB"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "25303", "NA"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "25324", "KG"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "25341", "ZY"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "25373", "WZ"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "25375", "XJ"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "25384", "A"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "25457", "A"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "25528", "SD"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "25530", "SC"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "25552", "TD"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "25774", "ZC"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "25874", "ZC"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "26044", "YW"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "26080", "WM"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "26292", "PB"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "26333", "PB"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "26355", "ZY"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "26366", "CZ"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "26397", "ZC"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "26399", "QJ"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "26415", "ZS"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "26451", "SB"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "26526", "ZC"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "26552", "JG"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "26561", "TD"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "26588", "JG"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "26597", "CZ"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "26629", "ZS"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "26638", "YL"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "26646", "XQ"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "26653", "KG"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "26657", "XJ"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "26727", "HG"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "26894", "ZC"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "26937", "ZS"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "26946", "ZC"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "26999", "KJ"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "27099", "KJ"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "27449", "YQ"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "27481", "XS"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "27542", "ZS"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "27663", "ZS"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "27748", "TS"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "27784", "SC"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "27788", "ZD"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "27795", "TD"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "27812", "O"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "27850", "PB"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "27852", "MB"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "27895", "SL"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "27898", "PL"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "27973", "QJ"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "27981", "KH"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "27986", "HX"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "27994", "XJ"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "28044", "YC"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "28065", "WG"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "28177", "SM"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "28267", "QJ"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "28291", "KH"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "28337", "ZQ"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "28463", "TL"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "28548", "DC"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "28601", "TD"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "28689", "PB"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "28805", "JG"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "28820", "QG"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "28846", "PB"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "28952", "TD"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "28975", "ZC"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "29100", "A"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "29325", "QJ"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "29575", "SL"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "29602", "FB"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "30010", "TD"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "30044", "CX"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "30058", "PF"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "30091", "YSP"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "30111", "YN"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "30229", "XJ"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "30427", "SC"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "30465", "SX"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "30631", "YQ"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "30655", "QJ"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "30684", "QJG"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "30707", "SD"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "30729", "XH"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "30796", "LG"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "30917", "PB"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "31074", "NM"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "31085", "JZ"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "31109", "SC"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "31181", "ZC"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "31192", "MLB"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "31293", "JQ"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "31400", "YX"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "31584", "YJ"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "31896", "ZN"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "31909", "ZY"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "31995", "XJ"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "32321", "PF"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "32327", "ZY"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "32418", "HG"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "32420", "XQ"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "32421", "HG"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "32438", "LG"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "32473", "GJ"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "32488", "TD"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "32521", "QJ"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "32527", "PB"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "32562", "ZSQ"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "32564", "JZ"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "32735", "ZD"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "32793", "PB"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "33071", "PF"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "33098", "XL"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "33100", "YA"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "33152", "PB"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "33261", "CX"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "33324", "BP"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "33333", "TD"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "33406", "YA"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "33426", "WM"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "33432", "PB"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "33445", "JG"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "33486", "ZN"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "33493", "TS"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "33507", "QJ"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "33540", "QJ"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "33544", "ZC"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "33564", "XQ"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "33617", "YT"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "33632", "QJ"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "33636", "XH"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "33637", "YX"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "33694", "WG"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "33705", "PF"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "33728", "YW"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "33882", "SR"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "34067", "WM"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "34074", "YW"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "34121", "QJ"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "34255", "ZC"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "34259", "XL"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "34425", "JH"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "34430", "XH"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "34485", "KH"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "34503", "YS"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "34532", "HG"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "34552", "XS"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "34558", "YE"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "34593", "ZL"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "34660", "YQ"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "34892", "XH"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "34928", "SC"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "34999", "QJ"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "35048", "PB"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "35059", "SC"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "35098", "ZC"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "35203", "TQ"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "35265", "JX"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "35299", "JX"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "35782", "SZ"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "35828", "YS"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "35830", "E"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "35843", "TD"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "35895", "YG"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "35977", "MH"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "36158", "JG"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "36228", "QJ"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "36426", "XQ"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "36466", "DC"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "36710", "JC"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "36711", "ZYG"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "36767", "PB"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "36866", "SK"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "36951", "YW"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "37034", "YX"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "37063", "XH"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "37218", "ZC"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "37325", "ZC"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "38063", "PB"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "38079", "TD"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "38085", "QY"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "38107", "DC"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "38116", "TD"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "38123", "YD"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "38224", "HG"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "38241", "XTC"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "38271", "ZC"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "38415", "YE"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "38426", "KH"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "38461", "YD"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "38463", "AE"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "38466", "PB"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "38477", "XJ"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "38518", "YT"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "38551", "WK"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "38585", "ZC"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "38704", "XS"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "38739", "LJ"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "38761", "GJ"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "38808", "SQ"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "39048", "JG"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "39049", "XJ"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "39052", "HG"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "39076", "CZ"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "39271", "XT"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "39534", "TD"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "39552", "TD"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "39584", "PB"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "39647", "SB"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "39730", "LG"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "39748", "TPB"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "40109", "ZQ"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "40479", "ND"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "40516", "HG"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "40536", "HG"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "40583", "QJ"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "40765", "YQ"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "40784", "QJ"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "40840", "YK"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "40863", "QJG"), _pinyin_dict_firstlet);
 
 exports.default = pinyin_dict_firstletter;
-
-/***/ }),
-
-/***/ 507:
-/***/ (function(module, exports) {
-
-// removed by extract-text-webpack-plugin
-
-/***/ }),
-
-/***/ 508:
-/***/ (function(module, exports) {
-
-// removed by extract-text-webpack-plugin
 
 /***/ }),
 
@@ -1798,47 +1809,61 @@ exports.default = pinyin_dict_firstletter;
 /***/ }),
 
 /***/ 515:
-/***/ (function(module, exports, __webpack_require__) {
+/***/ (function(module, exports) {
 
-module.exports = __webpack_require__.p + "512a3fe18c92425975996411a04ac256.png";
+// removed by extract-text-webpack-plugin
 
 /***/ }),
 
 /***/ 516:
-/***/ (function(module, exports, __webpack_require__) {
+/***/ (function(module, exports) {
 
-module.exports = __webpack_require__.p + "e1cf12c07bf6458992569e67927d767e.png";
+// removed by extract-text-webpack-plugin
 
 /***/ }),
 
 /***/ 517:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "bca1556c01f16f9a9f6094169720c2da.png";
+module.exports = __webpack_require__.p + "512a3fe18c92425975996411a04ac256.png";
 
 /***/ }),
 
 /***/ 518:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "2ecd3b0452aa197097d5131afacab7b8.png";
+module.exports = __webpack_require__.p + "e1cf12c07bf6458992569e67927d767e.png";
 
 /***/ }),
 
 /***/ 519:
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "bca1556c01f16f9a9f6094169720c2da.png";
+
+/***/ }),
+
+/***/ 520:
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "2ecd3b0452aa197097d5131afacab7b8.png";
+
+/***/ }),
+
+/***/ 521:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_ad_send_vue__ = __webpack_require__(488);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_ad_send_vue__ = __webpack_require__(490);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_ad_send_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_ad_send_vue__);
 /* harmony namespace reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_ad_send_vue__) if(["default","default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_ad_send_vue__[key]; }) }(__WEBPACK_IMPORT_KEY__));
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_642dc412_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_ad_send_vue__ = __webpack_require__(501);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_642dc412_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_ad_send_vue__ = __webpack_require__(503);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_642dc412_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_ad_send_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_642dc412_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_ad_send_vue__);
 var disposed = false
 function injectStyle (ssrContext) {
   if (disposed) return
-  __webpack_require__(510)
+  __webpack_require__(512)
 }
 var normalizeComponent = __webpack_require__(197)
 /* script */
@@ -1885,20 +1910,20 @@ if (false) {(function () {
 
 /***/ }),
 
-/***/ 520:
+/***/ 522:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_anchor_vue__ = __webpack_require__(489);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_anchor_vue__ = __webpack_require__(491);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_anchor_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_anchor_vue__);
 /* harmony namespace reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_anchor_vue__) if(["default","default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_anchor_vue__[key]; }) }(__WEBPACK_IMPORT_KEY__));
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_27dd2a45_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_anchor_vue__ = __webpack_require__(498);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_27dd2a45_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_anchor_vue__ = __webpack_require__(500);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_27dd2a45_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_anchor_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_27dd2a45_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_anchor_vue__);
 var disposed = false
 function injectStyle (ssrContext) {
   if (disposed) return
-  __webpack_require__(507)
+  __webpack_require__(509)
 }
 var normalizeComponent = __webpack_require__(197)
 /* script */
@@ -1945,20 +1970,20 @@ if (false) {(function () {
 
 /***/ }),
 
-/***/ 521:
+/***/ 523:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_applications_vue__ = __webpack_require__(490);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_applications_vue__ = __webpack_require__(492);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_applications_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_applications_vue__);
 /* harmony namespace reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_applications_vue__) if(["default","default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_applications_vue__[key]; }) }(__WEBPACK_IMPORT_KEY__));
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_e9faa89a_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_applications_vue__ = __webpack_require__(504);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_e9faa89a_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_applications_vue__ = __webpack_require__(506);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_e9faa89a_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_applications_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_e9faa89a_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_applications_vue__);
 var disposed = false
 function injectStyle (ssrContext) {
   if (disposed) return
-  __webpack_require__(514)
+  __webpack_require__(516)
 }
 var normalizeComponent = __webpack_require__(197)
 /* script */
@@ -2005,20 +2030,20 @@ if (false) {(function () {
 
 /***/ }),
 
-/***/ 522:
+/***/ 524:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_article_vue__ = __webpack_require__(491);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_article_vue__ = __webpack_require__(493);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_article_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_article_vue__);
 /* harmony namespace reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_article_vue__) if(["default","default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_article_vue__[key]; }) }(__WEBPACK_IMPORT_KEY__));
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_6338ec16_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_article_vue__ = __webpack_require__(500);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_6338ec16_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_article_vue__ = __webpack_require__(502);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_6338ec16_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_article_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_6338ec16_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_article_vue__);
 var disposed = false
 function injectStyle (ssrContext) {
   if (disposed) return
-  __webpack_require__(509)
+  __webpack_require__(511)
 }
 var normalizeComponent = __webpack_require__(197)
 /* script */
@@ -2065,21 +2090,21 @@ if (false) {(function () {
 
 /***/ }),
 
-/***/ 523:
+/***/ 525:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_code_vue__ = __webpack_require__(492);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_code_vue__ = __webpack_require__(494);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_code_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_code_vue__);
 /* harmony namespace reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_code_vue__) if(["default","default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_code_vue__[key]; }) }(__WEBPACK_IMPORT_KEY__));
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_c2ff9106_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_code_vue__ = __webpack_require__(503);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_c2ff9106_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_code_vue__ = __webpack_require__(505);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_c2ff9106_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_code_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_c2ff9106_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_code_vue__);
 var disposed = false
 function injectStyle (ssrContext) {
   if (disposed) return
-  __webpack_require__(513)
-  __webpack_require__(512)
+  __webpack_require__(515)
+  __webpack_require__(514)
 }
 var normalizeComponent = __webpack_require__(197)
 /* script */
@@ -2126,20 +2151,20 @@ if (false) {(function () {
 
 /***/ }),
 
-/***/ 524:
+/***/ 526:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_menu_vue__ = __webpack_require__(493);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_menu_vue__ = __webpack_require__(495);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_menu_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_menu_vue__);
 /* harmony namespace reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_menu_vue__) if(["default","default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_menu_vue__[key]; }) }(__WEBPACK_IMPORT_KEY__));
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_a380d422_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_menu_vue__ = __webpack_require__(502);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_a380d422_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_menu_vue__ = __webpack_require__(504);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_a380d422_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_menu_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_a380d422_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_menu_vue__);
 var disposed = false
 function injectStyle (ssrContext) {
   if (disposed) return
-  __webpack_require__(511)
+  __webpack_require__(513)
 }
 var normalizeComponent = __webpack_require__(197)
 /* script */
@@ -2186,20 +2211,20 @@ if (false) {(function () {
 
 /***/ }),
 
-/***/ 525:
+/***/ 527:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_navigate_vue__ = __webpack_require__(494);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_navigate_vue__ = __webpack_require__(496);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_navigate_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_navigate_vue__);
 /* harmony namespace reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_navigate_vue__) if(["default","default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_navigate_vue__[key]; }) }(__WEBPACK_IMPORT_KEY__));
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_39279dfe_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_navigate_vue__ = __webpack_require__(499);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_39279dfe_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_navigate_vue__ = __webpack_require__(501);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_39279dfe_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_navigate_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_39279dfe_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_navigate_vue__);
 var disposed = false
 function injectStyle (ssrContext) {
   if (disposed) return
-  __webpack_require__(508)
+  __webpack_require__(510)
 }
 var normalizeComponent = __webpack_require__(197)
 /* script */
@@ -2246,7 +2271,7 @@ if (false) {(function () {
 
 /***/ }),
 
-/***/ 526:
+/***/ 528:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2319,27 +2344,27 @@ if (false) {
 
 /***/ }),
 
-/***/ 527:
+/***/ 529:
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 
 /***/ }),
 
-/***/ 528:
+/***/ 530:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_demo_vue__ = __webpack_require__(497);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_demo_vue__ = __webpack_require__(499);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_demo_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_demo_vue__);
 /* harmony namespace reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_demo_vue__) if(["default","default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_demo_vue__[key]; }) }(__WEBPACK_IMPORT_KEY__));
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_054b9c73_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_demo_vue__ = __webpack_require__(526);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_054b9c73_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_demo_vue__ = __webpack_require__(528);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_054b9c73_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_demo_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_054b9c73_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_demo_vue__);
 var disposed = false
 function injectStyle (ssrContext) {
   if (disposed) return
-  __webpack_require__(527)
+  __webpack_require__(529)
 }
 var normalizeComponent = __webpack_require__(197)
 /* script */
@@ -2386,7 +2411,7 @@ if (false) {(function () {
 
 /***/ }),
 
-/***/ 532:
+/***/ 538:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2396,23 +2421,23 @@ Object.defineProperty(exports, "__esModule", {
     value: true
 });
 
-var _article = __webpack_require__(522);
+var _article = __webpack_require__(524);
 
 var _article2 = _interopRequireDefault(_article);
 
-var _iCode = __webpack_require__(523);
+var _iCode = __webpack_require__(525);
 
 var _iCode2 = _interopRequireDefault(_iCode);
 
-var _demo = __webpack_require__(528);
+var _demo = __webpack_require__(530);
 
 var _demo2 = _interopRequireDefault(_demo);
 
-var _button = __webpack_require__(548);
+var _grid = __webpack_require__(556);
 
-var _button2 = _interopRequireDefault(_button);
+var _grid2 = _interopRequireDefault(_grid);
 
-var _anchor = __webpack_require__(520);
+var _anchor = __webpack_require__(522);
 
 var _anchor2 = _interopRequireDefault(_anchor);
 
@@ -2423,30 +2448,18 @@ exports.default = {
         iArticle: _article2.default,
         iCode: _iCode2.default,
         Demo: _demo2.default,
-        inAnchor: _anchor2.default
+        Anchor: _anchor2.default
     },
     data: function data() {
         return {
-            code: _button2.default,
-            loading: false,
-            loading2: false,
-            buttonSize: 'large'
+            code: _grid2.default
         };
-    },
-
-    methods: {
-        toLoading: function toLoading() {
-            this.loading = true;
-        },
-        toLoading2: function toLoading2() {
-            this.loading2 = true;
-        }
     }
 };
 
 /***/ }),
 
-/***/ 540:
+/***/ 547:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2459,72 +2472,51 @@ var render = function render() {
   var _vm = this;
   var _h = _vm.$createElement;
   var _c = _vm._self._c || _h;
-  return _c("i-article", [_c("article", [_c("h1", [_vm._v("Button 按钮")]), _vm._v(" "), _c("p", [_vm._v("基础组件，触发业务逻辑时使用。")]), _vm._v(" "), _c("Alert", { staticStyle: { "margin-top": "16px" }, attrs: { "show-icon": "" } }, [_vm._v("注意：非 template/render 模式下，需使用 "), _c("code", [_vm._v("i-button")]), _vm._v("。")]), _vm._v(" "), _c("inAnchor", { attrs: { title: "代码示例", h2: "" } }), _vm._v(" "), _c("Demo", { attrs: { title: "按钮类型" } }, [_c("div", { attrs: { slot: "demo" }, slot: "demo" }, [_c("Button", [_vm._v("Default")]), _vm._v(" "), _c("Button", { attrs: { type: "primary" } }, [_vm._v("Primary")]), _vm._v(" "), _c("Button", { attrs: { type: "dashed" } }, [_vm._v("Dashed")]), _vm._v(" "), _c("Button", { attrs: { type: "text" } }, [_vm._v("Text")]), _vm._v(" "), _c("br"), _c("br"), _vm._v(" "), _c("Button", { attrs: { type: "info" } }, [_vm._v("Info")]), _vm._v(" "), _c("Button", { attrs: { type: "success" } }, [_vm._v("Success")]), _vm._v(" "), _c("Button", { attrs: { type: "warning" } }, [_vm._v("Warning")]), _vm._v(" "), _c("Button", { attrs: { type: "error" } }, [_vm._v("Error")])], 1), _vm._v(" "), _c("div", { attrs: { slot: "desc" }, slot: "desc" }, [_c("p", [_vm._v("按钮类型有：默认按钮、主按钮、虚线按钮、文字按钮以及四种颜色按钮。")]), _vm._v(" "), _c("p", [_vm._v("通过设置"), _c("code", [_vm._v("type")]), _vm._v("为"), _c("code", [_vm._v("primary")]), _vm._v("、"), _c("code", [_vm._v("dashed")]), _vm._v("、"), _c("code", [_vm._v("text")]), _vm._v("、"), _c("code", [_vm._v("info")]), _vm._v("、"), _c("code", [_vm._v("success")]), _vm._v("、"), _c("code", [_vm._v("warning")]), _vm._v("、"), _c("code", [_vm._v("error")]), _vm._v("创建不同样式的按钮，不设置为默认样式。")])]), _vm._v(" "), _c("i-code", { attrs: { slot: "code", lang: "html" }, slot: "code" }, [_vm._v(_vm._s(_vm.code.type))])], 1), _vm._v(" "), _c("Demo", { attrs: { title: "幽灵按钮" } }, [_c("div", { attrs: { slot: "demo" }, slot: "demo" }, [_c("div", {
-    staticStyle: {
-      padding: "20px",
-      background: "rgb(190, 200, 200)"
-    }
-  }, [_c("Button", { attrs: { type: "default", ghost: "" } }, [_vm._v("Default")]), _vm._v(" "), _c("Button", { attrs: { type: "primary", ghost: "" } }, [_vm._v("Primary")]), _vm._v(" "), _c("Button", { attrs: { type: "dashed", ghost: "" } }, [_vm._v("Dashed")]), _vm._v(" "), _c("Button", { attrs: { type: "text", ghost: "" } }, [_vm._v("Text")]), _vm._v(" "), _c("br"), _c("br"), _vm._v(" "), _c("Button", { attrs: { type: "info", ghost: "" } }, [_vm._v("Info")]), _vm._v(" "), _c("Button", { attrs: { type: "success", ghost: "" } }, [_vm._v("Success")]), _vm._v(" "), _c("Button", { attrs: { type: "warning", ghost: "" } }, [_vm._v("Warning")]), _vm._v(" "), _c("Button", { attrs: { type: "error", ghost: "" } }, [_vm._v("Error")])], 1)]), _vm._v(" "), _c("div", { attrs: { slot: "desc" }, slot: "desc" }, [_c("p", [_vm._v("幽灵按钮将其他按钮的内容反色，背景变为透明，常用在有色背景上。")])]), _vm._v(" "), _c("i-code", { attrs: { slot: "code", lang: "html" }, slot: "code" }, [_vm._v(_vm._s(_vm.code.ghost))])], 1), _vm._v(" "), _c("Demo", { attrs: { title: "图标按钮及按钮形状" } }, [_c("div", { attrs: { slot: "demo" }, slot: "demo" }, [_c("Button", {
+  return _c("i-article", [_c("article", [_c("h1", [_vm._v("Grid 栅格")]), _vm._v(" "), _c("Anchor", { attrs: { title: "概述", h2: "" } }), _vm._v(" "), _c("Row", { attrs: { "class-name": "demo-row" } }, [_c("Col", { attrs: { span: 24, "class-name": "demo-col" } }, [_vm._v("24：100%")])], 1), _vm._v(" "), _c("Row", { attrs: { "class-name": "demo-row light" } }, [_c("Col", { attrs: { span: 12, "class-name": "demo-col" } }, [_vm._v("12：50%")]), _vm._v(" "), _c("Col", { attrs: { span: 12, "class-name": "demo-col light" } }, [_vm._v("12：50%")])], 1), _vm._v(" "), _c("Row", { attrs: { "class-name": "demo-row" } }, [_c("Col", { attrs: { span: 8, "class-name": "demo-col" } }, [_vm._v("8：33.33%")]), _vm._v(" "), _c("Col", { attrs: { span: 8, "class-name": "demo-col light" } }, [_vm._v("8：33.33%")]), _vm._v(" "), _c("Col", { attrs: { span: 8, "class-name": "demo-col" } }, [_vm._v("8：33.33%")])], 1), _vm._v(" "), _c("Row", { attrs: { "class-name": "demo-row light" } }, [_c("Col", { attrs: { span: 6, "class-name": "demo-col" } }, [_vm._v("6：25%")]), _vm._v(" "), _c("Col", { attrs: { span: 6, "class-name": "demo-col light" } }, [_vm._v("6：25%")]), _vm._v(" "), _c("Col", { attrs: { span: 6, "class-name": "demo-col" } }, [_vm._v("6：25%")]), _vm._v(" "), _c("Col", { attrs: { span: 6, "class-name": "demo-col light" } }, [_vm._v("6：25%")])], 1), _vm._v(" "), _c("Row", { attrs: { "class-name": "demo-row" } }, [_c("Col", { attrs: { span: 16, "class-name": "demo-col" } }, [_vm._v("16：66.66%")]), _vm._v(" "), _c("Col", { attrs: { span: 8, "class-name": "demo-col light" } }, [_vm._v("8：33.33%")])], 1), _vm._v(" "), _c("p", [_vm._v("我们采用了24栅格系统，将区域进行24等分，这样可以轻松应对大部分布局问题。使用栅格系统进行网页布局，可以使页面排版美观、舒适。")]), _vm._v(" "), _c("p", [_vm._v("我们定义了两个概念，行"), _c("code", [_vm._v("row")]), _vm._v("和列"), _c("code", [_vm._v("col")]), _vm._v("，具体使用方法如下：")]), _vm._v(" "), _c("ul", [_c("li", [_vm._v("使用"), _c("code", [_vm._v("row")]), _vm._v("在水平方向创建一行")]), _vm._v(" "), _c("li", [_vm._v("将一组"), _c("code", [_vm._v("col")]), _vm._v("插入在"), _c("code", [_vm._v("row")]), _vm._v("中")]), _vm._v(" "), _c("li", [_vm._v("在每个"), _c("code", [_vm._v("col")]), _vm._v("中，键入自己的内容")]), _vm._v(" "), _c("li", [_vm._v("通过设置"), _c("code", [_vm._v("col")]), _vm._v("的"), _c("code", [_vm._v("span")]), _vm._v("参数，指定跨越的范围，其范围是1到24")]), _vm._v(" "), _c("li", [_vm._v("每个"), _c("code", [_vm._v("row")]), _vm._v("中的"), _c("code", [_vm._v("col")]), _vm._v("总和应该为24")])]), _vm._v(" "), _c("Alert", { staticStyle: { "margin-top": "16px" }, attrs: { "show-icon": "" } }, [_vm._v("注意：非 template/render 模式下，需使用 "), _c("code", [_vm._v("i-col")]), _vm._v("。")]), _vm._v(" "), _c("Anchor", { attrs: { title: "代码示例", h2: "" } }), _vm._v(" "), _c("Demo", { attrs: { title: "基础用法" } }, [_c("div", { attrs: { slot: "demo" }, slot: "demo" }, [_c("Row", [_c("Col", { attrs: { span: "12" } }, [_vm._v("col-12")]), _vm._v(" "), _c("Col", { attrs: { span: "12" } }, [_vm._v("col-12")])], 1), _vm._v(" "), _c("br"), _vm._v(" "), _c("Row", [_c("Col", { attrs: { span: "8" } }, [_vm._v("col-8")]), _vm._v(" "), _c("Col", { attrs: { span: "8" } }, [_vm._v("col-8")]), _vm._v(" "), _c("Col", { attrs: { span: "8" } }, [_vm._v("col-8")])], 1), _vm._v(" "), _c("br"), _vm._v(" "), _c("Row", [_c("Col", { attrs: { span: "6" } }, [_vm._v("col-6")]), _vm._v(" "), _c("Col", { attrs: { span: "6" } }, [_vm._v("col-6")]), _vm._v(" "), _c("Col", { attrs: { span: "6" } }, [_vm._v("col-6")]), _vm._v(" "), _c("Col", { attrs: { span: "6" } }, [_vm._v("col-6")])], 1)], 1), _vm._v(" "), _c("div", { attrs: { slot: "desc" }, slot: "desc" }, [_c("p", [_vm._v("水平排列的布局。")]), _vm._v(" "), _c("p", [_c("code", [_vm._v("col")]), _vm._v("必须放在"), _c("code", [_vm._v("row")]), _vm._v("里面。")])]), _vm._v(" "), _c("i-code", { attrs: { slot: "code", lang: "html" }, slot: "code" }, [_vm._v(_vm._s(_vm.code.base))])], 1), _vm._v(" "), _c("Demo", { attrs: { title: "区块间隔" } }, [_c("div", { staticClass: "gutter", attrs: { slot: "demo" }, slot: "demo" }, [_c("Row", { attrs: { gutter: 16 } }, [_c("Col", { attrs: { span: "6" } }, [_c("div", [_vm._v("col-6")])]), _vm._v(" "), _c("Col", { attrs: { span: "6" } }, [_c("div", [_vm._v("col-6")])]), _vm._v(" "), _c("Col", { attrs: { span: "6" } }, [_c("div", [_vm._v("col-6")])]), _vm._v(" "), _c("Col", { attrs: { span: "6" } }, [_c("div", [_vm._v("col-6")])])], 1)], 1), _vm._v(" "), _c("div", { attrs: { slot: "desc" }, slot: "desc" }, [_c("p", [_vm._v("通过给 "), _c("code", [_vm._v("row")]), _vm._v(" 添加 "), _c("code", [_vm._v("gutter")]), _vm._v(" 属性，可以给下属的 "), _c("code", [_vm._v("col")]), _vm._v(" 添加间距，推荐使用 "), _c("code", [_vm._v("(16+8n)px")]), _vm._v(" 作为栅格间隔。")])]), _vm._v(" "), _c("i-code", { attrs: { slot: "code", lang: "html" }, slot: "code" }, [_vm._v(_vm._s(_vm.code.gutter))])], 1), _vm._v(" "), _c("Demo", { attrs: { title: "栅格顺序(Flex)" } }, [_c("div", { attrs: { slot: "demo" }, slot: "demo" }, [_c("Row", { attrs: { type: "flex" } }, [_c("Col", { attrs: { span: "6", order: "4" } }, [_vm._v("1 | order-4")]), _vm._v(" "), _c("Col", { attrs: { span: "6", order: "3" } }, [_vm._v("2 | order-3")]), _vm._v(" "), _c("Col", { attrs: { span: "6", order: "2" } }, [_vm._v("3 | order-2")]), _vm._v(" "), _c("Col", { attrs: { span: "6", order: "1" } }, [_vm._v("4 | order-1")])], 1)], 1), _vm._v(" "), _c("div", { attrs: { slot: "desc" }, slot: "desc" }, [_c("p", [_vm._v("通过 Flex 布局的"), _c("code", [_vm._v("order")]), _vm._v("来改变栅格的顺序。")])]), _vm._v(" "), _c("i-code", { attrs: { slot: "code", lang: "html" }, slot: "code" }, [_vm._v(_vm._s(_vm.code.order))])], 1), _vm._v(" "), _c("Demo", { attrs: { title: "栅格排序" } }, [_c("div", { attrs: { slot: "demo" }, slot: "demo" }, [_c("Row", [_c("Col", { attrs: { span: "18", push: "6" } }, [_vm._v("col-18 | push-6")]), _vm._v(" "), _c("Col", { attrs: { span: "6", pull: "18" } }, [_vm._v("col-6 | pull-18")])], 1)], 1), _vm._v(" "), _c("div", { attrs: { slot: "desc" }, slot: "desc" }, [_c("p", [_vm._v("通过设置"), _c("code", [_vm._v("push")]), _vm._v("和"), _c("code", [_vm._v("pull")]), _vm._v("来改变栅格的顺序。")])]), _vm._v(" "), _c("i-code", { attrs: { slot: "code", lang: "html" }, slot: "code" }, [_vm._v(_vm._s(_vm.code.push))])], 1), _vm._v(" "), _c("Demo", { attrs: { title: "左右偏移" } }, [_c("div", { attrs: { slot: "demo" }, slot: "demo" }, [_c("Row", [_c("Col", { attrs: { span: "8" } }, [_vm._v("col-8")]), _vm._v(" "), _c("Col", { attrs: { span: "8", offset: "8" } }, [_vm._v("col-8 | offset-8")])], 1), _vm._v(" "), _c("br"), _vm._v(" "), _c("Row", [_c("Col", { attrs: { span: "6", offset: "8" } }, [_vm._v("col-6 | offset-8")]), _vm._v(" "), _c("Col", { attrs: { span: "6", offset: "4" } }, [_vm._v("col-6 | offset-4")])], 1), _vm._v(" "), _c("br"), _vm._v(" "), _c("Row", [_c("Col", { attrs: { span: "12", offset: "8" } }, [_vm._v("col-12 | offset-8")])], 1)], 1), _vm._v(" "), _c("div", { attrs: { slot: "desc" }, slot: "desc" }, [_c("p", [_vm._v("通过设置"), _c("code", [_vm._v("offset")]), _vm._v("属性，将列进行左右偏移，偏移栅格数为offset的值。")])]), _vm._v(" "), _c("i-code", { attrs: { slot: "code", lang: "html" }, slot: "code" }, [_vm._v(_vm._s(_vm.code.offset))])], 1), _vm._v(" "), _c("Demo", { attrs: { title: "Flex布局" } }, [_c("div", { attrs: { slot: "demo" }, slot: "demo" }, [_c("p", [_vm._v("子元素向左排列")]), _vm._v(" "), _c("Row", {
+    staticClass: "code-row-bg",
+    attrs: { type: "flex", justify: "start" }
+  }, [_c("Col", { attrs: { span: "4" } }, [_vm._v("col-4")]), _vm._v(" "), _c("Col", { attrs: { span: "4" } }, [_vm._v("col-4")]), _vm._v(" "), _c("Col", { attrs: { span: "4" } }, [_vm._v("col-4")]), _vm._v(" "), _c("Col", { attrs: { span: "4" } }, [_vm._v("col-4")])], 1), _vm._v(" "), _c("p", [_vm._v("子元素向右排列")]), _vm._v(" "), _c("Row", {
+    staticClass: "code-row-bg",
+    attrs: { type: "flex", justify: "end" }
+  }, [_c("Col", { attrs: { span: "4" } }, [_vm._v("col-4")]), _vm._v(" "), _c("Col", { attrs: { span: "4" } }, [_vm._v("col-4")]), _vm._v(" "), _c("Col", { attrs: { span: "4" } }, [_vm._v("col-4")]), _vm._v(" "), _c("Col", { attrs: { span: "4" } }, [_vm._v("col-4")])], 1), _vm._v(" "), _c("p", [_vm._v("子元素居中排列")]), _vm._v(" "), _c("Row", {
+    staticClass: "code-row-bg",
+    attrs: { type: "flex", justify: "center" }
+  }, [_c("Col", { attrs: { span: "4" } }, [_vm._v("col-4")]), _vm._v(" "), _c("Col", { attrs: { span: "4" } }, [_vm._v("col-4")]), _vm._v(" "), _c("Col", { attrs: { span: "4" } }, [_vm._v("col-4")]), _vm._v(" "), _c("Col", { attrs: { span: "4" } }, [_vm._v("col-4")])], 1), _vm._v(" "), _c("p", [_vm._v("子元素等宽排列")]), _vm._v(" "), _c("Row", {
+    staticClass: "code-row-bg",
+    attrs: { type: "flex", justify: "space-between" }
+  }, [_c("Col", { attrs: { span: "4" } }, [_vm._v("col-4")]), _vm._v(" "), _c("Col", { attrs: { span: "4" } }, [_vm._v("col-4")]), _vm._v(" "), _c("Col", { attrs: { span: "4" } }, [_vm._v("col-4")]), _vm._v(" "), _c("Col", { attrs: { span: "4" } }, [_vm._v("col-4")])], 1), _vm._v(" "), _c("p", [_vm._v("子元素分散排列")]), _vm._v(" "), _c("Row", {
+    staticClass: "code-row-bg",
+    attrs: { type: "flex", justify: "space-around" }
+  }, [_c("Col", { attrs: { span: "4" } }, [_vm._v("col-4")]), _vm._v(" "), _c("Col", { attrs: { span: "4" } }, [_vm._v("col-4")]), _vm._v(" "), _c("Col", { attrs: { span: "4" } }, [_vm._v("col-4")]), _vm._v(" "), _c("Col", { attrs: { span: "4" } }, [_vm._v("col-4")])], 1)], 1), _vm._v(" "), _c("div", { attrs: { slot: "desc" }, slot: "desc" }, [_c("p", [_vm._v("通过给"), _c("code", [_vm._v("row")]), _vm._v("设置参数"), _c("code", [_vm._v("justify")]), _vm._v("为不同的值，来定义子元素的排布方式。在"), _c("code", [_vm._v("flex")]), _vm._v("模式下有效。")])]), _vm._v(" "), _c("i-code", { attrs: { slot: "code", lang: "html" }, slot: "code" }, [_vm._v(_vm._s(_vm.code.justify))])], 1), _vm._v(" "), _c("Demo", { attrs: { title: "Flex对齐" } }, [_c("div", { attrs: { slot: "demo" }, slot: "demo" }, [_c("p", [_vm._v("顶部对齐")]), _vm._v(" "), _c("Row", {
+    staticClass: "code-row-bg",
+    attrs: { type: "flex", justify: "center", align: "top" }
+  }, [_c("Col", { attrs: { span: "4" } }, [_c("p", { staticStyle: { height: "80px" } }, [_vm._v("col-4")])]), _vm._v(" "), _c("Col", { attrs: { span: "4" } }, [_c("p", { staticStyle: { height: "30px" } }, [_vm._v("col-4")])]), _vm._v(" "), _c("Col", { attrs: { span: "4" } }, [_c("p", { staticStyle: { height: "100px" } }, [_vm._v("col-4")])]), _vm._v(" "), _c("Col", { attrs: { span: "4" } }, [_c("p", { staticStyle: { height: "60px" } }, [_vm._v("col-4")])])], 1), _vm._v(" "), _c("p", [_vm._v("底部对齐")]), _vm._v(" "), _c("Row", {
+    staticClass: "code-row-bg",
+    attrs: { type: "flex", justify: "center", align: "bottom" }
+  }, [_c("Col", { attrs: { span: "4" } }, [_c("p", { staticStyle: { height: "80px" } }, [_vm._v("col-4")])]), _vm._v(" "), _c("Col", { attrs: { span: "4" } }, [_c("p", { staticStyle: { height: "30px" } }, [_vm._v("col-4")])]), _vm._v(" "), _c("Col", { attrs: { span: "4" } }, [_c("p", { staticStyle: { height: "100px" } }, [_vm._v("col-4")])]), _vm._v(" "), _c("Col", { attrs: { span: "4" } }, [_c("p", { staticStyle: { height: "60px" } }, [_vm._v("col-4")])])], 1), _vm._v(" "), _c("p", [_vm._v("居中对齐")]), _vm._v(" "), _c("Row", {
+    staticClass: "code-row-bg",
+    attrs: { type: "flex", justify: "center", align: "middle" }
+  }, [_c("Col", { attrs: { span: "4" } }, [_c("p", { staticStyle: { height: "80px" } }, [_vm._v("col-4")])]), _vm._v(" "), _c("Col", { attrs: { span: "4" } }, [_c("p", { staticStyle: { height: "30px" } }, [_vm._v("col-4")])]), _vm._v(" "), _c("Col", { attrs: { span: "4" } }, [_c("p", { staticStyle: { height: "100px" } }, [_vm._v("col-4")])]), _vm._v(" "), _c("Col", { attrs: { span: "4" } }, [_c("p", { staticStyle: { height: "60px" } }, [_vm._v("col-4")])])], 1)], 1), _vm._v(" "), _c("div", { attrs: { slot: "desc" }, slot: "desc" }, [_c("p", [_vm._v("通过给"), _c("code", [_vm._v("row")]), _vm._v("设置参数"), _c("code", [_vm._v("align")]), _vm._v("为不同的值，来定义子元素在垂直方向上的排布方式。在"), _c("code", [_vm._v("flex")]), _vm._v("模式下有效。")])]), _vm._v(" "), _c("i-code", { attrs: { slot: "code", lang: "html" }, slot: "code" }, [_vm._v(_vm._s(_vm.code.align))])], 1), _vm._v(" "), _c("Demo", { attrs: { title: "响应式布局" } }, [_c("div", { attrs: { slot: "demo" }, slot: "demo" }, [_c("Row", [_c("Col", { attrs: { xs: 2, sm: 4, md: 6, lg: 8 } }, [_vm._v("Col")]), _vm._v(" "), _c("Col", { attrs: { xs: 20, sm: 16, md: 12, lg: 8 } }, [_vm._v("Col")]), _vm._v(" "), _c("Col", { attrs: { xs: 2, sm: 4, md: 6, lg: 8 } }, [_vm._v("Col")])], 1)], 1), _vm._v(" "), _c("div", { attrs: { slot: "desc" }, slot: "desc" }, [_c("p", [_vm._v("参照 Bootstrap 的 "), _c("a", {
     attrs: {
-      type: "primary",
-      shape: "circle",
-      icon: "ios-search"
+      href: "http://getbootstrap.com/css/#grid-media-queries",
+      target: "_blank"
     }
-  }), _vm._v(" "), _c("Button", { attrs: { type: "primary", icon: "ios-search" } }, [_vm._v("Search")]), _vm._v(" "), _c("Button", {
+  }, [_vm._v("响应式设计")]), _vm._v("，预设四个响应尺寸：xs sm md lg，详见 API。")]), _vm._v(" "), _c("p", [_vm._v("调整浏览器尺寸来查看效果。")])]), _vm._v(" "), _c("i-code", { attrs: { slot: "code", lang: "html" }, slot: "code" }, [_vm._v(_vm._s(_vm.code.reponsive))])], 1), _vm._v(" "), _c("Demo", { attrs: { title: "其它属性的响应式" } }, [_c("div", { attrs: { slot: "demo" }, slot: "demo" }, [_c("Row", [_c("Col", {
     attrs: {
-      type: "primary",
-      shape: "circle",
-      icon: "ios-search"
+      xs: { span: 5, offset: 1 },
+      lg: { span: 6, offset: 2 }
     }
-  }, [_vm._v("Search")]), _vm._v(" "), _c("Button", { attrs: { type: "primary", shape: "circle" } }, [_vm._v("Circle")]), _vm._v(" "), _c("br"), _c("br"), _vm._v(" "), _c("Button", {
-    attrs: { shape: "circle", icon: "ios-search" }
-  }), _vm._v(" "), _c("Button", { attrs: { icon: "ios-search" } }, [_vm._v("Search")]), _vm._v(" "), _c("Button", { attrs: { shape: "circle", icon: "ios-search" } }, [_vm._v("Search")]), _vm._v(" "), _c("Button", { attrs: { shape: "circle" } }, [_vm._v("Circle")])], 1), _vm._v(" "), _c("div", { attrs: { slot: "desc" }, slot: "desc" }, [_c("p", [_vm._v("通过设置"), _c("code", [_vm._v("icon")]), _vm._v("属性在"), _c("code", [_vm._v("Button")]), _vm._v("内嵌入一个"), _c("code", [_vm._v("Icon")]), _vm._v("，或者直接在"), _c("code", [_vm._v("Button")]), _vm._v("内使用"), _c("code", [_vm._v("Icon")]), _vm._v("组件。")]), _vm._v(" "), _c("p", [_vm._v("使用"), _c("code", [_vm._v("Button")]), _vm._v("的"), _c("code", [_vm._v("icon")]), _vm._v("属性，图标位置将在最左边，如果需要自定义位置，需使用"), _c("code", [_vm._v("Icon")]), _vm._v("组件。")]), _vm._v(" "), _c("p", [_vm._v("通过设置"), _c("code", [_vm._v("shape")]), _vm._v("属性为"), _c("code", [_vm._v("circle")]), _vm._v("，可将按钮置为圆的形状。")])]), _vm._v(" "), _c("i-code", { attrs: { slot: "code", lang: "html" }, slot: "code" }, [_vm._v(_vm._s(_vm.code.icon))])], 1), _vm._v(" "), _c("Demo", { attrs: { title: "按钮尺寸" } }, [_c("div", { attrs: { slot: "demo" }, slot: "demo" }, [_c("RadioGroup", {
-    attrs: { type: "button" },
-    model: {
-      value: _vm.buttonSize,
-      callback: function callback($$v) {
-        _vm.buttonSize = $$v;
-      },
-      expression: "buttonSize"
-    }
-  }, [_c("Radio", { attrs: { label: "large" } }, [_vm._v("Large")]), _vm._v(" "), _c("Radio", { attrs: { label: "default" } }, [_vm._v("Default")]), _vm._v(" "), _c("Radio", { attrs: { label: "small" } }, [_vm._v("small")])], 1), _vm._v(" "), _c("br"), _c("br"), _vm._v(" "), _c("Button", { attrs: { size: _vm.buttonSize, type: "primary" } }, [_vm._v("Primary")]), _vm._v(" "), _c("Button", { attrs: { size: _vm.buttonSize, type: "default" } }, [_vm._v("Default")]), _vm._v(" "), _c("Button", { attrs: { size: _vm.buttonSize, type: "dashed" } }, [_vm._v("Dashed")]), _vm._v(" "), _c("Button", { attrs: { size: _vm.buttonSize, type: "text" } }, [_vm._v("Text")]), _vm._v(" "), _c("br"), _c("br"), _vm._v(" "), _c("Button", {
+  }, [_vm._v("Col")]), _vm._v(" "), _c("Col", {
     attrs: {
-      size: _vm.buttonSize,
-      icon: "ios-download-outline",
-      type: "primary",
-      shape: "circle"
+      xs: { span: 11, offset: 1 },
+      lg: { span: 6, offset: 2 }
     }
-  }), _vm._v(" "), _c("Button", {
+  }, [_vm._v("Col")]), _vm._v(" "), _c("Col", {
     attrs: {
-      size: _vm.buttonSize,
-      icon: "ios-download-outline",
-      type: "primary"
+      xs: { span: 5, offset: 1 },
+      lg: { span: 6, offset: 2 }
     }
-  }, [_vm._v("Download")]), _vm._v(" "), _c("br"), _c("br"), _vm._v(" "), _c("ButtonGroup", { attrs: { size: _vm.buttonSize } }, [_c("Button", { attrs: { size: _vm.buttonSize, type: "primary" } }, [_c("Icon", { attrs: { type: "ios-arrow-back" } }), _vm._v("\n                        Backward\n                    ")], 1), _vm._v(" "), _c("Button", { attrs: { size: _vm.buttonSize, type: "primary" } }, [_vm._v("\n                        Forward\n                        "), _c("Icon", { attrs: { type: "ios-arrow-forward" } })], 1)], 1)], 1), _vm._v(" "), _c("div", { attrs: { slot: "desc" }, slot: "desc" }, [_c("p", [_vm._v("按钮有三种尺寸：大、默认（中）、小")]), _vm._v(" "), _c("p", [_vm._v("通过设置"), _c("code", [_vm._v("size")]), _vm._v("为"), _c("code", [_vm._v("large")]), _vm._v("和"), _c("code", [_vm._v("small")]), _vm._v("将按钮设置为大和小尺寸，不设置为默认（中）尺寸。")])]), _vm._v(" "), _c("i-code", { attrs: { slot: "code", lang: "html" }, slot: "code" }, [_vm._v(_vm._s(_vm.code.size))])], 1), _vm._v(" "), _c("Demo", { attrs: { title: "长按钮" } }, [_c("div", { attrs: { slot: "demo" }, slot: "demo" }, [_c("Button", { attrs: { type: "success", long: "" } }, [_vm._v("SUBMIT")]), _vm._v(" "), _c("br"), _c("br"), _vm._v(" "), _c("Button", { attrs: { type: "error", long: "" } }, [_vm._v("DELETE")])], 1), _vm._v(" "), _c("div", { attrs: { slot: "desc" }, slot: "desc" }, [_c("p", [_vm._v("通过设置属性 "), _c("code", [_vm._v("long")]), _vm._v(" 可将按钮宽度设置为 100%，常用于弹窗内操作按钮。")]), _vm._v(" "), _c("p", [_vm._v("使用者也可以直接通过给组件添加 "), _c("code", [_vm._v("style")]), _vm._v(" 来设置更细节的样式，比如定宽。")])]), _vm._v(" "), _c("i-code", { attrs: { slot: "code", lang: "html" }, slot: "code" }, [_vm._v(_vm._s(_vm.code.long))])], 1), _vm._v(" "), _c("Demo", { attrs: { title: "不可用状态" } }, [_c("div", { attrs: { slot: "demo" }, slot: "demo" }, [_c("Button", [_vm._v("Default")]), _vm._v(" "), _c("Button", { attrs: { disabled: "" } }, [_vm._v("Default(Disabled)")]), _vm._v(" "), _c("br"), _c("br"), _vm._v(" "), _c("Button", { attrs: { type: "primary" } }, [_vm._v("Primary")]), _vm._v(" "), _c("Button", { attrs: { type: "primary", disabled: "" } }, [_vm._v("Primary(Disabled)")]), _vm._v(" "), _c("br"), _c("br"), _vm._v(" "), _c("Button", { attrs: { type: "dashed" } }, [_vm._v("Dashed")]), _vm._v(" "), _c("Button", { attrs: { type: "dashed", disabled: "" } }, [_vm._v("Dashed(Disabled)")]), _vm._v(" "), _c("br"), _c("br"), _vm._v(" "), _c("Button", { attrs: { type: "text" } }, [_vm._v("Text")]), _vm._v(" "), _c("Button", { attrs: { type: "text", disabled: "" } }, [_vm._v("Text(Disabled)")])], 1), _vm._v(" "), _c("div", { attrs: { slot: "desc" }, slot: "desc" }, [_c("p", [_vm._v("通过添加"), _c("code", [_vm._v("disabled")]), _vm._v("属性可将按钮设置为不可用状态。")])]), _vm._v(" "), _c("i-code", { attrs: { slot: "code", lang: "html" }, slot: "code" }, [_vm._v(_vm._s(_vm.code.disabled))])], 1), _vm._v(" "), _c("Demo", { attrs: { title: "加载中状态" } }, [_c("div", { attrs: { slot: "demo" }, slot: "demo" }, [_c("Button", { attrs: { type: "primary", loading: "" } }, [_vm._v("Loading...")]), _vm._v(" "), _c("Button", {
-    attrs: { type: "primary", loading: _vm.loading },
-    on: { click: _vm.toLoading }
-  }, [!_vm.loading ? _c("span", [_vm._v("Click me!")]) : _c("span", [_vm._v("Loading...")])]), _vm._v(" "), _c("Button", {
-    attrs: {
-      type: "primary",
-      loading: _vm.loading2,
-      icon: "ios-power"
-    },
-    on: { click: _vm.toLoading2 }
-  }, [!_vm.loading2 ? _c("span", [_vm._v("Click me!")]) : _c("span", [_vm._v("Loading...")])]), _vm._v(" "), _c("Button", { attrs: { loading: "", shape: "circle" } }), _vm._v(" "), _c("Button", {
-    attrs: { loading: "", shape: "circle", type: "primary" }
-  })], 1), _vm._v(" "), _c("div", { attrs: { slot: "desc" }, slot: "desc" }, [_c("p", [_vm._v("通过添加"), _c("code", [_vm._v("loading")]), _vm._v("属性可以让按钮处于加载中状态，后两个按钮在点击时进入加载状态。")])]), _vm._v(" "), _c("i-code", { attrs: { slot: "code", lang: "html" }, slot: "code" }, [_vm._v(_vm._s(_vm.code.loading))])], 1), _vm._v(" "), _c("Demo", { attrs: { title: "按钮组合" } }, [_c("div", { attrs: { slot: "demo" }, slot: "demo" }, [_c("h4", [_vm._v("Basic")]), _vm._v(" "), _c("br"), _c("br"), _vm._v(" "), _c("ButtonGroup", [_c("Button", [_vm._v("Cancel")]), _vm._v(" "), _c("Button", { attrs: { type: "primary" } }, [_vm._v("Confirm")])], 1), _vm._v(" "), _c("ButtonGroup", [_c("Button", { attrs: { disabled: "" } }, [_vm._v("Yesterday")]), _vm._v(" "), _c("Button", { attrs: { disabled: "" } }, [_vm._v("Today")]), _vm._v(" "), _c("Button", { attrs: { disabled: "" } }, [_vm._v("Tomorrow")])], 1), _vm._v(" "), _c("ButtonGroup", [_c("Button", { attrs: { type: "primary" } }, [_vm._v("L")]), _vm._v(" "), _c("Button", [_vm._v("M")]), _vm._v(" "), _c("Button", [_vm._v("M")]), _vm._v(" "), _c("Button", { attrs: { type: "dashed" } }, [_vm._v("R")])], 1), _vm._v(" "), _c("br"), _c("br"), _vm._v(" "), _c("h4", [_vm._v("Icons")]), _vm._v(" "), _c("br"), _c("br"), _vm._v(" "), _c("ButtonGroup", [_c("Button", { attrs: { type: "primary" } }, [_c("Icon", { attrs: { type: "ios-arrow-back" } }), _vm._v("\n                        Backward\n                    ")], 1), _vm._v(" "), _c("Button", { attrs: { type: "primary" } }, [_vm._v("\n                        Forward\n                        "), _c("Icon", { attrs: { type: "ios-arrow-forward" } })], 1)], 1), _vm._v(" "), _c("ButtonGroup", [_c("Button", {
-    attrs: { type: "primary", icon: "ios-skip-backward" }
-  }), _vm._v(" "), _c("Button", {
-    attrs: { type: "primary", icon: "ios-skip-forward" }
-  })], 1), _vm._v(" "), _c("ButtonGroup", [_c("Button", { attrs: { icon: "ios-color-wand-outline" } }), _vm._v(" "), _c("Button", { attrs: { icon: "ios-sunny-outline" } }), _vm._v(" "), _c("Button", { attrs: { icon: "ios-crop" } }), _vm._v(" "), _c("Button", {
-    attrs: { icon: "ios-color-filter-outline" }
-  })], 1), _vm._v(" "), _c("br"), _c("br"), _vm._v(" "), _c("h4", [_vm._v("Circle")]), _vm._v(" "), _c("br"), _c("br"), _vm._v(" "), _c("ButtonGroup", { attrs: { shape: "circle" } }, [_c("Button", { attrs: { type: "primary" } }, [_c("Icon", { attrs: { type: "ios-arrow-back" } }), _vm._v("\n                        Backward\n                    ")], 1), _vm._v(" "), _c("Button", { attrs: { type: "primary" } }, [_vm._v("\n                        Forward\n                        "), _c("Icon", { attrs: { type: "ios-arrow-forward" } })], 1)], 1), _vm._v(" "), _c("ButtonGroup", { attrs: { shape: "circle" } }, [_c("Button", {
-    attrs: { type: "primary", icon: "ios-skip-backward" }
-  }), _vm._v(" "), _c("Button", {
-    attrs: { type: "primary", icon: "ios-skip-forward" }
-  })], 1), _vm._v(" "), _c("ButtonGroup", { attrs: { shape: "circle" } }, [_c("Button", { attrs: { icon: "ios-color-wand-outline" } }), _vm._v(" "), _c("Button", { attrs: { icon: "ios-sunny-outline" } }), _vm._v(" "), _c("Button", { attrs: { icon: "ios-crop" } }), _vm._v(" "), _c("Button", {
-    attrs: { icon: "ios-color-filter-outline" }
-  })], 1), _vm._v(" "), _c("br"), _c("br"), _vm._v(" "), _c("h4", [_vm._v("Size")]), _vm._v(" "), _c("br"), _c("br"), _vm._v(" "), _c("ButtonGroup", { attrs: { size: "large" } }, [_c("Button", [_vm._v("Large")]), _vm._v(" "), _c("Button", [_vm._v("Large")])], 1), _vm._v(" "), _c("ButtonGroup", [_c("Button", [_vm._v("Default")]), _vm._v(" "), _c("Button", [_vm._v("Default")])], 1), _vm._v(" "), _c("ButtonGroup", { attrs: { size: "small" } }, [_c("Button", [_vm._v("Small")]), _vm._v(" "), _c("Button", [_vm._v("Small")])], 1), _vm._v(" "), _c("br"), _c("br"), _vm._v(" "), _c("ButtonGroup", { attrs: { size: "large", shape: "circle" } }, [_c("Button", [_vm._v("Large")]), _vm._v(" "), _c("Button", [_vm._v("Large")])], 1), _vm._v(" "), _c("ButtonGroup", { attrs: { shape: "circle" } }, [_c("Button", [_vm._v("Default")]), _vm._v(" "), _c("Button", [_vm._v("Default")])], 1), _vm._v(" "), _c("ButtonGroup", { attrs: { size: "small", shape: "circle" } }, [_c("Button", [_vm._v("Small")]), _vm._v(" "), _c("Button", [_vm._v("Small")])], 1)], 1), _vm._v(" "), _c("div", { attrs: { slot: "desc" }, slot: "desc" }, [_c("p", [_vm._v("将多个"), _c("code", [_vm._v("Button")]), _vm._v("放入"), _c("code", [_vm._v("ButtonGroup")]), _vm._v("内，可实现按钮组合的效果。")]), _vm._v(" "), _c("p", [_vm._v("通过设置"), _c("code", [_vm._v("ButtonGroup")]), _vm._v("的属性"), _c("code", [_vm._v("size")]), _vm._v("为"), _c("code", [_vm._v("large")]), _vm._v("和"), _c("code", [_vm._v("small")]), _vm._v("，可将按钮组尺寸设置为大和小，不设置"), _c("code", [_vm._v("size")]), _vm._v("，则为默认（中）尺寸。")]), _vm._v(" "), _c("p", [_vm._v("通过设置"), _c("code", [_vm._v("ButtonGroup")]), _vm._v("的属性"), _c("code", [_vm._v("shape")]), _vm._v("为"), _c("code", [_vm._v("circle")]), _vm._v("，可将按钮组形状设置为圆角。")])]), _vm._v(" "), _c("i-code", { attrs: { slot: "code", lang: "html" }, slot: "code" }, [_vm._v(_vm._s(_vm.code.group))])], 1), _vm._v(" "), _c("Demo", { attrs: { title: "按钮组纵向排列" } }, [_c("div", { attrs: { slot: "demo" }, slot: "demo" }, [_c("ButtonGroup", { attrs: { vertical: "" } }, [_c("Button", { attrs: { icon: "logo-facebook" } }), _vm._v(" "), _c("Button", { attrs: { icon: "logo-twitter" } }), _vm._v(" "), _c("Button", { attrs: { icon: "logo-googleplus" } }), _vm._v(" "), _c("Button", { attrs: { icon: "logo-tumblr" } })], 1)], 1), _vm._v(" "), _c("div", { attrs: { slot: "desc" }, slot: "desc" }, [_c("p", [_vm._v("通过设置"), _c("code", [_vm._v("ButtonGroup")]), _vm._v("的属性"), _c("code", [_vm._v("vertical")]), _vm._v("，可以使按钮组纵向排列。")])]), _vm._v(" "), _c("i-code", { attrs: { slot: "code", lang: "html" }, slot: "code" }, [_vm._v(_vm._s(_vm.code.vertical))])], 1), _vm._v(" "), _c("Demo", { attrs: { title: "跳转" } }, [_c("div", { attrs: { slot: "demo" }, slot: "demo" }, [_c("Button", { attrs: { to: "/components/icon" } }, [_vm._v("普通跳转")]), _vm._v(" "), _c("Button", { attrs: { to: "/components/icon", replace: "" } }, [_vm._v("不保存历史的跳转")]), _vm._v(" "), _c("Button", { attrs: { to: "//iviewui.com", target: "_blank" } }, [_vm._v("新窗口打开")])], 1), _vm._v(" "), _c("div", { attrs: { slot: "desc" }, slot: "desc" }, [_c("p", [_vm._v("通过设置 "), _c("code", [_vm._v("to")]), _vm._v(" 可以实现点击按钮直接跳转，支持传入 vue-router 对象。")]), _vm._v(" "), _c("p", [_vm._v("设置 "), _c("code", [_vm._v("replace")]), _vm._v(" 则不会保存历史记录。")]), _vm._v(" "), _c("p", [_vm._v("设置 "), _c("code", [_vm._v("target")]), _vm._v("，会跟 a 标签一样的行为。")])]), _vm._v(" "), _c("i-code", { attrs: { slot: "code", lang: "html" }, slot: "code" }, [_vm._v(_vm._s(_vm.code.link))])], 1), _vm._v(" "), _c("div", { staticClass: "api" }, [_c("inAnchor", { attrs: { title: "API", h2: "" } }), _vm._v(" "), _c("inAnchor", { attrs: { title: "Button props", h3: "" } }), _vm._v(" "), _c("table", [_c("thead", [_c("tr", [_c("th", [_vm._v("属性")]), _vm._v(" "), _c("th", [_vm._v("说明")]), _vm._v(" "), _c("th", [_vm._v("类型")]), _vm._v(" "), _c("th", [_vm._v("默认值")])])]), _vm._v(" "), _c("tbody", [_c("tr", [_c("td", [_vm._v("type")]), _vm._v(" "), _c("td", [_vm._v("按钮类型，可选值为 "), _c("code", [_vm._v("default")]), _vm._v("、"), _c("code", [_vm._v("primary")]), _vm._v("、"), _c("code", [_vm._v("dashed")]), _vm._v("、"), _c("code", [_vm._v("text")]), _vm._v("、"), _c("code", [_vm._v("info")]), _vm._v("、"), _c("code", [_vm._v("success")]), _vm._v("、"), _c("code", [_vm._v("warning")]), _vm._v("、"), _c("code", [_vm._v("error")]), _vm._v("或者不设置")]), _vm._v(" "), _c("td", [_vm._v("String")]), _vm._v(" "), _c("td", [_vm._v("default")])]), _vm._v(" "), _c("tr", [_c("td", [_vm._v("ghost")]), _vm._v(" "), _c("td", [_vm._v("幽灵属性，使按钮背景透明")]), _vm._v(" "), _c("td", [_vm._v("Boolean")]), _vm._v(" "), _c("td", [_vm._v("false")])]), _vm._v(" "), _c("tr", [_c("td", [_vm._v("size")]), _vm._v(" "), _c("td", [_vm._v("按钮大小，可选值为"), _c("code", [_vm._v("large")]), _vm._v("、"), _c("code", [_vm._v("small")]), _vm._v("、"), _c("code", [_vm._v("default")]), _vm._v("或者不设置")]), _vm._v(" "), _c("td", [_vm._v("String")]), _vm._v(" "), _c("td", [_vm._v("default")])]), _vm._v(" "), _c("tr", [_c("td", [_vm._v("shape")]), _vm._v(" "), _c("td", [_vm._v("按钮形状，可选值为"), _c("code", [_vm._v("circle")]), _vm._v("或者不设置")]), _vm._v(" "), _c("td", [_vm._v("String")]), _vm._v(" "), _c("td", [_vm._v("-")])]), _vm._v(" "), _c("tr", [_c("td", [_vm._v("long")]), _vm._v(" "), _c("td", [_vm._v("开启后，按钮的长度为 100%")]), _vm._v(" "), _c("td", [_vm._v("Boolean")]), _vm._v(" "), _c("td", [_vm._v("false")])]), _vm._v(" "), _c("tr", [_c("td", [_vm._v("html-type")]), _vm._v(" "), _c("td", [_vm._v("设置"), _c("code", [_vm._v("button")]), _vm._v("原生的"), _c("code", [_vm._v("type")]), _vm._v("，可选值为"), _c("code", [_vm._v("button")]), _vm._v("、"), _c("code", [_vm._v("submit")]), _vm._v("、"), _c("code", [_vm._v("reset")])]), _vm._v(" "), _c("td", [_vm._v("String")]), _vm._v(" "), _c("td", [_vm._v("button")])]), _vm._v(" "), _c("tr", [_c("td", [_vm._v("disabled")]), _vm._v(" "), _c("td", [_vm._v("设置按钮为禁用状态")]), _vm._v(" "), _c("td", [_vm._v("Boolean")]), _vm._v(" "), _c("td", [_vm._v("false")])]), _vm._v(" "), _c("tr", [_c("td", [_vm._v("loading")]), _vm._v(" "), _c("td", [_vm._v("设置按钮为加载中状态")]), _vm._v(" "), _c("td", [_vm._v("Boolean")]), _vm._v(" "), _c("td", [_vm._v("false")])]), _vm._v(" "), _c("tr", [_c("td", [_vm._v("icon")]), _vm._v(" "), _c("td", [_vm._v("设置按钮的图标类型")]), _vm._v(" "), _c("td", [_vm._v("String")]), _vm._v(" "), _c("td", [_vm._v("-")])]), _vm._v(" "), _c("tr", [_c("td", [_vm._v("custom-icon")]), _vm._v(" "), _c("td", [_vm._v("设置按钮的自定义图标")]), _vm._v(" "), _c("td", [_vm._v("String")]), _vm._v(" "), _c("td", [_vm._v("-")])]), _vm._v(" "), _c("tr", [_c("td", [_vm._v("to")]), _vm._v(" "), _c("td", [_vm._v("跳转的链接，支持 vue-router 对象")]), _vm._v(" "), _c("td", [_vm._v("String | Object")]), _vm._v(" "), _c("td", [_vm._v("-")])]), _vm._v(" "), _c("tr", [_c("td", [_vm._v("replace")]), _vm._v(" "), _c("td", [_vm._v("路由跳转时，开启 replace 将不会向 history 添加新记录")]), _vm._v(" "), _c("td", [_vm._v("Boolean")]), _vm._v(" "), _c("td", [_vm._v("false")])]), _vm._v(" "), _c("tr", [_c("td", [_vm._v("target")]), _vm._v(" "), _c("td", [_vm._v("相当于 a 链接的 target 属性")]), _vm._v(" "), _c("td", [_vm._v("String")]), _vm._v(" "), _c("td", [_vm._v("_self")])])])]), _vm._v(" "), _c("inAnchor", { attrs: { title: "ButtonGroup props", h3: "" } }), _vm._v(" "), _c("table", [_c("thead", [_c("tr", [_c("th", [_vm._v("属性")]), _vm._v(" "), _c("th", [_vm._v("说明")]), _vm._v(" "), _c("th", [_vm._v("类型")]), _vm._v(" "), _c("th", [_vm._v("默认值")])])]), _vm._v(" "), _c("tbody", [_c("tr", [_c("td", [_vm._v("size")]), _vm._v(" "), _c("td", [_vm._v("按钮组合大小，可选值为"), _c("code", [_vm._v("large")]), _vm._v("、"), _c("code", [_vm._v("small")]), _vm._v("、"), _c("code", [_vm._v("default")]), _vm._v("或者不设置")]), _vm._v(" "), _c("td", [_vm._v("String")]), _vm._v(" "), _c("td", [_vm._v("default")])]), _vm._v(" "), _c("tr", [_c("td", [_vm._v("shape")]), _vm._v(" "), _c("td", [_vm._v("按钮组合形状，可选值为"), _c("code", [_vm._v("circle")]), _vm._v("或者不设置")]), _vm._v(" "), _c("td", [_vm._v("String")]), _vm._v(" "), _c("td", [_vm._v("-")])]), _vm._v(" "), _c("tr", [_c("td", [_vm._v("vertical")]), _vm._v(" "), _c("td", [_vm._v("是否纵向排列按钮组")]), _vm._v(" "), _c("td", [_vm._v("Boolean")]), _vm._v(" "), _c("td", [_vm._v("false")])])])])], 1)], 1)]);
+  }, [_vm._v("Col")])], 1)], 1), _vm._v(" "), _c("div", { attrs: { slot: "desc" }, slot: "desc" }, [_c("p", [_c("code", [_vm._v("span")]), _vm._v(" "), _c("code", [_vm._v("pull")]), _vm._v(" "), _c("code", [_vm._v("push")]), _vm._v(" "), _c("code", [_vm._v("offset")]), _vm._v(" "), _c("code", [_vm._v("order")]), _vm._v(" 属性可以通过内嵌到 "), _c("code", [_vm._v("xs")]), _vm._v(" "), _c("code", [_vm._v("sm")]), _vm._v(" "), _c("code", [_vm._v("md")]), _vm._v(" "), _c("code", [_vm._v("lg")]), _vm._v(" 属性中来使用。")]), _vm._v(" "), _c("p", [_vm._v("其中 "), _c("code", [_vm._v(':xs="6"')]), _vm._v(" 相当于 "), _c("code", [_vm._v(':xs="{ span: 6 }"')]), _vm._v("。")])]), _vm._v(" "), _c("i-code", { attrs: { slot: "code", lang: "html" }, slot: "code" }, [_vm._v(_vm._s(_vm.code.reponsive2))])], 1), _vm._v(" "), _c("div", { staticClass: "api" }, [_c("Anchor", { attrs: { title: "API", h2: "" } }), _vm._v(" "), _c("Anchor", { attrs: { title: "Row props", h3: "" } }), _vm._v(" "), _c("table", [_c("thead", [_c("tr", [_c("th", [_vm._v("属性")]), _vm._v(" "), _c("th", [_vm._v("说明")]), _vm._v(" "), _c("th", [_vm._v("类型")]), _vm._v(" "), _c("th", [_vm._v("默认值")])])]), _vm._v(" "), _c("tbody", [_c("tr", [_c("td", [_vm._v("gutter")]), _vm._v(" "), _c("td", [_vm._v("栅格间距，单位 px，左右平分")]), _vm._v(" "), _c("td", [_vm._v("Number")]), _vm._v(" "), _c("td", [_vm._v("0")])]), _vm._v(" "), _c("tr", [_c("td", [_vm._v("type")]), _vm._v(" "), _c("td", [_vm._v("布局模式，可选值为"), _c("code", [_vm._v("flex")]), _vm._v("或不选，在现代浏览器下有效")]), _vm._v(" "), _c("td", [_vm._v("String")]), _vm._v(" "), _c("td", [_vm._v("-")])]), _vm._v(" "), _c("tr", [_c("td", [_vm._v("align")]), _vm._v(" "), _c("td", [_vm._v("flex 布局下的垂直对齐方式，可选值为"), _c("code", [_vm._v("top")]), _vm._v("、"), _c("code", [_vm._v("middle")]), _vm._v("、"), _c("code", [_vm._v("bottom")])]), _vm._v(" "), _c("td", [_vm._v("String")]), _vm._v(" "), _c("td", [_vm._v("-")])]), _vm._v(" "), _c("tr", [_c("td", [_vm._v("justify")]), _vm._v(" "), _c("td", [_vm._v("flex 布局下的水平排列方式，可选值为"), _c("code", [_vm._v("start")]), _vm._v("、"), _c("code", [_vm._v("end")]), _vm._v("、"), _c("code", [_vm._v("center")]), _vm._v("、"), _c("code", [_vm._v("space-around")]), _vm._v("、"), _c("code", [_vm._v("space-between")])]), _vm._v(" "), _c("td", [_vm._v("String")]), _vm._v(" "), _c("td", [_vm._v("-")])]), _vm._v(" "), _c("tr", [_c("td", [_vm._v("class-name")]), _vm._v(" "), _c("td", [_vm._v("自定义的class名称")]), _vm._v(" "), _c("td", [_vm._v("String")]), _vm._v(" "), _c("td", [_vm._v("-")])])])]), _vm._v(" "), _c("Anchor", { attrs: { title: "Col props", h3: "" } }), _vm._v(" "), _c("table", [_c("thead", [_c("tr", [_c("th", [_vm._v("属性")]), _vm._v(" "), _c("th", [_vm._v("说明")]), _vm._v(" "), _c("th", [_vm._v("类型")]), _vm._v(" "), _c("th", [_vm._v("默认值")])])]), _vm._v(" "), _c("tbody", [_c("tr", [_c("td", [_vm._v("span")]), _vm._v(" "), _c("td", [_vm._v("栅格的占位格数，可选值为0~24的整数，为 0 时，相当于"), _c("code", [_vm._v("display:none")])]), _vm._v(" "), _c("td", [_vm._v("Number | String")]), _vm._v(" "), _c("td", [_vm._v("-")])]), _vm._v(" "), _c("tr", [_c("td", [_vm._v("order")]), _vm._v(" "), _c("td", [_vm._v("栅格的顺序，在"), _c("code", [_vm._v("flex")]), _vm._v("布局模式下有效")]), _vm._v(" "), _c("td", [_vm._v("Number | String")]), _vm._v(" "), _c("td", [_vm._v("-")])]), _vm._v(" "), _c("tr", [_c("td", [_vm._v("offset")]), _vm._v(" "), _c("td", [_vm._v("栅格左侧的间隔格数，间隔内不可以有栅格")]), _vm._v(" "), _c("td", [_vm._v("Number | String")]), _vm._v(" "), _c("td", [_vm._v("-")])]), _vm._v(" "), _c("tr", [_c("td", [_vm._v("push")]), _vm._v(" "), _c("td", [_vm._v("栅格向右移动格数")]), _vm._v(" "), _c("td", [_vm._v("Number | String")]), _vm._v(" "), _c("td", [_vm._v("-")])]), _vm._v(" "), _c("tr", [_c("td", [_vm._v("pull")]), _vm._v(" "), _c("td", [_vm._v("栅格向左移动格数")]), _vm._v(" "), _c("td", [_vm._v("Number | String")]), _vm._v(" "), _c("td", [_vm._v("-")])]), _vm._v(" "), _c("tr", [_c("td", [_vm._v("class-name")]), _vm._v(" "), _c("td", [_vm._v("自定义的class名称")]), _vm._v(" "), _c("td", [_vm._v("String")]), _vm._v(" "), _c("td", [_vm._v("-")])]), _vm._v(" "), _c("tr", [_c("td", [_vm._v("xs")]), _vm._v(" "), _c("td", [_c("code", [_vm._v("<768px")]), _vm._v(" 响应式栅格，可为栅格数或一个包含其他属性的对象")]), _vm._v(" "), _c("td", [_vm._v("Number | Object")]), _vm._v(" "), _c("td", [_vm._v("-")])]), _vm._v(" "), _c("tr", [_c("td", [_vm._v("sm")]), _vm._v(" "), _c("td", [_c("code", [_vm._v("≥768px")]), _vm._v(" 响应式栅格，可为栅格数或一个包含其他属性的对象")]), _vm._v(" "), _c("td", [_vm._v("Number | Object")]), _vm._v(" "), _c("td", [_vm._v("-")])]), _vm._v(" "), _c("tr", [_c("td", [_vm._v("md")]), _vm._v(" "), _c("td", [_c("code", [_vm._v("≥992px")]), _vm._v(" 响应式栅格，可为栅格数或一个包含其他属性的对象")]), _vm._v(" "), _c("td", [_vm._v("Number | Object")]), _vm._v(" "), _c("td", [_vm._v("-")])]), _vm._v(" "), _c("tr", [_c("td", [_vm._v("lg")]), _vm._v(" "), _c("td", [_c("code", [_vm._v("≥1200px")]), _vm._v(" 响应式栅格，可为栅格数或一个包含其他属性的对象")]), _vm._v(" "), _c("td", [_vm._v("Number | Object")]), _vm._v(" "), _c("td", [_vm._v("-")])])])])], 1)], 1)]);
 };
 var staticRenderFns = [];
 render._withStripped = true;
@@ -2534,13 +2526,13 @@ exports.default = esExports;
 if (false) {
   module.hot.accept();
   if (module.hot.data) {
-    require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-064c47be", esExports);
+    require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-2250fff5", esExports);
   }
 }
 
 /***/ }),
 
-/***/ 548:
+/***/ 556:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2551,26 +2543,32 @@ Object.defineProperty(exports, "__esModule", {
 });
 var code = {};
 
-code.type = "\n<template>\n    <Button>Default</Button>\n    <Button type=\"primary\">Primary</Button>\n    <Button type=\"dashed\">Dashed</Button>\n    <Button type=\"text\">Text</Button>\n    <br><br>\n    <Button type=\"info\">Info</Button>\n    <Button type=\"success\">Success</Button>\n    <Button type=\"warning\">Warning</Button>\n    <Button type=\"error\">Error</Button>\n</template>\n<script>\n    export default {\n        \n    }\n</script>\n";
+code.base = "\n<template>\n    <Row>\n        <Col span=\"12\">col-12</Col>\n        <Col span=\"12\">col-12</Col>\n    </Row>\n    <br>\n    <Row>\n        <Col span=\"8\">col-8</Col>\n        <Col span=\"8\">col-8</Col>\n        <Col span=\"8\">col-8</Col>\n    </Row>\n    <br>\n    <Row>\n        <Col span=\"6\">col-6</Col>\n        <Col span=\"6\">col-6</Col>\n        <Col span=\"6\">col-6</Col>\n        <Col span=\"6\">col-6</Col>\n    </Row>\n</template>\n<script>\n    export default {\n        \n    }\n</script>\n";
 
-code.icon = "\n<template>\n    <Button type=\"primary\" shape=\"circle\" icon=\"ios-search\"></Button>\n    <Button type=\"primary\" icon=\"ios-search\">Search</Button>\n    <Button type=\"primary\" shape=\"circle\" icon=\"ios-search\">Search</Button>\n    <Button type=\"primary\" shape=\"circle\">Circle</Button>\n    <br><br>\n    <Button shape=\"circle\" icon=\"ios-search\"></Button>\n    <Button icon=\"ios-search\">Search</Button>\n    <Button shape=\"circle\" icon=\"ios-search\">Search</Button>\n    <Button shape=\"circle\">Circle</Button>\n</template>\n<script>\n    export default {\n        \n    }\n</script>\n";
+code.gutter = "\n<template>\n    <Row :gutter=\"16\">\n        <Col span=\"6\">\n            <div>col-6</div>\n        </Col>\n        <Col span=\"6\">\n            <div>col-6</div>\n        </Col>\n        <Col span=\"6\">\n            <div>col-6</div>\n        </Col>\n        <Col span=\"6\">\n            <div>col-6</div>\n        </Col>\n    </Row>\n</template>\n<script>\n    export default {\n        \n    }\n</script>\n";
 
-code.size = "\n<template>\n    <div>\n        <RadioGroup v-model=\"buttonSize\" type=\"button\">\n            <Radio label=\"large\">Large</Radio>\n            <Radio label=\"default\">Default</Radio>\n            <Radio label=\"small\">small</Radio>\n        </RadioGroup>\n        <br><br>\n        <Button :size=\"buttonSize\" type=\"primary\">Primary</Button>\n        <Button :size=\"buttonSize\" type=\"default\">Default</Button>\n        <Button :size=\"buttonSize\" type=\"dashed\">Dashed</Button>\n        <Button :size=\"buttonSize\" type=\"text\">Text</Button>\n        <br><br>\n        <Button :size=\"buttonSize\" icon=\"ios-download-outline\" type=\"primary\" shape=\"circle\"></Button>\n        <Button :size=\"buttonSize\" icon=\"ios-download-outline\" type=\"primary\">Download</Button>\n        <br><br>\n        <ButtonGroup :size=\"buttonSize\">\n            <Button :size=\"buttonSize\" type=\"primary\">\n                <Icon type=\"ios-arrow-back\" />\n                Backward\n            </Button>\n            <Button :size=\"buttonSize\" type=\"primary\">\n                Forward\n                <Icon type=\"ios-arrow-forward\" />\n            </Button>\n        </ButtonGroup>\n    </div>\n</template>\n<script>\n    export default {\n        data () {\n            return {\n                buttonSize: 'large'\n            }\n        },\n    }\n</script>\n";
+code.order = "\n<template>\n    <Row type=\"flex\">\n        <Col span=\"6\" order=\"4\">1 | order-4</Col>\n        <Col span=\"6\" order=\"3\">2 | order-3</Col>\n        <Col span=\"6\" order=\"2\">3 | order-2</Col>\n        <Col span=\"6\" order=\"1\">4 | order-1</Col>\n    </Row>\n</template>\n<script>\n    export default {\n        \n    }\n</script>\n";
 
-code.long = "\n<template>\n    <Button type=\"success\" long>SUBMIT</Button>\n    <br><br>\n    <Button type=\"error\" long>DELETE</Button>\n</template>\n<script>\n    export default {\n        \n    }\n</script>\n";
+code.push = "\n<template>\n    <Row>\n        <Col span=\"18\" push=\"6\">col-18 | push-6</Col>\n        <Col span=\"6\" pull=\"18\">col-6 | pull-18</Col>\n    </Row>\n</template>\n<script>\n    export default {\n        \n    }\n</script>\n";
 
-code.disabled = "\n<template>\n    <Button>Default</Button>\n    <Button disabled>Default(Disabled)</Button>\n    <br>\n    <Button type=\"primary\">Primary</Button>\n    <Button type=\"primary\" disabled>Primary(Disabled)</Button>\n    <br>\n    <Button type=\"dashed\">Dashed</Button>\n    <Button type=\"dashed\" disabled>Dashed(Disabled)</Button>\n    <br>\n    <Button type=\"text\">Text</Button>\n    <Button type=\"text\" disabled>Text(Disabled)</Button>\n</template>\n<script>\n    export default {\n        \n    }\n</script>\n";
+code.offset = "\n<template>\n    <Row>\n        <Col span=\"8\">col-8</Col>\n        <Col span=\"8\" offset=\"8\">col-8 | offset-8</Col>\n    </Row>\n    <br>\n    <Row>\n        <Col span=\"6\" offset=\"8\">col-6 | offset-8</Col>\n        <Col span=\"6\" offset=\"4\">col-6 | offset-4</Col>\n    </Row>\n    <br>\n    <Row>\n        <Col span=\"12\" offset=\"8\">col-12 | offset-8</Col>\n    </Row>\n</template>\n<script>\n    export default {\n        \n    }\n</script>\n";
 
-code.loading = "\n<template>\n    <Button type=\"primary\" loading>Loading...</Button>\n    <Button type=\"primary\" :loading=\"loading\" @click=\"toLoading\">\n        <span v-if=\"!loading\">Click me!</span>\n        <span v-else>Loading...</span>\n    </Button>\n    <Button type=\"primary\" :loading=\"loading2\" icon=\"ios-power\" @click=\"toLoading2\">\n        <span v-if=\"!loading2\">Click me!</span>\n        <span v-else>Loading...</span>\n    </Button>\n    <Button loading shape=\"circle\"></Button>\n    <Button loading shape=\"circle\" type=\"primary\"></Button>\n</template>\n<script>\n    export default {\n        data () {\n            return {\n                loading: false,\n                loading2: false\n            }\n        },\n        methods: {\n            toLoading () {\n                this.loading = true;\n            },\n            toLoading2 () {\n                this.loading2 = true;\n            }\n        }\n    }\n</script>\n";
-code.group = "\n<template>\n    <h4>Basic</h4>\n    <br><br>\n    <ButtonGroup>\n        <Button>Cancel</Button>\n        <Button type=\"primary\">Confirm</Button>\n    </ButtonGroup>\n    <ButtonGroup>\n        <Button disabled>Yesterday</Button>\n        <Button disabled>Today</Button>\n        <Button disabled>Tomorrow</Button>\n    </ButtonGroup>\n    <ButtonGroup>\n        <Button type=\"primary\">L</Button>\n        <Button>M</Button>\n        <Button>M</Button>\n        <Button type=\"dashed\">R</Button>\n    </ButtonGroup>\n    <br><br>\n    <h4>Icons</h4>\n    <br><br>\n    <ButtonGroup>\n        <Button type=\"primary\">\n            <Icon type=\"ios-arrow-back\"></Icon>\n            Backward\n        </Button>\n        <Button type=\"primary\">\n            Forward\n            <Icon type=\"ios-arrow-forward\"></Icon>\n        </Button>\n    </ButtonGroup>\n    <ButtonGroup>\n        <Button type=\"primary\" icon=\"ios-skip-backward\"></Button>\n        <Button type=\"primary\" icon=\"ios-skip-forward\"></Button>\n    </ButtonGroup>\n    <ButtonGroup>\n        <Button icon=\"ios-color-wand-outline\"></Button>\n        <Button icon=\"ios-sunny-outline\"></Button>\n        <Button icon=\"ios-crop\"></Button>\n        <Button icon=\"ios-color-filter-outline\"></Button>\n    </ButtonGroup>\n    <br><br>\n    <h4>Circle</h4>\n    <br><br>\n    <ButtonGroup shape=\"circle\">\n        <Button type=\"primary\">\n            <Icon type=\"ios-arrow-back\"></Icon>\n            Backward\n        </Button>\n        <Button type=\"primary\">\n            Forward\n            <Icon type=\"ios-arrow-forward\"></Icon>\n        </Button>\n    </ButtonGroup>\n    <ButtonGroup shape=\"circle\">\n        <Button type=\"primary\" icon=\"ios-skip-backward\"></Button>\n        <Button type=\"primary\" icon=\"ios-skip-forward\"></Button>\n    </ButtonGroup>\n    <ButtonGroup shape=\"circle\">\n        <Button icon=\"ios-color-wand-outline\"></Button>\n        <Button icon=\"ios-sunny-outline\"></Button>\n        <Button icon=\"ios-crop\"></Button>\n        <Button icon=\"ios-color-filter-outline\"></Button>\n    </ButtonGroup>\n    <br><br>\n    <h4>Size</h4>\n    <br><br>\n    <ButtonGroup size=\"large\">\n        <Button>Large</Button>\n        <Button>Large</Button>\n    </ButtonGroup>\n    <ButtonGroup>\n        <Button>Default</Button>\n        <Button>Default</Button>\n    </ButtonGroup>\n    <ButtonGroup size=\"small\">\n        <Button>Small</Button>\n        <Button>Small</Button>\n    </ButtonGroup>\n    <br><br>\n    <ButtonGroup size=\"large\" shape=\"circle\">\n        <Button>Large</Button>\n        <Button>Large</Button>\n    </ButtonGroup>\n    <ButtonGroup shape=\"circle\">\n        <Button>Default</Button>\n        <Button>Default</Button>\n    </ButtonGroup>\n    <ButtonGroup size=\"small\" shape=\"circle\">\n        <Button>Small</Button>\n        <Button>Small</Button>\n    </ButtonGroup>\n</template>\n<script>\n    export default {\n        \n    }\n</script>\n";
+code.justify = "\n<template>\n    <p>\u5B50\u5143\u7D20\u5411\u5DE6\u6392\u5217</p>\n    <Row type=\"flex\" justify=\"start\" class=\"code-row-bg\">\n        <Col span=\"4\">col-4</Col>\n        <Col span=\"4\">col-4</Col>\n        <Col span=\"4\">col-4</Col>\n        <Col span=\"4\">col-4</Col>\n    </Row>\n    <p>\u5B50\u5143\u7D20\u5411\u53F3\u6392\u5217</p>\n    <Row type=\"flex\" justify=\"end\" class=\"code-row-bg\">\n        <Col span=\"4\">col-4</Col>\n        <Col span=\"4\">col-4</Col>\n        <Col span=\"4\">col-4</Col>\n        <Col span=\"4\">col-4</Col>\n    </Row>\n    <p>\u5B50\u5143\u7D20\u5C45\u4E2D\u6392\u5217</p>\n    <Row type=\"flex\" justify=\"center\" class=\"code-row-bg\">\n        <Col span=\"4\">col-4</Col>\n        <Col span=\"4\">col-4</Col>\n        <Col span=\"4\">col-4</Col>\n        <Col span=\"4\">col-4</Col>\n    </Row>\n    <p>\u5B50\u5143\u7D20\u7B49\u5BBD\u6392\u5217</p>\n    <Row type=\"flex\" justify=\"space-between\" class=\"code-row-bg\">\n        <Col span=\"4\">col-4</Col>\n        <Col span=\"4\">col-4</Col>\n        <Col span=\"4\">col-4</Col>\n        <Col span=\"4\">col-4</Col>\n    </Row>\n    <p>\u5B50\u5143\u7D20\u5206\u6563\u6392\u5217</p>\n    <Row type=\"flex\" justify=\"space-around\" class=\"code-row-bg\">\n        <Col span=\"4\">col-4</Col>\n        <Col span=\"4\">col-4</Col>\n        <Col span=\"4\">col-4</Col>\n        <Col span=\"4\">col-4</Col>\n    </Row>\n</template>\n<script>\n    export default {\n        \n    }\n</script>\n";
 
-code.vertical = "\n<template>\n    <ButtonGroup vertical>\n        <Button icon=\"logo-facebook\"></Button>\n        <Button icon=\"logo-twitter\"></Button>\n        <Button icon=\"logo-googleplus\"></Button>\n        <Button icon=\"logo-tumblr\"></Button>\n    </ButtonGroup>\n</template>\n<script>\n    export default {\n        \n    }\n</script>\n";
+code.align = "\n<template>\n    <p>\u9876\u90E8\u5BF9\u9F50</p>\n    <Row type=\"flex\" justify=\"center\" align=\"top\" class=\"code-row-bg\">\n        <Col span=\"4\"><p style=\"height: 80px\">col-4</p></Col>\n        <Col span=\"4\"><p style=\"height: 30px\">col-4</p></Col>\n        <Col span=\"4\"><p style=\"height: 100px\">col-4</p></Col>\n        <Col span=\"4\"><p style=\"height: 60px\">col-4</p></Col>\n    </Row>\n    <p>\u5E95\u90E8\u5BF9\u9F50</p>\n    <Row type=\"flex\" justify=\"center\" align=\"bottom\" class=\"code-row-bg\">\n        <Col span=\"4\"><p style=\"height: 80px\">col-4</p></Col>\n        <Col span=\"4\"><p style=\"height: 30px\">col-4</p></Col>\n        <Col span=\"4\"><p style=\"height: 100px\">col-4</p></Col>\n        <Col span=\"4\"><p style=\"height: 60px\">col-4</p></Col>\n    </Row>\n    <p>\u5C45\u4E2D\u5BF9\u9F50</p>\n    <Row type=\"flex\" justify=\"center\" align=\"middle\" class=\"code-row-bg\">\n        <Col span=\"4\"><p style=\"height: 80px\">col-4</p></Col>\n        <Col span=\"4\"><p style=\"height: 30px\">col-4</p></Col>\n        <Col span=\"4\"><p style=\"height: 100px\">col-4</p></Col>\n        <Col span=\"4\"><p style=\"height: 60px\">col-4</p></Col>\n    </Row>\n</template>\n<script>\n    export default {\n        \n    }\n</script>\n";
 
-code.ghost = "\n<template>\n    <Button type=\"default\" ghost>Default</Button>\n    <Button type=\"primary\" ghost>Primary</Button>\n    <Button type=\"dashed\" ghost>Dashed</Button>\n    <Button type=\"text\" ghost>Text</Button>\n    <Button type=\"info\" ghost>Info</Button>\n    <Button type=\"success\" ghost>Success</Button>\n    <Button type=\"warning\" ghost>Warning</Button>\n    <Button type=\"error\" ghost>Error</Button>\n</template>\n<script>\n    export default {\n        \n    }\n</script>\n";
+code.reponsive = "\n<template>\n    <Row>\n        <Col :xs=\"2\" :sm=\"4\" :md=\"6\" :lg=\"8\">Col</Col>\n        <Col :xs=\"20\" :sm=\"16\" :md=\"12\" :lg=\"8\">Col</Col>\n        <Col :xs=\"2\" :sm=\"4\" :md=\"6\" :lg=\"8\">Col</Col>\n    </Row>\n</template>\n<script>\n    export default {\n        \n    }\n</script>\n";
 
-code.link = "\n<template>\n    <Button to=\"/components/icon-en\">Normal</Button>\n    <Button to=\"/components/icon-en\" replace>No history</Button>\n    <Button to=\"//iviewui.com\" target=\"_blank\">New window</Button>\n</template>\n<script>\n    export default {\n        \n    }\n</script>\n";
+code.reponsive2 = "\n<template>\n    <Row>\n        <Col :xs=\"{ span: 5, offset: 1 }\" :lg=\"{ span: 6, offset: 2 }\">Col</Col>\n        <Col :xs=\"{ span: 11, offset: 1 }\" :lg=\"{ span: 6, offset: 2 }\">Col</Col>\n        <Col :xs=\"{ span: 5, offset: 1 }\" :lg=\"{ span: 6, offset: 2 }\">Col</Col>\n    </Row>\n</template>\n<script>\n    export default {\n        \n    }\n</script>\n";
 
 exports.default = code;
+
+/***/ }),
+
+/***/ 562:
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
 
 /***/ })
 

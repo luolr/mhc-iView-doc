@@ -1,15 +1,15 @@
-webpackJsonp([0],{
+webpackJsonp([8],{
 
-/***/ 200:
+/***/ 488:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_install_vue__ = __webpack_require__(541);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_install_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_install_vue__);
-/* harmony namespace reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_install_vue__) if(["default","default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_install_vue__[key]; }) }(__WEBPACK_IMPORT_KEY__));
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_2ce1e5de_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_install_vue__ = __webpack_require__(549);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_2ce1e5de_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_install_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_2ce1e5de_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_install_vue__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_start_vue__ = __webpack_require__(542);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_start_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_start_vue__);
+/* harmony namespace reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_start_vue__) if(["default","default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_start_vue__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_cc96d036_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_start_vue__ = __webpack_require__(553);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_cc96d036_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_start_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_cc96d036_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_start_vue__);
 var disposed = false
 var normalizeComponent = __webpack_require__(197)
 /* script */
@@ -26,14 +26,14 @@ var __vue_scopeId__ = null
 /* moduleIdentifier (server only) */
 var __vue_module_identifier__ = null
 var Component = normalizeComponent(
-  __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_install_vue___default.a,
-  __WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_2ce1e5de_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_install_vue___default.a,
+  __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_start_vue___default.a,
+  __WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_cc96d036_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_start_vue___default.a,
   __vue_template_functional__,
   __vue_styles__,
   __vue_scopeId__,
   __vue_module_identifier__
 )
-Component.options.__file = "src/views/guide/install.vue"
+Component.options.__file = "src/views/guide/start.vue"
 
 /* hot reload */
 if (false) {(function () {
@@ -42,9 +42,9 @@ if (false) {(function () {
   if (!hotAPI.compatible) return
   module.hot.accept()
   if (!module.hot.data) {
-    hotAPI.createRecord("data-v-2ce1e5de", Component.options)
+    hotAPI.createRecord("data-v-cc96d036", Component.options)
   } else {
-    hotAPI.reload("data-v-2ce1e5de", Component.options)
+    hotAPI.reload("data-v-cc96d036", Component.options)
   }
   module.hot.dispose(function (data) {
     disposed = true
@@ -2232,7 +2232,27 @@ exports.default = {
 
 /***/ }),
 
-/***/ 541:
+/***/ 533:
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+exports.default = {
+    props: {
+        type: {
+            type: String,
+            default: 'render'
+        }
+    }
+};
+
+/***/ }),
+
+/***/ 542:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2258,13 +2278,18 @@ var _anchor = __webpack_require__(522);
 
 var _anchor2 = _interopRequireDefault(_anchor);
 
+var _study = __webpack_require__(572);
+
+var _study2 = _interopRequireDefault(_study);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 exports.default = {
     components: {
         iArticle: _article2.default,
         iCode: _iCode2.default,
-        inAnchor: _anchor2.default
+        inAnchor: _anchor2.default,
+        Study: _study2.default
     },
     data: function data() {
         return {
@@ -2277,7 +2302,7 @@ exports.default = {
 
 /***/ }),
 
-/***/ 549:
+/***/ 543:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2290,12 +2315,22 @@ var render = function render() {
   var _vm = this;
   var _h = _vm.$createElement;
   var _c = _vm._self._c || _h;
-  return _c("i-article", [_c("article", [_c("h1", [_vm._v("安装")]), _vm._v(" "), _c("inAnchor", { attrs: { title: "CDN 引入", h2: "" } }), _vm._v(" "), _c("p", [_vm._v("通过 "), _c("a", { attrs: { href: "https://unpkg.com/iview/", target: "_blank" } }, [_vm._v("unpkg.com/iview")]), _vm._v(" 可以看到 iView 最新版本的资源，也可以切换版本选择需要的资源，在页面上引入 js 和 css 文件即可开始使用：")]), _vm._v(" "), _c("i-code", { attrs: { lang: "html", bg: "" } }, [_vm._v(_vm._s(_vm.code.install.cdn))]), _vm._v(" "), _c("inAnchor", { attrs: { title: "示例", h3: "" } }), _vm._v(" "), _c("p", [_vm._v("通过 CDN 可以快速使用 iView 写出一个示例，您可以复制下面代码或"), _c("a", {
+  return _c("span", [_vm.type === "render" ? _c("a", {
     attrs: {
-      href: "http://output.jsbin.com/libihed",
+      href: "https://segmentfault.com/l/1500000008892728",
       target: "_blank"
     }
-  }, [_vm._v("在线预览")]), _vm._v("。")]), _vm._v(" "), _c("i-code", { attrs: { lang: "auto", bg: "" } }, [_vm._v(_vm._s(_vm.code.install.demo))]), _vm._v(" "), _c("inAnchor", { attrs: { title: "NPM 安装", h2: "" } }), _vm._v(" "), _c("p", [_vm._v("推荐使用 npm 来安装，享受生态圈和工具带来的便利，更好地和 webpack 配合使用，当然，我们也推荐使用 ES2015。")]), _vm._v(" "), _c("i-code", { attrs: { lang: "auto", bg: "" } }, [_vm._v(_vm._s(_vm.code.install.install))]), _vm._v(" "), _c("p", [_vm._v("如果您使用了 NPM 安装，并使用 webpack 作为构建工具，请继续阅读"), _c("router-link", { attrs: { to: "/mhc-iView-doc/guide/start" } }, [_vm._v("快速上手")]), _vm._v("章节。")], 1)], 1)]);
+  }, [_c("Icon", { attrs: { type: "social-youtube-outline" } }), _vm._v(" "), _c("span", [_vm._v(" 学习 Render 函数的内容")])], 1) : _vm._e(), _vm._v(" "), _vm.type === "component" ? _c("a", {
+    attrs: {
+      href: "https://segmentfault.com/l/1500000009448056",
+      target: "_blank"
+    }
+  }, [_c("Icon", { attrs: { type: "social-youtube-outline" } }), _vm._v(" "), _c("span", [_vm._v(" 学习组件基础内容")])], 1) : _vm._e(), _vm._v(" "), _vm.type === "webpack" ? _c("a", {
+    attrs: {
+      href: "https://segmentfault.com/l/1500000009448189",
+      target: "_blank"
+    }
+  }, [_c("Icon", { attrs: { type: "social-youtube-outline" } }), _vm._v(" "), _c("span", [_vm._v(" 学习 webpack 内容")])], 1) : _vm._e()]);
 };
 var staticRenderFns = [];
 render._withStripped = true;
@@ -2305,11 +2340,123 @@ exports.default = esExports;
 if (false) {
   module.hot.accept();
   if (module.hot.data) {
-    require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-2ce1e5de", esExports);
+    require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-02c8cd69", esExports);
   }
 }
+
+/***/ }),
+
+/***/ 553:
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+var render = function render() {
+  var _vm = this;
+  var _h = _vm.$createElement;
+  var _c = _vm._self._c || _h;
+  return _c("i-article", [_c("article", [_c("h1", [_vm._v("快速上手")]), _vm._v(" "), _c("inAnchor", { attrs: { title: "使用之前", h2: "" } }), _vm._v(" "), _c("p", [_vm._v("高效的开发，离不开基础工程的搭建。在开始使用 iView 之前，有必要先了解以下基础知识，我们也假设您已经写过 Vue，并掌握了下面的内容。")]), _vm._v(" "), _c("ul", [_c("li", [_c("a", {
+    attrs: {
+      href: "https://cn.vuejs.org/v2/guide/components.html",
+      target: "_blank"
+    }
+  }, [_vm._v("Vue组件")])]), _vm._v(" "), _c("li", [_c("a", {
+    attrs: {
+      href: "https://cn.vuejs.org/v2/guide/single-file-components.html",
+      target: "_blank"
+    }
+  }, [_vm._v("单文件组件")])])]), _vm._v(" "), _c("p", [_vm._v("以下概念贯穿 iView 前后，建议开发者花点时间来了解。")]), _vm._v(" "), _c("ul", [_c("li", [_c("code", [_vm._v("props")]), _vm._v(" 传递数据\n            ")]), _vm._v(" "), _c("li", [_c("code", [_vm._v("slot")]), _vm._v(" 内容分发\n            ")]), _vm._v(" "), _c("li", [_c("code", [_vm._v("events")]), _vm._v(" "), _c("code", [_vm._v("$emit")]), _vm._v(" "), _c("code", [_vm._v("@click")]), _vm._v(" 事件\n            ")])]), _vm._v(" "), _c("Alert", { attrs: { "show-icon": "" } }, [_vm._v("\n            你也可以通过 "), _c("Study", { attrs: { type: "component" } }), _vm._v(" 来快速入门。\n        ")], 1), _vm._v(" "), _c("inAnchor", {
+    attrs: { title: "使用脚手架 iView Cli（推荐）", h2: "" }
+  }), _vm._v(" "), _c("p", [_vm._v("使用 "), _c("router-link", { attrs: { to: "/cli" } }, [_vm._v("iView Cli")]), _vm._v(" 可以通过可视化的方式快速构建 iView 工程，并且可以根据业务进行丰富的配置。")], 1), _vm._v(" "), _c("Alert", { attrs: { "show-icon": "" } }, [_vm._v("\n            如果你未接触过 webpack，建议 "), _c("Study", { attrs: { type: "webpack" } }), _vm._v("。\n        ")], 1), _vm._v(" "), _c("inAnchor", { attrs: { title: "使用推荐工程", h2: "" } }), _vm._v(" "), _c("p", [_vm._v("我们也为您准备好了基础工程，以此为基础开发，可以为您省去大量配置和调试环境的时间。")]), _vm._v(" "), _c("p", [_vm._v("\n            推荐工程："), _c("a", {
+    attrs: {
+      href: "https://github.com/iview/iview-project",
+      target: "_blank"
+    }
+  }, [_vm._v("iview-project")])]), _vm._v(" "), _c("p", [_vm._v("如果您使用了我们推荐的工程，可以略过下面的内容直接进入开发阶段，我们也推荐使用这套工程来构建您的项目。")]), _vm._v(" "), _c("p", [_vm._v("如果您希望自己配置或使用其它工程，比如 "), _c("a", {
+    attrs: {
+      href: "https://github.com/vuejs/vue-cli",
+      target: "_blank"
+    }
+  }, [_vm._v("vue-cli")]), _vm._v("，请继续往下阅读。")]), _vm._v(" "), _c("inAnchor", { attrs: { title: "引入 iView", h2: "" } }), _vm._v(" "), _c("p", [_vm._v("一般在 webpack 入口页面 "), _c("code", [_vm._v("main.js")]), _vm._v(" 中如下配置：")]), _vm._v(" "), _c("i-code", { attrs: { lang: "js", bg: "" } }, [_vm._v(_vm._s(_vm.code.install.import))]), _vm._v(" "), _c("inAnchor", { attrs: { title: "按需引用", h2: "" } }), _vm._v(" "), _c("p", [_vm._v("借助插件 "), _c("a", {
+    attrs: {
+      href: "https://github.com/ant-design/babel-plugin-import",
+      target: "_blank"
+    }
+  }, [_vm._v("babel-plugin-import")]), _vm._v("可以实现按需加载组件，减少文件体积。首先安装，并在文件 "), _c("code", [_vm._v(".babelrc")]), _vm._v(" 中配置：")]), _vm._v(" "), _c("i-code", { attrs: { bg: "" } }, [_vm._v(_vm._s(_vm.code.install.babel_plugins))]), _vm._v(" "), _c("p", [_vm._v("然后这样按需引入组件，就可以减小体积了：")]), _vm._v(" "), _c("i-code", { attrs: { bg: "" } }, [_vm._v(_vm._s(_vm.code.install.need))]), _vm._v(" "), _c("inAnchor", { attrs: { title: "特别提醒", h2: "" } }), _vm._v(" "), _c("ul", [_c("li", [_vm._v("按需引用仍然需要导入样式，即在 "), _c("strong", [_vm._v("main.js")]), _vm._v(" 或根组件执行 "), _c("code", [_vm._v("import 'iview/dist/styles/iview.css';")])])]), _vm._v(" "), _c("inAnchor", { attrs: { title: "组件使用规范", h2: "" } }), _vm._v(" "), _c("p", [_vm._v("使用"), _c("code", [_vm._v(":prop")]), _vm._v("传递数据格式为 数字、布尔值或函数时，必须带"), _c("code", [_vm._v(":")]), _vm._v("(兼容String除外，具体看组件文档)，比如：")]), _vm._v(" "), _c("i-code", { attrs: { lang: "html", bg: "" } }, [_vm._v(_vm._s(_vm.code.standard.prop))]), _vm._v(" "), _c("p", [_vm._v("在非 template/render 模式下（例如使用 CDN 引用时），组件名要分隔，例如 "), _c("code", [_vm._v("DatePicker")]), _vm._v(" 必须要写成 "), _c("code", [_vm._v("date-picker")]), _vm._v("。")]), _vm._v(" "), _c("p", [_vm._v("以下组件，在非 template/render 模式下，需要加前缀 "), _c("code", [_vm._v("i-")]), _vm._v("：")]), _vm._v(" "), _c("ul", [_c("li", [_vm._v("Button: "), _c("code", [_vm._v("i-button")])]), _vm._v(" "), _c("li", [_vm._v("Col: "), _c("code", [_vm._v("i-col")])]), _vm._v(" "), _c("li", [_vm._v("Table: "), _c("code", [_vm._v("i-table")])]), _vm._v(" "), _c("li", [_vm._v("Input: "), _c("code", [_vm._v("i-input")])]), _vm._v(" "), _c("li", [_vm._v("Form: "), _c("code", [_vm._v("i-form")])]), _vm._v(" "), _c("li", [_vm._v("Menu: "), _c("code", [_vm._v("i-menu")])]), _vm._v(" "), _c("li", [_vm._v("Select: "), _c("code", [_vm._v("i-select")])]), _vm._v(" "), _c("li", [_vm._v("Option: "), _c("code", [_vm._v("i-option")])]), _vm._v(" "), _c("li", [_vm._v("Progress: "), _c("code", [_vm._v("i-progress")])]), _vm._v(" "), _c("li", [_vm._v("Time: "), _c("code", [_vm._v("i-time")])])]), _vm._v(" "), _c("p", [_vm._v("以下组件，在所有模式下，必须加前缀 "), _c("code", [_vm._v("i-")]), _vm._v("，除非使用 "), _c("router-link", { attrs: { to: "/docs/guide/iview-loader" } }, [_vm._v("iview-loader")]), _vm._v("：")], 1), _vm._v(" "), _c("ul", [_c("li", [_vm._v("Switch: "), _c("code", [_vm._v("i-switch")])]), _vm._v(" "), _c("li", [_vm._v("Circle: "), _c("code", [_vm._v("i-circle")])])])], 1)]);
+};
+var staticRenderFns = [];
+render._withStripped = true;
+var esExports = { render: render, staticRenderFns: staticRenderFns };
+exports.default = esExports;
+
+if (false) {
+  module.hot.accept();
+  if (module.hot.data) {
+    require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-cc96d036", esExports);
+  }
+}
+
+/***/ }),
+
+/***/ 572:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_study_vue__ = __webpack_require__(533);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_study_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_study_vue__);
+/* harmony namespace reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_study_vue__) if(["default","default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_study_vue__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_02c8cd69_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_study_vue__ = __webpack_require__(543);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_02c8cd69_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_study_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_02c8cd69_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_study_vue__);
+var disposed = false
+var normalizeComponent = __webpack_require__(197)
+/* script */
+
+
+/* template */
+
+/* template functional */
+var __vue_template_functional__ = false
+/* styles */
+var __vue_styles__ = null
+/* scopeId */
+var __vue_scopeId__ = null
+/* moduleIdentifier (server only) */
+var __vue_module_identifier__ = null
+var Component = normalizeComponent(
+  __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_study_vue___default.a,
+  __WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_02c8cd69_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_study_vue___default.a,
+  __vue_template_functional__,
+  __vue_styles__,
+  __vue_scopeId__,
+  __vue_module_identifier__
+)
+Component.options.__file = "src/components/study.vue"
+
+/* hot reload */
+if (false) {(function () {
+  var hotAPI = require("vue-loader/node_modules/vue-hot-reload-api")
+  hotAPI.install(require("vue"), false)
+  if (!hotAPI.compatible) return
+  module.hot.accept()
+  if (!module.hot.data) {
+    hotAPI.createRecord("data-v-02c8cd69", Component.options)
+  } else {
+    hotAPI.reload("data-v-02c8cd69", Component.options)
+  }
+  module.hot.dispose(function (data) {
+    disposed = true
+  })
+})()}
+
+/* harmony default export */ __webpack_exports__["default"] = (Component.exports);
+
 
 /***/ })
 
 });
-//# sourceMappingURL=0.chunk.js.map
+//# sourceMappingURL=8.chunk.js.map
