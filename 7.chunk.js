@@ -1,15 +1,15 @@
-webpackJsonp([0],{
+webpackJsonp([7],{
 
-/***/ 200:
+/***/ 481:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_install_vue__ = __webpack_require__(541);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_install_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_install_vue__);
-/* harmony namespace reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_install_vue__) if(["default","default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_install_vue__[key]; }) }(__WEBPACK_IMPORT_KEY__));
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_2ce1e5de_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_install_vue__ = __webpack_require__(549);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_2ce1e5de_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_install_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_2ce1e5de_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_install_vue__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_button_vue__ = __webpack_require__(534);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_button_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_button_vue__);
+/* harmony namespace reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_button_vue__) if(["default","default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_button_vue__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_064c47be_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_button_vue__ = __webpack_require__(544);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_064c47be_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_button_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_064c47be_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_button_vue__);
 var disposed = false
 var normalizeComponent = __webpack_require__(197)
 /* script */
@@ -26,14 +26,14 @@ var __vue_scopeId__ = null
 /* moduleIdentifier (server only) */
 var __vue_module_identifier__ = null
 var Component = normalizeComponent(
-  __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_install_vue___default.a,
-  __WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_2ce1e5de_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_install_vue___default.a,
+  __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_button_vue___default.a,
+  __WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_064c47be_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_button_vue___default.a,
   __vue_template_functional__,
   __vue_styles__,
   __vue_scopeId__,
   __vue_module_identifier__
 )
-Component.options.__file = "src/views/guide/install.vue"
+Component.options.__file = "src/views/components/button.vue"
 
 /* hot reload */
 if (false) {(function () {
@@ -42,9 +42,9 @@ if (false) {(function () {
   if (!hotAPI.compatible) return
   module.hot.accept()
   if (!module.hot.data) {
-    hotAPI.createRecord("data-v-2ce1e5de", Component.options)
+    hotAPI.createRecord("data-v-064c47be", Component.options)
   } else {
-    hotAPI.reload("data-v-2ce1e5de", Component.options)
+    hotAPI.reload("data-v-064c47be", Component.options)
   }
   module.hot.dispose(function (data) {
     disposed = true
@@ -1079,6 +1079,130 @@ pinyinUtil.parseDict();
 pinyinUtil.dict = dict;
 
 exports.default = pinyinUtil;
+
+/***/ }),
+
+/***/ 499:
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+
+var _pinyinUtil = __webpack_require__(498);
+
+var _pinyinUtil2 = _interopRequireDefault(_pinyinUtil);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+exports.default = {
+    name: 'Demo',
+    inject: ['app'],
+    props: {
+        title: {
+            type: String,
+            default: ''
+        },
+        vertical: {
+            type: Boolean,
+            default: false
+        },
+        hideCode: {
+            type: Boolean,
+            default: false
+        }
+    },
+    data: function data() {
+        return {
+            showCode: false,
+            showMore: true,
+            demo_height: 0,
+            code_height: 0,
+            ready: false,
+            lang: this.$lang
+        };
+    },
+
+    computed: {
+        isCodeHide: function isCodeHide() {
+            if (this.hideCode) {
+                return true;
+            } else {
+                return this.app.settingData.code == '1' ? false : true;
+            }
+        },
+        isVertical: function isVertical() {
+            if (this.vertical) {
+                return true;
+            } else {
+                return this.app.settingData.code == '1' ? false : true;
+            }
+        },
+        settingCode: function settingCode() {
+            return this.app.settingData.code;
+        },
+        codeHeight: function codeHeight() {
+            var style = {};
+
+            if (this.ready) {
+                if (this.showCode) {
+                    style.height = this.code_height + 'px';
+                } else {
+                    style.height = this.demo_height + 'px';
+                }
+            }
+
+            return style;
+        },
+        style: function style() {
+            var style = {
+                opacity: 1
+            };
+            if (this.isCodeHide && !this.showCode) {
+                style.opacity = 0;
+            }
+            return style;
+        },
+        title_link: function title_link() {
+            var title = _pinyinUtil2.default.getFirstLetter(this.title);
+            return title.replace(/\s/g, '_');
+        }
+    },
+    mounted: function mounted() {
+        this.init();
+    },
+
+    methods: {
+        init: function init() {
+            var _this = this;
+
+            this.$nextTick(function () {
+                var demo_height = _this.$children[0].$children[0].$el.clientHeight;
+                var code_height = _this.$children[0].$children[1].$el.clientHeight + 20;
+
+                _this.code_height = code_height;
+
+                if (code_height <= demo_height && !_this.isCodeHide) {
+                    _this.showMore = false;
+                }
+
+                _this.demo_height = _this.isCodeHide ? 30 : demo_height;
+                _this.ready = true;
+            });
+        }
+    },
+    watch: {
+        settingCode: function settingCode() {
+            this.showCode = false;
+            this.showMore = true;
+            this.ready = false;
+            this.init();
+        }
+    }
+};
 
 /***/ }),
 
@@ -2143,96 +2267,147 @@ if (false) {(function () {
 
 /***/ }),
 
-/***/ 531:
+/***/ 528:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
 Object.defineProperty(exports, "__esModule", {
-    value: true
+  value: true
 });
-var introduce = {};
-var install = {};
-var start = {};
-var standard = {};
-var i18n = {};
-var theme = {};
-var loader = {};
-var global = {};
-
-introduce.install = "\n$ npm install iview --save\n";
-
-introduce.script = "\n<script type=\"text/javascript\" src=\"iview.min.js\"></script>\n";
-
-introduce.demo = "\n<template>\n    <Slider v-model=\"value\" range></Slider>\n</template>\n<script>\n    export default {\n        data () {\n            return {\n                value: [20, 50]\n            }\n        }\n    }\n</script>\n";
-
-install.cdn = "\n<!-- import Vue.js -->\n<script src=\"//vuejs.org/js/vue.min.js\"></script>\n<!-- import stylesheet -->\n<link rel=\"stylesheet\" href=\"//unpkg.com/iview/dist/styles/iview.css\">\n<!-- import iView -->\n<script src=\"//unpkg.com/iview/dist/iview.min.js\"></script>\n";
-
-install.demo = "\n<!DOCTYPE html>\n<html>\n<head>\n    <meta charset=\"utf-8\">\n    <title>iview example</title>\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"http://unpkg.com/iview/dist/styles/iview.css\">\n    <script type=\"text/javascript\" src=\"http://vuejs.org/js/vue.min.js\"></script>\n    <script type=\"text/javascript\" src=\"http://unpkg.com/iview/dist/iview.min.js\"></script>\n</head>\n<body>\n<div id=\"app\">\n    <i-button @click=\"show\">Click me!</i-button>\n    <Modal v-model=\"visible\" title=\"Welcome\">Welcome to iView</Modal>\n</div>\n<script>\n    new Vue({\n        el: '#app',\n        data: {\n            visible: false\n        },\n        methods: {\n            show: function () {\n                this.visible = true;\n            }\n        }\n    })\n  </script>\n</body>\n</html>\n";
-
-install.install = "\n$ npm install iview --save\n";
-
-install.import = "\nimport Vue from 'vue';\nimport VueRouter from 'vue-router';\nimport App from 'components/app.vue';\nimport Routers from './router.js';\nimport iView from 'iview';\nimport 'iview/dist/styles/iview.css';\n\nVue.use(VueRouter);\nVue.use(iView);\n\n// The routing configuration\nconst RouterConfig = {\n    routes: Routers\n};\nconst router = new VueRouter(RouterConfig);\n\nnew Vue({\n    el: '#app',\n    router: router,\n    render: h => h(App)\n});\n";
-
-install.need = "\nimport { Button, Table } from 'iview';\nVue.component('Button', Button);\nVue.component('Table', Table);\n";
-
-install.warning = "\nmodule: {\n    rules: [\n        { test: /iview.src.*?js$/, loader: 'babel-loader' },\n        { test: /\\.js$/, loader: 'babel-loader', exclude: /node_modules/ }\n    ]\n}\n";
-
-install.babel_plugins = "\nnpm install babel-plugin-import --save-dev\n\n// .babelrc\n{\n  \"plugins\": [[\"import\", {\n    \"libraryName\": \"iview\",\n    \"libraryDirectory\": \"src/components\"\n  }]]\n}\n";
-
-start.dev = "\n// \u5982\u679C\u662F\u7B2C\u4E00\u6B21\u4F7F\u7528\uFF0C\u5148\u8FD0\u884Cinit\uFF0C\u4EE5\u540E\u76F4\u63A5\u8FD0\u884Cdev\n$ npm run init\n$ npm run dev\n";
-
-start.prod = "\n$ npm run build\n";
-
-standard.prop = "\nCorrect usage:\n<Page :current=\"1\" :total=\"100\"></Page>\n\nIncorrect usage:\n<Page current=\"1\" total=\"100\"></Page>\n";
-
-i18n.demo = "\nimport Vue from 'vue';\nimport iView from 'iview';\nimport locale from 'iview/dist/locale/en-US';\n\nVue.use(iView, { locale });\n";
-
-i18n.demand = "\nimport Vue from 'vue';\n// importing iView on demand\nimport { locale, Page } from 'iview';\nimport lang from 'iview/dist/locale/en-US';\n\n// configure language\nlocale(lang);\n\n// import components\nVue.component('Page', Page);\n";
-
-i18n.vuei18n6 = "\nimport Vue from 'vue';\nimport iView from 'iview';\nimport VueI18n from 'vue-i18n';\nimport en from 'iview/dist/locale/en-US';\nimport zh from 'iview/dist/locale/zh-CN';\n\nVue.use(VueI18n);\nVue.use(iView);\nVue.locale = () => {};\n\nconst messages = {\n    en: Object.assign({ message: 'hello' }, en),\n    zh: Object.assign({ message: '\u4F60\u597D' }, zh)\n};\n\n// Create VueI18n instance with options\nconst i18n = new VueI18n({\n    locale: 'en',  // set locale\n    messages  // set locale messages\n});\n\nnew Vue({ i18n }).$mount('#app');\n";
-
-i18n.vuei18n5 = "\nimport Vue from 'vue';\nimport iView from 'iview';\nimport VueI18n from 'vue-i18n';\nimport en from 'iview/dist/locale/en-US';\nimport zh from 'iview/dist/locale/zh-CN';\n\nVue.use(VueI18n);\nVue.use(iView);\n\nVue.config.lang = 'en-US';\nVue.locale('en-US', en);\nVue.locale('zh-CN', zh);\n";
-
-i18n.cdn = "\n<script src=\"//unpkg.com/vue\"></script>\n<script src=\"//unpkg.com/iview/dist/iview.min.js\"></script>\n<script src=\"//unpkg.com/iview/dist/locale/en-US.js\"></script>\n\n<script>\n    iview.lang('en-US');\n</script>\n";
-
-i18n.cdnvuei18n = "\n<script src=\"//unpkg.com/vue\"></script>\n<script src=\"//unpkg.com/iview/dist/iview.min.js\"></script>\n<script src=\"//unpkg.com/iview/dist/locale/en-US.js\"></script>\n<script src=\"//unpkg.com/iview/dist/locale/zh-CN.js\"></script>\n\n<script>\n    // you need to add Polyfill if your browser doesn't support ES2015\n    Vue.locale = () => {};\n    const messages = {\n        en: Object.assign({ message: 'hello' }, iview.langs['en-US']),\n        zh: Object.assign({ message: '\u4F60\u597D' }, iview.langs['zh-CN'])\n    };\n\n    const i18n = new VueI18n({\n      locale: 'en', // set locale\n      messages // set locale messages\n    })\n    \n    new Vue({\n        el: '#app',\n        i18n: i18n\n    })\n</script>\n";
-
-theme.less = "\n@import '~iview/src/styles/index.less';\n\n// Here are the variables to cover, such as:\n@primary-color: #8c0776;\n";
-
-theme.lessImport = "\nimport Vue from 'vue';\nimport iView from 'iview';\nimport '../my-theme/index.less';\n\nVue.use(iView);\n";
-
-theme.install = "\nnpm install iview-theme -g\n";
-
-theme.init = "\niview-theme init my-theme\n";
-
-theme.build = "\ncd my-theme\niview-theme build -o dist/\n";
-
-theme.import = "\nimport Vue from 'vue';\nimport iView from 'iview';\nimport '../my-theme/dist/iview.css';\n\nVue.use(iView);\n";
-
-loader.install = "\nnpm install iview-loader --save-dev\n";
-
-loader.webpack = "\nmodule: {\n    rules: [\n        {\n            test: /\\.vue$/,\n            use: [\n                {\n                    loader: 'vue-loader',\n                    options: {\n                        \n                    }\n                },\n                {\n                    loader: 'iview-loader',\n                    options: {\n                        prefix: false\n                    }\n                }\n            ]\n        }\n    ]\n}\n";
-
-loader.tags = "\n{\n    'i-affix': 'Affix',\n    'i-alert': 'Alert',\n    'i-anchor': 'Anchor',\n    'i-anchor-link': 'AnchorLink',\n    'i-auto-complete': 'AutoComplete',\n    'i-avatar': 'Avatar',\n    'i-back-top': 'BackTop',\n    'i-badge': 'Badge',\n    'i-breadcrumb': 'Breadcrumb',\n    'i-breadcrumb-item': 'BreadcrumbItem',\n    'i-button': 'Button',\n    'i-button-group': 'ButtonGroup',\n    'i-card': 'Card',\n    'i-carousel': 'Carousel',\n    'i-carousel-item': 'CarouselItem',\n    'i-cascader': 'Cascader',\n    'i-cell': 'Cell',\n    'i-cell-group': 'CellGroup',\n    'i-checkbox': 'Checkbox',\n    'i-checkbox-group': 'CheckboxGroup',\n    'i-circle': 'i-circle',\n    'i-col': 'Col',\n    'i-collapse': 'Collapse',\n    'i-color-picker': 'ColorPicker',\n    'i-content': 'Content',\n    'i-divider': 'Divider',\n    'i-date-picker': 'DatePicker',\n    'i-dropdown': 'Dropdown',\n    'i-dropdown-item': 'DropdownItem',\n    'i-dropdown-menu': 'DropdownMenu',\n    'i-footer': 'Footer',\n    'i-form': 'Form',\n    'i-form-item': 'FormItem',\n    'i-header': 'Header',\n    'i-icon': 'Icon',\n    'i-input': 'Input',\n    'i-input-number': 'InputNumber',\n    'i-layout': 'Layout',\n    'i-menu': 'Menu',\n    'i-menu-group': 'MenuGroup',\n    'i-menu-item': 'MenuItem',\n    'i-sider': 'Sider',\n    'i-submenu': 'Submenu',\n    'i-modal': 'Modal',\n    'i-option': 'Option',\n    'i-option-group': 'OptionGroup',\n    'i-page': 'Page',\n    'i-panel': 'Panel',\n    'i-poptip': 'Poptip',\n    'i-progress': 'Progress',\n    'i-radio': 'Radio',\n    'i-radio-group': 'RadioGroup',\n    'i-rate': 'Rate',\n    'i-row': 'Row',\n    'i-select': 'Select',\n    'i-slider': 'Slider',\n    'i-spin': 'Spin',\n    'i-split': 'Split',\n    'i-step': 'Step',\n    'i-steps': 'Steps',\n    'i-switch': 'i-switch',\n    'i-table': 'Table',\n    'i-tabs': 'Tabs',\n    'i-tab-pane': 'TabPane',\n    'i-tag': 'Tag',\n    'i-time': 'Time',\n    'i-timeline': 'Timeline',\n    'i-timeline-item': 'TimelineItem',\n    'i-time-picker': 'TimePicker',\n    'i-tooltip': 'Tooltip',\n    'i-transfer': 'Transfer',\n    'i-tree': 'Tree',\n    'i-upload': 'Upload'\n}\n";
-
-global.example = "\nVue.use(iView, {\n    transfer: true,\n    size: 'large'\n});\n";
-
-exports.default = {
-    introduce: introduce,
-    install: install,
-    start: start,
-    standard: standard,
-    i18n: i18n,
-    theme: theme,
-    loader: loader,
-    global: global
+var render = function render() {
+  var _vm = this;
+  var _h = _vm.$createElement;
+  var _c = _vm._self._c || _h;
+  return _c("Row", {
+    staticClass: "example",
+    class: { "example-vertical": _vm.isVertical },
+    attrs: { id: _vm.title_link }
+  }, [_c("i-col", {
+    staticClass: "example-demo",
+    attrs: { span: _vm.isVertical ? 24 : 12 }
+  }, [_c("div", { staticClass: "example-case" }, [_vm._t("demo")], 2), _vm._v(" "), _c("header", { staticClass: "example-header" }, [_c("span", [_vm._v("\n                " + _vm._s(_vm.title) + "\n                "), _c("a", {
+    attrs: { href: "#" + _vm.title_link, "data-title": _vm.title }
+  }, [_vm._v("#")])])]), _vm._v(" "), _c("div", { staticClass: "example-desc" }, [_vm._t("desc")], 2)]), _vm._v(" "), _c("div", { staticClass: "example-split" }), _vm._v(" "), _c("i-col", {
+    staticClass: "example-code",
+    style: _vm.codeHeight,
+    attrs: { span: _vm.isVertical ? 24 : 12 }
+  }, [_c("div", { style: _vm.style }, [_vm._t("code")], 2), _vm._v(" "), _vm.showMore ? _c("div", {
+    staticClass: "example-code-more",
+    on: {
+      click: function click($event) {
+        _vm.showCode = !_vm.showCode;
+      }
+    }
+  }, [_c("Icon", {
+    directives: [{
+      name: "show",
+      rawName: "v-show",
+      value: !_vm.showCode,
+      expression: "!showCode"
+    }],
+    attrs: { type: "ios-arrow-down" }
+  }), _vm._v(" "), _c("Icon", {
+    directives: [{
+      name: "show",
+      rawName: "v-show",
+      value: _vm.showCode,
+      expression: "showCode"
+    }],
+    attrs: { type: "ios-arrow-up" }
+  }), _vm._v(" "), _c("i-button", {
+    directives: [{
+      name: "show",
+      rawName: "v-show",
+      value: _vm.isCodeHide && !_vm.showCode,
+      expression: "isCodeHide && !showCode"
+    }],
+    attrs: { type: "text" }
+  }, [_vm.lang === "zh-CN" ? [_vm._v("显示代码")] : [_vm._v("Show Code")]], 2)], 1) : _vm._e()])], 1);
 };
+var staticRenderFns = [];
+render._withStripped = true;
+var esExports = { render: render, staticRenderFns: staticRenderFns };
+exports.default = esExports;
+
+if (false) {
+  module.hot.accept();
+  if (module.hot.data) {
+    require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-054b9c73", esExports);
+  }
+}
 
 /***/ }),
 
-/***/ 541:
+/***/ 529:
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
+
+/***/ }),
+
+/***/ 530:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_demo_vue__ = __webpack_require__(499);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_demo_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_demo_vue__);
+/* harmony namespace reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_demo_vue__) if(["default","default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_demo_vue__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_054b9c73_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_demo_vue__ = __webpack_require__(528);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_054b9c73_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_demo_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_054b9c73_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_demo_vue__);
+var disposed = false
+function injectStyle (ssrContext) {
+  if (disposed) return
+  __webpack_require__(529)
+}
+var normalizeComponent = __webpack_require__(197)
+/* script */
+
+
+/* template */
+
+/* template functional */
+var __vue_template_functional__ = false
+/* styles */
+var __vue_styles__ = injectStyle
+/* scopeId */
+var __vue_scopeId__ = null
+/* moduleIdentifier (server only) */
+var __vue_module_identifier__ = null
+var Component = normalizeComponent(
+  __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_demo_vue___default.a,
+  __WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_054b9c73_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_demo_vue___default.a,
+  __vue_template_functional__,
+  __vue_styles__,
+  __vue_scopeId__,
+  __vue_module_identifier__
+)
+Component.options.__file = "src/components/demo.vue"
+
+/* hot reload */
+if (false) {(function () {
+  var hotAPI = require("vue-loader/node_modules/vue-hot-reload-api")
+  hotAPI.install(require("vue"), false)
+  if (!hotAPI.compatible) return
+  module.hot.accept()
+  if (!module.hot.data) {
+    hotAPI.createRecord("data-v-054b9c73", Component.options)
+  } else {
+    hotAPI.reload("data-v-054b9c73", Component.options)
+  }
+  module.hot.dispose(function (data) {
+    disposed = true
+  })
+})()}
+
+/* harmony default export */ __webpack_exports__["default"] = (Component.exports);
+
+
+/***/ }),
+
+/***/ 534:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2250,9 +2425,13 @@ var _iCode = __webpack_require__(525);
 
 var _iCode2 = _interopRequireDefault(_iCode);
 
-var _guide = __webpack_require__(531);
+var _demo = __webpack_require__(530);
 
-var _guide2 = _interopRequireDefault(_guide);
+var _demo2 = _interopRequireDefault(_demo);
+
+var _button = __webpack_require__(554);
+
+var _button2 = _interopRequireDefault(_button);
 
 var _anchor = __webpack_require__(522);
 
@@ -2264,20 +2443,31 @@ exports.default = {
     components: {
         iArticle: _article2.default,
         iCode: _iCode2.default,
+        Demo: _demo2.default,
         inAnchor: _anchor2.default
     },
     data: function data() {
         return {
-            code: _guide2.default
+            code: _button2.default,
+            loading: false,
+            loading2: false,
+            buttonSize: 'large'
         };
     },
 
-    methods: {}
+    methods: {
+        toLoading: function toLoading() {
+            this.loading = true;
+        },
+        toLoading2: function toLoading2() {
+            this.loading2 = true;
+        }
+    }
 };
 
 /***/ }),
 
-/***/ 549:
+/***/ 544:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2290,12 +2480,72 @@ var render = function render() {
   var _vm = this;
   var _h = _vm.$createElement;
   var _c = _vm._self._c || _h;
-  return _c("i-article", [_c("article", [_c("h1", [_vm._v("安装")]), _vm._v(" "), _c("inAnchor", { attrs: { title: "CDN 引入", h2: "" } }), _vm._v(" "), _c("p", [_vm._v("通过 "), _c("a", { attrs: { href: "https://unpkg.com/iview/", target: "_blank" } }, [_vm._v("unpkg.com/iview")]), _vm._v(" 可以看到 iView 最新版本的资源，也可以切换版本选择需要的资源，在页面上引入 js 和 css 文件即可开始使用：")]), _vm._v(" "), _c("i-code", { attrs: { lang: "html", bg: "" } }, [_vm._v(_vm._s(_vm.code.install.cdn))]), _vm._v(" "), _c("inAnchor", { attrs: { title: "示例", h3: "" } }), _vm._v(" "), _c("p", [_vm._v("通过 CDN 可以快速使用 iView 写出一个示例，您可以复制下面代码或"), _c("a", {
-    attrs: {
-      href: "http://output.jsbin.com/libihed",
-      target: "_blank"
+  return _c("i-article", [_c("article", [_c("h1", [_vm._v("Button 按钮")]), _vm._v(" "), _c("p", [_vm._v("基础组件，触发业务逻辑时使用。")]), _vm._v(" "), _c("Alert", { staticStyle: { "margin-top": "16px" }, attrs: { "show-icon": "" } }, [_vm._v("注意：非 template/render 模式下，需使用 "), _c("code", [_vm._v("i-button")]), _vm._v("。")]), _vm._v(" "), _c("inAnchor", { attrs: { title: "代码示例", h2: "" } }), _vm._v(" "), _c("Demo", { attrs: { title: "按钮类型" } }, [_c("div", { attrs: { slot: "demo" }, slot: "demo" }, [_c("Button", [_vm._v("Default")]), _vm._v(" "), _c("Button", { attrs: { type: "primary" } }, [_vm._v("Primary")]), _vm._v(" "), _c("Button", { attrs: { type: "dashed" } }, [_vm._v("Dashed")]), _vm._v(" "), _c("Button", { attrs: { type: "text" } }, [_vm._v("Text")]), _vm._v(" "), _c("br"), _c("br"), _vm._v(" "), _c("Button", { attrs: { type: "info" } }, [_vm._v("Info")]), _vm._v(" "), _c("Button", { attrs: { type: "success" } }, [_vm._v("Success")]), _vm._v(" "), _c("Button", { attrs: { type: "warning" } }, [_vm._v("Warning")]), _vm._v(" "), _c("Button", { attrs: { type: "error" } }, [_vm._v("Error")])], 1), _vm._v(" "), _c("div", { attrs: { slot: "desc" }, slot: "desc" }, [_c("p", [_vm._v("按钮类型有：默认按钮、主按钮、虚线按钮、文字按钮以及四种颜色按钮。")]), _vm._v(" "), _c("p", [_vm._v("通过设置"), _c("code", [_vm._v("type")]), _vm._v("为"), _c("code", [_vm._v("primary")]), _vm._v("、"), _c("code", [_vm._v("dashed")]), _vm._v("、"), _c("code", [_vm._v("text")]), _vm._v("、"), _c("code", [_vm._v("info")]), _vm._v("、"), _c("code", [_vm._v("success")]), _vm._v("、"), _c("code", [_vm._v("warning")]), _vm._v("、"), _c("code", [_vm._v("error")]), _vm._v("创建不同样式的按钮，不设置为默认样式。")])]), _vm._v(" "), _c("i-code", { attrs: { slot: "code", lang: "html" }, slot: "code" }, [_vm._v(_vm._s(_vm.code.type))])], 1), _vm._v(" "), _c("Demo", { attrs: { title: "幽灵按钮" } }, [_c("div", { attrs: { slot: "demo" }, slot: "demo" }, [_c("div", {
+    staticStyle: {
+      padding: "20px",
+      background: "rgb(190, 200, 200)"
     }
-  }, [_vm._v("在线预览")]), _vm._v("。")]), _vm._v(" "), _c("i-code", { attrs: { lang: "auto", bg: "" } }, [_vm._v(_vm._s(_vm.code.install.demo))]), _vm._v(" "), _c("inAnchor", { attrs: { title: "NPM 安装", h2: "" } }), _vm._v(" "), _c("p", [_vm._v("推荐使用 npm 来安装，享受生态圈和工具带来的便利，更好地和 webpack 配合使用，当然，我们也推荐使用 ES2015。")]), _vm._v(" "), _c("i-code", { attrs: { lang: "auto", bg: "" } }, [_vm._v(_vm._s(_vm.code.install.install))]), _vm._v(" "), _c("p", [_vm._v("如果您使用了 NPM 安装，并使用 webpack 作为构建工具，请继续阅读"), _c("router-link", { attrs: { to: "/mhc-iView-doc/guide/start" } }, [_vm._v("快速上手")]), _vm._v("章节。")], 1)], 1)]);
+  }, [_c("Button", { attrs: { type: "default", ghost: "" } }, [_vm._v("Default")]), _vm._v(" "), _c("Button", { attrs: { type: "primary", ghost: "" } }, [_vm._v("Primary")]), _vm._v(" "), _c("Button", { attrs: { type: "dashed", ghost: "" } }, [_vm._v("Dashed")]), _vm._v(" "), _c("Button", { attrs: { type: "text", ghost: "" } }, [_vm._v("Text")]), _vm._v(" "), _c("br"), _c("br"), _vm._v(" "), _c("Button", { attrs: { type: "info", ghost: "" } }, [_vm._v("Info")]), _vm._v(" "), _c("Button", { attrs: { type: "success", ghost: "" } }, [_vm._v("Success")]), _vm._v(" "), _c("Button", { attrs: { type: "warning", ghost: "" } }, [_vm._v("Warning")]), _vm._v(" "), _c("Button", { attrs: { type: "error", ghost: "" } }, [_vm._v("Error")])], 1)]), _vm._v(" "), _c("div", { attrs: { slot: "desc" }, slot: "desc" }, [_c("p", [_vm._v("幽灵按钮将其他按钮的内容反色，背景变为透明，常用在有色背景上。")])]), _vm._v(" "), _c("i-code", { attrs: { slot: "code", lang: "html" }, slot: "code" }, [_vm._v(_vm._s(_vm.code.ghost))])], 1), _vm._v(" "), _c("Demo", { attrs: { title: "图标按钮及按钮形状" } }, [_c("div", { attrs: { slot: "demo" }, slot: "demo" }, [_c("Button", {
+    attrs: {
+      type: "primary",
+      shape: "circle",
+      icon: "ios-search"
+    }
+  }), _vm._v(" "), _c("Button", { attrs: { type: "primary", icon: "ios-search" } }, [_vm._v("Search")]), _vm._v(" "), _c("Button", {
+    attrs: {
+      type: "primary",
+      shape: "circle",
+      icon: "ios-search"
+    }
+  }, [_vm._v("Search")]), _vm._v(" "), _c("Button", { attrs: { type: "primary", shape: "circle" } }, [_vm._v("Circle")]), _vm._v(" "), _c("br"), _c("br"), _vm._v(" "), _c("Button", {
+    attrs: { shape: "circle", icon: "ios-search" }
+  }), _vm._v(" "), _c("Button", { attrs: { icon: "ios-search" } }, [_vm._v("Search")]), _vm._v(" "), _c("Button", { attrs: { shape: "circle", icon: "ios-search" } }, [_vm._v("Search")]), _vm._v(" "), _c("Button", { attrs: { shape: "circle" } }, [_vm._v("Circle")])], 1), _vm._v(" "), _c("div", { attrs: { slot: "desc" }, slot: "desc" }, [_c("p", [_vm._v("通过设置"), _c("code", [_vm._v("icon")]), _vm._v("属性在"), _c("code", [_vm._v("Button")]), _vm._v("内嵌入一个"), _c("code", [_vm._v("Icon")]), _vm._v("，或者直接在"), _c("code", [_vm._v("Button")]), _vm._v("内使用"), _c("code", [_vm._v("Icon")]), _vm._v("组件。")]), _vm._v(" "), _c("p", [_vm._v("使用"), _c("code", [_vm._v("Button")]), _vm._v("的"), _c("code", [_vm._v("icon")]), _vm._v("属性，图标位置将在最左边，如果需要自定义位置，需使用"), _c("code", [_vm._v("Icon")]), _vm._v("组件。")]), _vm._v(" "), _c("p", [_vm._v("通过设置"), _c("code", [_vm._v("shape")]), _vm._v("属性为"), _c("code", [_vm._v("circle")]), _vm._v("，可将按钮置为圆的形状。")])]), _vm._v(" "), _c("i-code", { attrs: { slot: "code", lang: "html" }, slot: "code" }, [_vm._v(_vm._s(_vm.code.icon))])], 1), _vm._v(" "), _c("Demo", { attrs: { title: "按钮尺寸" } }, [_c("div", { attrs: { slot: "demo" }, slot: "demo" }, [_c("RadioGroup", {
+    attrs: { type: "button" },
+    model: {
+      value: _vm.buttonSize,
+      callback: function callback($$v) {
+        _vm.buttonSize = $$v;
+      },
+      expression: "buttonSize"
+    }
+  }, [_c("Radio", { attrs: { label: "large" } }, [_vm._v("Large")]), _vm._v(" "), _c("Radio", { attrs: { label: "default" } }, [_vm._v("Default")]), _vm._v(" "), _c("Radio", { attrs: { label: "small" } }, [_vm._v("small")])], 1), _vm._v(" "), _c("br"), _c("br"), _vm._v(" "), _c("Button", { attrs: { size: _vm.buttonSize, type: "primary" } }, [_vm._v("Primary")]), _vm._v(" "), _c("Button", { attrs: { size: _vm.buttonSize, type: "default" } }, [_vm._v("Default")]), _vm._v(" "), _c("Button", { attrs: { size: _vm.buttonSize, type: "dashed" } }, [_vm._v("Dashed")]), _vm._v(" "), _c("Button", { attrs: { size: _vm.buttonSize, type: "text" } }, [_vm._v("Text")]), _vm._v(" "), _c("br"), _c("br"), _vm._v(" "), _c("Button", {
+    attrs: {
+      size: _vm.buttonSize,
+      icon: "ios-download-outline",
+      type: "primary",
+      shape: "circle"
+    }
+  }), _vm._v(" "), _c("Button", {
+    attrs: {
+      size: _vm.buttonSize,
+      icon: "ios-download-outline",
+      type: "primary"
+    }
+  }, [_vm._v("Download")]), _vm._v(" "), _c("br"), _c("br"), _vm._v(" "), _c("ButtonGroup", { attrs: { size: _vm.buttonSize } }, [_c("Button", { attrs: { size: _vm.buttonSize, type: "primary" } }, [_c("Icon", { attrs: { type: "ios-arrow-back" } }), _vm._v("\n                        Backward\n                    ")], 1), _vm._v(" "), _c("Button", { attrs: { size: _vm.buttonSize, type: "primary" } }, [_vm._v("\n                        Forward\n                        "), _c("Icon", { attrs: { type: "ios-arrow-forward" } })], 1)], 1)], 1), _vm._v(" "), _c("div", { attrs: { slot: "desc" }, slot: "desc" }, [_c("p", [_vm._v("按钮有三种尺寸：大、默认（中）、小")]), _vm._v(" "), _c("p", [_vm._v("通过设置"), _c("code", [_vm._v("size")]), _vm._v("为"), _c("code", [_vm._v("large")]), _vm._v("和"), _c("code", [_vm._v("small")]), _vm._v("将按钮设置为大和小尺寸，不设置为默认（中）尺寸。")])]), _vm._v(" "), _c("i-code", { attrs: { slot: "code", lang: "html" }, slot: "code" }, [_vm._v(_vm._s(_vm.code.size))])], 1), _vm._v(" "), _c("Demo", { attrs: { title: "长按钮" } }, [_c("div", { attrs: { slot: "demo" }, slot: "demo" }, [_c("Button", { attrs: { type: "success", long: "" } }, [_vm._v("SUBMIT")]), _vm._v(" "), _c("br"), _c("br"), _vm._v(" "), _c("Button", { attrs: { type: "error", long: "" } }, [_vm._v("DELETE")])], 1), _vm._v(" "), _c("div", { attrs: { slot: "desc" }, slot: "desc" }, [_c("p", [_vm._v("通过设置属性 "), _c("code", [_vm._v("long")]), _vm._v(" 可将按钮宽度设置为 100%，常用于弹窗内操作按钮。")]), _vm._v(" "), _c("p", [_vm._v("使用者也可以直接通过给组件添加 "), _c("code", [_vm._v("style")]), _vm._v(" 来设置更细节的样式，比如定宽。")])]), _vm._v(" "), _c("i-code", { attrs: { slot: "code", lang: "html" }, slot: "code" }, [_vm._v(_vm._s(_vm.code.long))])], 1), _vm._v(" "), _c("Demo", { attrs: { title: "不可用状态" } }, [_c("div", { attrs: { slot: "demo" }, slot: "demo" }, [_c("Button", [_vm._v("Default")]), _vm._v(" "), _c("Button", { attrs: { disabled: "" } }, [_vm._v("Default(Disabled)")]), _vm._v(" "), _c("br"), _c("br"), _vm._v(" "), _c("Button", { attrs: { type: "primary" } }, [_vm._v("Primary")]), _vm._v(" "), _c("Button", { attrs: { type: "primary", disabled: "" } }, [_vm._v("Primary(Disabled)")]), _vm._v(" "), _c("br"), _c("br"), _vm._v(" "), _c("Button", { attrs: { type: "dashed" } }, [_vm._v("Dashed")]), _vm._v(" "), _c("Button", { attrs: { type: "dashed", disabled: "" } }, [_vm._v("Dashed(Disabled)")]), _vm._v(" "), _c("br"), _c("br"), _vm._v(" "), _c("Button", { attrs: { type: "text" } }, [_vm._v("Text")]), _vm._v(" "), _c("Button", { attrs: { type: "text", disabled: "" } }, [_vm._v("Text(Disabled)")])], 1), _vm._v(" "), _c("div", { attrs: { slot: "desc" }, slot: "desc" }, [_c("p", [_vm._v("通过添加"), _c("code", [_vm._v("disabled")]), _vm._v("属性可将按钮设置为不可用状态。")])]), _vm._v(" "), _c("i-code", { attrs: { slot: "code", lang: "html" }, slot: "code" }, [_vm._v(_vm._s(_vm.code.disabled))])], 1), _vm._v(" "), _c("Demo", { attrs: { title: "加载中状态" } }, [_c("div", { attrs: { slot: "demo" }, slot: "demo" }, [_c("Button", { attrs: { type: "primary", loading: "" } }, [_vm._v("Loading...")]), _vm._v(" "), _c("Button", {
+    attrs: { type: "primary", loading: _vm.loading },
+    on: { click: _vm.toLoading }
+  }, [!_vm.loading ? _c("span", [_vm._v("Click me!")]) : _c("span", [_vm._v("Loading...")])]), _vm._v(" "), _c("Button", {
+    attrs: {
+      type: "primary",
+      loading: _vm.loading2,
+      icon: "ios-power"
+    },
+    on: { click: _vm.toLoading2 }
+  }, [!_vm.loading2 ? _c("span", [_vm._v("Click me!")]) : _c("span", [_vm._v("Loading...")])]), _vm._v(" "), _c("Button", { attrs: { loading: "", shape: "circle" } }), _vm._v(" "), _c("Button", {
+    attrs: { loading: "", shape: "circle", type: "primary" }
+  })], 1), _vm._v(" "), _c("div", { attrs: { slot: "desc" }, slot: "desc" }, [_c("p", [_vm._v("通过添加"), _c("code", [_vm._v("loading")]), _vm._v("属性可以让按钮处于加载中状态，后两个按钮在点击时进入加载状态。")])]), _vm._v(" "), _c("i-code", { attrs: { slot: "code", lang: "html" }, slot: "code" }, [_vm._v(_vm._s(_vm.code.loading))])], 1), _vm._v(" "), _c("Demo", { attrs: { title: "按钮组合" } }, [_c("div", { attrs: { slot: "demo" }, slot: "demo" }, [_c("h4", [_vm._v("Basic")]), _vm._v(" "), _c("br"), _c("br"), _vm._v(" "), _c("ButtonGroup", [_c("Button", [_vm._v("Cancel")]), _vm._v(" "), _c("Button", { attrs: { type: "primary" } }, [_vm._v("Confirm")])], 1), _vm._v(" "), _c("ButtonGroup", [_c("Button", { attrs: { disabled: "" } }, [_vm._v("Yesterday")]), _vm._v(" "), _c("Button", { attrs: { disabled: "" } }, [_vm._v("Today")]), _vm._v(" "), _c("Button", { attrs: { disabled: "" } }, [_vm._v("Tomorrow")])], 1), _vm._v(" "), _c("ButtonGroup", [_c("Button", { attrs: { type: "primary" } }, [_vm._v("L")]), _vm._v(" "), _c("Button", [_vm._v("M")]), _vm._v(" "), _c("Button", [_vm._v("M")]), _vm._v(" "), _c("Button", { attrs: { type: "dashed" } }, [_vm._v("R")])], 1), _vm._v(" "), _c("br"), _c("br"), _vm._v(" "), _c("h4", [_vm._v("Icons")]), _vm._v(" "), _c("br"), _c("br"), _vm._v(" "), _c("ButtonGroup", [_c("Button", { attrs: { type: "primary" } }, [_c("Icon", { attrs: { type: "ios-arrow-back" } }), _vm._v("\n                        Backward\n                    ")], 1), _vm._v(" "), _c("Button", { attrs: { type: "primary" } }, [_vm._v("\n                        Forward\n                        "), _c("Icon", { attrs: { type: "ios-arrow-forward" } })], 1)], 1), _vm._v(" "), _c("ButtonGroup", [_c("Button", {
+    attrs: { type: "primary", icon: "ios-skip-backward" }
+  }), _vm._v(" "), _c("Button", {
+    attrs: { type: "primary", icon: "ios-skip-forward" }
+  })], 1), _vm._v(" "), _c("ButtonGroup", [_c("Button", { attrs: { icon: "ios-color-wand-outline" } }), _vm._v(" "), _c("Button", { attrs: { icon: "ios-sunny-outline" } }), _vm._v(" "), _c("Button", { attrs: { icon: "ios-crop" } }), _vm._v(" "), _c("Button", {
+    attrs: { icon: "ios-color-filter-outline" }
+  })], 1), _vm._v(" "), _c("br"), _c("br"), _vm._v(" "), _c("h4", [_vm._v("Circle")]), _vm._v(" "), _c("br"), _c("br"), _vm._v(" "), _c("ButtonGroup", { attrs: { shape: "circle" } }, [_c("Button", { attrs: { type: "primary" } }, [_c("Icon", { attrs: { type: "ios-arrow-back" } }), _vm._v("\n                        Backward\n                    ")], 1), _vm._v(" "), _c("Button", { attrs: { type: "primary" } }, [_vm._v("\n                        Forward\n                        "), _c("Icon", { attrs: { type: "ios-arrow-forward" } })], 1)], 1), _vm._v(" "), _c("ButtonGroup", { attrs: { shape: "circle" } }, [_c("Button", {
+    attrs: { type: "primary", icon: "ios-skip-backward" }
+  }), _vm._v(" "), _c("Button", {
+    attrs: { type: "primary", icon: "ios-skip-forward" }
+  })], 1), _vm._v(" "), _c("ButtonGroup", { attrs: { shape: "circle" } }, [_c("Button", { attrs: { icon: "ios-color-wand-outline" } }), _vm._v(" "), _c("Button", { attrs: { icon: "ios-sunny-outline" } }), _vm._v(" "), _c("Button", { attrs: { icon: "ios-crop" } }), _vm._v(" "), _c("Button", {
+    attrs: { icon: "ios-color-filter-outline" }
+  })], 1), _vm._v(" "), _c("br"), _c("br"), _vm._v(" "), _c("h4", [_vm._v("Size")]), _vm._v(" "), _c("br"), _c("br"), _vm._v(" "), _c("ButtonGroup", { attrs: { size: "large" } }, [_c("Button", [_vm._v("Large")]), _vm._v(" "), _c("Button", [_vm._v("Large")])], 1), _vm._v(" "), _c("ButtonGroup", [_c("Button", [_vm._v("Default")]), _vm._v(" "), _c("Button", [_vm._v("Default")])], 1), _vm._v(" "), _c("ButtonGroup", { attrs: { size: "small" } }, [_c("Button", [_vm._v("Small")]), _vm._v(" "), _c("Button", [_vm._v("Small")])], 1), _vm._v(" "), _c("br"), _c("br"), _vm._v(" "), _c("ButtonGroup", { attrs: { size: "large", shape: "circle" } }, [_c("Button", [_vm._v("Large")]), _vm._v(" "), _c("Button", [_vm._v("Large")])], 1), _vm._v(" "), _c("ButtonGroup", { attrs: { shape: "circle" } }, [_c("Button", [_vm._v("Default")]), _vm._v(" "), _c("Button", [_vm._v("Default")])], 1), _vm._v(" "), _c("ButtonGroup", { attrs: { size: "small", shape: "circle" } }, [_c("Button", [_vm._v("Small")]), _vm._v(" "), _c("Button", [_vm._v("Small")])], 1)], 1), _vm._v(" "), _c("div", { attrs: { slot: "desc" }, slot: "desc" }, [_c("p", [_vm._v("将多个"), _c("code", [_vm._v("Button")]), _vm._v("放入"), _c("code", [_vm._v("ButtonGroup")]), _vm._v("内，可实现按钮组合的效果。")]), _vm._v(" "), _c("p", [_vm._v("通过设置"), _c("code", [_vm._v("ButtonGroup")]), _vm._v("的属性"), _c("code", [_vm._v("size")]), _vm._v("为"), _c("code", [_vm._v("large")]), _vm._v("和"), _c("code", [_vm._v("small")]), _vm._v("，可将按钮组尺寸设置为大和小，不设置"), _c("code", [_vm._v("size")]), _vm._v("，则为默认（中）尺寸。")]), _vm._v(" "), _c("p", [_vm._v("通过设置"), _c("code", [_vm._v("ButtonGroup")]), _vm._v("的属性"), _c("code", [_vm._v("shape")]), _vm._v("为"), _c("code", [_vm._v("circle")]), _vm._v("，可将按钮组形状设置为圆角。")])]), _vm._v(" "), _c("i-code", { attrs: { slot: "code", lang: "html" }, slot: "code" }, [_vm._v(_vm._s(_vm.code.group))])], 1), _vm._v(" "), _c("Demo", { attrs: { title: "按钮组纵向排列" } }, [_c("div", { attrs: { slot: "demo" }, slot: "demo" }, [_c("ButtonGroup", { attrs: { vertical: "" } }, [_c("Button", { attrs: { icon: "logo-facebook" } }), _vm._v(" "), _c("Button", { attrs: { icon: "logo-twitter" } }), _vm._v(" "), _c("Button", { attrs: { icon: "logo-googleplus" } }), _vm._v(" "), _c("Button", { attrs: { icon: "logo-tumblr" } })], 1)], 1), _vm._v(" "), _c("div", { attrs: { slot: "desc" }, slot: "desc" }, [_c("p", [_vm._v("通过设置"), _c("code", [_vm._v("ButtonGroup")]), _vm._v("的属性"), _c("code", [_vm._v("vertical")]), _vm._v("，可以使按钮组纵向排列。")])]), _vm._v(" "), _c("i-code", { attrs: { slot: "code", lang: "html" }, slot: "code" }, [_vm._v(_vm._s(_vm.code.vertical))])], 1), _vm._v(" "), _c("Demo", { attrs: { title: "跳转" } }, [_c("div", { attrs: { slot: "demo" }, slot: "demo" }, [_c("Button", { attrs: { to: "/components/icon" } }, [_vm._v("普通跳转")]), _vm._v(" "), _c("Button", { attrs: { to: "/components/icon", replace: "" } }, [_vm._v("不保存历史的跳转")]), _vm._v(" "), _c("Button", { attrs: { to: "//iviewui.com", target: "_blank" } }, [_vm._v("新窗口打开")])], 1), _vm._v(" "), _c("div", { attrs: { slot: "desc" }, slot: "desc" }, [_c("p", [_vm._v("通过设置 "), _c("code", [_vm._v("to")]), _vm._v(" 可以实现点击按钮直接跳转，支持传入 vue-router 对象。")]), _vm._v(" "), _c("p", [_vm._v("设置 "), _c("code", [_vm._v("replace")]), _vm._v(" 则不会保存历史记录。")]), _vm._v(" "), _c("p", [_vm._v("设置 "), _c("code", [_vm._v("target")]), _vm._v("，会跟 a 标签一样的行为。")])]), _vm._v(" "), _c("i-code", { attrs: { slot: "code", lang: "html" }, slot: "code" }, [_vm._v(_vm._s(_vm.code.link))])], 1), _vm._v(" "), _c("div", { staticClass: "api" }, [_c("inAnchor", { attrs: { title: "API", h2: "" } }), _vm._v(" "), _c("inAnchor", { attrs: { title: "Button props", h3: "" } }), _vm._v(" "), _c("table", [_c("thead", [_c("tr", [_c("th", [_vm._v("属性")]), _vm._v(" "), _c("th", [_vm._v("说明")]), _vm._v(" "), _c("th", [_vm._v("类型")]), _vm._v(" "), _c("th", [_vm._v("默认值")])])]), _vm._v(" "), _c("tbody", [_c("tr", [_c("td", [_vm._v("type")]), _vm._v(" "), _c("td", [_vm._v("按钮类型，可选值为 "), _c("code", [_vm._v("default")]), _vm._v("、"), _c("code", [_vm._v("primary")]), _vm._v("、"), _c("code", [_vm._v("dashed")]), _vm._v("、"), _c("code", [_vm._v("text")]), _vm._v("、"), _c("code", [_vm._v("info")]), _vm._v("、"), _c("code", [_vm._v("success")]), _vm._v("、"), _c("code", [_vm._v("warning")]), _vm._v("、"), _c("code", [_vm._v("error")]), _vm._v("或者不设置")]), _vm._v(" "), _c("td", [_vm._v("String")]), _vm._v(" "), _c("td", [_vm._v("default")])]), _vm._v(" "), _c("tr", [_c("td", [_vm._v("ghost")]), _vm._v(" "), _c("td", [_vm._v("幽灵属性，使按钮背景透明")]), _vm._v(" "), _c("td", [_vm._v("Boolean")]), _vm._v(" "), _c("td", [_vm._v("false")])]), _vm._v(" "), _c("tr", [_c("td", [_vm._v("size")]), _vm._v(" "), _c("td", [_vm._v("按钮大小，可选值为"), _c("code", [_vm._v("large")]), _vm._v("、"), _c("code", [_vm._v("small")]), _vm._v("、"), _c("code", [_vm._v("default")]), _vm._v("或者不设置")]), _vm._v(" "), _c("td", [_vm._v("String")]), _vm._v(" "), _c("td", [_vm._v("default")])]), _vm._v(" "), _c("tr", [_c("td", [_vm._v("shape")]), _vm._v(" "), _c("td", [_vm._v("按钮形状，可选值为"), _c("code", [_vm._v("circle")]), _vm._v("或者不设置")]), _vm._v(" "), _c("td", [_vm._v("String")]), _vm._v(" "), _c("td", [_vm._v("-")])]), _vm._v(" "), _c("tr", [_c("td", [_vm._v("long")]), _vm._v(" "), _c("td", [_vm._v("开启后，按钮的长度为 100%")]), _vm._v(" "), _c("td", [_vm._v("Boolean")]), _vm._v(" "), _c("td", [_vm._v("false")])]), _vm._v(" "), _c("tr", [_c("td", [_vm._v("html-type")]), _vm._v(" "), _c("td", [_vm._v("设置"), _c("code", [_vm._v("button")]), _vm._v("原生的"), _c("code", [_vm._v("type")]), _vm._v("，可选值为"), _c("code", [_vm._v("button")]), _vm._v("、"), _c("code", [_vm._v("submit")]), _vm._v("、"), _c("code", [_vm._v("reset")])]), _vm._v(" "), _c("td", [_vm._v("String")]), _vm._v(" "), _c("td", [_vm._v("button")])]), _vm._v(" "), _c("tr", [_c("td", [_vm._v("disabled")]), _vm._v(" "), _c("td", [_vm._v("设置按钮为禁用状态")]), _vm._v(" "), _c("td", [_vm._v("Boolean")]), _vm._v(" "), _c("td", [_vm._v("false")])]), _vm._v(" "), _c("tr", [_c("td", [_vm._v("loading")]), _vm._v(" "), _c("td", [_vm._v("设置按钮为加载中状态")]), _vm._v(" "), _c("td", [_vm._v("Boolean")]), _vm._v(" "), _c("td", [_vm._v("false")])]), _vm._v(" "), _c("tr", [_c("td", [_vm._v("icon")]), _vm._v(" "), _c("td", [_vm._v("设置按钮的图标类型")]), _vm._v(" "), _c("td", [_vm._v("String")]), _vm._v(" "), _c("td", [_vm._v("-")])]), _vm._v(" "), _c("tr", [_c("td", [_vm._v("custom-icon")]), _vm._v(" "), _c("td", [_vm._v("设置按钮的自定义图标")]), _vm._v(" "), _c("td", [_vm._v("String")]), _vm._v(" "), _c("td", [_vm._v("-")])]), _vm._v(" "), _c("tr", [_c("td", [_vm._v("to")]), _vm._v(" "), _c("td", [_vm._v("跳转的链接，支持 vue-router 对象")]), _vm._v(" "), _c("td", [_vm._v("String | Object")]), _vm._v(" "), _c("td", [_vm._v("-")])]), _vm._v(" "), _c("tr", [_c("td", [_vm._v("replace")]), _vm._v(" "), _c("td", [_vm._v("路由跳转时，开启 replace 将不会向 history 添加新记录")]), _vm._v(" "), _c("td", [_vm._v("Boolean")]), _vm._v(" "), _c("td", [_vm._v("false")])]), _vm._v(" "), _c("tr", [_c("td", [_vm._v("target")]), _vm._v(" "), _c("td", [_vm._v("相当于 a 链接的 target 属性")]), _vm._v(" "), _c("td", [_vm._v("String")]), _vm._v(" "), _c("td", [_vm._v("_self")])])])]), _vm._v(" "), _c("inAnchor", { attrs: { title: "ButtonGroup props", h3: "" } }), _vm._v(" "), _c("table", [_c("thead", [_c("tr", [_c("th", [_vm._v("属性")]), _vm._v(" "), _c("th", [_vm._v("说明")]), _vm._v(" "), _c("th", [_vm._v("类型")]), _vm._v(" "), _c("th", [_vm._v("默认值")])])]), _vm._v(" "), _c("tbody", [_c("tr", [_c("td", [_vm._v("size")]), _vm._v(" "), _c("td", [_vm._v("按钮组合大小，可选值为"), _c("code", [_vm._v("large")]), _vm._v("、"), _c("code", [_vm._v("small")]), _vm._v("、"), _c("code", [_vm._v("default")]), _vm._v("或者不设置")]), _vm._v(" "), _c("td", [_vm._v("String")]), _vm._v(" "), _c("td", [_vm._v("default")])]), _vm._v(" "), _c("tr", [_c("td", [_vm._v("shape")]), _vm._v(" "), _c("td", [_vm._v("按钮组合形状，可选值为"), _c("code", [_vm._v("circle")]), _vm._v("或者不设置")]), _vm._v(" "), _c("td", [_vm._v("String")]), _vm._v(" "), _c("td", [_vm._v("-")])]), _vm._v(" "), _c("tr", [_c("td", [_vm._v("vertical")]), _vm._v(" "), _c("td", [_vm._v("是否纵向排列按钮组")]), _vm._v(" "), _c("td", [_vm._v("Boolean")]), _vm._v(" "), _c("td", [_vm._v("false")])])])])], 1)], 1)]);
 };
 var staticRenderFns = [];
 render._withStripped = true;
@@ -2305,11 +2555,45 @@ exports.default = esExports;
 if (false) {
   module.hot.accept();
   if (module.hot.data) {
-    require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-2ce1e5de", esExports);
+    require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-064c47be", esExports);
   }
 }
+
+/***/ }),
+
+/***/ 554:
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+var code = {};
+
+code.type = "\n<template>\n    <Button>Default</Button>\n    <Button type=\"primary\">Primary</Button>\n    <Button type=\"dashed\">Dashed</Button>\n    <Button type=\"text\">Text</Button>\n    <br><br>\n    <Button type=\"info\">Info</Button>\n    <Button type=\"success\">Success</Button>\n    <Button type=\"warning\">Warning</Button>\n    <Button type=\"error\">Error</Button>\n</template>\n<script>\n    export default {\n        \n    }\n</script>\n";
+
+code.icon = "\n<template>\n    <Button type=\"primary\" shape=\"circle\" icon=\"ios-search\"></Button>\n    <Button type=\"primary\" icon=\"ios-search\">Search</Button>\n    <Button type=\"primary\" shape=\"circle\" icon=\"ios-search\">Search</Button>\n    <Button type=\"primary\" shape=\"circle\">Circle</Button>\n    <br><br>\n    <Button shape=\"circle\" icon=\"ios-search\"></Button>\n    <Button icon=\"ios-search\">Search</Button>\n    <Button shape=\"circle\" icon=\"ios-search\">Search</Button>\n    <Button shape=\"circle\">Circle</Button>\n</template>\n<script>\n    export default {\n        \n    }\n</script>\n";
+
+code.size = "\n<template>\n    <div>\n        <RadioGroup v-model=\"buttonSize\" type=\"button\">\n            <Radio label=\"large\">Large</Radio>\n            <Radio label=\"default\">Default</Radio>\n            <Radio label=\"small\">small</Radio>\n        </RadioGroup>\n        <br><br>\n        <Button :size=\"buttonSize\" type=\"primary\">Primary</Button>\n        <Button :size=\"buttonSize\" type=\"default\">Default</Button>\n        <Button :size=\"buttonSize\" type=\"dashed\">Dashed</Button>\n        <Button :size=\"buttonSize\" type=\"text\">Text</Button>\n        <br><br>\n        <Button :size=\"buttonSize\" icon=\"ios-download-outline\" type=\"primary\" shape=\"circle\"></Button>\n        <Button :size=\"buttonSize\" icon=\"ios-download-outline\" type=\"primary\">Download</Button>\n        <br><br>\n        <ButtonGroup :size=\"buttonSize\">\n            <Button :size=\"buttonSize\" type=\"primary\">\n                <Icon type=\"ios-arrow-back\" />\n                Backward\n            </Button>\n            <Button :size=\"buttonSize\" type=\"primary\">\n                Forward\n                <Icon type=\"ios-arrow-forward\" />\n            </Button>\n        </ButtonGroup>\n    </div>\n</template>\n<script>\n    export default {\n        data () {\n            return {\n                buttonSize: 'large'\n            }\n        },\n    }\n</script>\n";
+
+code.long = "\n<template>\n    <Button type=\"success\" long>SUBMIT</Button>\n    <br><br>\n    <Button type=\"error\" long>DELETE</Button>\n</template>\n<script>\n    export default {\n        \n    }\n</script>\n";
+
+code.disabled = "\n<template>\n    <Button>Default</Button>\n    <Button disabled>Default(Disabled)</Button>\n    <br>\n    <Button type=\"primary\">Primary</Button>\n    <Button type=\"primary\" disabled>Primary(Disabled)</Button>\n    <br>\n    <Button type=\"dashed\">Dashed</Button>\n    <Button type=\"dashed\" disabled>Dashed(Disabled)</Button>\n    <br>\n    <Button type=\"text\">Text</Button>\n    <Button type=\"text\" disabled>Text(Disabled)</Button>\n</template>\n<script>\n    export default {\n        \n    }\n</script>\n";
+
+code.loading = "\n<template>\n    <Button type=\"primary\" loading>Loading...</Button>\n    <Button type=\"primary\" :loading=\"loading\" @click=\"toLoading\">\n        <span v-if=\"!loading\">Click me!</span>\n        <span v-else>Loading...</span>\n    </Button>\n    <Button type=\"primary\" :loading=\"loading2\" icon=\"ios-power\" @click=\"toLoading2\">\n        <span v-if=\"!loading2\">Click me!</span>\n        <span v-else>Loading...</span>\n    </Button>\n    <Button loading shape=\"circle\"></Button>\n    <Button loading shape=\"circle\" type=\"primary\"></Button>\n</template>\n<script>\n    export default {\n        data () {\n            return {\n                loading: false,\n                loading2: false\n            }\n        },\n        methods: {\n            toLoading () {\n                this.loading = true;\n            },\n            toLoading2 () {\n                this.loading2 = true;\n            }\n        }\n    }\n</script>\n";
+code.group = "\n<template>\n    <h4>Basic</h4>\n    <br><br>\n    <ButtonGroup>\n        <Button>Cancel</Button>\n        <Button type=\"primary\">Confirm</Button>\n    </ButtonGroup>\n    <ButtonGroup>\n        <Button disabled>Yesterday</Button>\n        <Button disabled>Today</Button>\n        <Button disabled>Tomorrow</Button>\n    </ButtonGroup>\n    <ButtonGroup>\n        <Button type=\"primary\">L</Button>\n        <Button>M</Button>\n        <Button>M</Button>\n        <Button type=\"dashed\">R</Button>\n    </ButtonGroup>\n    <br><br>\n    <h4>Icons</h4>\n    <br><br>\n    <ButtonGroup>\n        <Button type=\"primary\">\n            <Icon type=\"ios-arrow-back\"></Icon>\n            Backward\n        </Button>\n        <Button type=\"primary\">\n            Forward\n            <Icon type=\"ios-arrow-forward\"></Icon>\n        </Button>\n    </ButtonGroup>\n    <ButtonGroup>\n        <Button type=\"primary\" icon=\"ios-skip-backward\"></Button>\n        <Button type=\"primary\" icon=\"ios-skip-forward\"></Button>\n    </ButtonGroup>\n    <ButtonGroup>\n        <Button icon=\"ios-color-wand-outline\"></Button>\n        <Button icon=\"ios-sunny-outline\"></Button>\n        <Button icon=\"ios-crop\"></Button>\n        <Button icon=\"ios-color-filter-outline\"></Button>\n    </ButtonGroup>\n    <br><br>\n    <h4>Circle</h4>\n    <br><br>\n    <ButtonGroup shape=\"circle\">\n        <Button type=\"primary\">\n            <Icon type=\"ios-arrow-back\"></Icon>\n            Backward\n        </Button>\n        <Button type=\"primary\">\n            Forward\n            <Icon type=\"ios-arrow-forward\"></Icon>\n        </Button>\n    </ButtonGroup>\n    <ButtonGroup shape=\"circle\">\n        <Button type=\"primary\" icon=\"ios-skip-backward\"></Button>\n        <Button type=\"primary\" icon=\"ios-skip-forward\"></Button>\n    </ButtonGroup>\n    <ButtonGroup shape=\"circle\">\n        <Button icon=\"ios-color-wand-outline\"></Button>\n        <Button icon=\"ios-sunny-outline\"></Button>\n        <Button icon=\"ios-crop\"></Button>\n        <Button icon=\"ios-color-filter-outline\"></Button>\n    </ButtonGroup>\n    <br><br>\n    <h4>Size</h4>\n    <br><br>\n    <ButtonGroup size=\"large\">\n        <Button>Large</Button>\n        <Button>Large</Button>\n    </ButtonGroup>\n    <ButtonGroup>\n        <Button>Default</Button>\n        <Button>Default</Button>\n    </ButtonGroup>\n    <ButtonGroup size=\"small\">\n        <Button>Small</Button>\n        <Button>Small</Button>\n    </ButtonGroup>\n    <br><br>\n    <ButtonGroup size=\"large\" shape=\"circle\">\n        <Button>Large</Button>\n        <Button>Large</Button>\n    </ButtonGroup>\n    <ButtonGroup shape=\"circle\">\n        <Button>Default</Button>\n        <Button>Default</Button>\n    </ButtonGroup>\n    <ButtonGroup size=\"small\" shape=\"circle\">\n        <Button>Small</Button>\n        <Button>Small</Button>\n    </ButtonGroup>\n</template>\n<script>\n    export default {\n        \n    }\n</script>\n";
+
+code.vertical = "\n<template>\n    <ButtonGroup vertical>\n        <Button icon=\"logo-facebook\"></Button>\n        <Button icon=\"logo-twitter\"></Button>\n        <Button icon=\"logo-googleplus\"></Button>\n        <Button icon=\"logo-tumblr\"></Button>\n    </ButtonGroup>\n</template>\n<script>\n    export default {\n        \n    }\n</script>\n";
+
+code.ghost = "\n<template>\n    <Button type=\"default\" ghost>Default</Button>\n    <Button type=\"primary\" ghost>Primary</Button>\n    <Button type=\"dashed\" ghost>Dashed</Button>\n    <Button type=\"text\" ghost>Text</Button>\n    <Button type=\"info\" ghost>Info</Button>\n    <Button type=\"success\" ghost>Success</Button>\n    <Button type=\"warning\" ghost>Warning</Button>\n    <Button type=\"error\" ghost>Error</Button>\n</template>\n<script>\n    export default {\n        \n    }\n</script>\n";
+
+code.link = "\n<template>\n    <Button to=\"/components/icon-en\">Normal</Button>\n    <Button to=\"/components/icon-en\" replace>No history</Button>\n    <Button to=\"//iviewui.com\" target=\"_blank\">New window</Button>\n</template>\n<script>\n    export default {\n        \n    }\n</script>\n";
+
+exports.default = code;
 
 /***/ })
 
 });
-//# sourceMappingURL=0.chunk.js.map
+//# sourceMappingURL=7.chunk.js.map

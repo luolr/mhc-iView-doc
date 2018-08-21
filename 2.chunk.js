@@ -1,20 +1,19 @@
 webpackJsonp([2],{
 
-/***/ 485:
+/***/ 486:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_icon_vue__ = __webpack_require__(536);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_icon_vue__ = __webpack_require__(539);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_icon_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_icon_vue__);
 /* harmony namespace reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_icon_vue__) if(["default","default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_icon_vue__[key]; }) }(__WEBPACK_IMPORT_KEY__));
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_394040b0_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_icon_vue__ = __webpack_require__(544);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_394040b0_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_icon_vue__ = __webpack_require__(550);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_394040b0_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_icon_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_394040b0_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_icon_vue__);
 var disposed = false
 function injectStyle (ssrContext) {
   if (disposed) return
-  __webpack_require__(555)
-  __webpack_require__(554)
+  __webpack_require__(564)
 }
 var normalizeComponent = __webpack_require__(197)
 /* script */
@@ -61,7 +60,7 @@ if (false) {(function () {
 
 /***/ }),
 
-/***/ 487:
+/***/ 489:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -89,27 +88,41 @@ var list = {
             title: 'Color 色彩',
             path: '/mhc-iView-doc/components/color',
             img: 'color.png',
-            icon: 'ios-color-fill-outline'
+            icon: 'android-color-palette'
         }, {
             title: 'Font 字体',
             path: '/mhc-iView-doc/components/font',
             img: 'font.png',
-            icon: 'ios-at-outline'
+            icon: 'at'
         }, {
             title: 'Button 按钮',
             path: '/mhc-iView-doc/components/button',
             img: 'button.png',
-            icon: 'logo-youtube'
+            icon: 'social-youtube-outline'
         }, {
             title: 'Icon 图标',
             path: '/mhc-iView-doc/components/icon',
             img: 'icon.png',
             icon: 'ios-heart-outline'
         }, {
+            title: 'Grid 栅格',
+            path: '/mhc-iView-doc/components/grid',
+            img: 'grid.png',
+            icon: 'ios-grid-view-outline'
+        }, {
+            title: 'Layout 布局',
+            path: '/mhc-iView-doc/components/layout',
+            img: 'layout-new.png',
+            icon: 'ios-browsers-outline'
+        }]
+    }, {
+        type: 'Components',
+        title: '组件',
+        list: [{
             title: 'Exception 异常页',
             path: '/mhc-iView-doc/components/exception',
             img: 'error.png',
-            icon: 'ios-heart-outline'
+            icon: 'alert-circled'
         }]
     }]
 };
@@ -118,7 +131,7 @@ exports.default = list;
 
 /***/ }),
 
-/***/ 488:
+/***/ 490:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -144,7 +157,7 @@ exports.default = {
 
 /***/ }),
 
-/***/ 489:
+/***/ 491:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -154,7 +167,7 @@ Object.defineProperty(exports, "__esModule", {
     value: true
 });
 
-var _pinyinUtil = __webpack_require__(496);
+var _pinyinUtil = __webpack_require__(498);
 
 var _pinyinUtil2 = _interopRequireDefault(_pinyinUtil);
 
@@ -180,7 +193,7 @@ exports.default = {
 
 /***/ }),
 
-/***/ 490:
+/***/ 492:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -207,7 +220,7 @@ exports.default = {
 
 /***/ }),
 
-/***/ 491:
+/***/ 493:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -217,15 +230,15 @@ Object.defineProperty(exports, "__esModule", {
     value: true
 });
 
-var _navigate = __webpack_require__(525);
+var _navigate = __webpack_require__(527);
 
 var _navigate2 = _interopRequireDefault(_navigate);
 
-var _navigate3 = __webpack_require__(487);
+var _navigate3 = __webpack_require__(489);
 
 var _navigate4 = _interopRequireDefault(_navigate3);
 
-var _menu = __webpack_require__(524);
+var _menu = __webpack_require__(526);
 
 var _menu2 = _interopRequireDefault(_menu);
 
@@ -338,7 +351,7 @@ exports.default = {
 
 /***/ }),
 
-/***/ 492:
+/***/ 494:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -360,7 +373,7 @@ var _clipboard = __webpack_require__(133);
 
 var _clipboard2 = _interopRequireDefault(_clipboard);
 
-var _tagMap = __webpack_require__(505);
+var _tagMap = __webpack_require__(507);
 
 var _tagMap2 = _interopRequireDefault(_tagMap);
 
@@ -502,7 +515,7 @@ exports.default = {
 
 /***/ }),
 
-/***/ 493:
+/***/ 495:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -512,11 +525,11 @@ Object.defineProperty(exports, "__esModule", {
     value: true
 });
 
-var _navigate = __webpack_require__(487);
+var _navigate = __webpack_require__(489);
 
 var _navigate2 = _interopRequireDefault(_navigate);
 
-var _config = __webpack_require__(495);
+var _config = __webpack_require__(497);
 
 var _config2 = _interopRequireDefault(_config);
 
@@ -524,7 +537,7 @@ var _bus = __webpack_require__(88);
 
 var _bus2 = _interopRequireDefault(_bus);
 
-var _applications = __webpack_require__(521);
+var _applications = __webpack_require__(523);
 
 var _applications2 = _interopRequireDefault(_applications);
 
@@ -626,7 +639,7 @@ exports.default = {
         },
         handleGoToGitHub: function handleGoToGitHub() {
             _hmt.push(['_trackEvent', 'menu-go-github', 'click']);
-            window.open('https://github.com/iview/iview');
+            window.open('https://github.com/luolr/mhc-iView-doc');
         },
         handleGoToTwitter: function handleGoToTwitter() {
             _hmt.push(['_trackEvent', 'menu-go-twitter', 'click']);
@@ -664,7 +677,7 @@ exports.default = {
 
 /***/ }),
 
-/***/ 494:
+/***/ 496:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -674,11 +687,11 @@ Object.defineProperty(exports, "__esModule", {
     value: true
 });
 
-var _navigate = __webpack_require__(487);
+var _navigate = __webpack_require__(489);
 
 var _navigate2 = _interopRequireDefault(_navigate);
 
-var _config = __webpack_require__(495);
+var _config = __webpack_require__(497);
 
 var _config2 = _interopRequireDefault(_config);
 
@@ -686,7 +699,7 @@ var _bus = __webpack_require__(88);
 
 var _bus2 = _interopRequireDefault(_bus);
 
-var _adSend = __webpack_require__(519);
+var _adSend = __webpack_require__(521);
 
 var _adSend2 = _interopRequireDefault(_adSend);
 
@@ -766,7 +779,7 @@ exports.default = {
 
 /***/ }),
 
-/***/ 495:
+/***/ 497:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -797,7 +810,7 @@ exports.default = config;
 
 /***/ }),
 
-/***/ 496:
+/***/ 498:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -811,7 +824,7 @@ var _typeof2 = __webpack_require__(89);
 
 var _typeof3 = _interopRequireDefault(_typeof2);
 
-var _pinyin_dict_firstletter = __webpack_require__(506);
+var _pinyin_dict_firstletter = __webpack_require__(508);
 
 var _pinyin_dict_firstletter2 = _interopRequireDefault(_pinyin_dict_firstletter);
 
@@ -1073,7 +1086,7 @@ exports.default = pinyinUtil;
 
 /***/ }),
 
-/***/ 497:
+/***/ 499:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1083,7 +1096,7 @@ Object.defineProperty(exports, "__esModule", {
     value: true
 });
 
-var _pinyinUtil = __webpack_require__(496);
+var _pinyinUtil = __webpack_require__(498);
 
 var _pinyinUtil2 = _interopRequireDefault(_pinyinUtil);
 
@@ -1197,7 +1210,7 @@ exports.default = {
 
 /***/ }),
 
-/***/ 498:
+/***/ 500:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1226,7 +1239,7 @@ if (false) {
 
 /***/ }),
 
-/***/ 499:
+/***/ 501:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1299,7 +1312,7 @@ var staticRenderFns = [function () {
   var _c = _vm._self._c || _h;
   return _c("div", { staticClass: "asd-main" }, [_c("img", {
     staticStyle: { "border-radius": "6px" },
-    attrs: { src: __webpack_require__(515) }
+    attrs: { src: __webpack_require__(517) }
   })]);
 }];
 render._withStripped = true;
@@ -1315,7 +1328,7 @@ if (false) {
 
 /***/ }),
 
-/***/ 500:
+/***/ 502:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1406,8 +1419,8 @@ var render = function render() {
       href: "https://segmentfault.com/t/iview",
       target: "_blank"
     }
-  }, [_vm._v("SegmentFault")])])])]), _vm._v(" "), _c("i-col", { attrs: { span: "5", offset: "2" } }, [_c("div", { staticClass: "footer-aside" }, [_c("div", { staticClass: "footer-logo" }, [_c("img", { attrs: { src: __webpack_require__(518) } })]), _vm._v(" "), _c("div", { staticClass: "footer-author" }, [_c("a", { attrs: { href: "https://www.talkingdata.com/" } }, [_c("img", {
-    attrs: { src: __webpack_require__(517) }
+  }, [_vm._v("SegmentFault")])])])]), _vm._v(" "), _c("i-col", { attrs: { span: "5", offset: "2" } }, [_c("div", { staticClass: "footer-aside" }, [_c("div", { staticClass: "footer-logo" }, [_c("img", { attrs: { src: __webpack_require__(520) } })]), _vm._v(" "), _c("div", { staticClass: "footer-author" }, [_c("a", { attrs: { href: "https://www.talkingdata.com/" } }, [_c("img", {
+    attrs: { src: __webpack_require__(519) }
   })])])])])], 1)], 1)])]);
 };
 var staticRenderFns = [];
@@ -1424,7 +1437,7 @@ if (false) {
 
 /***/ }),
 
-/***/ 501:
+/***/ 503:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1461,7 +1474,7 @@ if (false) {
 
 /***/ }),
 
-/***/ 502:
+/***/ 504:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1477,7 +1490,7 @@ var render = function render() {
   return _c("Menu", {
     attrs: { mode: "horizontal", "active-name": _vm.currentActiveKey },
     on: { "on-select": _vm.handleSelect }
-  }, [_c("div", { staticClass: "wrapper-header-nav" }, [_c("router-link", { staticClass: "wrapper-header-nav-logo", attrs: { to: "/" } }, [_c("img", { attrs: { src: __webpack_require__(516) } })]), _vm._v(" "), _c("ApplicationMenu"), _vm._v(" "), _c("div", { staticClass: "wrapper-header-nav-search" }, [_c("i-select", {
+  }, [_c("div", { staticClass: "wrapper-header-nav" }, [_c("router-link", { staticClass: "wrapper-header-nav-logo", attrs: { to: "/" } }, [_c("img", { attrs: { src: __webpack_require__(518) } })]), _vm._v(" "), _c("ApplicationMenu"), _vm._v(" "), _c("div", { staticClass: "wrapper-header-nav-search" }, [_c("i-select", {
     ref: "select",
     attrs: {
       filterable: "",
@@ -1500,6 +1513,13 @@ var render = function render() {
       to: _vm.handleGoToMenu("/mhc-iView-doc/guide/install")
     }
   }, [_c("Icon", { attrs: { type: "ios-keypad" } }), _vm._v("\n                " + _vm._s(_vm.$t("index.component")) + "\n            ")], 1), _vm._v(" "), _c("ButtonGroup", { attrs: { size: "small" } }, [_c("Button", {
+    attrs: {
+      type: "ghost",
+      size: "small",
+      icon: "social-github"
+    },
+    on: { click: _vm.handleGoToGitHub }
+  }), _vm._v(" "), _c("Button", {
     attrs: { icon: "ios-settings" },
     on: { click: _vm.handleToggleSetting }
   })], 1)], 1)], 1)]);
@@ -1518,7 +1538,7 @@ if (false) {
 
 /***/ }),
 
-/***/ 503:
+/***/ 505:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1595,7 +1615,7 @@ if (false) {
 
 /***/ }),
 
-/***/ 504:
+/***/ 506:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1630,7 +1650,7 @@ if (false) {
 
 /***/ }),
 
-/***/ 505:
+/***/ 507:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1718,7 +1738,7 @@ exports.default = {
 
 /***/ }),
 
-/***/ 506:
+/***/ 508:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1743,20 +1763,6 @@ pinyin_dict_firstletter.all = "YDYQSXMWZSSXJBYMGCCZQPSSQBYCDSCDQLDYLYBSSJGYZZJJF
 pinyin_dict_firstletter.polyphone = (_pinyin_dict_firstlet = { "19969": "DZ", "19975": "WM", "19988": "QJ", "20048": "YL", "20056": "SC", "20060": "NM", "20094": "QG", "20127": "QJ", "20167": "QC", "20193": "YG", "20250": "KH", "20256": "ZC", "20282": "SC", "20285": "QJG", "20291": "TD", "20314": "YD", "20340": "NE", "20375": "TD", "20389": "YJ", "20391": "CZ", "20415": "PB", "20446": "YS", "20447": "SQ", "20504": "TC", "20608": "KG", "20854": "QJ", "20857": "ZC", "20911": "PF" }, (0, _defineProperty3.default)(_pinyin_dict_firstlet, "20504", "TC"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "20608", "KG"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "20854", "QJ"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "20857", "ZC"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "20911", "PF"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "20985", "AW"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "21032", "PB"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "21048", "XQ"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "21049", "SC"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "21089", "YS"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "21119", "JC"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "21242", "SB"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "21273", "SC"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "21305", "YP"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "21306", "QO"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "21330", "ZC"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "21333", "SDC"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "21345", "QK"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "21378", "CA"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "21397", "SC"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "21414", "XS"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "21442", "SC"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "21477", "JG"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "21480", "TD"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "21484", "ZS"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "21494", "YX"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "21505", "YX"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "21512", "HG"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "21523", "XH"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "21537", "PB"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "21542", "PF"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "21549", "KH"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "21571", "E"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "21574", "DA"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "21588", "TD"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "21589", "O"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "21618", "ZC"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "21621", "KHA"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "21632", "ZJ"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "21654", "KG"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "21679", "LKG"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "21683", "KH"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "21710", "A"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "21719", "YH"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "21734", "WOE"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "21769", "A"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "21780", "WN"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "21804", "XH"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "21834", "A"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "21899", "ZD"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "21903", "RN"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "21908", "WO"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "21939", "ZC"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "21956", "SA"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "21964", "YA"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "21970", "TD"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "22003", "A"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "22031", "JG"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "22040", "XS"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "22060", "ZC"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "22066", "ZC"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "22079", "MH"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "22129", "XJ"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "22179", "XA"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "22237", "NJ"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "22244", "TD"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "22280", "JQ"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "22300", "YH"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "22313", "XW"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "22331", "YQ"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "22343", "YJ"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "22351", "PH"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "22395", "DC"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "22412", "TD"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "22484", "PB"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "22500", "PB"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "22534", "ZD"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "22549", "DH"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "22561", "PB"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "22612", "TD"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "22771", "KQ"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "22831", "HB"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "22841", "JG"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "22855", "QJ"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "22865", "XQ"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "23013", "ML"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "23081", "WM"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "23487", "SX"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "23558", "QJ"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "23561", "YW"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "23586", "YW"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "23614", "YW"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "23615", "SN"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "23631", "PB"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "23646", "ZS"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "23663", "ZT"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "23673", "YG"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "23762", "TD"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "23769", "ZS"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "23780", "QJ"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "23884", "QK"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "24055", "XH"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "24113", "DC"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "24162", "ZC"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "24191", "GA"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "24273", "QJ"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "24324", "NL"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "24377", "TD"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "24378", "QJ"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "24439", "PF"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "24554", "ZS"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "24683", "TD"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "24694", "WE"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "24733", "LK"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "24925", "TN"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "25094", "ZG"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "25100", "XQ"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "25103", "XH"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "25153", "PB"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "25170", "PB"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "25179", "KG"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "25203", "PB"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "25240", "ZS"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "25282", "FB"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "25303", "NA"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "25324", "KG"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "25341", "ZY"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "25373", "WZ"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "25375", "XJ"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "25384", "A"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "25457", "A"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "25528", "SD"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "25530", "SC"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "25552", "TD"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "25774", "ZC"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "25874", "ZC"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "26044", "YW"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "26080", "WM"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "26292", "PB"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "26333", "PB"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "26355", "ZY"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "26366", "CZ"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "26397", "ZC"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "26399", "QJ"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "26415", "ZS"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "26451", "SB"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "26526", "ZC"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "26552", "JG"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "26561", "TD"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "26588", "JG"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "26597", "CZ"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "26629", "ZS"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "26638", "YL"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "26646", "XQ"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "26653", "KG"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "26657", "XJ"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "26727", "HG"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "26894", "ZC"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "26937", "ZS"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "26946", "ZC"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "26999", "KJ"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "27099", "KJ"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "27449", "YQ"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "27481", "XS"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "27542", "ZS"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "27663", "ZS"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "27748", "TS"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "27784", "SC"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "27788", "ZD"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "27795", "TD"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "27812", "O"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "27850", "PB"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "27852", "MB"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "27895", "SL"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "27898", "PL"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "27973", "QJ"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "27981", "KH"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "27986", "HX"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "27994", "XJ"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "28044", "YC"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "28065", "WG"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "28177", "SM"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "28267", "QJ"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "28291", "KH"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "28337", "ZQ"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "28463", "TL"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "28548", "DC"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "28601", "TD"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "28689", "PB"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "28805", "JG"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "28820", "QG"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "28846", "PB"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "28952", "TD"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "28975", "ZC"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "29100", "A"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "29325", "QJ"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "29575", "SL"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "29602", "FB"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "30010", "TD"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "30044", "CX"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "30058", "PF"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "30091", "YSP"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "30111", "YN"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "30229", "XJ"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "30427", "SC"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "30465", "SX"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "30631", "YQ"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "30655", "QJ"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "30684", "QJG"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "30707", "SD"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "30729", "XH"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "30796", "LG"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "30917", "PB"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "31074", "NM"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "31085", "JZ"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "31109", "SC"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "31181", "ZC"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "31192", "MLB"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "31293", "JQ"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "31400", "YX"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "31584", "YJ"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "31896", "ZN"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "31909", "ZY"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "31995", "XJ"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "32321", "PF"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "32327", "ZY"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "32418", "HG"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "32420", "XQ"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "32421", "HG"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "32438", "LG"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "32473", "GJ"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "32488", "TD"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "32521", "QJ"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "32527", "PB"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "32562", "ZSQ"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "32564", "JZ"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "32735", "ZD"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "32793", "PB"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "33071", "PF"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "33098", "XL"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "33100", "YA"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "33152", "PB"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "33261", "CX"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "33324", "BP"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "33333", "TD"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "33406", "YA"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "33426", "WM"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "33432", "PB"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "33445", "JG"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "33486", "ZN"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "33493", "TS"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "33507", "QJ"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "33540", "QJ"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "33544", "ZC"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "33564", "XQ"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "33617", "YT"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "33632", "QJ"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "33636", "XH"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "33637", "YX"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "33694", "WG"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "33705", "PF"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "33728", "YW"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "33882", "SR"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "34067", "WM"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "34074", "YW"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "34121", "QJ"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "34255", "ZC"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "34259", "XL"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "34425", "JH"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "34430", "XH"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "34485", "KH"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "34503", "YS"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "34532", "HG"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "34552", "XS"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "34558", "YE"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "34593", "ZL"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "34660", "YQ"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "34892", "XH"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "34928", "SC"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "34999", "QJ"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "35048", "PB"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "35059", "SC"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "35098", "ZC"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "35203", "TQ"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "35265", "JX"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "35299", "JX"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "35782", "SZ"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "35828", "YS"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "35830", "E"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "35843", "TD"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "35895", "YG"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "35977", "MH"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "36158", "JG"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "36228", "QJ"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "36426", "XQ"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "36466", "DC"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "36710", "JC"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "36711", "ZYG"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "36767", "PB"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "36866", "SK"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "36951", "YW"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "37034", "YX"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "37063", "XH"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "37218", "ZC"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "37325", "ZC"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "38063", "PB"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "38079", "TD"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "38085", "QY"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "38107", "DC"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "38116", "TD"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "38123", "YD"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "38224", "HG"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "38241", "XTC"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "38271", "ZC"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "38415", "YE"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "38426", "KH"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "38461", "YD"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "38463", "AE"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "38466", "PB"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "38477", "XJ"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "38518", "YT"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "38551", "WK"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "38585", "ZC"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "38704", "XS"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "38739", "LJ"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "38761", "GJ"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "38808", "SQ"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "39048", "JG"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "39049", "XJ"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "39052", "HG"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "39076", "CZ"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "39271", "XT"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "39534", "TD"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "39552", "TD"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "39584", "PB"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "39647", "SB"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "39730", "LG"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "39748", "TPB"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "40109", "ZQ"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "40479", "ND"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "40516", "HG"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "40536", "HG"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "40583", "QJ"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "40765", "YQ"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "40784", "QJ"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "40840", "YK"), (0, _defineProperty3.default)(_pinyin_dict_firstlet, "40863", "QJG"), _pinyin_dict_firstlet);
 
 exports.default = pinyin_dict_firstletter;
-
-/***/ }),
-
-/***/ 507:
-/***/ (function(module, exports) {
-
-// removed by extract-text-webpack-plugin
-
-/***/ }),
-
-/***/ 508:
-/***/ (function(module, exports) {
-
-// removed by extract-text-webpack-plugin
 
 /***/ }),
 
@@ -1803,47 +1809,61 @@ exports.default = pinyin_dict_firstletter;
 /***/ }),
 
 /***/ 515:
-/***/ (function(module, exports, __webpack_require__) {
+/***/ (function(module, exports) {
 
-module.exports = __webpack_require__.p + "512a3fe18c92425975996411a04ac256.png";
+// removed by extract-text-webpack-plugin
 
 /***/ }),
 
 /***/ 516:
-/***/ (function(module, exports, __webpack_require__) {
+/***/ (function(module, exports) {
 
-module.exports = __webpack_require__.p + "e1cf12c07bf6458992569e67927d767e.png";
+// removed by extract-text-webpack-plugin
 
 /***/ }),
 
 /***/ 517:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "bca1556c01f16f9a9f6094169720c2da.png";
+module.exports = __webpack_require__.p + "512a3fe18c92425975996411a04ac256.png";
 
 /***/ }),
 
 /***/ 518:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "2ecd3b0452aa197097d5131afacab7b8.png";
+module.exports = __webpack_require__.p + "e1cf12c07bf6458992569e67927d767e.png";
 
 /***/ }),
 
 /***/ 519:
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "bca1556c01f16f9a9f6094169720c2da.png";
+
+/***/ }),
+
+/***/ 520:
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "2ecd3b0452aa197097d5131afacab7b8.png";
+
+/***/ }),
+
+/***/ 521:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_ad_send_vue__ = __webpack_require__(488);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_ad_send_vue__ = __webpack_require__(490);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_ad_send_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_ad_send_vue__);
 /* harmony namespace reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_ad_send_vue__) if(["default","default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_ad_send_vue__[key]; }) }(__WEBPACK_IMPORT_KEY__));
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_642dc412_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_ad_send_vue__ = __webpack_require__(501);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_642dc412_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_ad_send_vue__ = __webpack_require__(503);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_642dc412_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_ad_send_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_642dc412_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_ad_send_vue__);
 var disposed = false
 function injectStyle (ssrContext) {
   if (disposed) return
-  __webpack_require__(510)
+  __webpack_require__(512)
 }
 var normalizeComponent = __webpack_require__(197)
 /* script */
@@ -1890,20 +1910,20 @@ if (false) {(function () {
 
 /***/ }),
 
-/***/ 520:
+/***/ 522:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_anchor_vue__ = __webpack_require__(489);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_anchor_vue__ = __webpack_require__(491);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_anchor_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_anchor_vue__);
 /* harmony namespace reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_anchor_vue__) if(["default","default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_anchor_vue__[key]; }) }(__WEBPACK_IMPORT_KEY__));
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_27dd2a45_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_anchor_vue__ = __webpack_require__(498);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_27dd2a45_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_anchor_vue__ = __webpack_require__(500);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_27dd2a45_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_anchor_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_27dd2a45_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_anchor_vue__);
 var disposed = false
 function injectStyle (ssrContext) {
   if (disposed) return
-  __webpack_require__(507)
+  __webpack_require__(509)
 }
 var normalizeComponent = __webpack_require__(197)
 /* script */
@@ -1950,20 +1970,20 @@ if (false) {(function () {
 
 /***/ }),
 
-/***/ 521:
+/***/ 523:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_applications_vue__ = __webpack_require__(490);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_applications_vue__ = __webpack_require__(492);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_applications_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_applications_vue__);
 /* harmony namespace reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_applications_vue__) if(["default","default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_applications_vue__[key]; }) }(__WEBPACK_IMPORT_KEY__));
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_e9faa89a_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_applications_vue__ = __webpack_require__(504);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_e9faa89a_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_applications_vue__ = __webpack_require__(506);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_e9faa89a_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_applications_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_e9faa89a_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_applications_vue__);
 var disposed = false
 function injectStyle (ssrContext) {
   if (disposed) return
-  __webpack_require__(514)
+  __webpack_require__(516)
 }
 var normalizeComponent = __webpack_require__(197)
 /* script */
@@ -2010,20 +2030,20 @@ if (false) {(function () {
 
 /***/ }),
 
-/***/ 522:
+/***/ 524:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_article_vue__ = __webpack_require__(491);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_article_vue__ = __webpack_require__(493);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_article_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_article_vue__);
 /* harmony namespace reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_article_vue__) if(["default","default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_article_vue__[key]; }) }(__WEBPACK_IMPORT_KEY__));
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_6338ec16_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_article_vue__ = __webpack_require__(500);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_6338ec16_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_article_vue__ = __webpack_require__(502);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_6338ec16_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_article_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_6338ec16_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_article_vue__);
 var disposed = false
 function injectStyle (ssrContext) {
   if (disposed) return
-  __webpack_require__(509)
+  __webpack_require__(511)
 }
 var normalizeComponent = __webpack_require__(197)
 /* script */
@@ -2070,21 +2090,21 @@ if (false) {(function () {
 
 /***/ }),
 
-/***/ 523:
+/***/ 525:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_code_vue__ = __webpack_require__(492);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_code_vue__ = __webpack_require__(494);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_code_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_code_vue__);
 /* harmony namespace reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_code_vue__) if(["default","default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_code_vue__[key]; }) }(__WEBPACK_IMPORT_KEY__));
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_c2ff9106_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_code_vue__ = __webpack_require__(503);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_c2ff9106_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_code_vue__ = __webpack_require__(505);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_c2ff9106_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_code_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_c2ff9106_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_code_vue__);
 var disposed = false
 function injectStyle (ssrContext) {
   if (disposed) return
-  __webpack_require__(513)
-  __webpack_require__(512)
+  __webpack_require__(515)
+  __webpack_require__(514)
 }
 var normalizeComponent = __webpack_require__(197)
 /* script */
@@ -2131,20 +2151,20 @@ if (false) {(function () {
 
 /***/ }),
 
-/***/ 524:
+/***/ 526:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_menu_vue__ = __webpack_require__(493);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_menu_vue__ = __webpack_require__(495);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_menu_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_menu_vue__);
 /* harmony namespace reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_menu_vue__) if(["default","default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_menu_vue__[key]; }) }(__WEBPACK_IMPORT_KEY__));
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_a380d422_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_menu_vue__ = __webpack_require__(502);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_a380d422_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_menu_vue__ = __webpack_require__(504);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_a380d422_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_menu_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_a380d422_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_menu_vue__);
 var disposed = false
 function injectStyle (ssrContext) {
   if (disposed) return
-  __webpack_require__(511)
+  __webpack_require__(513)
 }
 var normalizeComponent = __webpack_require__(197)
 /* script */
@@ -2191,20 +2211,20 @@ if (false) {(function () {
 
 /***/ }),
 
-/***/ 525:
+/***/ 527:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_navigate_vue__ = __webpack_require__(494);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_navigate_vue__ = __webpack_require__(496);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_navigate_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_navigate_vue__);
 /* harmony namespace reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_navigate_vue__) if(["default","default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_navigate_vue__[key]; }) }(__WEBPACK_IMPORT_KEY__));
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_39279dfe_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_navigate_vue__ = __webpack_require__(499);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_39279dfe_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_navigate_vue__ = __webpack_require__(501);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_39279dfe_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_navigate_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_39279dfe_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_navigate_vue__);
 var disposed = false
 function injectStyle (ssrContext) {
   if (disposed) return
-  __webpack_require__(508)
+  __webpack_require__(510)
 }
 var normalizeComponent = __webpack_require__(197)
 /* script */
@@ -2251,7 +2271,7 @@ if (false) {(function () {
 
 /***/ }),
 
-/***/ 526:
+/***/ 528:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2324,27 +2344,27 @@ if (false) {
 
 /***/ }),
 
-/***/ 527:
+/***/ 529:
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 
 /***/ }),
 
-/***/ 528:
+/***/ 530:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_demo_vue__ = __webpack_require__(497);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_demo_vue__ = __webpack_require__(499);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_demo_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_demo_vue__);
 /* harmony namespace reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_demo_vue__) if(["default","default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_demo_vue__[key]; }) }(__WEBPACK_IMPORT_KEY__));
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_054b9c73_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_demo_vue__ = __webpack_require__(526);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_054b9c73_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_demo_vue__ = __webpack_require__(528);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_054b9c73_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_demo_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_054b9c73_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_demo_vue__);
 var disposed = false
 function injectStyle (ssrContext) {
   if (disposed) return
-  __webpack_require__(527)
+  __webpack_require__(529)
 }
 var normalizeComponent = __webpack_require__(197)
 /* script */
@@ -2391,37 +2411,37 @@ if (false) {(function () {
 
 /***/ }),
 
-/***/ 536:
+/***/ 539:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
 Object.defineProperty(exports, "__esModule", {
-    value: true
+  value: true
 });
 
-var _article = __webpack_require__(522);
+var _article = __webpack_require__(524);
 
 var _article2 = _interopRequireDefault(_article);
 
-var _iCode = __webpack_require__(523);
+var _iCode = __webpack_require__(525);
 
 var _iCode2 = _interopRequireDefault(_iCode);
 
-var _demo = __webpack_require__(528);
+var _demo = __webpack_require__(530);
 
 var _demo2 = _interopRequireDefault(_demo);
 
-var _icon = __webpack_require__(550);
+var _icon = __webpack_require__(557);
 
 var _icon2 = _interopRequireDefault(_icon);
 
-var _anchor = __webpack_require__(520);
+var _anchor = __webpack_require__(522);
 
 var _anchor2 = _interopRequireDefault(_anchor);
 
-var _iconname = __webpack_require__(551);
+var _iconname = __webpack_require__(558);
 
 var _iconname2 = _interopRequireDefault(_iconname);
 
@@ -2434,61 +2454,61 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 var searchPlaceholder = '输入英文关键词搜索，比如 success';
 
 exports.default = {
-    components: {
-        iArticle: _article2.default,
-        iCode: _iCode2.default,
-        Demo: _demo2.default,
-        inAnchor: _anchor2.default
-    },
-    data: function data() {
-        return {
-            code: _icon2.default,
-            icons: _iconname2.default,
-            searchPlaceholder: searchPlaceholder,
-            search: ''
-        };
-    },
+  components: {
+    iArticle: _article2.default,
+    iCode: _iCode2.default,
+    Demo: _demo2.default,
+    Anchor: _anchor2.default
+  },
+  data: function data() {
+    return {
+      code: _icon2.default,
+      icons: _iconname2.default,
+      searchPlaceholder: searchPlaceholder,
+      search: ''
+    };
+  },
 
-    computed: {
-        filterIcons: function filterIcons() {
-            var _this = this;
+  computed: {
+    filterIcons: function filterIcons() {
+      var _this = this;
 
-            return this.icons.filter(function (icon) {
-                return icon.tag.indexOf(_this.search) > -1;
-            });
-        }
-    },
-    methods: {
-        clip: function clip(type) {
-            var _this2 = this;
-
-            var icon = '<Icon type="' + type.name + '" />';
-
-            var clipboard = new _clipboard2.default('.icons', {
-                text: function text() {
-                    return icon;
-                }
-            });
-
-            clipboard.on('success', function (e) {
-                e.clearSelection();
-                clipboard.destroy();
-                _this2.$Message.success('组件代码已经复制到剪贴板');
-            });
-        },
-        changeHolder: function changeHolder(type) {
-            if (type == 'focus') {
-                this.searchPlaceholder = '';
-            } else if (type == 'blur') {
-                this.searchPlaceholder = searchPlaceholder;
-            }
-        }
+      return this.icons.filter(function (icon) {
+        return icon.tag.indexOf(_this.search) > -1;
+      });
     }
+  },
+  methods: {
+    clip: function clip(type) {
+      var _this2 = this;
+
+      var icon = '<Icon type="' + type.name + '"></Icon>';
+
+      var clipboard = new _clipboard2.default('.icons', {
+        text: function text() {
+          return icon;
+        }
+      });
+
+      clipboard.on('success', function (e) {
+        e.clearSelection();
+        clipboard.destroy();
+        _this2.$Message.success('组件代码已经复制到剪贴板');
+      });
+    },
+    changeHolder: function changeHolder(type) {
+      if (type == 'focus') {
+        this.searchPlaceholder = '';
+      } else if (type == 'blur') {
+        this.searchPlaceholder = searchPlaceholder;
+      }
+    }
+  }
 };
 
 /***/ }),
 
-/***/ 544:
+/***/ 550:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2501,16 +2521,7 @@ var render = function render() {
   var _vm = this;
   var _h = _vm.$createElement;
   var _c = _vm._self._c || _h;
-  return _c("i-article", [_c("article", [_c("h1", [_vm._v("Icon 图标")]), _vm._v(" "), _c("inAnchor", { attrs: { title: "概述", h2: "" } }), _vm._v(" "), _c("p", [_vm._v("iView 的图标使用开源项目"), _c("a", { attrs: { href: "http://ionicons.com/", target: "_blank" } }, [_c("Icon", { attrs: { type: "ios-ionic" } }), _vm._v(" ionicons")], 1), _vm._v(" 3.x 版本。")]), _vm._v(" "), _c("inAnchor", { attrs: { title: "如何使用", h2: "" } }), _vm._v(" "), _c("p", [_vm._v("使用"), _c("code", [_vm._v("<Icon />")]), _vm._v("组件，指定图标对应的"), _c("code", [_vm._v("type")]), _vm._v("属性，示例代码：")]), _vm._v(" "), _c("i-code", { attrs: { lang: "html", bg: "" } }, [_vm._v(_vm._s(_vm.code.demo))]), _vm._v(" "), _c("p", [_vm._v("渲染后为：")]), _vm._v(" "), _c("i-code", { attrs: { lang: "html", bg: "" } }, [_vm._v(_vm._s(_vm.code.render))]), _vm._v(" "), _c("div", { staticClass: "api" }, [_c("inAnchor", { attrs: { title: "API", h2: "" } }), _vm._v(" "), _c("inAnchor", { attrs: { title: "Icon props", h3: "" } }), _vm._v(" "), _c("table", [_c("thead", [_c("tr", [_c("th", [_vm._v("属性")]), _vm._v(" "), _c("th", [_vm._v("说明")]), _vm._v(" "), _c("th", [_vm._v("类型")]), _vm._v(" "), _c("th", [_vm._v("默认值")])])]), _vm._v(" "), _c("tbody", [_c("tr", [_c("td", [_vm._v("type")]), _vm._v(" "), _c("td", [_vm._v("图标的名称")]), _vm._v(" "), _c("td", [_vm._v("String")]), _vm._v(" "), _c("td", [_vm._v("-")])]), _vm._v(" "), _c("tr", [_c("td", [_vm._v("size")]), _vm._v(" "), _c("td", [_vm._v("图标的大小，单位是 px")]), _vm._v(" "), _c("td", [_vm._v("Number | String")]), _vm._v(" "), _c("td", [_vm._v("-")])]), _vm._v(" "), _c("tr", [_c("td", [_vm._v("color")]), _vm._v(" "), _c("td", [_vm._v("图标的颜色")]), _vm._v(" "), _c("td", [_vm._v("String")]), _vm._v(" "), _c("td", [_vm._v("-")])]), _vm._v(" "), _c("tr", [_c("td", [_vm._v("custom")]), _vm._v(" "), _c("td", [_vm._v("自定义图标")]), _vm._v(" "), _c("td", [_vm._v("String")]), _vm._v(" "), _c("td", [_vm._v("-")])])])])], 1), _vm._v(" "), _c("Demo", { attrs: { title: "自定义图标用法" } }, [_c("div", { attrs: { slot: "demo" }, slot: "demo" }, [_c("Icon", {
-    attrs: { custom: "i-icon i-icon-shop_fill", size: "24" }
-  }), _vm._v(" "), _c("Icon", {
-    attrs: {
-      custom: "i-icon i-icon-publishgoods_fill",
-      size: "24"
-    }
-  }), _vm._v(" "), _c("Icon", {
-    attrs: { custom: "i-icon i-icon-financial_fill", size: "24" }
-  })], 1), _vm._v(" "), _c("div", { attrs: { slot: "desc" }, slot: "desc" }, [_c("p", [_vm._v("iView 的 Icon 支持使用第三方自定义图标，你可以引入任意的字体文件库来使用。")])]), _vm._v(" "), _c("i-code", { attrs: { slot: "code", lang: "html" }, slot: "code" }, [_vm._v(_vm._s(_vm.code.custom))])], 1), _vm._v(" "), _c("Alert", { attrs: { "show-icon": "" } }, [_c("template", { slot: "desc" }, [_vm._v("iView 3 使用的是 ionicons 3.x 的图标，iView 2 使用的是 ionicons 2.x 的图标，如果是从 iView 2 升级至 iView 3，需要查找并修改使用过的图标名称，因为很多图标名称改变了。")])], 2), _vm._v(" "), _c("inAnchor", { attrs: { title: "所有图标", h2: "" } }), _vm._v(" "), _c("div", { staticClass: "icon-search" }, [_c("input", {
+  return _c("i-article", [_c("article", [_c("h1", [_vm._v("Icon 图标")]), _vm._v(" "), _c("Anchor", { attrs: { title: "概述", h2: "" } }), _vm._v(" "), _c("p", [_vm._v("iView 的图标使用开源项目"), _c("a", { attrs: { href: "http://ionicons.com/", target: "_blank" } }, [_c("Icon", { attrs: { type: "ionic" } }), _vm._v(" ionicons")], 1)]), _vm._v(" "), _c("Anchor", { attrs: { title: "如何使用", h2: "" } }), _vm._v(" "), _c("p", [_vm._v("使用"), _c("code", [_vm._v("<Icon />")]), _vm._v("组件，指定图标对应的"), _c("code", [_vm._v("type")]), _vm._v("属性，示例代码：")]), _vm._v(" "), _c("i-code", { attrs: { lang: "html", bg: "" } }, [_vm._v(_vm._s(_vm.code.demo))]), _vm._v(" "), _c("p", [_vm._v("渲染后为：")]), _vm._v(" "), _c("i-code", { attrs: { lang: "html", bg: "" } }, [_vm._v(_vm._s(_vm.code.render))]), _vm._v(" "), _c("div", { staticClass: "api" }, [_c("Anchor", { attrs: { title: "API", h2: "" } }), _vm._v(" "), _c("Anchor", { attrs: { title: "Icon props", h3: "" } }), _vm._v(" "), _c("table", [_c("thead", [_c("tr", [_c("th", [_vm._v("属性")]), _vm._v(" "), _c("th", [_vm._v("说明")]), _vm._v(" "), _c("th", [_vm._v("类型")]), _vm._v(" "), _c("th", [_vm._v("默认值")])])]), _vm._v(" "), _c("tbody", [_c("tr", [_c("td", [_vm._v("type")]), _vm._v(" "), _c("td", [_vm._v("图标的名称")]), _vm._v(" "), _c("td", [_vm._v("String")]), _vm._v(" "), _c("td", [_vm._v("-")])]), _vm._v(" "), _c("tr", [_c("td", [_vm._v("size")]), _vm._v(" "), _c("td", [_vm._v("图标的大小，单位是 px")]), _vm._v(" "), _c("td", [_vm._v("Number | String")]), _vm._v(" "), _c("td", [_vm._v("-")])]), _vm._v(" "), _c("tr", [_c("td", [_vm._v("color")]), _vm._v(" "), _c("td", [_vm._v("图标的颜色")]), _vm._v(" "), _c("td", [_vm._v("String")]), _vm._v(" "), _c("td", [_vm._v("-")])])])])], 1), _vm._v(" "), _c("Anchor", { attrs: { title: "示例", h2: "" } }), _vm._v(" "), _c("div", { staticClass: "icon-search" }, [_c("input", {
     directives: [{
       name: "model",
       rawName: "v-model",
@@ -2562,2645 +2573,39 @@ if (false) {
 
 /***/ }),
 
-/***/ 550:
+/***/ 557:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
 Object.defineProperty(exports, "__esModule", {
-    value: true
+  value: true
 });
 var code = {};
 
-code.demo = "\n<Icon type=\"ios-checkmark\" />\n";
+code.demo = "\n<Icon type=\"checkmark\" />\n";
 
-code.render = "\n<i class=\"ivu-icon ivu-icon-ios-checkmark\"></i>\n";
-code.custom = "\n<template>\n    <div>\n        <Icon custom=\"i-icon i-icon-shop_fill\" size=\"24\" />\n        <Icon custom=\"i-icon i-icon-publishgoods_fill\" size=\"24\" />\n        <Icon custom=\"i-icon i-icon-financial_fill\" size=\"24\" />\n    </div>\n</template>\n\n<style>\n    @font-face {\n        font-family: \"custom-font\";\n        src: url('data:application/x-font-woff;charset=utf-8;base64,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') format('woff');\n    }\n    \n    .i-icon {\n        display: inline-block;\n        font-family: 'custom-font' !important;\n        speak: none;\n        font-style: normal;\n        font-weight: normal;\n        font-variant: normal;\n        text-transform: none;\n        text-rendering: auto;\n        line-height: 1;\n        -webkit-font-smoothing: antialiased;\n        -moz-osx-font-smoothing: grayscale;\n        vertical-align: middle;\n    }\n    \n    .i-icon-accessory:before { content: \"e6dd\"; }\n    \n    .i-icon-activity:before { content: \"e6de\"; }\n    \n    .i-icon-activity_fill:before { content: \"e6df\"; }\n    \n    .i-icon-add:before { content: \"e6e0\"; }\n    \n    .i-icon-addressbook_fill:before { content: \"e6e2\"; }\n    \n    .i-icon-addressbook:before { content: \"e6e3\"; }\n    \n    .i-icon-barrage_fill:before { content: \"e6e4\"; }\n    \n    .i-icon-barrage:before { content: \"e6e5\"; }\n    \n    .i-icon-browse_fill:before { content: \"e6e6\"; }\n    \n    .i-icon-browse:before { content: \"e6e7\"; }\n    \n    .i-icon-brush:before { content: \"e6e8\"; }\n    \n    .i-icon-brush_fill:before { content: \"e6e9\"; }\n    \n    .i-icon-businesscard_fill:before { content: \"e6ea\"; }\n    \n    .i-icon-businesscard:before { content: \"e6eb\"; }\n    \n    .i-icon-camera_fill:before { content: \"e6ec\"; }\n    \n    .i-icon-camera:before { content: \"e6ed\"; }\n    \n    .i-icon-clock_fill:before { content: \"e6ee\"; }\n    \n    .i-icon-clock:before { content: \"e6ef\"; }\n    \n    .i-icon-close:before { content: \"e6f0\"; }\n    \n    .i-icon-collection_fill:before { content: \"e6f1\"; }\n    \n    .i-icon-collection:before { content: \"e6f2\"; }\n    \n    .i-icon-computer_fill:before { content: \"e6f3\"; }\n    \n    .i-icon-computer:before { content: \"e6f4\"; }\n    \n    .i-icon-coordinates_fill:before { content: \"e6f5\"; }\n    \n    .i-icon-coordinates:before { content: \"e6f6\"; }\n    \n    .i-icon-coupons_fill:before { content: \"e6f7\"; }\n    \n    .i-icon-coupons:before { content: \"e6f8\"; }\n    \n    .i-icon-createtask_fill:before { content: \"e6f9\"; }\n    \n    .i-icon-createtask:before { content: \"e6fa\"; }\n    \n    .i-icon-customerservice_fill:before { content: \"e6fb\"; }\n    \n    .i-icon-customerservice:before { content: \"e6fc\"; }\n    \n    .i-icon-delete_fill:before { content: \"e6fd\"; }\n    \n    .i-icon-delete:before { content: \"e6fe\"; }\n    \n    .i-icon-document:before { content: \"e6ff\"; }\n    \n    .i-icon-document_fill:before { content: \"e700\"; }\n    \n    .i-icon-dynamic_fill:before { content: \"e701\"; }\n    \n    .i-icon-dynamic:before { content: \"e702\"; }\n    \n    .i-icon-editor:before { content: \"e703\"; }\n    \n    .i-icon-eit:before { content: \"e704\"; }\n    \n    .i-icon-emoji_fill:before { content: \"e705\"; }\n    \n    .i-icon-emoji:before { content: \"e706\"; }\n    \n    .i-icon-enter:before { content: \"e707\"; }\n    \n    .i-icon-enterinto:before { content: \"e708\"; }\n    \n    .i-icon-enterinto_fill:before { content: \"e709\"; }\n    \n    .i-icon-feedback_fill:before { content: \"e70a\"; }\n    \n    .i-icon-feedback:before { content: \"e70b\"; }\n    \n    .i-icon-flag_fill:before { content: \"e70c\"; }\n    \n    .i-icon-flag:before { content: \"e70d\"; }\n    \n    .i-icon-flashlight:before { content: \"e70e\"; }\n    \n    .i-icon-flashlight_fill:before { content: \"e70f\"; }\n    \n    .i-icon-fullscreen:before { content: \"e710\"; }\n    \n    .i-icon-group:before { content: \"e711\"; }\n    \n    .i-icon-group_fill:before { content: \"e712\"; }\n    \n    .i-icon-homepage_fill:before { content: \"e713\"; }\n    \n    .i-icon-homepage:before { content: \"e714\"; }\n    \n    .i-icon-integral_fill:before { content: \"e715\"; }\n    \n    .i-icon-integral:before { content: \"e716\"; }\n    \n    .i-icon-interactive_fill:before { content: \"e717\"; }\n    \n    .i-icon-interactive:before { content: \"e718\"; }\n    \n    .i-icon-keyboard:before { content: \"e719\"; }\n    \n    .i-icon-label:before { content: \"e71a\"; }\n    \n    .i-icon-label_fill:before { content: \"e71b\"; }\n    \n    .i-icon-like_fill:before { content: \"e71c\"; }\n    \n    .i-icon-like:before { content: \"e71d\"; }\n    \n    .i-icon-live_fill:before { content: \"e71e\"; }\n    \n    .i-icon-live:before { content: \"e71f\"; }\n    \n    .i-icon-lock_fill:before { content: \"e720\"; }\n    \n    .i-icon-lock:before { content: \"e721\"; }\n    \n    .i-icon-mail:before { content: \"e722\"; }\n    \n    .i-icon-mail_fill:before { content: \"e723\"; }\n    \n    .i-icon-message:before { content: \"e724\"; }\n    \n    .i-icon-message_fill:before { content: \"e725\"; }\n    \n    .i-icon-mine:before { content: \"e726\"; }\n    \n    .i-icon-mine_fill:before { content: \"e727\"; }\n    \n    .i-icon-mobilephone_fill:before { content: \"e728\"; }\n    \n    .i-icon-mobilephone:before { content: \"e729\"; }\n    \n    .i-icon-more:before { content: \"e72a\"; }\n    \n    .i-icon-narrow:before { content: \"e72b\"; }\n    \n    .i-icon-offline_fill:before { content: \"e72c\"; }\n    \n    .i-icon-offline:before { content: \"e72d\"; }\n    \n    .i-icon-other:before { content: \"e72e\"; }\n    \n    .i-icon-picture_fill:before { content: \"e72f\"; }\n    \n    .i-icon-picture:before { content: \"e730\"; }\n    \n    .i-icon-play:before { content: \"e731\"; }\n    \n    .i-icon-play_fill:before { content: \"e732\"; }\n    \n    .i-icon-playon_fill:before { content: \"e733\"; }\n    \n    .i-icon-playon:before { content: \"e734\"; }\n    \n    .i-icon-praise_fill:before { content: \"e735\"; }\n    \n    .i-icon-praise:before { content: \"e736\"; }\n    \n    .i-icon-prompt_fill:before { content: \"e737\"; }\n    \n    .i-icon-prompt:before { content: \"e738\"; }\n    \n    .i-icon-redpacket_fill:before { content: \"e739\"; }\n    \n    .i-icon-redpacket:before { content: \"e73a\"; }\n    \n    .i-icon-refresh:before { content: \"e73b\"; }\n    \n    .i-icon-remind_fill:before { content: \"e73c\"; }\n    \n    .i-icon-remind:before { content: \"e73d\"; }\n    \n    .i-icon-return:before { content: \"e73e\"; }\n    \n    .i-icon-right:before { content: \"e73f\"; }\n    \n    .i-icon-scan:before { content: \"e740\"; }\n    \n    .i-icon-send:before { content: \"e741\"; }\n    \n    .i-icon-service_fill:before { content: \"e742\"; }\n    \n    .i-icon-service:before { content: \"e743\"; }\n    \n    .i-icon-setup_fill:before { content: \"e744\"; }\n    \n    .i-icon-setup:before { content: \"e745\"; }\n    \n    .i-icon-share_fill:before { content: \"e746\"; }\n    \n    .i-icon-share:before { content: \"e747\"; }\n    \n    .i-icon-success_fill:before { content: \"e748\"; }\n    \n    .i-icon-success:before { content: \"e749\"; }\n    \n    .i-icon-suspend:before { content: \"e74a\"; }\n    \n    .i-icon-switch:before { content: \"e74b\"; }\n    \n    .i-icon-systemprompt_fill:before { content: \"e74c\"; }\n    \n    .i-icon-systemprompt:before { content: \"e74d\"; }\n    \n    .i-icon-tailor:before { content: \"e74e\"; }\n    \n    .i-icon-task:before { content: \"e74f\"; }\n    \n    .i-icon-task_fill:before { content: \"e750\"; }\n    \n    .i-icon-tasklist_fill:before { content: \"e751\"; }\n    \n    .i-icon-tasklist:before { content: \"e752\"; }\n    \n    .i-icon-time_fill:before { content: \"e753\"; }\n    \n    .i-icon-time:before { content: \"e754\"; }\n    \n    .i-icon-translation_fill:before { content: \"e755\"; }\n    \n    .i-icon-translation:before { content: \"e756\"; }\n    \n    .i-icon-trash:before { content: \"e757\"; }\n    \n    .i-icon-trash_fill:before { content: \"e758\"; }\n    \n    .i-icon-undo:before { content: \"e759\"; }\n    \n    .i-icon-video:before { content: \"e75a\"; }\n    \n    .i-icon-video_fill:before { content: \"e75b\"; }\n    \n    .i-icon-warning_fill:before { content: \"e75c\"; }\n    \n    .i-icon-warning:before { content: \"e75d\"; }\n    \n    .i-icon-search:before { content: \"e75e\"; }\n    \n    .i-icon-searchfill:before { content: \"e75f\"; }\n    \n    .i-icon-publishgoods_fill:before { content: \"e760\"; }\n    \n    .i-icon-shop_fill:before { content: \"e761\"; }\n    \n    .i-icon-transaction_fill:before { content: \"e762\"; }\n    \n    .i-icon-packup:before { content: \"e763\"; }\n    \n    .i-icon-unfold:before { content: \"e764\"; }\n    \n    .i-icon-financial_fill:before { content: \"e765\"; }\n    \n    .i-icon-commodity:before { content: \"e766\"; }\n</style>\n";
+code.render = "\n<i class=\"ivu-icon ivu-icon-checkmark\"></i>\n";
 
 exports.default = code;
 
 /***/ }),
 
-/***/ 551:
+/***/ 558:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
 Object.defineProperty(exports, "__esModule", {
-    value: true
+  value: true
 });
-exports.default = [{
-    "name": "ios-add",
-    "tag": "add,include,invite,plus"
-}, {
-    "name": "md-add",
-    "tag": "add,include,invite,plus"
-}, {
-    "name": "ios-add-circle",
-    "tag": "add,circle"
-}, {
-    "name": "ios-add-circle-outline",
-    "tag": "add,circle"
-}, {
-    "name": "md-add-circle",
-    "tag": "add,circle"
-}, {
-    "name": "ios-alarm",
-    "tag": "alarm"
-}, {
-    "name": "ios-alarm-outline",
-    "tag": "alarm"
-}, {
-    "name": "md-alarm",
-    "tag": "alarm"
-}, {
-    "name": "ios-albums",
-    "tag": "albums,boxes,slides,square"
-}, {
-    "name": "ios-albums-outline",
-    "tag": "albums,boxes,slides,square"
-}, {
-    "name": "md-albums",
-    "tag": "albums,boxes,slides,square"
-}, {
-    "name": "ios-alert",
-    "tag": "!,alert,attention,exclamation,notice,warning"
-}, {
-    "name": "ios-alert-outline",
-    "tag": "!,alert,attention,exclamation,notice,warning"
-}, {
-    "name": "md-alert",
-    "tag": "!,alert,attention,exclamation,notice,warning"
-}, {
-    "name": "ios-american-football",
-    "tag": "american,football"
-}, {
-    "name": "ios-american-football-outline",
-    "tag": "american,football"
-}, {
-    "name": "md-american-football",
-    "tag": "american,football"
-}, {
-    "name": "ios-analytics",
-    "tag": "analytics,data,metrics,track"
-}, {
-    "name": "ios-analytics-outline",
-    "tag": "analytics,data,metrics,track"
-}, {
-    "name": "md-analytics",
-    "tag": "analytics,data,metrics,track"
-}, {
-    "name": "logo-android",
-    "tag": "android,google,mobile,logo"
-}, {
-    "name": "logo-angular",
-    "tag": "angular,logo"
-}, {
-    "name": "ios-aperture",
-    "tag": "aperture,dark,images,levels,light,settings"
-}, {
-    "name": "ios-aperture-outline",
-    "tag": "aperture,dark,images,levels,light,settings"
-}, {
-    "name": "md-aperture",
-    "tag": "aperture,dark,images,levels,light,settings"
-}, {
-    "name": "logo-apple",
-    "tag": "apple,mac,mobile,logo"
-}, {
-    "name": "ios-apps",
-    "tag": "apps,applications"
-}, {
-    "name": "ios-apps-outline",
-    "tag": "apps,applications"
-}, {
-    "name": "md-apps",
-    "tag": "apps,applications"
-}, {
-    "name": "ios-appstore",
-    "tag": "appstore,store"
-}, {
-    "name": "ios-appstore-outline",
-    "tag": "appstore,store"
-}, {
-    "name": "md-appstore",
-    "tag": "appstore,store"
-}, {
-    "name": "ios-archive",
-    "tag": "archive,email"
-}, {
-    "name": "ios-archive-outline",
-    "tag": "archive,email"
-}, {
-    "name": "md-archive",
-    "tag": "archive,email"
-}, {
-    "name": "ios-arrow-back",
-    "tag": "arrow,back,chevron,navigation"
-}, {
-    "name": "md-arrow-back",
-    "tag": "arrow,back,chevron,navigation"
-}, {
-    "name": "ios-arrow-down",
-    "tag": "arrow,chevron,down"
-}, {
-    "name": "md-arrow-down",
-    "tag": "arrow,chevron,down"
-}, {
-    "name": "ios-arrow-dropdown",
-    "tag": "arrow,dropdown"
-}, {
-    "name": "md-arrow-dropdown",
-    "tag": "arrow,dropdown"
-}, {
-    "name": "ios-arrow-dropdown-circle",
-    "tag": "arrow,circle,dropdown"
-}, {
-    "name": "md-arrow-dropdown-circle",
-    "tag": "arrow,circle,dropdown"
-}, {
-    "name": "ios-arrow-dropleft",
-    "tag": "arrow,dropleft"
-}, {
-    "name": "md-arrow-dropleft",
-    "tag": "arrow,dropleft"
-}, {
-    "name": "ios-arrow-dropleft-circle",
-    "tag": "arrow,circle,dropleft"
-}, {
-    "name": "md-arrow-dropleft-circle",
-    "tag": "arrow,circle,dropleft"
-}, {
-    "name": "ios-arrow-dropright",
-    "tag": "arrow,dropright"
-}, {
-    "name": "md-arrow-dropright",
-    "tag": "arrow,dropright"
-}, {
-    "name": "ios-arrow-dropright-circle",
-    "tag": "arrow,circle,dropright"
-}, {
-    "name": "md-arrow-dropright-circle",
-    "tag": "arrow,circle,dropright"
-}, {
-    "name": "ios-arrow-dropup",
-    "tag": "arrow,dropup"
-}, {
-    "name": "md-arrow-dropup",
-    "tag": "arrow,dropup"
-}, {
-    "name": "ios-arrow-dropup-circle",
-    "tag": "arrow,circle,dropup"
-}, {
-    "name": "md-arrow-dropup-circle",
-    "tag": "arrow,circle,dropup"
-}, {
-    "name": "ios-arrow-forward",
-    "tag": "arrow,chevron,forward,navigation"
-}, {
-    "name": "md-arrow-forward",
-    "tag": "arrow,chevron,forward,navigation"
-}, {
-    "name": "ios-arrow-round-back",
-    "tag": "arrow,back,round"
-}, {
-    "name": "md-arrow-round-back",
-    "tag": "arrow,back,round"
-}, {
-    "name": "ios-arrow-round-down",
-    "tag": "arrow,down,round"
-}, {
-    "name": "md-arrow-round-down",
-    "tag": "arrow,down,round"
-}, {
-    "name": "ios-arrow-round-forward",
-    "tag": "arrow,forward,round"
-}, {
-    "name": "md-arrow-round-forward",
-    "tag": "arrow,forward,round"
-}, {
-    "name": "ios-arrow-round-up",
-    "tag": "arrow,round,up"
-}, {
-    "name": "md-arrow-round-up",
-    "tag": "arrow,round,up"
-}, {
-    "name": "ios-arrow-up",
-    "tag": "arrow,chevron,up"
-}, {
-    "name": "md-arrow-up",
-    "tag": "arrow,chevron,up"
-}, {
-    "name": "ios-at",
-    "tag": "@,at"
-}, {
-    "name": "ios-at-outline",
-    "tag": "@,at"
-}, {
-    "name": "md-at",
-    "tag": "@,at"
-}, {
-    "name": "ios-attach",
-    "tag": "attach"
-}, {
-    "name": "md-attach",
-    "tag": "attach"
-}, {
-    "name": "ios-backspace",
-    "tag": "backspace"
-}, {
-    "name": "ios-backspace-outline",
-    "tag": "backspace"
-}, {
-    "name": "md-backspace",
-    "tag": "backspace"
-}, {
-    "name": "ios-barcode",
-    "tag": "barcode,camera,reader"
-}, {
-    "name": "ios-barcode-outline",
-    "tag": "barcode,camera,reader"
-}, {
-    "name": "md-barcode",
-    "tag": "barcode,camera,reader"
-}, {
-    "name": "ios-baseball",
-    "tag": "baseball"
-}, {
-    "name": "ios-baseball-outline",
-    "tag": "baseball"
-}, {
-    "name": "md-baseball",
-    "tag": "baseball"
-}, {
-    "name": "ios-basket",
-    "tag": "basket"
-}, {
-    "name": "ios-basket-outline",
-    "tag": "basket"
-}, {
-    "name": "md-basket",
-    "tag": "basket"
-}, {
-    "name": "ios-basketball",
-    "tag": "basketball"
-}, {
-    "name": "ios-basketball-outline",
-    "tag": "basketball"
-}, {
-    "name": "md-basketball",
-    "tag": "basketball"
-}, {
-    "name": "ios-battery-charging",
-    "tag": "battery,charging"
-}, {
-    "name": "md-battery-charging",
-    "tag": "battery,charging"
-}, {
-    "name": "ios-battery-dead",
-    "tag": "battery,dead"
-}, {
-    "name": "md-battery-dead",
-    "tag": "battery,dead"
-}, {
-    "name": "ios-battery-full",
-    "tag": "battery,full"
-}, {
-    "name": "md-battery-full",
-    "tag": "battery,full"
-}, {
-    "name": "ios-beaker",
-    "tag": "beaker,flask,mixture,potion"
-}, {
-    "name": "ios-beaker-outline",
-    "tag": "beaker,flask,mixture,potion"
-}, {
-    "name": "md-beaker",
-    "tag": "beaker,flask,mixture,potion"
-}, {
-    "name": "ios-beer",
-    "tag": "beer,drink,eat,food"
-}, {
-    "name": "ios-beer-outline",
-    "tag": "beer,drink,eat,food"
-}, {
-    "name": "md-beer",
-    "tag": "beer,drink,eat,food"
-}, {
-    "name": "ios-bicycle",
-    "tag": "bicycle"
-}, {
-    "name": "md-bicycle",
-    "tag": "bicycle"
-}, {
-    "name": "logo-bitcoin",
-    "tag": "bitcoin,currency,money,logo,trade"
-}, {
-    "name": "ios-bluetooth",
-    "tag": "bluetooth,cloud,connection"
-}, {
-    "name": "md-bluetooth",
-    "tag": "bluetooth,cloud,connection"
-}, {
-    "name": "ios-boat",
-    "tag": "boat"
-}, {
-    "name": "ios-boat-outline",
-    "tag": "boat"
-}, {
-    "name": "md-boat",
-    "tag": "boat"
-}, {
-    "name": "ios-body",
-    "tag": "body"
-}, {
-    "name": "ios-body-outline",
-    "tag": "body"
-}, {
-    "name": "md-body",
-    "tag": "body"
-}, {
-    "name": "ios-bonfire",
-    "tag": "bonfire,heat,hot"
-}, {
-    "name": "ios-bonfire-outline",
-    "tag": "bonfire,heat,hot"
-}, {
-    "name": "md-bonfire",
-    "tag": "bonfire,heat,hot"
-}, {
-    "name": "ios-book",
-    "tag": "book,read"
-}, {
-    "name": "ios-book-outline",
-    "tag": "book,read"
-}, {
-    "name": "md-book",
-    "tag": "book,read"
-}, {
-    "name": "ios-bookmark",
-    "tag": "bookmark,favorite,save,tag"
-}, {
-    "name": "ios-bookmark-outline",
-    "tag": "bookmark,favorite,save,tag"
-}, {
-    "name": "md-bookmark",
-    "tag": "bookmark,favorite,save,tag"
-}, {
-    "name": "ios-bookmarks",
-    "tag": "bookmarks,favorite"
-}, {
-    "name": "ios-bookmarks-outline",
-    "tag": "bookmarks,favorite"
-}, {
-    "name": "md-bookmarks",
-    "tag": "bookmarks,favorite"
-}, {
-    "name": "ios-bowtie",
-    "tag": "bowtie"
-}, {
-    "name": "ios-bowtie-outline",
-    "tag": "bowtie"
-}, {
-    "name": "md-bowtie",
-    "tag": "bowtie"
-}, {
-    "name": "ios-briefcase",
-    "tag": "briefcase,folder,organize"
-}, {
-    "name": "ios-briefcase-outline",
-    "tag": "briefcase,folder,organize"
-}, {
-    "name": "md-briefcase",
-    "tag": "briefcase,folder,organize"
-}, {
-    "name": "ios-browsers",
-    "tag": "browsers,square"
-}, {
-    "name": "ios-browsers-outline",
-    "tag": "browsers,square"
-}, {
-    "name": "md-browsers",
-    "tag": "browsers,square"
-}, {
-    "name": "ios-brush",
-    "tag": "brush"
-}, {
-    "name": "ios-brush-outline",
-    "tag": "brush"
-}, {
-    "name": "md-brush",
-    "tag": "brush"
-}, {
-    "name": "logo-buffer",
-    "tag": "buffer,share,logo"
-}, {
-    "name": "ios-bug",
-    "tag": "bug,develop,error,hacker,program"
-}, {
-    "name": "ios-bug-outline",
-    "tag": "bug,develop,error,hacker,program"
-}, {
-    "name": "md-bug",
-    "tag": "bug,develop,error,hacker,program"
-}, {
-    "name": "ios-build",
-    "tag": "build"
-}, {
-    "name": "ios-build-outline",
-    "tag": "build"
-}, {
-    "name": "md-build",
-    "tag": "build"
-}, {
-    "name": "ios-bulb",
-    "tag": "bulb"
-}, {
-    "name": "ios-bulb-outline",
-    "tag": "bulb"
-}, {
-    "name": "md-bulb",
-    "tag": "bulb"
-}, {
-    "name": "ios-bus",
-    "tag": "bus"
-}, {
-    "name": "ios-bus-outline",
-    "tag": "bus"
-}, {
-    "name": "md-bus",
-    "tag": "bus"
-}, {
-    "name": "ios-cafe",
-    "tag": "cafe"
-}, {
-    "name": "ios-cafe-outline",
-    "tag": "cafe"
-}, {
-    "name": "md-cafe",
-    "tag": "cafe"
-}, {
-    "name": "ios-calculator",
-    "tag": "arithmatic,calculator,math"
-}, {
-    "name": "ios-calculator-outline",
-    "tag": "arithmatic,calculator,math"
-}, {
-    "name": "md-calculator",
-    "tag": "arithmatic,calculator,math"
-}, {
-    "name": "ios-calendar",
-    "tag": "calendar,date,month,week"
-}, {
-    "name": "ios-calendar-outline",
-    "tag": "calendar,date,month,week"
-}, {
-    "name": "md-calendar",
-    "tag": "calendar,date,month,week"
-}, {
-    "name": "ios-call",
-    "tag": "call,telephone"
-}, {
-    "name": "ios-call-outline",
-    "tag": "call,telephone"
-}, {
-    "name": "md-call",
-    "tag": "call,telephone"
-}, {
-    "name": "ios-camera",
-    "tag": "camera,image,photo"
-}, {
-    "name": "ios-camera-outline",
-    "tag": "camera,image,photo"
-}, {
-    "name": "md-camera",
-    "tag": "camera,image,photo"
-}, {
-    "name": "ios-car",
-    "tag": "car"
-}, {
-    "name": "ios-car-outline",
-    "tag": "car"
-}, {
-    "name": "md-car",
-    "tag": "car"
-}, {
-    "name": "ios-card",
-    "tag": "$,card,cash,credit,debit,dollars,money,price,shopping"
-}, {
-    "name": "ios-card-outline",
-    "tag": "$,card,cash,credit,debit,dollars,money,price,shopping"
-}, {
-    "name": "md-card",
-    "tag": "$,card,cash,credit,debit,dollars,money,price,shopping"
-}, {
-    "name": "ios-cart",
-    "tag": "cart"
-}, {
-    "name": "ios-cart-outline",
-    "tag": "cart"
-}, {
-    "name": "md-cart",
-    "tag": "cart"
-}, {
-    "name": "ios-cash",
-    "tag": "$,cash,credit,debit,dollars,money,price,shopping"
-}, {
-    "name": "ios-cash-outline",
-    "tag": "$,cash,credit,debit,dollars,money,price,shopping"
-}, {
-    "name": "md-cash",
-    "tag": "$,cash,credit,debit,dollars,money,price,shopping"
-}, {
-    "name": "ios-chatboxes",
-    "tag": "chatboxes,talk"
-}, {
-    "name": "ios-chatboxes-outline",
-    "tag": "chatboxes,talk"
-}, {
-    "name": "md-chatboxes",
-    "tag": "chatboxes,talk"
-}, {
-    "name": "ios-chatbubbles",
-    "tag": "chatbubbles,talk"
-}, {
-    "name": "ios-chatbubbles-outline",
-    "tag": "chatbubbles,talk"
-}, {
-    "name": "md-chatbubbles",
-    "tag": "chatbubbles,talk"
-}, {
-    "name": "ios-checkbox",
-    "tag": "checkbox"
-}, {
-    "name": "ios-checkbox-outline",
-    "tag": "checkbox"
-}, {
-    "name": "md-checkbox",
-    "tag": "checkbox"
-}, {
-    "name": "ios-checkbox-outline",
-    "tag": "checkbox,outline"
-}, {
-    "name": "ios-checkbox-outline",
-    "tag": "checkbox,outline"
-}, {
-    "name": "md-checkbox-outline",
-    "tag": "checkbox,outline"
-}, {
-    "name": "ios-checkmark",
-    "tag": "checkmark,success,ok"
-}, {
-    "name": "md-checkmark",
-    "tag": "checkmark,success,ok"
-}, {
-    "name": "ios-checkmark-circle",
-    "tag": "checkmark,circle,success,ok"
-}, {
-    "name": "ios-checkmark-circle-outline",
-    "tag": "checkmark,circle,success,ok"
-}, {
-    "name": "md-checkmark-circle",
-    "tag": "checkmark,circle,success,ok"
-}, {
-    "name": "ios-checkmark-circle-outline",
-    "tag": "checkmark,circle,outline,success,ok"
-}, {
-    "name": "ios-checkmark-circle-outline",
-    "tag": "checkmark,circle,outline,success,ok"
-}, {
-    "name": "md-checkmark-circle-outline",
-    "tag": "checkmark,circle,outline,success,ok"
-}, {
-    "name": "logo-chrome",
-    "tag": "chrome,logo"
-}, {
-    "name": "ios-clipboard",
-    "tag": "clipboard,write"
-}, {
-    "name": "ios-clipboard-outline",
-    "tag": "clipboard,write"
-}, {
-    "name": "md-clipboard",
-    "tag": "clipboard,write"
-}, {
-    "name": "ios-clock",
-    "tag": "clock,time"
-}, {
-    "name": "ios-clock-outline",
-    "tag": "clock,time"
-}, {
-    "name": "md-clock",
-    "tag": "clock,time"
-}, {
-    "name": "ios-close",
-    "tag": "close,delete,remove"
-}, {
-    "name": "md-close",
-    "tag": "close,delete,remove"
-}, {
-    "name": "ios-close-circle",
-    "tag": "circle,close"
-}, {
-    "name": "ios-close-circle-outline",
-    "tag": "circle,close"
-}, {
-    "name": "md-close-circle",
-    "tag": "circle,close"
-}, {
-    "name": "ios-closed-captioning",
-    "tag": "captioning,closed,film,movie,television"
-}, {
-    "name": "ios-closed-captioning-outline",
-    "tag": "captioning,closed,film,movie,television"
-}, {
-    "name": "md-closed-captioning",
-    "tag": "captioning,closed,film,movie,television"
-}, {
-    "name": "ios-cloud",
-    "tag": "cloud,storage,weather,whether"
-}, {
-    "name": "ios-cloud-outline",
-    "tag": "cloud,storage,weather,whether"
-}, {
-    "name": "md-cloud",
-    "tag": "cloud,storage,weather,whether"
-}, {
-    "name": "ios-cloud-circle",
-    "tag": "circle,cloud"
-}, {
-    "name": "ios-cloud-circle-outline",
-    "tag": "circle,cloud"
-}, {
-    "name": "md-cloud-circle",
-    "tag": "circle,cloud"
-}, {
-    "name": "ios-cloud-done",
-    "tag": "cloud,done"
-}, {
-    "name": "ios-cloud-done-outline",
-    "tag": "cloud,done"
-}, {
-    "name": "md-cloud-done",
-    "tag": "cloud,done"
-}, {
-    "name": "ios-cloud-download",
-    "tag": "cloud,download,storage"
-}, {
-    "name": "ios-cloud-download-outline",
-    "tag": "cloud,download,storage"
-}, {
-    "name": "md-cloud-download",
-    "tag": "cloud,download,storage"
-}, {
-    "name": "ios-cloud-outline",
-    "tag": "cloud,outline"
-}, {
-    "name": "ios-cloud-outline",
-    "tag": "cloud,outline"
-}, {
-    "name": "md-cloud-outline",
-    "tag": "cloud,outline"
-}, {
-    "name": "ios-cloud-upload",
-    "tag": "cloud,storage,upload"
-}, {
-    "name": "ios-cloud-upload-outline",
-    "tag": "cloud,storage,upload"
-}, {
-    "name": "md-cloud-upload",
-    "tag": "cloud,storage,upload"
-}, {
-    "name": "ios-cloudy",
-    "tag": "cloudy,overcast,weather,whether"
-}, {
-    "name": "ios-cloudy-outline",
-    "tag": "cloudy,overcast,weather,whether"
-}, {
-    "name": "md-cloudy",
-    "tag": "cloudy,overcast,weather,whether"
-}, {
-    "name": "ios-cloudy-night",
-    "tag": "cloudy,night,overcast,weather,whether"
-}, {
-    "name": "ios-cloudy-night-outline",
-    "tag": "cloudy,night,overcast,weather,whether"
-}, {
-    "name": "md-cloudy-night",
-    "tag": "cloudy,night,overcast,weather,whether"
-}, {
-    "name": "ios-code",
-    "tag": "code,develop,hacker,program"
-}, {
-    "name": "md-code",
-    "tag": "code,develop,hacker,program"
-}, {
-    "name": "ios-code-download",
-    "tag": "code,develop,download,hacker,program"
-}, {
-    "name": "md-code-download",
-    "tag": "code,develop,download,hacker,program"
-}, {
-    "name": "ios-code-working",
-    "tag": "code,develop,hacker,program,working"
-}, {
-    "name": "md-code-working",
-    "tag": "code,develop,hacker,program,working"
-}, {
-    "name": "logo-codepen",
-    "tag": "codepen,logo"
-}, {
-    "name": "ios-cog",
-    "tag": "cog,gear,options,settings"
-}, {
-    "name": "ios-cog-outline",
-    "tag": "cog,gear,options,settings"
-}, {
-    "name": "md-cog",
-    "tag": "cog,gear,options,settings"
-}, {
-    "name": "ios-color-fill",
-    "tag": "color,fill"
-}, {
-    "name": "ios-color-fill-outline",
-    "tag": "color,fill"
-}, {
-    "name": "md-color-fill",
-    "tag": "color,fill"
-}, {
-    "name": "ios-color-filter",
-    "tag": "color,filter"
-}, {
-    "name": "ios-color-filter-outline",
-    "tag": "color,filter"
-}, {
-    "name": "md-color-filter",
-    "tag": "color,filter"
-}, {
-    "name": "ios-color-palette",
-    "tag": "color,palette"
-}, {
-    "name": "ios-color-palette-outline",
-    "tag": "color,palette"
-}, {
-    "name": "md-color-palette",
-    "tag": "color,palette"
-}, {
-    "name": "ios-color-wand",
-    "tag": "color,wand"
-}, {
-    "name": "ios-color-wand-outline",
-    "tag": "color,wand"
-}, {
-    "name": "md-color-wand",
-    "tag": "color,wand"
-}, {
-    "name": "ios-compass",
-    "tag": "compass,directions,location,navigation"
-}, {
-    "name": "ios-compass-outline",
-    "tag": "compass,directions,location,navigation"
-}, {
-    "name": "md-compass",
-    "tag": "compass,directions,location,navigation"
-}, {
-    "name": "ios-construct",
-    "tag": "construct"
-}, {
-    "name": "ios-construct-outline",
-    "tag": "construct"
-}, {
-    "name": "md-construct",
-    "tag": "construct"
-}, {
-    "name": "ios-contact",
-    "tag": "contact,people,users"
-}, {
-    "name": "ios-contact-outline",
-    "tag": "contact,people,users"
-}, {
-    "name": "md-contact",
-    "tag": "contact,people,users"
-}, {
-    "name": "ios-contacts",
-    "tag": "contacts,people,users"
-}, {
-    "name": "ios-contacts-outline",
-    "tag": "contacts,people,users"
-}, {
-    "name": "md-contacts",
-    "tag": "contacts,people,users"
-}, {
-    "name": "ios-contract",
-    "tag": "contract"
-}, {
-    "name": "md-contract",
-    "tag": "contract"
-}, {
-    "name": "ios-contrast",
-    "tag": "contrast,dark,images,levels,light,settings"
-}, {
-    "name": "md-contrast",
-    "tag": "contrast,dark,images,levels,light,settings"
-}, {
-    "name": "ios-copy",
-    "tag": "copy,duplicate,paper"
-}, {
-    "name": "ios-copy-outline",
-    "tag": "copy,duplicate,paper"
-}, {
-    "name": "md-copy",
-    "tag": "copy,duplicate,paper"
-}, {
-    "name": "ios-create",
-    "tag": "create"
-}, {
-    "name": "ios-create-outline",
-    "tag": "create"
-}, {
-    "name": "md-create",
-    "tag": "create"
-}, {
-    "name": "ios-crop",
-    "tag": "crop"
-}, {
-    "name": "ios-crop-outline",
-    "tag": "crop"
-}, {
-    "name": "md-crop",
-    "tag": "crop"
-}, {
-    "name": "logo-css3",
-    "tag": "css3,logo"
-}, {
-    "name": "ios-cube",
-    "tag": "box,container,cube,square"
-}, {
-    "name": "ios-cube-outline",
-    "tag": "box,container,cube,square"
-}, {
-    "name": "md-cube",
-    "tag": "box,container,cube,square"
-}, {
-    "name": "ios-cut",
-    "tag": "cut"
-}, {
-    "name": "ios-cut-outline",
-    "tag": "cut"
-}, {
-    "name": "md-cut",
-    "tag": "cut"
-}, {
-    "name": "logo-designernews",
-    "tag": "design,designernews,post,logo"
-}, {
-    "name": "ios-desktop",
-    "tag": "desktop"
-}, {
-    "name": "ios-desktop-outline",
-    "tag": "desktop"
-}, {
-    "name": "md-desktop",
-    "tag": "desktop"
-}, {
-    "name": "ios-disc",
-    "tag": "cd,disc,vinyl"
-}, {
-    "name": "ios-disc-outline",
-    "tag": "cd,disc,vinyl"
-}, {
-    "name": "md-disc",
-    "tag": "cd,disc,vinyl"
-}, {
-    "name": "ios-document",
-    "tag": "document,file,paper"
-}, {
-    "name": "ios-document-outline",
-    "tag": "document,file,paper"
-}, {
-    "name": "md-document",
-    "tag": "document,file,paper"
-}, {
-    "name": "ios-done-all",
-    "tag": "all,done"
-}, {
-    "name": "md-done-all",
-    "tag": "all,done"
-}, {
-    "name": "ios-download",
-    "tag": "download,export"
-}, {
-    "name": "ios-download-outline",
-    "tag": "download,export"
-}, {
-    "name": "md-download",
-    "tag": "download,export"
-}, {
-    "name": "logo-dribbble",
-    "tag": "design,dribbble,logo"
-}, {
-    "name": "logo-dropbox",
-    "tag": "dropbox,logo,upload"
-}, {
-    "name": "ios-easel",
-    "tag": "easel"
-}, {
-    "name": "ios-easel-outline",
-    "tag": "easel"
-}, {
-    "name": "md-easel",
-    "tag": "easel"
-}, {
-    "name": "ios-egg",
-    "tag": "baby,bird,birth,egg,twitter"
-}, {
-    "name": "ios-egg-outline",
-    "tag": "baby,bird,birth,egg,twitter"
-}, {
-    "name": "md-egg",
-    "tag": "baby,bird,birth,egg,twitter"
-}, {
-    "name": "logo-euro",
-    "tag": "euro,logo"
-}, {
-    "name": "ios-exit",
-    "tag": "exit"
-}, {
-    "name": "ios-exit-outline",
-    "tag": "exit"
-}, {
-    "name": "md-exit",
-    "tag": "exit"
-}, {
-    "name": "ios-expand",
-    "tag": "expand"
-}, {
-    "name": "md-expand",
-    "tag": "expand"
-}, {
-    "name": "ios-eye",
-    "tag": "exposed,eye,look,see,view"
-}, {
-    "name": "ios-eye-outline",
-    "tag": "exposed,eye,look,see,view"
-}, {
-    "name": "md-eye",
-    "tag": "exposed,eye,look,see,view"
-}, {
-    "name": "ios-eye-off",
-    "tag": "eye,off"
-}, {
-    "name": "ios-eye-off-outline",
-    "tag": "eye,off"
-}, {
-    "name": "md-eye-off",
-    "tag": "eye,off"
-}, {
-    "name": "logo-facebook",
-    "tag": "facebook,like,post,share,logo"
-}, {
-    "name": "ios-fastforward",
-    "tag": "fastforward,jump,next,skip"
-}, {
-    "name": "ios-fastforward-outline",
-    "tag": "fastforward,jump,next,skip"
-}, {
-    "name": "md-fastforward",
-    "tag": "fastforward,jump,next,skip"
-}, {
-    "name": "ios-female",
-    "tag": "dudette,female,girl,lady"
-}, {
-    "name": "md-female",
-    "tag": "dudette,female,girl,lady"
-}, {
-    "name": "ios-filing",
-    "tag": "archive,filing"
-}, {
-    "name": "ios-filing-outline",
-    "tag": "archive,filing"
-}, {
-    "name": "md-filing",
-    "tag": "archive,filing"
-}, {
-    "name": "ios-film",
-    "tag": "film"
-}, {
-    "name": "ios-film-outline",
-    "tag": "film"
-}, {
-    "name": "md-film",
-    "tag": "film"
-}, {
-    "name": "ios-finger-print",
-    "tag": "finger,print"
-}, {
-    "name": "md-finger-print",
-    "tag": "finger,print"
-}, {
-    "name": "ios-flag",
-    "tag": "favorite,flag,marker"
-}, {
-    "name": "ios-flag-outline",
-    "tag": "favorite,flag,marker"
-}, {
-    "name": "md-flag",
-    "tag": "favorite,flag,marker"
-}, {
-    "name": "ios-flame",
-    "tag": "fire,flame,heat,hot"
-}, {
-    "name": "ios-flame-outline",
-    "tag": "fire,flame,heat,hot"
-}, {
-    "name": "md-flame",
-    "tag": "fire,flame,heat,hot"
-}, {
-    "name": "ios-flash",
-    "tag": "flash,lightning,weather,whether"
-}, {
-    "name": "ios-flash-outline",
-    "tag": "flash,lightning,weather,whether"
-}, {
-    "name": "md-flash",
-    "tag": "flash,lightning,weather,whether"
-}, {
-    "name": "ios-flask",
-    "tag": "bubbles,flask,mixture,potion"
-}, {
-    "name": "ios-flask-outline",
-    "tag": "bubbles,flask,mixture,potion"
-}, {
-    "name": "md-flask",
-    "tag": "bubbles,flask,mixture,potion"
-}, {
-    "name": "ios-flower",
-    "tag": "flower"
-}, {
-    "name": "ios-flower-outline",
-    "tag": "flower"
-}, {
-    "name": "md-flower",
-    "tag": "flower"
-}, {
-    "name": "ios-folder",
-    "tag": "file,folder"
-}, {
-    "name": "ios-folder-outline",
-    "tag": "file,folder"
-}, {
-    "name": "md-folder",
-    "tag": "file,folder"
-}, {
-    "name": "ios-folder-open",
-    "tag": "folder,open"
-}, {
-    "name": "ios-folder-open-outline",
-    "tag": "folder,open"
-}, {
-    "name": "md-folder-open",
-    "tag": "folder,open"
-}, {
-    "name": "ios-football",
-    "tag": "football"
-}, {
-    "name": "ios-football-outline",
-    "tag": "football"
-}, {
-    "name": "md-football",
-    "tag": "football"
-}, {
-    "name": "logo-foursquare",
-    "tag": "checkin,foursquare,logo"
-}, {
-    "name": "logo-freebsd-devil",
-    "tag": "devil,freebsd,logo,unix"
-}, {
-    "name": "ios-funnel",
-    "tag": "funnel,sort"
-}, {
-    "name": "ios-funnel-outline",
-    "tag": "funnel,sort"
-}, {
-    "name": "md-funnel",
-    "tag": "funnel,sort"
-}, {
-    "name": "ios-game-controller-a",
-    "tag": "a,controller,fun,game"
-}, {
-    "name": "ios-game-controller-a-outline",
-    "tag": "a,controller,fun,game"
-}, {
-    "name": "md-game-controller-a",
-    "tag": "a,controller,fun,game"
-}, {
-    "name": "ios-game-controller-b",
-    "tag": "b,controller,fun,game"
-}, {
-    "name": "ios-game-controller-b-outline",
-    "tag": "b,controller,fun,game"
-}, {
-    "name": "md-game-controller-b",
-    "tag": "b,controller,fun,game"
-}, {
-    "name": "ios-git-branch",
-    "tag": "branch,git"
-}, {
-    "name": "md-git-branch",
-    "tag": "branch,git"
-}, {
-    "name": "ios-git-commit",
-    "tag": "commit,git"
-}, {
-    "name": "md-git-commit",
-    "tag": "commit,git"
-}, {
-    "name": "ios-git-compare",
-    "tag": "compare,git"
-}, {
-    "name": "md-git-compare",
-    "tag": "compare,git"
-}, {
-    "name": "ios-git-merge",
-    "tag": "git,merge"
-}, {
-    "name": "md-git-merge",
-    "tag": "git,merge"
-}, {
-    "name": "ios-git-network",
-    "tag": "git,network"
-}, {
-    "name": "md-git-network",
-    "tag": "git,network"
-}, {
-    "name": "ios-git-pull-request",
-    "tag": "git,pull,request"
-}, {
-    "name": "md-git-pull-request",
-    "tag": "git,pull,request"
-}, {
-    "name": "logo-github",
-    "tag": "code,github,logo"
-}, {
-    "name": "ios-glasses",
-    "tag": "glasses,look,reading,see,steve"
-}, {
-    "name": "ios-glasses-outline",
-    "tag": "glasses,look,reading,see,steve"
-}, {
-    "name": "md-glasses",
-    "tag": "glasses,look,reading,see,steve"
-}, {
-    "name": "ios-globe",
-    "tag": "globe"
-}, {
-    "name": "ios-globe-outline",
-    "tag": "globe"
-}, {
-    "name": "md-globe",
-    "tag": "globe"
-}, {
-    "name": "logo-google",
-    "tag": "follow,google,post,share,logo"
-}, {
-    "name": "logo-googleplus",
-    "tag": "follow,googleplus,post,share,logo"
-}, {
-    "name": "ios-grid",
-    "tag": "grid,menu"
-}, {
-    "name": "ios-grid-outline",
-    "tag": "grid,menu"
-}, {
-    "name": "md-grid",
-    "tag": "grid,menu"
-}, {
-    "name": "logo-hackernews",
-    "tag": "discuss,hackernews,karma,logo,upvotes"
-}, {
-    "name": "ios-hammer",
-    "tag": "hammer,options,settings,tools"
-}, {
-    "name": "ios-hammer-outline",
-    "tag": "hammer,options,settings,tools"
-}, {
-    "name": "md-hammer",
-    "tag": "hammer,options,settings,tools"
-}, {
-    "name": "ios-hand",
-    "tag": "hand,stop"
-}, {
-    "name": "ios-hand-outline",
-    "tag": "hand,stop"
-}, {
-    "name": "md-hand",
-    "tag": "hand,stop"
-}, {
-    "name": "ios-happy",
-    "tag": "fun,good,happy,like,yes"
-}, {
-    "name": "ios-happy-outline",
-    "tag": "fun,good,happy,like,yes"
-}, {
-    "name": "md-happy",
-    "tag": "fun,good,happy,like,yes"
-}, {
-    "name": "ios-headset",
-    "tag": "headset"
-}, {
-    "name": "ios-headset-outline",
-    "tag": "headset"
-}, {
-    "name": "md-headset",
-    "tag": "headset"
-}, {
-    "name": "ios-heart",
-    "tag": "heart,love"
-}, {
-    "name": "ios-heart-outline",
-    "tag": "heart,love"
-}, {
-    "name": "md-heart",
-    "tag": "heart,love"
-}, {
-    "name": "md-heart-outline",
-    "tag": "heart,outline"
-}, {
-    "name": "ios-help",
-    "tag": "?,help,information,question"
-}, {
-    "name": "md-help",
-    "tag": "?,help,information,question"
-}, {
-    "name": "ios-help-buoy",
-    "tag": "?,buoy,help,question"
-}, {
-    "name": "ios-help-buoy-outline",
-    "tag": "?,buoy,help,question"
-}, {
-    "name": "md-help-buoy",
-    "tag": "?,buoy,help,question"
-}, {
-    "name": "ios-help-circle",
-    "tag": "circle,help"
-}, {
-    "name": "ios-help-circle-outline",
-    "tag": "circle,help"
-}, {
-    "name": "md-help-circle",
-    "tag": "circle,help"
-}, {
-    "name": "ios-home",
-    "tag": "home,house"
-}, {
-    "name": "ios-home-outline",
-    "tag": "home,house"
-}, {
-    "name": "md-home",
-    "tag": "home,house"
-}, {
-    "name": "logo-html5",
-    "tag": "html5,logo"
-}, {
-    "name": "ios-ice-cream",
-    "tag": "cream,ice"
-}, {
-    "name": "ios-ice-cream-outline",
-    "tag": "cream,ice"
-}, {
-    "name": "md-ice-cream",
-    "tag": "cream,ice"
-}, {
-    "name": "ios-image",
-    "tag": "camera,image,photo"
-}, {
-    "name": "ios-image-outline",
-    "tag": "camera,image,photo"
-}, {
-    "name": "md-image",
-    "tag": "camera,image,photo"
-}, {
-    "name": "ios-images",
-    "tag": "images,photo"
-}, {
-    "name": "ios-images-outline",
-    "tag": "images,photo"
-}, {
-    "name": "md-images",
-    "tag": "images,photo"
-}, {
-    "name": "ios-infinite",
-    "tag": "forever,infinite,loop"
-}, {
-    "name": "ios-infinite-outline",
-    "tag": "forever,infinite,loop"
-}, {
-    "name": "md-infinite",
-    "tag": "forever,infinite,loop"
-}, {
-    "name": "ios-information",
-    "tag": "help,information,knowledge"
-}, {
-    "name": "md-information",
-    "tag": "help,information,knowledge"
-}, {
-    "name": "ios-information-circle",
-    "tag": "circle,information"
-}, {
-    "name": "ios-information-circle-outline",
-    "tag": "circle,information"
-}, {
-    "name": "md-information-circle",
-    "tag": "circle,information"
-}, {
-    "name": "logo-instagram",
-    "tag": "camera,instagram,photo,logo"
-}, {
-    "name": "ios-ionic",
-    "tag": "badass,framework,hawt,ionic,sexy"
-}, {
-    "name": "ios-ionic-outline",
-    "tag": "badass,framework,hawt,ionic,sexy"
-}, {
-    "name": "md-ionic",
-    "tag": "badass,framework,hawt,ionic,sexy"
-}, {
-    "name": "ios-ionitron",
-    "tag": "ionitron"
-}, {
-    "name": "ios-ionitron-outline",
-    "tag": "ionitron"
-}, {
-    "name": "md-ionitron",
-    "tag": "ionitron"
-}, {
-    "name": "logo-javascript",
-    "tag": "javascript,logo"
-}, {
-    "name": "ios-jet",
-    "tag": "fly,jet,plane"
-}, {
-    "name": "ios-jet-outline",
-    "tag": "fly,jet,plane"
-}, {
-    "name": "md-jet",
-    "tag": "fly,jet,plane"
-}, {
-    "name": "ios-key",
-    "tag": "access,key"
-}, {
-    "name": "ios-key-outline",
-    "tag": "access,key"
-}, {
-    "name": "md-key",
-    "tag": "access,key"
-}, {
-    "name": "ios-keypad",
-    "tag": "keypad,type"
-}, {
-    "name": "ios-keypad-outline",
-    "tag": "keypad,type"
-}, {
-    "name": "md-keypad",
-    "tag": "keypad,type"
-}, {
-    "name": "ios-laptop",
-    "tag": "apple,laptop,macbook,osx"
-}, {
-    "name": "md-laptop",
-    "tag": "apple,laptop,macbook,osx"
-}, {
-    "name": "ios-leaf",
-    "tag": "green,leaf,nature,plant,recycle"
-}, {
-    "name": "ios-leaf-outline",
-    "tag": "green,leaf,nature,plant,recycle"
-}, {
-    "name": "md-leaf",
-    "tag": "green,leaf,nature,plant,recycle"
-}, {
-    "name": "ios-link",
-    "tag": "anchor,attach,chain,href,link"
-}, {
-    "name": "ios-link-outline",
-    "tag": "anchor,attach,chain,href,link"
-}, {
-    "name": "md-link",
-    "tag": "anchor,attach,chain,href,link"
-}, {
-    "name": "logo-linkedin",
-    "tag": "connect,linkedin,logo"
-}, {
-    "name": "ios-list",
-    "tag": "list"
-}, {
-    "name": "md-list",
-    "tag": "list"
-}, {
-    "name": "ios-list-box",
-    "tag": "box,list"
-}, {
-    "name": "ios-list-box-outline",
-    "tag": "box,list"
-}, {
-    "name": "md-list-box",
-    "tag": "box,list"
-}, {
-    "name": "ios-locate",
-    "tag": "gps,locate,maps,navigate"
-}, {
-    "name": "ios-locate-outline",
-    "tag": "gps,locate,maps,navigate"
-}, {
-    "name": "md-locate",
-    "tag": "gps,locate,maps,navigate"
-}, {
-    "name": "ios-lock",
-    "tag": "lock,privacy"
-}, {
-    "name": "ios-lock-outline",
-    "tag": "lock,privacy"
-}, {
-    "name": "md-lock",
-    "tag": "lock,privacy"
-}, {
-    "name": "ios-log-in",
-    "tag": "in,log,signin"
-}, {
-    "name": "md-log-in",
-    "tag": "in,log,signin"
-}, {
-    "name": "ios-log-out",
-    "tag": "log,out,signout"
-}, {
-    "name": "md-log-out",
-    "tag": "log,out,signout"
-}, {
-    "name": "ios-magnet",
-    "tag": "attraction,magnet,sticky"
-}, {
-    "name": "ios-magnet-outline",
-    "tag": "attraction,magnet,sticky"
-}, {
-    "name": "md-magnet",
-    "tag": "attraction,magnet,sticky"
-}, {
-    "name": "ios-mail",
-    "tag": "email,mail"
-}, {
-    "name": "ios-mail-outline",
-    "tag": "email,mail"
-}, {
-    "name": "md-mail",
-    "tag": "email,mail"
-}, {
-    "name": "ios-mail-open",
-    "tag": "mail,open"
-}, {
-    "name": "ios-mail-open-outline",
-    "tag": "mail,open"
-}, {
-    "name": "md-mail-open",
-    "tag": "mail,open"
-}, {
-    "name": "ios-male",
-    "tag": "boy,dude,guy,male,male"
-}, {
-    "name": "md-male",
-    "tag": "boy,dude,guy,male,male"
-}, {
-    "name": "ios-man",
-    "tag": "boy,dude,guy,male,man"
-}, {
-    "name": "ios-man-outline",
-    "tag": "boy,dude,guy,male,man"
-}, {
-    "name": "md-man",
-    "tag": "boy,dude,guy,male,man"
-}, {
-    "name": "ios-map",
-    "tag": "gps,map,navigation,pin"
-}, {
-    "name": "ios-map-outline",
-    "tag": "gps,map,navigation,pin"
-}, {
-    "name": "md-map",
-    "tag": "gps,map,navigation,pin"
-}, {
-    "name": "logo-markdown",
-    "tag": "markdown,logo"
-}, {
-    "name": "ios-medal",
-    "tag": "medal"
-}, {
-    "name": "ios-medal-outline",
-    "tag": "medal"
-}, {
-    "name": "md-medal",
-    "tag": "medal"
-}, {
-    "name": "ios-medical",
-    "tag": "medical"
-}, {
-    "name": "ios-medical-outline",
-    "tag": "medical"
-}, {
-    "name": "md-medical",
-    "tag": "medical"
-}, {
-    "name": "ios-medkit",
-    "tag": "case,disease,firstaid,health,medkit,sick"
-}, {
-    "name": "ios-medkit-outline",
-    "tag": "case,disease,firstaid,health,medkit,sick"
-}, {
-    "name": "md-medkit",
-    "tag": "case,disease,firstaid,health,medkit,sick"
-}, {
-    "name": "ios-megaphone",
-    "tag": "megaphone"
-}, {
-    "name": "ios-megaphone-outline",
-    "tag": "megaphone"
-}, {
-    "name": "md-megaphone",
-    "tag": "megaphone"
-}, {
-    "name": "ios-menu",
-    "tag": "menu"
-}, {
-    "name": "ios-menu-outline",
-    "tag": "menu"
-}, {
-    "name": "md-menu",
-    "tag": "menu"
-}, {
-    "name": "ios-mic",
-    "tag": "mic,noise,sound,speaker,talk"
-}, {
-    "name": "ios-mic-outline",
-    "tag": "mic,noise,sound,speaker,talk"
-}, {
-    "name": "md-mic",
-    "tag": "mic,noise,sound,speaker,talk"
-}, {
-    "name": "ios-mic-off",
-    "tag": "mic,noise,off,sound,speaker,talk"
-}, {
-    "name": "ios-mic-off-outline",
-    "tag": "mic,noise,off,sound,speaker,talk"
-}, {
-    "name": "md-mic-off",
-    "tag": "mic,noise,off,sound,speaker,talk"
-}, {
-    "name": "ios-microphone",
-    "tag": "microphone,music,noise,recorde,sound,speak"
-}, {
-    "name": "ios-microphone-outline",
-    "tag": "microphone,music,noise,recorde,sound,speak"
-}, {
-    "name": "md-microphone",
-    "tag": "microphone,music,noise,recorde,sound,speak"
-}, {
-    "name": "ios-moon",
-    "tag": "dark,moon,night,sky"
-}, {
-    "name": "ios-moon-outline",
-    "tag": "dark,moon,night,sky"
-}, {
-    "name": "md-moon",
-    "tag": "dark,moon,night,sky"
-}, {
-    "name": "ios-more",
-    "tag": "more,options"
-}, {
-    "name": "ios-more-outline",
-    "tag": "more,options"
-}, {
-    "name": "md-more",
-    "tag": "more,options"
-}, {
-    "name": "ios-move",
-    "tag": "move"
-}, {
-    "name": "md-move",
-    "tag": "move"
-}, {
-    "name": "ios-musical-note",
-    "tag": "listening,musical,noise,note,play,sound"
-}, {
-    "name": "ios-musical-note-outline",
-    "tag": "listening,musical,noise,note,play,sound"
-}, {
-    "name": "md-musical-note",
-    "tag": "listening,musical,noise,note,play,sound"
-}, {
-    "name": "ios-musical-notes",
-    "tag": "listening,musical,noise,notes,play,sound"
-}, {
-    "name": "ios-musical-notes-outline",
-    "tag": "listening,musical,noise,notes,play,sound"
-}, {
-    "name": "md-musical-notes",
-    "tag": "listening,musical,noise,notes,play,sound"
-}, {
-    "name": "ios-navigate",
-    "tag": "gps,location,map,navigate,pin"
-}, {
-    "name": "ios-navigate-outline",
-    "tag": "gps,location,map,navigate,pin"
-}, {
-    "name": "md-navigate",
-    "tag": "gps,location,map,navigate,pin"
-}, {
-    "name": "ios-no-smoking",
-    "tag": "cancer,cigarette,danger,no,smoking,warning"
-}, {
-    "name": "ios-no-smoking-outline",
-    "tag": "cancer,cigarette,danger,no,smoking,warning"
-}, {
-    "name": "md-no-smoking",
-    "tag": "cancer,cigarette,danger,no,smoking,warning"
-}, {
-    "name": "logo-nodejs",
-    "tag": "nodejs,logo"
-}, {
-    "name": "ios-notifications",
-    "tag": "notifications,push"
-}, {
-    "name": "ios-notifications-outline",
-    "tag": "notifications,push,outline"
-}, {
-    "name": "md-notifications",
-    "tag": "notifications,push"
-}, {
-    "name": "ios-notifications-off",
-    "tag": "notifications,off,push"
-}, {
-    "name": "ios-notifications-off-outline",
-    "tag": "notifications,off,push"
-}, {
-    "name": "md-notifications-off",
-    "tag": "notifications,off,push"
-}, {
-    "name": "md-notifications-outline",
-    "tag": "notifications,outline,push"
-}, {
-    "name": "ios-nuclear",
-    "tag": "danger,hazard,nuclear,warning"
-}, {
-    "name": "ios-nuclear-outline",
-    "tag": "danger,hazard,nuclear,warning"
-}, {
-    "name": "md-nuclear",
-    "tag": "danger,hazard,nuclear,warning"
-}, {
-    "name": "ios-nutrition",
-    "tag": "nutrition"
-}, {
-    "name": "ios-nutrition-outline",
-    "tag": "nutrition"
-}, {
-    "name": "md-nutrition",
-    "tag": "nutrition"
-}, {
-    "name": "logo-octocat",
-    "tag": "octocat,logo"
-}, {
-    "name": "ios-open",
-    "tag": "open"
-}, {
-    "name": "ios-open-outline",
-    "tag": "open"
-}, {
-    "name": "md-open",
-    "tag": "open"
-}, {
-    "name": "ios-options",
-    "tag": "options"
-}, {
-    "name": "ios-options-outline",
-    "tag": "options"
-}, {
-    "name": "md-options",
-    "tag": "options"
-}, {
-    "name": "ios-outlet",
-    "tag": "computer,digital,electricity,outlet"
-}, {
-    "name": "ios-outlet-outline",
-    "tag": "computer,digital,electricity,outlet"
-}, {
-    "name": "md-outlet",
-    "tag": "computer,digital,electricity,outlet"
-}, {
-    "name": "ios-paper",
-    "tag": "feed,paper,paper"
-}, {
-    "name": "ios-paper-outline",
-    "tag": "feed,paper,paper"
-}, {
-    "name": "md-paper",
-    "tag": "feed,paper,paper"
-}, {
-    "name": "ios-paper-plane",
-    "tag": "paper,plane"
-}, {
-    "name": "ios-paper-plane-outline",
-    "tag": "paper,plane"
-}, {
-    "name": "md-paper-plane",
-    "tag": "paper,plane"
-}, {
-    "name": "ios-partly-sunny",
-    "tag": "partly,sunny"
-}, {
-    "name": "ios-partly-sunny-outline",
-    "tag": "partly,sunny"
-}, {
-    "name": "md-partly-sunny",
-    "tag": "partly,sunny"
-}, {
-    "name": "ios-pause",
-    "tag": "break,freeze,hold,music,pause"
-}, {
-    "name": "ios-pause-outline",
-    "tag": "break,freeze,hold,music,pause"
-}, {
-    "name": "md-pause",
-    "tag": "break,freeze,hold,music,pause"
-}, {
-    "name": "ios-paw",
-    "tag": "paw"
-}, {
-    "name": "ios-paw-outline",
-    "tag": "paw"
-}, {
-    "name": "md-paw",
-    "tag": "paw"
-}, {
-    "name": "ios-people",
-    "tag": "head,human,people,person,stalker,users"
-}, {
-    "name": "ios-people-outline",
-    "tag": "head,human,people,person,stalker,users"
-}, {
-    "name": "md-people",
-    "tag": "head,human,people,person,stalker,users"
-}, {
-    "name": "ios-person",
-    "tag": "head,human,person,staff,users"
-}, {
-    "name": "ios-person-outline",
-    "tag": "head,human,person,staff,users"
-}, {
-    "name": "md-person",
-    "tag": "head,human,person,staff,users"
-}, {
-    "name": "ios-person-add",
-    "tag": "add,head,human,member,new,person,staff,users"
-}, {
-    "name": "ios-person-add-outline",
-    "tag": "add,head,human,member,new,person,staff,users"
-}, {
-    "name": "md-person-add",
-    "tag": "add,head,human,member,new,person,staff,users"
-}, {
-    "name": "ios-phone-landscape",
-    "tag": "landscape,phone"
-}, {
-    "name": "md-phone-landscape",
-    "tag": "landscape,phone"
-}, {
-    "name": "ios-phone-portrait",
-    "tag": "phone,portrait"
-}, {
-    "name": "md-phone-portrait",
-    "tag": "phone,portrait"
-}, {
-    "name": "ios-photos",
-    "tag": "images,photos,square,stills"
-}, {
-    "name": "ios-photos-outline",
-    "tag": "images,photos,square,stills"
-}, {
-    "name": "md-photos",
-    "tag": "images,photos,square,stills"
-}, {
-    "name": "ios-pie",
-    "tag": "cog,options,pie,settings"
-}, {
-    "name": "ios-pie-outline",
-    "tag": "cog,options,pie,settings"
-}, {
-    "name": "md-pie",
-    "tag": "cog,options,pie,settings"
-}, {
-    "name": "ios-pin",
-    "tag": "gps,navigation,pin"
-}, {
-    "name": "ios-pin-outline",
-    "tag": "gps,navigation,pin"
-}, {
-    "name": "md-pin",
-    "tag": "gps,navigation,pin"
-}, {
-    "name": "ios-pint",
-    "tag": "pint"
-}, {
-    "name": "ios-pint-outline",
-    "tag": "pint"
-}, {
-    "name": "md-pint",
-    "tag": "pint"
-}, {
-    "name": "logo-pinterest",
-    "tag": "pinterest,logo"
-}, {
-    "name": "ios-pizza",
-    "tag": "drink,eat,food,pizza"
-}, {
-    "name": "ios-pizza-outline",
-    "tag": "drink,eat,food,pizza"
-}, {
-    "name": "md-pizza",
-    "tag": "drink,eat,food,pizza"
-}, {
-    "name": "ios-plane",
-    "tag": "fly,jet,plane"
-}, {
-    "name": "ios-plane-outline",
-    "tag": "fly,jet,plane"
-}, {
-    "name": "md-plane",
-    "tag": "fly,jet,plane"
-}, {
-    "name": "ios-planet",
-    "tag": "globe,home,nature,planet,planet,space"
-}, {
-    "name": "ios-planet-outline",
-    "tag": "globe,home,nature,planet,planet,space"
-}, {
-    "name": "md-planet",
-    "tag": "globe,home,nature,planet,planet,space"
-}, {
-    "name": "ios-play",
-    "tag": "arrow,music,play,right,watch"
-}, {
-    "name": "ios-play-outline",
-    "tag": "arrow,music,play,right,watch"
-}, {
-    "name": "md-play",
-    "tag": "arrow,music,play,right,watch"
-}, {
-    "name": "logo-playstation",
-    "tag": "fun,games,playstation,logo"
-}, {
-    "name": "ios-podium",
-    "tag": "award,compete,competition,lose,podium,win"
-}, {
-    "name": "ios-podium-outline",
-    "tag": "award,compete,competition,lose,podium,win"
-}, {
-    "name": "md-podium",
-    "tag": "award,compete,competition,lose,podium,win"
-}, {
-    "name": "ios-power",
-    "tag": "off,on,power"
-}, {
-    "name": "ios-power-outline",
-    "tag": "off,on,power"
-}, {
-    "name": "md-power",
-    "tag": "off,on,power"
-}, {
-    "name": "ios-pricetag",
-    "tag": "$,commerce,items,money,pricetag,shopping"
-}, {
-    "name": "ios-pricetag-outline",
-    "tag": "$,commerce,items,money,pricetag,shopping"
-}, {
-    "name": "md-pricetag",
-    "tag": "$,commerce,items,money,pricetag,shopping"
-}, {
-    "name": "ios-pricetags",
-    "tag": "$,commerce,items,money,pricetags,shopping"
-}, {
-    "name": "ios-pricetags-outline",
-    "tag": "$,commerce,items,money,pricetags,shopping"
-}, {
-    "name": "md-pricetags",
-    "tag": "$,commerce,items,money,pricetags,shopping"
-}, {
-    "name": "ios-print",
-    "tag": "print"
-}, {
-    "name": "ios-print-outline",
-    "tag": "print"
-}, {
-    "name": "md-print",
-    "tag": "print"
-}, {
-    "name": "ios-pulse",
-    "tag": "hot,live,pulse,rate"
-}, {
-    "name": "ios-pulse-outline",
-    "tag": "hot,live,pulse,rate"
-}, {
-    "name": "md-pulse",
-    "tag": "hot,live,pulse,rate"
-}, {
-    "name": "logo-python",
-    "tag": "python,logo"
-}, {
-    "name": "ios-qr-scanner",
-    "tag": "qr,reader,scanner"
-}, {
-    "name": "md-qr-scanner",
-    "tag": "qr,reader,scanner"
-}, {
-    "name": "ios-quote",
-    "tag": "chat,quotation,quote"
-}, {
-    "name": "ios-quote-outline",
-    "tag": "chat,quotation,quote"
-}, {
-    "name": "md-quote",
-    "tag": "chat,quotation,quote"
-}, {
-    "name": "ios-radio",
-    "tag": "radio"
-}, {
-    "name": "ios-radio-outline",
-    "tag": "radio"
-}, {
-    "name": "md-radio",
-    "tag": "radio"
-}, {
-    "name": "ios-radio-button-off",
-    "tag": "button,off,radio"
-}, {
-    "name": "md-radio-button-off",
-    "tag": "button,off,radio"
-}, {
-    "name": "ios-radio-button-on",
-    "tag": "button,on,radio"
-}, {
-    "name": "md-radio-button-on",
-    "tag": "button,on,radio"
-}, {
-    "name": "ios-rainy",
-    "tag": "cloud,rainy,water,weather,whether"
-}, {
-    "name": "ios-rainy-outline",
-    "tag": "cloud,rainy,water,weather,whether"
-}, {
-    "name": "md-rainy",
-    "tag": "cloud,rainy,water,weather,whether"
-}, {
-    "name": "ios-recording",
-    "tag": "film,recording,tape,voicemail"
-}, {
-    "name": "ios-recording-outline",
-    "tag": "film,recording,tape,voicemail"
-}, {
-    "name": "md-recording",
-    "tag": "film,recording,tape,voicemail"
-}, {
-    "name": "logo-reddit",
-    "tag": "karma,news,reddit,logo,upvotes"
-}, {
-    "name": "ios-redo",
-    "tag": "forward,redo"
-}, {
-    "name": "ios-redo-outline",
-    "tag": "forward,redo"
-}, {
-    "name": "md-redo",
-    "tag": "forward,redo"
-}, {
-    "name": "ios-refresh",
-    "tag": "refresh,reload,renew,reset"
-}, {
-    "name": "md-refresh",
-    "tag": "refresh,reload,renew,reset"
-}, {
-    "name": "ios-refresh-circle",
-    "tag": "circle,refresh"
-}, {
-    "name": "ios-refresh-circle-outline",
-    "tag": "circle,refresh"
-}, {
-    "name": "md-refresh-circle",
-    "tag": "circle,refresh"
-}, {
-    "name": "ios-remove",
-    "tag": "minus,remove,subtract"
-}, {
-    "name": "md-remove",
-    "tag": "minus,remove,subtract"
-}, {
-    "name": "ios-remove-circle",
-    "tag": "circle,remove"
-}, {
-    "name": "ios-remove-circle-outline",
-    "tag": "circle,remove"
-}, {
-    "name": "md-remove-circle",
-    "tag": "circle,remove"
-}, {
-    "name": "ios-reorder",
-    "tag": "reorder"
-}, {
-    "name": "md-reorder",
-    "tag": "reorder"
-}, {
-    "name": "ios-repeat",
-    "tag": "repeat"
-}, {
-    "name": "md-repeat",
-    "tag": "repeat"
-}, {
-    "name": "ios-resize",
-    "tag": "resize"
-}, {
-    "name": "md-resize",
-    "tag": "resize"
-}, {
-    "name": "ios-restaurant",
-    "tag": "restaurant"
-}, {
-    "name": "ios-restaurant-outline",
-    "tag": "restaurant"
-}, {
-    "name": "md-restaurant",
-    "tag": "restaurant"
-}, {
-    "name": "ios-return-left",
-    "tag": "left,return"
-}, {
-    "name": "md-return-left",
-    "tag": "left,return"
-}, {
-    "name": "ios-return-right",
-    "tag": "return,right"
-}, {
-    "name": "md-return-right",
-    "tag": "return,right"
-}, {
-    "name": "ios-reverse-camera",
-    "tag": "camera,picture,reverse"
-}, {
-    "name": "ios-reverse-camera-outline",
-    "tag": "camera,picture,reverse"
-}, {
-    "name": "md-reverse-camera",
-    "tag": "camera,picture,reverse"
-}, {
-    "name": "ios-rewind",
-    "tag": "back,music,previous,rewind"
-}, {
-    "name": "ios-rewind-outline",
-    "tag": "back,music,previous,rewind"
-}, {
-    "name": "md-rewind",
-    "tag": "back,music,previous,rewind"
-}, {
-    "name": "ios-ribbon",
-    "tag": "ribbon"
-}, {
-    "name": "ios-ribbon-outline",
-    "tag": "ribbon"
-}, {
-    "name": "md-ribbon",
-    "tag": "ribbon"
-}, {
-    "name": "ios-rose",
-    "tag": "rose"
-}, {
-    "name": "ios-rose-outline",
-    "tag": "rose"
-}, {
-    "name": "md-rose",
-    "tag": "rose"
-}, {
-    "name": "logo-rss",
-    "tag": "blogging,rss,logo"
-}, {
-    "name": "ios-sad",
-    "tag": "bad,cry,no,sad"
-}, {
-    "name": "ios-sad-outline",
-    "tag": "bad,cry,no,sad"
-}, {
-    "name": "md-sad",
-    "tag": "bad,cry,no,sad"
-}, {
-    "name": "logo-sass",
-    "tag": "sass,logo"
-}, {
-    "name": "ios-school",
-    "tag": "school"
-}, {
-    "name": "ios-school-outline",
-    "tag": "school"
-}, {
-    "name": "md-school",
-    "tag": "school"
-}, {
-    "name": "ios-search",
-    "tag": "magnifyingglass,search"
-}, {
-    "name": "ios-search-outline",
-    "tag": "magnifyingglass,search"
-}, {
-    "name": "md-search",
-    "tag": "magnifyingglass,search"
-}, {
-    "name": "ios-send",
-    "tag": "email,paper,send,push"
-}, {
-    "name": "ios-send-outline",
-    "tag": "email,paper,send,push"
-}, {
-    "name": "md-send",
-    "tag": "email,paper,send,push"
-}, {
-    "name": "ios-settings",
-    "tag": "options,settings"
-}, {
-    "name": "ios-settings-outline",
-    "tag": "options,settings"
-}, {
-    "name": "md-settings",
-    "tag": "options,settings"
-}, {
-    "name": "ios-share",
-    "tag": "share"
-}, {
-    "name": "ios-share-outline",
-    "tag": "share"
-}, {
-    "name": "md-share",
-    "tag": "share"
-}, {
-    "name": "ios-share-alt",
-    "tag": "alt,share"
-}, {
-    "name": "ios-share-alt-outline",
-    "tag": "alt,share"
-}, {
-    "name": "md-share-alt",
-    "tag": "alt,share"
-}, {
-    "name": "ios-shirt",
-    "tag": "shirt"
-}, {
-    "name": "ios-shirt-outline",
-    "tag": "shirt"
-}, {
-    "name": "md-shirt",
-    "tag": "shirt"
-}, {
-    "name": "ios-shuffle",
-    "tag": "random,shuffle"
-}, {
-    "name": "md-shuffle",
-    "tag": "random,shuffle"
-}, {
-    "name": "ios-skip-backward",
-    "tag": "backward,music,previous,skip"
-}, {
-    "name": "ios-skip-backward-outline",
-    "tag": "backward,music,previous,skip"
-}, {
-    "name": "md-skip-backward",
-    "tag": "backward,music,previous,skip"
-}, {
-    "name": "ios-skip-forward",
-    "tag": "forward,music,next,skip"
-}, {
-    "name": "ios-skip-forward-outline",
-    "tag": "forward,music,next,skip"
-}, {
-    "name": "md-skip-forward",
-    "tag": "forward,music,next,skip"
-}, {
-    "name": "logo-skype",
-    "tag": "call,skype,logo"
-}, {
-    "name": "logo-snapchat",
-    "tag": "snapchat,logo"
-}, {
-    "name": "ios-snow",
-    "tag": "snow"
-}, {
-    "name": "ios-snow-outline",
-    "tag": "snow"
-}, {
-    "name": "md-snow",
-    "tag": "snow"
-}, {
-    "name": "ios-speedometer",
-    "tag": "drive,level,speed,speedometer"
-}, {
-    "name": "ios-speedometer-outline",
-    "tag": "drive,level,speed,speedometer"
-}, {
-    "name": "md-speedometer",
-    "tag": "drive,level,speed,speedometer"
-}, {
-    "name": "ios-square",
-    "tag": "square"
-}, {
-    "name": "ios-square-outline",
-    "tag": "square"
-}, {
-    "name": "md-square",
-    "tag": "square"
-}, {
-    "name": "md-square-outline",
-    "tag": "square,outline"
-}, {
-    "name": "ios-star",
-    "tag": "favorite,star"
-}, {
-    "name": "ios-star-outline",
-    "tag": "favorite,star"
-}, {
-    "name": "md-star",
-    "tag": "favorite,star"
-}, {
-    "name": "ios-star-half",
-    "tag": "favorite,half,rate,star"
-}, {
-    "name": "md-star-half",
-    "tag": "favorite,half,rate,star"
-}, {
-    "name": "md-star-outline",
-    "tag": "star,outline"
-}, {
-    "name": "ios-stats",
-    "tag": "stats"
-}, {
-    "name": "ios-stats-outline",
-    "tag": "stats"
-}, {
-    "name": "md-stats",
-    "tag": "stats"
-}, {
-    "name": "logo-steam",
-    "tag": "fun,games,logo,steam"
-}, {
-    "name": "ios-stopwatch",
-    "tag": "stopwatch"
-}, {
-    "name": "ios-stopwatch-outline",
-    "tag": "stopwatch"
-}, {
-    "name": "md-stopwatch",
-    "tag": "stopwatch"
-}, {
-    "name": "ios-subway",
-    "tag": "subway"
-}, {
-    "name": "ios-subway-outline",
-    "tag": "subway"
-}, {
-    "name": "md-subway",
-    "tag": "subway"
-}, {
-    "name": "ios-sunny",
-    "tag": "light,sky,sunny,weather,whether"
-}, {
-    "name": "ios-sunny-outline",
-    "tag": "light,sky,sunny,weather,whether"
-}, {
-    "name": "md-sunny",
-    "tag": "light,sky,sunny,weather,whether"
-}, {
-    "name": "ios-swap",
-    "tag": "swap"
-}, {
-    "name": "md-swap",
-    "tag": "swap"
-}, {
-    "name": "ios-switch",
-    "tag": "switch"
-}, {
-    "name": "ios-switch-outline",
-    "tag": "switch"
-}, {
-    "name": "md-switch",
-    "tag": "switch"
-}, {
-    "name": "ios-sync",
-    "tag": "sync"
-}, {
-    "name": "md-sync",
-    "tag": "sync"
-}, {
-    "name": "ios-tablet-landscape",
-    "tag": "landscape,tablet"
-}, {
-    "name": "md-tablet-landscape",
-    "tag": "landscape,tablet"
-}, {
-    "name": "ios-tablet-portrait",
-    "tag": "portrait,tablet"
-}, {
-    "name": "md-tablet-portrait",
-    "tag": "portrait,tablet"
-}, {
-    "name": "ios-tennisball",
-    "tag": "tennisball"
-}, {
-    "name": "ios-tennisball-outline",
-    "tag": "tennisball"
-}, {
-    "name": "md-tennisball",
-    "tag": "tennisball"
-}, {
-    "name": "ios-text",
-    "tag": "text"
-}, {
-    "name": "ios-text-outline",
-    "tag": "text"
-}, {
-    "name": "md-text",
-    "tag": "text"
-}, {
-    "name": "ios-thermometer",
-    "tag": "cold,heat,hot,mercury,temperature,thermometer"
-}, {
-    "name": "ios-thermometer-outline",
-    "tag": "cold,heat,hot,mercury,temperature,thermometer"
-}, {
-    "name": "md-thermometer",
-    "tag": "cold,heat,hot,mercury,temperature,thermometer"
-}, {
-    "name": "ios-thumbs-down",
-    "tag": "down,thumbs"
-}, {
-    "name": "ios-thumbs-down-outline",
-    "tag": "down,thumbs"
-}, {
-    "name": "md-thumbs-down",
-    "tag": "down,thumbs"
-}, {
-    "name": "ios-thumbs-up",
-    "tag": "thumbs,up"
-}, {
-    "name": "ios-thumbs-up-outline",
-    "tag": "thumbs,up"
-}, {
-    "name": "md-thumbs-up",
-    "tag": "thumbs,up"
-}, {
-    "name": "ios-thunderstorm",
-    "tag": "cloudy,lightning,overcast,rain,sky,storm,thunderstorm,weather,whether"
-}, {
-    "name": "ios-thunderstorm-outline",
-    "tag": "cloudy,lightning,overcast,rain,sky,storm,thunderstorm,weather,whether"
-}, {
-    "name": "md-thunderstorm",
-    "tag": "cloudy,lightning,overcast,rain,sky,storm,thunderstorm,weather,whether"
-}, {
-    "name": "ios-time",
-    "tag": "clock,hour,minute,second,time,watch"
-}, {
-    "name": "ios-time-outline",
-    "tag": "clock,hour,minute,second,time,watch"
-}, {
-    "name": "md-time",
-    "tag": "clock,hour,minute,second,time,watch"
-}, {
-    "name": "ios-timer",
-    "tag": "clock,timer"
-}, {
-    "name": "ios-timer-outline",
-    "tag": "clock,timer"
-}, {
-    "name": "md-timer",
-    "tag": "clock,timer"
-}, {
-    "name": "ios-train",
-    "tag": "train"
-}, {
-    "name": "ios-train-outline",
-    "tag": "train"
-}, {
-    "name": "md-train",
-    "tag": "train"
-}, {
-    "name": "ios-transgender",
-    "tag": "transgender"
-}, {
-    "name": "md-transgender",
-    "tag": "transgender"
-}, {
-    "name": "ios-trash",
-    "tag": "close,delete,remove,trash"
-}, {
-    "name": "ios-trash-outline",
-    "tag": "close,delete,remove,trash"
-}, {
-    "name": "md-trash",
-    "tag": "close,delete,remove,trash"
-}, {
-    "name": "ios-trending-down",
-    "tag": "down,trending"
-}, {
-    "name": "md-trending-down",
-    "tag": "down,trending"
-}, {
-    "name": "ios-trending-up",
-    "tag": "trending,up"
-}, {
-    "name": "md-trending-up",
-    "tag": "trending,up"
-}, {
-    "name": "ios-trophy",
-    "tag": "award,compete,competition,lose,trophy,win"
-}, {
-    "name": "ios-trophy-outline",
-    "tag": "award,compete,competition,lose,trophy,win"
-}, {
-    "name": "md-trophy",
-    "tag": "award,compete,competition,lose,trophy,win"
-}, {
-    "name": "logo-tumblr",
-    "tag": "blogging,logo,tumblr"
-}, {
-    "name": "logo-tux",
-    "tag": "linux,opensource,logo,tux"
-}, {
-    "name": "logo-twitch",
-    "tag": "logo,twitch"
-}, {
-    "name": "logo-twitter",
-    "tag": "follow,post,share,logo,twitter"
-}, {
-    "name": "ios-umbrella",
-    "tag": "dry,rain,shelter,umbrella,wet"
-}, {
-    "name": "ios-umbrella-outline",
-    "tag": "dry,rain,shelter,umbrella,wet"
-}, {
-    "name": "md-umbrella",
-    "tag": "dry,rain,shelter,umbrella,wet"
-}, {
-    "name": "ios-undo",
-    "tag": "reply,undo"
-}, {
-    "name": "ios-undo-outline",
-    "tag": "reply,undo"
-}, {
-    "name": "md-undo",
-    "tag": "reply,undo"
-}, {
-    "name": "ios-unlock",
-    "tag": "unlock"
-}, {
-    "name": "ios-unlock-outline",
-    "tag": "unlock"
-}, {
-    "name": "md-unlock",
-    "tag": "unlock"
-}, {
-    "name": "logo-usd",
-    "tag": "cash,currency,money,logo,trade,usd"
-}, {
-    "name": "ios-videocam",
-    "tag": "camera,film,movie,videocam"
-}, {
-    "name": "ios-videocam-outline",
-    "tag": "camera,film,movie,videocam"
-}, {
-    "name": "md-videocam",
-    "tag": "camera,film,movie,videocam"
-}, {
-    "name": "logo-vimeo",
-    "tag": "share,logo,video,view,vimeo,watch"
-}, {
-    "name": "ios-volume-down",
-    "tag": "down,volume"
-}, {
-    "name": "md-volume-down",
-    "tag": "down,volume"
-}, {
-    "name": "ios-volume-mute",
-    "tag": "mute,sound,volume"
-}, {
-    "name": "md-volume-mute",
-    "tag": "mute,sound,volume"
-}, {
-    "name": "ios-volume-off",
-    "tag": "off,volume"
-}, {
-    "name": "md-volume-off",
-    "tag": "off,volume"
-}, {
-    "name": "ios-volume-up",
-    "tag": "up,volume"
-}, {
-    "name": "md-volume-up",
-    "tag": "up,volume"
-}, {
-    "name": "ios-walk",
-    "tag": "walk"
-}, {
-    "name": "md-walk",
-    "tag": "walk"
-}, {
-    "name": "ios-warning",
-    "tag": "warning"
-}, {
-    "name": "ios-warning-outline",
-    "tag": "warning"
-}, {
-    "name": "md-warning",
-    "tag": "warning"
-}, {
-    "name": "ios-watch",
-    "tag": "watch"
-}, {
-    "name": "md-watch",
-    "tag": "watch"
-}, {
-    "name": "ios-water",
-    "tag": "water"
-}, {
-    "name": "ios-water-outline",
-    "tag": "water"
-}, {
-    "name": "md-water",
-    "tag": "water"
-}, {
-    "name": "logo-whatsapp",
-    "tag": "logo,whatsapp"
-}, {
-    "name": "ios-wifi",
-    "tag": "bars,connection,internet,wifi"
-}, {
-    "name": "ios-wifi-outline",
-    "tag": "bars,connection,internet,wifi"
-}, {
-    "name": "md-wifi",
-    "tag": "bars,connection,internet,wifi"
-}, {
-    "name": "logo-windows",
-    "tag": "pc,logo,windows"
-}, {
-    "name": "ios-wine",
-    "tag": "wine"
-}, {
-    "name": "ios-wine-outline",
-    "tag": "wine"
-}, {
-    "name": "md-wine",
-    "tag": "wine"
-}, {
-    "name": "ios-woman",
-    "tag": "dudette,female,girl,lady,woman"
-}, {
-    "name": "ios-woman-outline",
-    "tag": "dudette,female,girl,lady,woman"
-}, {
-    "name": "md-woman",
-    "tag": "dudette,female,girl,lady,woman"
-}, {
-    "name": "logo-wordpress",
-    "tag": "blogging,logo,wordpress"
-}, {
-    "name": "logo-xbox",
-    "tag": "fun,games,logo,xbox"
-}, {
-    "name": "logo-yahoo",
-    "tag": "logo,yahoo"
-}, {
-    "name": "logo-yen",
-    "tag": "logo,yen"
-}, {
-    "name": "logo-youtube",
-    "tag": "share,logo,video,view,watch,youtube"
-}, {
-    "name": "ios-loading",
-    "tag": "load,spin,loading"
-}];
+exports.default = [{ "name": "ionic", "pack": "default", "tag": "badass, framework, sexy, hawt, ionic" }, { "name": "arrow-up-a", "pack": "default", "tag": ", arrow-up-a" }, { "name": "arrow-right-a", "pack": "default", "tag": ", arrow-right-a" }, { "name": "arrow-down-a", "pack": "default", "tag": ", arrow-down-a" }, { "name": "arrow-left-a", "pack": "default", "tag": ", arrow-left-a" }, { "name": "arrow-up-b", "pack": "default", "tag": ", arrow-up-b" }, { "name": "arrow-right-b", "pack": "default", "tag": ", arrow-right-b" }, { "name": "arrow-down-b", "pack": "default", "tag": ", arrow-down-b" }, { "name": "arrow-left-b", "pack": "default", "tag": ", arrow-left-b" }, { "name": "arrow-up-c", "pack": "default", "tag": ", arrow-up-c" }, { "name": "arrow-right-c", "pack": "default", "tag": ", arrow-right-c" }, { "name": "arrow-down-c", "pack": "default", "tag": ", arrow-down-c" }, { "name": "arrow-left-c", "pack": "default", "tag": ", arrow-left-c" }, { "name": "arrow-return-right", "pack": "default", "tag": ", arrow-return-right" }, { "name": "arrow-return-left", "pack": "default", "tag": ", arrow-return-left" }, { "name": "arrow-swap", "pack": "default", "tag": "switch, flip, arrow-swap" }, { "name": "arrow-shrink", "pack": "default", "tag": "pinch, arrow-shrink" }, { "name": "arrow-expand", "pack": "default", "tag": "fullscreen, arrow-expand" }, { "name": "arrow-move", "pack": "default", "tag": "drag, arrow-move" }, { "name": "arrow-resize", "pack": "default", "tag": "drag, arrow-resize" }, { "name": "chevron-up", "pack": "default", "tag": "arrow, up, chevron-up" }, { "name": "chevron-right", "pack": "default", "tag": "arrow, right, chevron-right" }, { "name": "chevron-down", "pack": "default", "tag": "arrow, down, chevron-down" }, { "name": "chevron-left", "pack": "default", "tag": "arrow, left, chevron-left" }, { "name": "navicon-round", "pack": "default", "tag": "menu, hamburger, slide menu, navicon-round" }, { "name": "navicon", "pack": "default", "tag": "menu, hamburger, slide menu, navicon" }, { "name": "drag", "pack": "default", "tag": "reorder, move, drag, drag" }, { "name": "log-in", "pack": "default", "tag": "sign in, , log-in" }, { "name": "log-out", "pack": "default", "tag": "sign out, log-out" }, { "name": "checkmark-round", "pack": "default", "tag": "complete, finished, success, on, checkmark-round" }, { "name": "checkmark", "pack": "default", "tag": "complete, finished, success, on, checkmark" }, { "name": "checkmark-circled", "pack": "default", "tag": "complete, finished, success, on, checkmark-circled" }, { "name": "close-round", "pack": "default", "tag": "delete, trash, kill, x, close-round" }, { "name": "close", "pack": "default", "tag": "delete, trash, kill, x, close" }, { "name": "close-circled", "pack": "default", "tag": "delete, trash, kill, x, close-circled" }, { "name": "plus-round", "pack": "default", "tag": "add, include, new, invite, +, plus-round" }, { "name": "plus", "pack": "default", "tag": "add, include, new, invite, +, plus" }, { "name": "plus-circled", "pack": "default", "tag": "add, include, new, invite, +, plus-circled" }, { "name": "minus-round", "pack": "default", "tag": "hide, remove, minimize, -, minus-round" }, { "name": "minus", "pack": "default", "tag": "hide, remove, minimize, -, minus" }, { "name": "minus-circled", "pack": "default", "tag": "hide, remove, minimize, -, minus-circled" }, { "name": "information", "pack": "default", "tag": "help, more, tooltip, information" }, { "name": "information-circled", "pack": "default", "tag": "help, more, tooltip, information-circled" }, { "name": "help", "pack": "default", "tag": "question, ?, help" }, { "name": "help-circled", "pack": "default", "tag": "question, ?, help-circled" }, { "name": "backspace-outline", "pack": "default", "tag": "delete, remove, back, backspace-outline" }, { "name": "backspace", "pack": "default", "tag": "delete, remove, back, backspace" }, { "name": "help-buoy", "pack": "default", "tag": "question, ?, help-buoy" }, { "name": "asterisk", "pack": "default", "tag": "favorite, mark, star, asterisk" }, { "name": "alert", "pack": "default", "tag": "attention, warning, notice, !, exclamation, alert" }, { "name": "alert-circled", "pack": "default", "tag": "attention, warning, notice, !, exclamation, alert-circled" }, { "name": "refresh", "pack": "default", "tag": "reload, renew, refresh" }, { "name": "loop", "pack": "default", "tag": "refresh, loop" }, { "name": "shuffle", "pack": "default", "tag": "random, shuffle" }, { "name": "home", "pack": "default", "tag": "house, home" }, { "name": "search", "pack": "default", "tag": "magnifying glass, search" }, { "name": "flag", "pack": "default", "tag": "favorite, mark, star, flag" }, { "name": "star", "pack": "default", "tag": "favorite, star" }, { "name": "heart", "pack": "default", "tag": "love, heart" }, { "name": "heart-broken", "pack": "default", "tag": "love, heart-broken" }, { "name": "gear-a", "pack": "default", "tag": "settings, options, cog, gear-a" }, { "name": "gear-b", "pack": "default", "tag": "settings, options, cog, gear-b" }, { "name": "toggle-filled", "pack": "default", "tag": "settings, options, switch, toggle-filled" }, { "name": "toggle", "pack": "default", "tag": "settings, options, switch, toggle" }, { "name": "settings", "pack": "default", "tag": "options, tools, settings" }, { "name": "wrench", "pack": "default", "tag": "settings, options, tools, wrench" }, { "name": "hammer", "pack": "default", "tag": "settings, options, tools, hammer" }, { "name": "edit", "pack": "default", "tag": "change, update, write, type, pencil, edit" }, { "name": "trash-a", "pack": "default", "tag": "delete, remove, dump, trash-a" }, { "name": "trash-b", "pack": "default", "tag": "delete, remove, dump, trash-b" }, { "name": "document", "pack": "default", "tag": "paper, file, document" }, { "name": "document-text", "pack": "default", "tag": "paper, file, document-text" }, { "name": "clipboard", "pack": "default", "tag": "write, clipboard" }, { "name": "scissors", "pack": "default", "tag": "cut, scissors" }, { "name": "funnel", "pack": "default", "tag": "sort, funnel" }, { "name": "bookmark", "pack": "default", "tag": "favorite, tag, save, bookmark" }, { "name": "email", "pack": "default", "tag": "snail, mail, inbox, email" }, { "name": "email-unread", "pack": "default", "tag": "snail, mail, inbox, email-unread" }, { "name": "folder", "pack": "default", "tag": "snail, mail, folder" }, { "name": "filing", "pack": "default", "tag": "mail, filing" }, { "name": "archive", "pack": "default", "tag": "mail, archive" }, { "name": "reply", "pack": "default", "tag": "mail, undo, reply" }, { "name": "reply-all", "pack": "default", "tag": "mail, reply-all" }, { "name": "forward", "pack": "default", "tag": "mail, redo, forward" }, { "name": "share", "pack": "default", "tag": "outbound, share" }, { "name": "paper-airplane", "pack": "default", "tag": "outbound, mail, letter, send, paper-airplane" }, { "name": "link", "pack": "default", "tag": "chain, anchor, href, attach, link" }, { "name": "paperclip", "pack": "default", "tag": "attach, paperclip" }, { "name": "compose", "pack": "default", "tag": "write, compose, type, compose" }, { "name": "briefcase", "pack": "default", "tag": "store, organize, briefcase" }, { "name": "medkit", "pack": "default", "tag": "health, medkit" }, { "name": "at", "pack": "default", "tag": "@, at" }, { "name": "pound", "pack": "default", "tag": "hashtag, #, pound" }, { "name": "quote", "pack": "default", "tag": "chat, quotation, quote" }, { "name": "cloud", "pack": "default", "tag": "storage, cloud" }, { "name": "upload", "pack": "default", "tag": "storage, cloud, upload" }, { "name": "more", "pack": "default", "tag": "circles, more" }, { "name": "grid", "pack": "default", "tag": "menu, grid" }, { "name": "calendar", "pack": "default", "tag": "date, time, month, year, calendar" }, { "name": "clock", "pack": "default", "tag": "time, watch, hours, minutes, seconds, clock" }, { "name": "compass", "pack": "default", "tag": "location, directions, navigation, compass" }, { "name": "pinpoint", "pack": "default", "tag": "gps, navigation, pinpoint" }, { "name": "pin", "pack": "default", "tag": "gps, navigation, pin" }, { "name": "navigate", "pack": "default", "tag": "gps, location pin, navigate" }, { "name": "location", "pack": "default", "tag": "gps, navigation, pin, location" }, { "name": "map", "pack": "default", "tag": "gps, navigation, pin, map" }, { "name": "lock-combination", "pack": "default", "tag": "padlock, security, lock-combination" }, { "name": "locked", "pack": "default", "tag": "padlock, security, locked" }, { "name": "unlocked", "pack": "default", "tag": "padlock, security, unlocked" }, { "name": "key", "pack": "default", "tag": "access, key" }, { "name": "arrow-graph-up-right", "pack": "default", "tag": "stats, arrow-graph-up-right" }, { "name": "arrow-graph-down-right", "pack": "default", "tag": "stats, arrow-graph-down-right" }, { "name": "arrow-graph-up-left", "pack": "default", "tag": "stats, arrow-graph-up-left" }, { "name": "arrow-graph-down-left", "pack": "default", "tag": "stats, arrow-graph-down-left" }, { "name": "stats-bars", "pack": "default", "tag": "data, stats-bars" }, { "name": "connection-bars", "pack": "default", "tag": "data, stats, connection-bars" }, { "name": "pie-graph", "pack": "default", "tag": "stats, pie-graph" }, { "name": "chatbubble", "pack": "default", "tag": "talk, chatbubble" }, { "name": "chatbubble-working", "pack": "default", "tag": "talk, chatbubble-working" }, { "name": "chatbubbles", "pack": "default", "tag": "talk, chatbubbles" }, { "name": "chatbox", "pack": "default", "tag": "talk, chatbox" }, { "name": "chatbox-working", "pack": "default", "tag": "talk, chatbox-working" }, { "name": "chatboxes", "pack": "default", "tag": "talk, chatboxes" }, { "name": "person", "pack": "default", "tag": "users, staff, head, human, person" }, { "name": "person-add", "pack": "default", "tag": "users, staff, head, human, member, new, person-add" }, { "name": "person-stalker", "pack": "default", "tag": "people, human, users, staff, person-stalker" }, { "name": "woman", "pack": "default", "tag": "female, lady, girl, dudette, woman" }, { "name": "man", "pack": "default", "tag": "male, guy, boy, dude, man" }, { "name": "female", "pack": "default", "tag": "lady, girl, dudette, female" }, { "name": "male", "pack": "default", "tag": "male, guy, boy, dude, male" }, { "name": "transgender", "pack": "default", "tag": ", transgender" }, { "name": "fork", "pack": "default", "tag": "food, drink, eat, fork" }, { "name": "knife", "pack": "default", "tag": "food, drink, eat, knife" }, { "name": "spoon", "pack": "default", "tag": "food, drink, eat, spoon" }, { "name": "soup-can-outline", "pack": "default", "tag": "food, drink, eat, soup-can-outline" }, { "name": "soup-can", "pack": "default", "tag": "food, drink, eat, soup-can" }, { "name": "beer", "pack": "default", "tag": "food, drink, eat, beer" }, { "name": "wineglass", "pack": "default", "tag": "food, drink, eat, wineglass" }, { "name": "coffee", "pack": "default", "tag": "food, drink, eat, caffeine, coffee" }, { "name": "icecream", "pack": "default", "tag": "food, drink, eat, icecream" }, { "name": "pizza", "pack": "default", "tag": "food, drink, eat, pizza" }, { "name": "power", "pack": "default", "tag": "on, off, power" }, { "name": "mouse", "pack": "default", "tag": "computer, mouse" }, { "name": "battery-full", "pack": "default", "tag": ", battery-full" }, { "name": "battery-half", "pack": "default", "tag": ", battery-half" }, { "name": "battery-low", "pack": "default", "tag": ", battery-low" }, { "name": "battery-empty", "pack": "default", "tag": ", battery-empty" }, { "name": "battery-charging", "pack": "default", "tag": ", battery-charging" }, { "name": "wifi", "pack": "default", "tag": "internet, connection, wifi" }, { "name": "bluetooth", "pack": "default", "tag": "connection, cloud, bluetooth" }, { "name": "calculator", "pack": "default", "tag": "math, arithmatic, numbers, addition, subtraction, calculator" }, { "name": "camera", "pack": "default", "tag": "photo, camera" }, { "name": "eye", "pack": "default", "tag": "view, see, creeper, eye" }, { "name": "eye-disabled", "pack": "default", "tag": "view, see, creeper, eye-disabled" }, { "name": "flash", "pack": "default", "tag": "lightning, weather, whether, flash" }, { "name": "flash-off", "pack": "default", "tag": ", flash-off" }, { "name": "qr-scanner", "pack": "default", "tag": "reader, qr-scanner" }, { "name": "image", "pack": "default", "tag": "photo, image" }, { "name": "images", "pack": "default", "tag": "photo, images" }, { "name": "wand", "pack": "default", "tag": "images, levels, light, dark, settings, wand" }, { "name": "contrast", "pack": "default", "tag": "images, levels, light, dark, settings, contrast" }, { "name": "aperture", "pack": "default", "tag": "images, levels, light, dark, settings, aperture" }, { "name": "crop", "pack": "default", "tag": "images, levels, light, dark, settings, crop" }, { "name": "easel", "pack": "default", "tag": "images, art, create, color, easel" }, { "name": "paintbrush", "pack": "default", "tag": "images, art, create, color, paintbrush" }, { "name": "paintbucket", "pack": "default", "tag": "images, art, create, color, paintbucket" }, { "name": "monitor", "pack": "default", "tag": "thunderbolt, screen, monitor" }, { "name": "laptop", "pack": "default", "tag": "macbook, apple, osx, laptop" }, { "name": "ipad", "pack": "default", "tag": "tablet, mobile, apple, retina, device, ipad" }, { "name": "iphone", "pack": "default", "tag": "smartphone, mobile, apple, retina, device, iphone" }, { "name": "ipod", "pack": "default", "tag": "music, player, apple, retina, device, ipod" }, { "name": "printer", "pack": "default", "tag": "paper, printer" }, { "name": "usb", "pack": "default", "tag": "digital, computer, usb" }, { "name": "outlet", "pack": "default", "tag": "digital, computer, electricity, outlet" }, { "name": "bug", "pack": "default", "tag": "develop, program, hacker, error, bug" }, { "name": "code", "pack": "default", "tag": "develop, program, hacker, code" }, { "name": "code-working", "pack": "default", "tag": "develop, program, hacker, code-working" }, { "name": "code-download", "pack": "default", "tag": "develop, program, hacker, code-download" }, { "name": "fork-repo", "pack": "default", "tag": "develop, program, hacker, github, fork-repo" }, { "name": "network", "pack": "default", "tag": "develop, program, hacker, github, network" }, { "name": "pull-request", "pack": "default", "tag": "develop, program, hacker, github, pull-request" }, { "name": "merge", "pack": "default", "tag": "develop, program, hacker, github, merge" }, { "name": "xbox", "pack": "default", "tag": "fun, games, xbox" }, { "name": "playstation", "pack": "default", "tag": "fun, games, playstation" }, { "name": "steam", "pack": "default", "tag": "fun, games, steam" }, { "name": "closed-captioning", "pack": "default", "tag": "movie, film, television, closed-captioning" }, { "name": "videocamera", "pack": "default", "tag": "movie, film, television, videocamera" }, { "name": "film-marker", "pack": "default", "tag": "film, cut, action, film-marker" }, { "name": "disc", "pack": "default", "tag": "cd, vinyl, disc" }, { "name": "headphone", "pack": "default", "tag": "music, earbuds, beats, headphone" }, { "name": "music-note", "pack": "default", "tag": "songs, music-note" }, { "name": "radio-waves", "pack": "default", "tag": "music, sound, speaker, radio-waves" }, { "name": "speakerphone", "pack": "default", "tag": "sound, speaker, loud, amplify, speakerphone" }, { "name": "mic-a", "pack": "default", "tag": "sound, talk, speaker, mic-a" }, { "name": "mic-b", "pack": "default", "tag": "sound, talk, speaker, mic-b" }, { "name": "mic-c", "pack": "default", "tag": "sound, talk, speaker, mic-c" }, { "name": "volume-high", "pack": "default", "tag": "sound, noise, volume-high" }, { "name": "volume-medium", "pack": "default", "tag": "sound, volume-medium" }, { "name": "volume-low", "pack": "default", "tag": "sound, volume-low" }, { "name": "volume-mute", "pack": "default", "tag": "sound, volume-mute" }, { "name": "levels", "pack": "default", "tag": "options, toggles, sound, mixer, levels" }, { "name": "play", "pack": "default", "tag": "music, watch, arrow, right, play" }, { "name": "pause", "pack": "default", "tag": "music, break, hold, freeze, pause" }, { "name": "stop", "pack": "default", "tag": "music, square, hold, freeze, stop" }, { "name": "record", "pack": "default", "tag": "music, circle, record" }, { "name": "skip-forward", "pack": "default", "tag": "music, next, skip-forward" }, { "name": "skip-backward", "pack": "default", "tag": "music, previous, skip-backward" }, { "name": "eject", "pack": "default", "tag": "music, dvd, remove, eject" }, { "name": "bag", "pack": "default", "tag": "shopping, price, cart, money, container, $, bag" }, { "name": "card", "pack": "default", "tag": "credit, price, debit, money, shopping, cash, dollars, $, card" }, { "name": "cash", "pack": "default", "tag": "credit, price, debit, money, shopping, dollars, $, cash" }, { "name": "pricetag", "pack": "default", "tag": "credit, debit, money, shopping, cash, dollars, $, pricetag" }, { "name": "pricetags", "pack": "default", "tag": "credit, debit, money, shopping, cash, dollars, $, pricetags" }, { "name": "thumbsup", "pack": "default", "tag": "like, fun, yes, thumbsup" }, { "name": "thumbsdown", "pack": "default", "tag": "dislike, boring, no, thumbsdown" }, { "name": "happy-outline", "pack": "default", "tag": "good, like, fun, yes, happy-outline" }, { "name": "happy", "pack": "default", "tag": "good, like, fun, yes, happy" }, { "name": "sad-outline", "pack": "default", "tag": "cry, bad, no, sad-outline" }, { "name": "sad", "pack": "default", "tag": "cry, bad, no, sad" }, { "name": "bowtie", "pack": "default", "tag": "tie, shirt, dress, clothing, bowtie" }, { "name": "tshirt-outline", "pack": "default", "tag": "tie, shirt, dress, clothing, tshirt-outline" }, { "name": "tshirt", "pack": "default", "tag": "tie, shirt, dress, clothing, tshirt" }, { "name": "trophy", "pack": "default", "tag": "competition, compete, win, lose, award, trophy" }, { "name": "podium", "pack": "default", "tag": "competition, compete, win, lose, award, podium" }, { "name": "ribbon-a", "pack": "default", "tag": "competition, compete, win, lose, award, trophy, ribbon-a" }, { "name": "ribbon-b", "pack": "default", "tag": "competition, compete, win, lose, award, trophy, ribbon-b" }, { "name": "university", "pack": "default", "tag": "graduate, education, school, tassle, university" }, { "name": "magnet", "pack": "default", "tag": "sticky, attraction, magnet" }, { "name": "beaker", "pack": "default", "tag": "mixture, potion, flask, beaker" }, { "name": "erlenmeyer-flask", "pack": "default", "tag": "mixture, potion, beaker, potion, erlenmeyer-flask" }, { "name": "egg", "pack": "default", "tag": "birth, twitter, bird, baby, egg" }, { "name": "earth", "pack": "default", "tag": "nature, globe, home, planet, earth" }, { "name": "planet", "pack": "default", "tag": "nature, globe, home, planet, space, planet" }, { "name": "lightbulb", "pack": "default", "tag": "idea, new, aha!, lightbulb" }, { "name": "cube", "pack": "default", "tag": "box, square, container, cube" }, { "name": "leaf", "pack": "default", "tag": "green, recycle, plant, nature, leaf" }, { "name": "waterdrop", "pack": "default", "tag": "nature, clean, recycle, fresh, wet, rain, waterdrop" }, { "name": "flame", "pack": "default", "tag": "fire, hot, heat, flame" }, { "name": "fireball", "pack": "default", "tag": "hot, heat, fireball" }, { "name": "bonfire", "pack": "default", "tag": "hot, heat, bonfire" }, { "name": "umbrella", "pack": "default", "tag": "wet, rain, dry, shelter, umbrella" }, { "name": "nuclear", "pack": "default", "tag": "danger, warning, hazard, nuclear" }, { "name": "no-smoking", "pack": "default", "tag": "danger, warning, cigarette, cancer, no-smoking" }, { "name": "thermometer", "pack": "default", "tag": "hot, cold, heat, temperature, mercury, thermometer" }, { "name": "speedometer", "pack": "default", "tag": "travel, accelerate, speedometer" }, { "name": "model-s", "pack": "default", "tag": "navigation, car, drive, transportation, tesla, sexy, model-s" }, { "name": "plane", "pack": "default", "tag": "fly, jet, plane" }, { "name": "jet", "pack": "default", "tag": "fly, plane, jet" }, { "name": "load-a", "pack": "default", "tag": "spinner, waiting, refresh, load-a" }, { "name": "load-b", "pack": "default", "tag": "spinner, waiting, refresh, load-b" }, { "name": "load-c", "pack": "default", "tag": "spinner, waiting, refresh, load-c" }, { "name": "load-d", "pack": "default", "tag": "spinner, waiting, refresh, load-d" }, { "name": "ios-ionic-outline", "pack": "ios", "tag": "badass, framework, sexy, ios-ionic-outline" }, { "name": "ios-arrow-back", "pack": "ios", "tag": "chevron, left, ios-arrow-back" }, { "name": "ios-arrow-forward", "pack": "ios", "tag": "chevron, right, ios-arrow-forward" }, { "name": "ios-arrow-up", "pack": "ios", "tag": "chevron, ios-arrow-up" }, { "name": "ios-arrow-right", "pack": "ios", "tag": "chevron, ios-arrow-right" }, { "name": "ios-arrow-down", "pack": "ios", "tag": "chevron, ios-arrow-down" }, { "name": "ios-arrow-left", "pack": "ios", "tag": "chevron, ios-arrow-left" }, { "name": "ios-arrow-thin-up", "pack": "ios", "tag": "chevron, ios-arrow-thin-up" }, { "name": "ios-arrow-thin-right", "pack": "ios", "tag": "chevron, ios-arrow-thin-right" }, { "name": "ios-arrow-thin-down", "pack": "ios", "tag": "chevron, ios-arrow-thin-down" }, { "name": "ios-arrow-thin-left", "pack": "ios", "tag": "chevron, ios-arrow-thin-left" }, { "name": "ios-circle-filled", "pack": "ios", "tag": "checkmark, radio, dot, on, selected, button, ios-circle-filled" }, { "name": "ios-circle-outline", "pack": "ios", "tag": "checkmark, radio, dot, off, button, ios-circle-outline" }, { "name": "ios-checkmark-empty", "pack": "ios", "tag": "success, confirmed, on, finished, complete, ios-checkmark-empty" }, { "name": "ios-checkmark-outline", "pack": "ios", "tag": "success, confirmed, on, finished, complete, ios-checkmark-outline" }, { "name": "ios-checkmark", "pack": "ios", "tag": "success, confirmed, on, finished, complete, ios-checkmark" }, { "name": "ios-plus-empty", "pack": "ios", "tag": "add, include, new, invite, +, ios-plus-empty" }, { "name": "ios-plus-outline", "pack": "ios", "tag": "add, include, new, invite, +, ios-plus-outline" }, { "name": "ios-plus", "pack": "ios", "tag": "add, include, new, invite, +, ios-plus" }, { "name": "ios-close-empty", "pack": "ios", "tag": "delete, remove, trash, end, stop, x, ios-close-empty" }, { "name": "ios-close-outline", "pack": "ios", "tag": "delete, remove, trash, end, stop, x, ios-close-outline" }, { "name": "ios-close", "pack": "ios", "tag": "delete, remove, trash, end, stop, x, ios-close" }, { "name": "ios-minus-empty", "pack": "ios", "tag": "hide, remove, minimize, -, ios-minus-empty" }, { "name": "ios-minus-outline", "pack": "ios", "tag": "hide, remove, minimize, -, ios-minus-outline" }, { "name": "ios-minus", "pack": "ios", "tag": "hide, remove, minimize, -, ios-minus" }, { "name": "ios-information-empty", "pack": "ios", "tag": "help, question, ios-information-empty" }, { "name": "ios-information-outline", "pack": "ios", "tag": "help, question, ios-information-outline" }, { "name": "ios-information", "pack": "ios", "tag": "help, question, ios-information" }, { "name": "ios-help-empty", "pack": "ios", "tag": "question, information, ?, ios-help-empty" }, { "name": "ios-help-outline", "pack": "ios", "tag": "question, information, ?, ios-help-outline" }, { "name": "ios-help", "pack": "ios", "tag": "question, information, ?, ios-help" }, { "name": "ios-search", "pack": "ios", "tag": "find, seek, look, magnifying glass, ios-search" }, { "name": "ios-search-strong", "pack": "ios", "tag": "find, seek, look, magnifying glass, ios-search-strong" }, { "name": "ios-star", "pack": "ios", "tag": "favorite, rate, ios-star" }, { "name": "ios-star-half", "pack": "ios", "tag": "favorite, rate, ios-star-half" }, { "name": "ios-star-outline", "pack": "ios", "tag": "favorite, rate, ios-star-outline" }, { "name": "ios-heart", "pack": "ios", "tag": "love, ios-heart" }, { "name": "ios-heart-outline", "pack": "ios", "tag": "love, ios-heart-outline" }, { "name": "ios-more", "pack": "ios", "tag": "menu, ios-more" }, { "name": "ios-more-outline", "pack": "ios", "tag": "menu, ios-more-outline" }, { "name": "ios-home", "pack": "ios", "tag": "house, ios-home" }, { "name": "ios-home-outline", "pack": "ios", "tag": "house, ios-home-outline" }, { "name": "ios-cloud", "pack": "ios", "tag": "storage, weather, whether, ios-cloud" }, { "name": "ios-cloud-outline", "pack": "ios", "tag": "storage, weather, whether, ios-cloud-outline" }, { "name": "ios-cloud-upload", "pack": "ios", "tag": "storage, ios-cloud-upload" }, { "name": "ios-cloud-upload-outline", "pack": "ios", "tag": "storage, ios-cloud-upload-outline" }, { "name": "ios-cloud-download", "pack": "ios", "tag": "storage, ios-cloud-download" }, { "name": "ios-cloud-download-outline", "pack": "ios", "tag": "storage, ios-cloud-download-outline" }, { "name": "ios-upload", "pack": "ios", "tag": "share, import, ios-upload" }, { "name": "ios-upload-outline", "pack": "ios", "tag": "share, import, ios-upload-outline" }, { "name": "ios-download", "pack": "ios", "tag": "save, export, ios-download" }, { "name": "ios-download-outline", "pack": "ios", "tag": "save, export, ios-download-outline" }, { "name": "ios-refresh", "pack": "ios", "tag": "reload, renew, reset, ios-refresh" }, { "name": "ios-refresh-outline", "pack": "ios", "tag": "reload, renew, reset, ios-refresh-outline" }, { "name": "ios-refresh-empty", "pack": "ios", "tag": "reload, renew, ios-refresh-empty" }, { "name": "ios-reload", "pack": "ios", "tag": "renew, reset, ios-reload" }, { "name": "ios-loop-strong", "pack": "ios", "tag": "reload, renew, reset, ios-loop-strong" }, { "name": "ios-loop", "pack": "ios", "tag": "reload, renew, reset, ios-loop" }, { "name": "ios-bookmarks", "pack": "ios", "tag": "favorite, ios-bookmarks" }, { "name": "ios-bookmarks-outline", "pack": "ios", "tag": "favorite, ios-bookmarks-outline" }, { "name": "ios-book", "pack": "ios", "tag": "favorite, read, literature, ios-book" }, { "name": "ios-book-outline", "pack": "ios", "tag": "favorite, read, literature, ios-book-outline" }, { "name": "ios-flag", "pack": "ios", "tag": "marker, favorite, ios-flag" }, { "name": "ios-flag-outline", "pack": "ios", "tag": "marker, favorite, ios-flag-outline" }, { "name": "ios-glasses", "pack": "ios", "tag": "steve, reading, look, see, ios-glasses" }, { "name": "ios-glasses-outline", "pack": "ios", "tag": "steve, reading, look, see, ios-glasses-outline" }, { "name": "ios-browsers", "pack": "ios", "tag": "square, ios-browsers" }, { "name": "ios-browsers-outline", "pack": "ios", "tag": "square, ios-browsers-outline" }, { "name": "ios-at", "pack": "ios", "tag": "@, ios-at" }, { "name": "ios-at-outline", "pack": "ios", "tag": "@, ios-at-outline" }, { "name": "ios-pricetag", "pack": "ios", "tag": "shopping, money, items, commerce, $, ios-pricetag" }, { "name": "ios-pricetag-outline", "pack": "ios", "tag": "shopping, money, items, commerce, $, ios-pricetag-outline" }, { "name": "ios-pricetags", "pack": "ios", "tag": "shopping, money, items, commerce, $, ios-pricetags" }, { "name": "ios-pricetags-outline", "pack": "ios", "tag": "shopping, money, items, commerce, $, ios-pricetags-outline" }, { "name": "ios-cart", "pack": "ios", "tag": "shopping, money, items, commerce, $, ios-cart" }, { "name": "ios-cart-outline", "pack": "ios", "tag": "shopping, money, items, commerce, $, ios-cart-outline" }, { "name": "ios-chatboxes", "pack": "ios", "tag": "talk, ios-chatboxes" }, { "name": "ios-chatboxes-outline", "pack": "ios", "tag": "talk, ios-chatboxes-outline" }, { "name": "ios-chatbubble", "pack": "ios", "tag": "talk, ios-chatbubble" }, { "name": "ios-chatbubble-outline", "pack": "ios", "tag": "talk, ios-chatbubble-outline" }, { "name": "ios-cog", "pack": "ios", "tag": "settings, gear, options, ios-cog" }, { "name": "ios-cog-outline", "pack": "ios", "tag": "settings, gear, options, ios-cog-outline" }, { "name": "ios-gear", "pack": "ios", "tag": "cog, settings, options, ios-gear" }, { "name": "ios-gear-outline", "pack": "ios", "tag": "cog, settings, options, ios-gear-outline" }, { "name": "ios-settings", "pack": "ios", "tag": "cog, settings, options, ios-settings" }, { "name": "ios-settings-strong", "pack": "ios", "tag": "cog, settings, options, ios-settings-strong" }, { "name": "ios-toggle", "pack": "ios", "tag": "settings, options, switch, ios-toggle" }, { "name": "ios-toggle-outline", "pack": "ios", "tag": "settings, options, switch, ios-toggle-outline" }, { "name": "ios-analytics", "pack": "ios", "tag": "metrics, track, data, ios-analytics" }, { "name": "ios-analytics-outline", "pack": "ios", "tag": "metrics, track, data, ios-analytics-outline" }, { "name": "ios-pie", "pack": "ios", "tag": "cog, settings, options, ios-pie" }, { "name": "ios-pie-outline", "pack": "ios", "tag": "cog, settings, options, ios-pie-outline" }, { "name": "ios-pulse", "pack": "ios", "tag": "live, hot, rate, ios-pulse" }, { "name": "ios-pulse-strong", "pack": "ios", "tag": "live, hot, rate, ios-pulse-strong" }, { "name": "ios-filing", "pack": "ios", "tag": "archive, ios-filing" }, { "name": "ios-filing-outline", "pack": "ios", "tag": "archive, ios-filing-outline" }, { "name": "ios-box", "pack": "ios", "tag": "archive, ios-box" }, { "name": "ios-box-outline", "pack": "ios", "tag": "archive, ios-box-outline" }, { "name": "ios-compose", "pack": "ios", "tag": "write, type, create, ios-compose" }, { "name": "ios-compose-outline", "pack": "ios", "tag": "write, type, create, ios-compose-outline" }, { "name": "ios-trash", "pack": "ios", "tag": "delete, remove, dispose, waste, basket, dump, kill, ios-trash" }, { "name": "ios-trash-outline", "pack": "ios", "tag": "delete, remove, dispose, waste, basket, dump, kill, ios-trash-outline" }, { "name": "ios-copy", "pack": "ios", "tag": "duplicate, paper, ios-copy" }, { "name": "ios-copy-outline", "pack": "ios", "tag": "duplicate, paper, ios-copy-outline" }, { "name": "ios-email", "pack": "ios", "tag": "snail, mail, ios-email" }, { "name": "ios-email-outline", "pack": "ios", "tag": "snail, mail, ios-email-outline" }, { "name": "ios-undo", "pack": "ios", "tag": "reply, ios-undo" }, { "name": "ios-undo-outline", "pack": "ios", "tag": "reply, ios-undo-outline" }, { "name": "ios-redo", "pack": "ios", "tag": "forward, ios-redo" }, { "name": "ios-redo-outline", "pack": "ios", "tag": "forward, ios-redo-outline" }, { "name": "ios-paperplane", "pack": "ios", "tag": "send, ios-paperplane" }, { "name": "ios-paperplane-outline", "pack": "ios", "tag": "send, ios-paperplane-outline" }, { "name": "ios-folder", "pack": "ios", "tag": "file, ios-folder" }, { "name": "ios-folder-outline", "pack": "ios", "tag": "file, ios-folder-outline" }, { "name": "ios-paper", "pack": "ios", "tag": "feed, paper, ios-paper" }, { "name": "ios-paper-outline", "pack": "ios", "tag": "feed, paper, ios-paper-outline" }, { "name": "ios-list", "pack": "ios", "tag": "todo, feed, paper, ios-list" }, { "name": "ios-list-outline", "pack": "ios", "tag": "todo, feed, paper, ios-list-outline" }, { "name": "ios-world", "pack": "ios", "tag": "globe, earth, ios-world" }, { "name": "ios-world-outline", "pack": "ios", "tag": "globe, earth, ios-world-outline" }, { "name": "ios-alarm", "pack": "ios", "tag": "wake, ring, ios-alarm" }, { "name": "ios-alarm-outline", "pack": "ios", "tag": "wake, ring, ios-alarm-outline" }, { "name": "ios-speedometer", "pack": "ios", "tag": "speed, drive, level, ios-speedometer" }, { "name": "ios-speedometer-outline", "pack": "ios", "tag": "speed, drive, level, ios-speedometer-outline" }, { "name": "ios-stopwatch", "pack": "ios", "tag": "time, speed, ios-stopwatch" }, { "name": "ios-stopwatch-outline", "pack": "ios", "tag": "time, speed, ios-stopwatch-outline" }, { "name": "ios-timer", "pack": "ios", "tag": "cooking, alarm, buzz, ios-timer" }, { "name": "ios-timer-outline", "pack": "ios", "tag": "cooking, alarm, buzz, ios-timer-outline" }, { "name": "ios-clock", "pack": "ios", "tag": "time, date, hours, minutes, seconds, watch, ios-clock" }, { "name": "ios-clock-outline", "pack": "ios", "tag": "time, date, hours, minutes, seconds, watch, ios-clock-outline" }, { "name": "ios-time", "pack": "ios", "tag": "clock, watch, hour, minute, second, ios-time" }, { "name": "ios-time-outline", "pack": "ios", "tag": "clock, watch, hour, minute, second, ios-time-outline" }, { "name": "ios-calendar", "pack": "ios", "tag": "date, time, month, year, ios-calendar" }, { "name": "ios-calendar-outline", "pack": "ios", "tag": "date, time, month, year, ios-calendar-outline" }, { "name": "ios-photos", "pack": "ios", "tag": "images, stills, square, ios-photos" }, { "name": "ios-photos-outline", "pack": "ios", "tag": "images, stills, square, ios-photos-outline" }, { "name": "ios-albums", "pack": "ios", "tag": "square, boxes, slides, ios-albums" }, { "name": "ios-albums-outline", "pack": "ios", "tag": "square, boxes, slides, ios-albums-outline" }, { "name": "ios-camera", "pack": "ios", "tag": "picture, ios-camera" }, { "name": "ios-camera-outline", "pack": "ios", "tag": "picture, ios-camera-outline" }, { "name": "ios-reverse-camera", "pack": "ios", "tag": "picture, ios-reverse-camera" }, { "name": "ios-reverse-camera-outline", "pack": "ios", "tag": "picture, ios-reverse-camera-outline" }, { "name": "ios-eye", "pack": "ios", "tag": "view, see, exposed, look, ios-eye" }, { "name": "ios-eye-outline", "pack": "ios", "tag": "view, see, exposed, look, ios-eye-outline" }, { "name": "ios-bolt", "pack": "ios", "tag": "flash, lightning, ios-bolt" }, { "name": "ios-bolt-outline", "pack": "ios", "tag": "flash, lightning, ios-bolt-outline" }, { "name": "ios-color-wand", "pack": "ios", "tag": "camera, picture, edit, magic, ios-color-wand" }, { "name": "ios-color-wand-outline", "pack": "ios", "tag": "camera, picture, edit, magic, ios-color-wand-outline" }, { "name": "ios-color-filter", "pack": "ios", "tag": "camera, picture, ios-color-filter" }, { "name": "ios-color-filter-outline", "pack": "ios", "tag": "camera, picture, ios-color-filter-outline" }, { "name": "ios-grid-view", "pack": "ios", "tag": "camera, picture, ios-grid-view" }, { "name": "ios-grid-view-outline", "pack": "ios", "tag": "camera, picture, ios-grid-view-outline" }, { "name": "ios-crop-strong", "pack": "ios", "tag": "camera, picture, edit, ios-crop-strong" }, { "name": "ios-crop", "pack": "ios", "tag": "camera, picture, edit, ios-crop" }, { "name": "ios-barcode", "pack": "ios", "tag": "reader, camera, ios-barcode" }, { "name": "ios-barcode-outline", "pack": "ios", "tag": "reader, camera, ios-barcode-outline" }, { "name": "ios-briefcase", "pack": "ios", "tag": "organize, folder, ios-briefcase" }, { "name": "ios-briefcase-outline", "pack": "ios", "tag": "organize, folder, ios-briefcase-outline" }, { "name": "ios-medkit", "pack": "ios", "tag": "health, case, first aid, sick, disease, ios-medkit" }, { "name": "ios-medkit-outline", "pack": "ios", "tag": "health, case, first aid, sick, disease, ios-medkit-outline" }, { "name": "ios-medical", "pack": "ios", "tag": "health, case, first aid, sick, disease, ios-medical" }, { "name": "ios-medical-outline", "pack": "ios", "tag": "health, case, first aid, sick, disease, ios-medical-outline" }, { "name": "ios-infinite", "pack": "ios", "tag": "forever, loop, ios-infinite" }, { "name": "ios-infinite-outline", "pack": "ios", "tag": "forever, loop, ios-infinite-outline" }, { "name": "ios-calculator", "pack": "ios", "tag": "math, arithmatic, ios-calculator" }, { "name": "ios-calculator-outline", "pack": "ios", "tag": "math, arithmatic, ios-calculator-outline" }, { "name": "ios-keypad", "pack": "ios", "tag": "type, grid, circle, ios-keypad" }, { "name": "ios-keypad-outline", "pack": "ios", "tag": "type, grid, circle, ios-keypad-outline" }, { "name": "ios-telephone", "pack": "ios", "tag": "oldschool, call, ios-telephone" }, { "name": "ios-telephone-outline", "pack": "ios", "tag": "oldschool, call, ios-telephone-outline" }, { "name": "ios-drag", "pack": "ios", "tag": "reorder, move, drag, ios-drag" }, { "name": "ios-location", "pack": "ios", "tag": "navigation, map, gps, pin, ios-location" }, { "name": "ios-location-outline", "pack": "ios", "tag": "navigation, map, gps, pin, ios-location-outline" }, { "name": "ios-navigate", "pack": "ios", "tag": "location, map, gps, pin, ios-navigate" }, { "name": "ios-navigate-outline", "pack": "ios", "tag": "location, map, gps, pin, ios-navigate-outline" }, { "name": "ios-locked", "pack": "ios", "tag": "security, padlock, safe, ios-locked" }, { "name": "ios-locked-outline", "pack": "ios", "tag": "security, padlock, safe, ios-locked-outline" }, { "name": "ios-unlocked", "pack": "ios", "tag": "security, padlock, safe, ios-unlocked" }, { "name": "ios-unlocked-outline", "pack": "ios", "tag": "security, padlock, safe, ios-unlocked-outline" }, { "name": "ios-monitor", "pack": "ios", "tag": "thunderbolt, display, screen, ios-monitor" }, { "name": "ios-monitor-outline", "pack": "ios", "tag": "thunderbolt, display, screen, ios-monitor-outline" }, { "name": "ios-printer", "pack": "ios", "tag": "paper, ios-printer" }, { "name": "ios-printer-outline", "pack": "ios", "tag": "paper, ios-printer-outline" }, { "name": "ios-game-controller-a", "pack": "ios", "tag": "gaming, nintendo, play, ios-game-controller-a" }, { "name": "ios-game-controller-a-outline", "pack": "ios", "tag": "gaming, nintendo, play, ios-game-controller-a-outline" }, { "name": "ios-game-controller-b", "pack": "ios", "tag": "gaming, nintendo, play, ios-game-controller-b" }, { "name": "ios-game-controller-b-outline", "pack": "ios", "tag": "gaming, nintendo, play, ios-game-controller-b-outline" }, { "name": "ios-americanfootball", "pack": "ios", "tag": "nfl, games, sports, fun, play, ios-americanfootball" }, { "name": "ios-americanfootball-outline", "pack": "ios", "tag": "nfl, games, sports, fun, play, ios-americanfootball-outline" }, { "name": "ios-baseball", "pack": "ios", "tag": "mlb, games, sports, fun, play, ios-baseball" }, { "name": "ios-baseball-outline", "pack": "ios", "tag": "mlb, games, sports, fun, play, ios-baseball-outline" }, { "name": "ios-basketball", "pack": "ios", "tag": "nba, games, sports, fun, play, ios-basketball" }, { "name": "ios-basketball-outline", "pack": "ios", "tag": "nba, games, sports, fun, play, ios-basketball-outline" }, { "name": "ios-tennisball", "pack": "ios", "tag": "games, sports, fun, play, ios-tennisball" }, { "name": "ios-tennisball-outline", "pack": "ios", "tag": "games, sports, fun, play, ios-tennisball-outline" }, { "name": "ios-football", "pack": "ios", "tag": "mls, soccer, games, sports, fun, play, ios-football" }, { "name": "ios-football-outline", "pack": "ios", "tag": "mls, soccer, games, sports, fun, play, ios-football-outline" }, { "name": "ios-body", "pack": "ios", "tag": "person, users, staff, head, human, ios-body" }, { "name": "ios-body-outline", "pack": "ios", "tag": "person, users, staff, head, human, ios-body-outline" }, { "name": "ios-person", "pack": "ios", "tag": "users, staff, head, human, ios-person" }, { "name": "ios-person-outline", "pack": "ios", "tag": "users, staff, head, human, ios-person-outline" }, { "name": "ios-personadd", "pack": "ios", "tag": "users, staff, head, human, new, invite, ios-personadd" }, { "name": "ios-personadd-outline", "pack": "ios", "tag": "users, staff, head, human, new, invite, ios-personadd-outline" }, { "name": "ios-people", "pack": "ios", "tag": "stalker, person, users, head, human, ios-people" }, { "name": "ios-people-outline", "pack": "ios", "tag": "stalker, person, users, head, human, ios-people-outline" }, { "name": "ios-musical-notes", "pack": "ios", "tag": "sound, noise, listening, play, ios-musical-notes" }, { "name": "ios-musical-note", "pack": "ios", "tag": "sound, noise, listening, play, ios-musical-note" }, { "name": "ios-bell", "pack": "ios", "tag": "right, noise, alarm, sound, music, ios-bell" }, { "name": "ios-bell-outline", "pack": "ios", "tag": "right, noise, alarm, sound, music, ios-bell-outline" }, { "name": "ios-mic", "pack": "ios", "tag": "sound, noise, speaker, talk, ios-mic" }, { "name": "ios-mic-outline", "pack": "ios", "tag": "sound, noise, speaker, talk, ios-mic-outline" }, { "name": "ios-mic-off", "pack": "ios", "tag": "sound, noise, speaker, talk, ios-mic-off" }, { "name": "ios-volume-high", "pack": "ios", "tag": "sound, noise, listen, music, ios-volume-high" }, { "name": "ios-volume-low", "pack": "ios", "tag": "sound, noise, listen, music, ios-volume-low" }, { "name": "ios-play", "pack": "ios", "tag": "music, watch, arrow, right, ios-play" }, { "name": "ios-play-outline", "pack": "ios", "tag": "music, watch, arrow, right, ios-play-outline" }, { "name": "ios-pause", "pack": "ios", "tag": "music, break, hold, freeze, ios-pause" }, { "name": "ios-pause-outline", "pack": "ios", "tag": "music, break, hold, freeze, ios-pause-outline" }, { "name": "ios-recording", "pack": "ios", "tag": "film, tape, voicemail, ios-recording" }, { "name": "ios-recording-outline", "pack": "ios", "tag": "film, tape, voicemail, ios-recording-outline" }, { "name": "ios-fastforward", "pack": "ios", "tag": "next, skip, jump, ios-fastforward" }, { "name": "ios-fastforward-outline", "pack": "ios", "tag": "next, skip, jump, ios-fastforward-outline" }, { "name": "ios-rewind", "pack": "ios", "tag": "music, previous, back, ios-rewind" }, { "name": "ios-rewind-outline", "pack": "ios", "tag": "music, previous, back, ios-rewind-outline" }, { "name": "ios-skipbackward", "pack": "ios", "tag": "music, previous, ios-skipbackward" }, { "name": "ios-skipbackward-outline", "pack": "ios", "tag": "music, previous, ios-skipbackward-outline" }, { "name": "ios-skipforward", "pack": "ios", "tag": "music, next, ios-skipforward" }, { "name": "ios-skipforward-outline", "pack": "ios", "tag": "music, next, ios-skipforward-outline" }, { "name": "ios-shuffle-strong", "pack": "ios", "tag": "music, next, ios-shuffle-strong" }, { "name": "ios-shuffle", "pack": "ios", "tag": "music, next, ios-shuffle" }, { "name": "ios-videocam", "pack": "ios", "tag": "film, movie, camera, ios-videocam" }, { "name": "ios-videocam-outline", "pack": "ios", "tag": "film, movie, camera, ios-videocam-outline" }, { "name": "ios-film", "pack": "ios", "tag": "film, movie, camera, ios-film" }, { "name": "ios-film-outline", "pack": "ios", "tag": "film, movie, camera, ios-film-outline" }, { "name": "ios-flask", "pack": "ios", "tag": "options, mixer, liquid, ios-flask" }, { "name": "ios-flask-outline", "pack": "ios", "tag": "options, mixer, liquid, ios-flask-outline" }, { "name": "ios-lightbulb", "pack": "ios", "tag": "idea, new, bright, aha!, ios-lightbulb" }, { "name": "ios-lightbulb-outline", "pack": "ios", "tag": "idea, new, bright, aha!, ios-lightbulb-outline" }, { "name": "ios-wineglass", "pack": "ios", "tag": "alcohol, drink, food, glass, drunk, cheers, ios-wineglass" }, { "name": "ios-wineglass-outline", "pack": "ios", "tag": "alcohol, drink, food, glass, drunk, cheers, ios-wineglass-outline" }, { "name": "ios-pint", "pack": "ios", "tag": "alcohol, drink, food, beer, drunk, cheers, ios-pint" }, { "name": "ios-pint-outline", "pack": "ios", "tag": "alcohol, drink, food, beer, drunk, cheers, ios-pint-outline" }, { "name": "ios-nutrition", "pack": "ios", "tag": "health, carrot, food, ios-nutrition" }, { "name": "ios-nutrition-outline", "pack": "ios", "tag": "health, carrot, food, ios-nutrition-outline" }, { "name": "ios-flower", "pack": "ios", "tag": "nature, spring, leaf, garden, ios-flower" }, { "name": "ios-flower-outline", "pack": "ios", "tag": "nature, spring, leaf, garden, ios-flower-outline" }, { "name": "ios-rose", "pack": "ios", "tag": "nature, spring, leaf, garden, flower, ios-rose" }, { "name": "ios-rose-outline", "pack": "ios", "tag": "nature, spring, leaf, garden, flower, ios-rose-outline" }, { "name": "ios-paw", "pack": "ios", "tag": "nature, animal, pet, outdoor, track, ios-paw" }, { "name": "ios-paw-outline", "pack": "ios", "tag": "nature, animal, pet, outdoor, track, ios-paw-outline" }, { "name": "ios-flame", "pack": "ios", "tag": "fire, hot, burn, ios-flame" }, { "name": "ios-flame-outline", "pack": "ios", "tag": "fire, hot, burn, ios-flame-outline" }, { "name": "ios-sunny", "pack": "ios", "tag": "weather, whether, light, sky, ios-sunny" }, { "name": "ios-sunny-outline", "pack": "ios", "tag": "weather, whether, light, sky, ios-sunny-outline" }, { "name": "ios-partlysunny", "pack": "ios", "tag": "light, weather, whether, cloudy, ios-partlysunny" }, { "name": "ios-partlysunny-outline", "pack": "ios", "tag": "light, weather, whether, cloudy, ios-partlysunny-outline" }, { "name": "ios-cloudy", "pack": "ios", "tag": "weather, whether, overcast, ios-cloudy" }, { "name": "ios-cloudy-outline", "pack": "ios", "tag": "weather, whether, overcast, ios-cloudy-outline" }, { "name": "ios-rainy", "pack": "ios", "tag": "whether, weather, water, cloud, ios-rainy" }, { "name": "ios-rainy-outline", "pack": "ios", "tag": "whether, weather, water, cloud, ios-rainy-outline" }, { "name": "ios-thunderstorm", "pack": "ios", "tag": "whether, weather, sky, lightning, rain, cloudy, overcast, storm, ios-thunderstorm" }, { "name": "ios-thunderstorm-outline", "pack": "ios", "tag": "whether, weather, sky, lightning, rain, cloudy, overcast, storm, ios-thunderstorm-outline" }, { "name": "ios-snowy", "pack": "ios", "tag": "cold, weather, whether, overcast, ios-snowy" }, { "name": "ios-moon", "pack": "ios", "tag": "sky, night, dark, ios-moon" }, { "name": "ios-moon-outline", "pack": "ios", "tag": "sky, night, dark, ios-moon-outline" }, { "name": "ios-cloudy-night", "pack": "ios", "tag": "weather, whether, overcast, ios-cloudy-night" }, { "name": "ios-cloudy-night-outline", "pack": "ios", "tag": "weather, whether, overcast, ios-cloudy-night-outline" }, { "name": "android-arrow-up", "pack": "android", "tag": "chevron, navigation, android-arrow-up" }, { "name": "android-arrow-forward", "pack": "android", "tag": "chevron, navigation, android-arrow-forward" }, { "name": "android-arrow-down", "pack": "android", "tag": "chevron, navigation, android-arrow-down" }, { "name": "android-arrow-back", "pack": "android", "tag": "chevron, navigation, android-arrow-back" }, { "name": "android-arrow-dropup", "pack": "android", "tag": "chevron, navigation, android-arrow-dropup" }, { "name": "android-arrow-dropup-circle", "pack": "android", "tag": "chevron, navigation, android-arrow-dropup-circle" }, { "name": "android-arrow-dropright", "pack": "android", "tag": "chevron, navigation, android-arrow-dropright" }, { "name": "android-arrow-dropright-circle", "pack": "android", "tag": "chevron, navigation, android-arrow-dropright-circle" }, { "name": "android-arrow-dropdown", "pack": "android", "tag": "chevron, navigation, android-arrow-dropdown" }, { "name": "android-arrow-dropdown-circle", "pack": "android", "tag": "chevron, navigation, android-arrow-dropdown-circle" }, { "name": "android-arrow-dropleft", "pack": "android", "tag": "chevron, navigation, android-arrow-dropleft" }, { "name": "android-arrow-dropleft-circle", "pack": "android", "tag": "chevron, navigation, android-arrow-dropleft-circle" }, { "name": "android-add", "pack": "android", "tag": "plus, include, invite, android-add" }, { "name": "android-add-circle", "pack": "android", "tag": "plus, include, invite, android-add-circle" }, { "name": "android-remove", "pack": "android", "tag": "minus, subtract, delete, android-remove" }, { "name": "android-remove-circle", "pack": "android", "tag": "minus, subtract, delete, android-remove-circle" }, { "name": "android-close", "pack": "android", "tag": "delete, remove, android-close" }, { "name": "android-cancel", "pack": "android", "tag": "delete, remove, android-cancel" }, { "name": "android-radio-button-off", "pack": "android", "tag": ", android-radio-button-off" }, { "name": "android-radio-button-on", "pack": "android", "tag": ", android-radio-button-on" }, { "name": "android-checkmark-circle", "pack": "android", "tag": ", android-checkmark-circle" }, { "name": "android-checkbox-outline-blank", "pack": "android", "tag": ", android-checkbox-outline-blank" }, { "name": "android-checkbox-outline", "pack": "android", "tag": ", android-checkbox-outline" }, { "name": "android-checkbox-blank", "pack": "android", "tag": ", android-checkbox-blank" }, { "name": "android-checkbox", "pack": "android", "tag": ", android-checkbox" }, { "name": "android-done", "pack": "android", "tag": ", android-done" }, { "name": "android-done-all", "pack": "android", "tag": ", android-done-all" }, { "name": "android-menu", "pack": "android", "tag": ", android-menu" }, { "name": "android-more-horizontal", "pack": "android", "tag": "options, menu, android-more-horizontal" }, { "name": "android-more-vertical", "pack": "android", "tag": "options, menu, android-more-vertical" }, { "name": "android-refresh", "pack": "android", "tag": ", android-refresh" }, { "name": "android-sync", "pack": "android", "tag": ", android-sync" }, { "name": "android-wifi", "pack": "android", "tag": "internet,connection, bars, android-wifi" }, { "name": "android-call", "pack": "android", "tag": "telephone, android-call" }, { "name": "android-apps", "pack": "android", "tag": ", android-apps" }, { "name": "android-settings", "pack": "android", "tag": "options, android-settings" }, { "name": "android-options", "pack": "android", "tag": "settings, mixer, android-options" }, { "name": "android-funnel", "pack": "android", "tag": ", android-funnel" }, { "name": "android-search", "pack": "android", "tag": "magnifying glass, android-search" }, { "name": "android-home", "pack": "android", "tag": ", android-home" }, { "name": "android-cloud-outline", "pack": "android", "tag": ", android-cloud-outline" }, { "name": "android-cloud", "pack": "android", "tag": ", android-cloud" }, { "name": "android-download", "pack": "android", "tag": ", android-download" }, { "name": "android-upload", "pack": "android", "tag": ", android-upload" }, { "name": "android-cloud-done", "pack": "android", "tag": ", android-cloud-done" }, { "name": "android-cloud-circle", "pack": "android", "tag": ", android-cloud-circle" }, { "name": "android-favorite-outline", "pack": "android", "tag": "favorite, like, rate, android-favorite-outline" }, { "name": "android-favorite", "pack": "android", "tag": "favorite, like, rate, android-favorite" }, { "name": "android-star-outline", "pack": "android", "tag": "favorite, like, rate, android-star-outline" }, { "name": "android-star-half", "pack": "android", "tag": "favorite, like, rate, android-star-half" }, { "name": "android-star", "pack": "android", "tag": "favorite, like, rate, android-star" }, { "name": "android-calendar", "pack": "android", "tag": "clock, android-calendar" }, { "name": "android-alarm-clock", "pack": "android", "tag": "clock, android-alarm-clock" }, { "name": "android-time", "pack": "android", "tag": "clock, android-time" }, { "name": "android-stopwatch", "pack": "android", "tag": ", android-stopwatch" }, { "name": "android-watch", "pack": "android", "tag": ", android-watch" }, { "name": "android-locate", "pack": "android", "tag": ", android-locate" }, { "name": "android-navigate", "pack": "android", "tag": ", android-navigate" }, { "name": "android-pin", "pack": "android", "tag": ", android-pin" }, { "name": "android-compass", "pack": "android", "tag": ", android-compass" }, { "name": "android-map", "pack": "android", "tag": ", android-map" }, { "name": "android-walk", "pack": "android", "tag": ", android-walk" }, { "name": "android-bicycle", "pack": "android", "tag": "move, bike, transportation, maps, android-bicycle" }, { "name": "android-car", "pack": "android", "tag": ", android-car" }, { "name": "android-bus", "pack": "android", "tag": ", android-bus" }, { "name": "android-subway", "pack": "android", "tag": ", android-subway" }, { "name": "android-train", "pack": "android", "tag": ", android-train" }, { "name": "android-boat", "pack": "android", "tag": ", android-boat" }, { "name": "android-plane", "pack": "android", "tag": ", android-plane" }, { "name": "android-restaurant", "pack": "android", "tag": ", android-restaurant" }, { "name": "android-bar", "pack": "android", "tag": "wine, drink, food, dinner, android-bar" }, { "name": "android-cart", "pack": "android", "tag": ", android-cart" }, { "name": "android-camera", "pack": "android", "tag": ", android-camera" }, { "name": "android-image", "pack": "android", "tag": ", android-image" }, { "name": "android-film", "pack": "android", "tag": ", android-film" }, { "name": "android-color-palette", "pack": "android", "tag": ", android-color-palette" }, { "name": "android-create", "pack": "android", "tag": ", android-create" }, { "name": "android-mail", "pack": "android", "tag": ", android-mail" }, { "name": "android-drafts", "pack": "android", "tag": ", android-drafts" }, { "name": "android-send", "pack": "android", "tag": ", android-send" }, { "name": "android-archive", "pack": "android", "tag": ", android-archive" }, { "name": "android-delete", "pack": "android", "tag": ", android-delete" }, { "name": "android-attach", "pack": "android", "tag": ", android-attach" }, { "name": "android-share", "pack": "android", "tag": ", android-share" }, { "name": "android-share-alt", "pack": "android", "tag": ", android-share-alt" }, { "name": "android-bookmark", "pack": "android", "tag": ", android-bookmark" }, { "name": "android-document", "pack": "android", "tag": ", android-document" }, { "name": "android-clipboard", "pack": "android", "tag": ", android-clipboard" }, { "name": "android-list", "pack": "android", "tag": ", android-list" }, { "name": "android-folder-open", "pack": "android", "tag": ", android-folder-open" }, { "name": "android-folder", "pack": "android", "tag": ", android-folder" }, { "name": "android-print", "pack": "android", "tag": ", android-print" }, { "name": "android-open", "pack": "android", "tag": ", android-open" }, { "name": "android-exit", "pack": "android", "tag": ", android-exit" }, { "name": "android-contract", "pack": "android", "tag": ", android-contract" }, { "name": "android-expand", "pack": "android", "tag": ", android-expand" }, { "name": "android-globe", "pack": "android", "tag": ", android-globe" }, { "name": "android-chat", "pack": "android", "tag": "talk, text, android-chat" }, { "name": "android-textsms", "pack": "android", "tag": "talk, text, android-textsms" }, { "name": "android-hangout", "pack": "android", "tag": ", android-hangout" }, { "name": "android-happy", "pack": "android", "tag": ", android-happy" }, { "name": "android-sad", "pack": "android", "tag": ", android-sad" }, { "name": "android-person", "pack": "android", "tag": ", android-person" }, { "name": "android-people", "pack": "android", "tag": ", android-people" }, { "name": "android-person-add", "pack": "android", "tag": ", android-person-add" }, { "name": "android-contact", "pack": "android", "tag": ", android-contact" }, { "name": "android-contacts", "pack": "android", "tag": ", android-contacts" }, { "name": "android-playstore", "pack": "android", "tag": ", android-playstore" }, { "name": "android-lock", "pack": "android", "tag": ", android-lock" }, { "name": "android-unlock", "pack": "android", "tag": ", android-unlock" }, { "name": "android-microphone", "pack": "android", "tag": "recorder, speak, noise, music, sound, android-microphone" }, { "name": "android-microphone-off", "pack": "android", "tag": "recorder, speak, noise, music, sound, mute, android-microphone-off" }, { "name": "android-notifications-none", "pack": "android", "tag": ", android-notifications-none" }, { "name": "android-notifications", "pack": "android", "tag": ", android-notifications" }, { "name": "android-notifications-off", "pack": "android", "tag": ", android-notifications-off" }, { "name": "android-volume-mute", "pack": "android", "tag": ", android-volume-mute" }, { "name": "android-volume-down", "pack": "android", "tag": ", android-volume-down" }, { "name": "android-volume-up", "pack": "android", "tag": ", android-volume-up" }, { "name": "android-volume-off", "pack": "android", "tag": ", android-volume-off" }, { "name": "android-hand", "pack": "android", "tag": "stop, android-hand" }, { "name": "android-desktop", "pack": "android", "tag": ", android-desktop" }, { "name": "android-laptop", "pack": "android", "tag": ", android-laptop" }, { "name": "android-phone-portrait", "pack": "android", "tag": ", android-phone-portrait" }, { "name": "android-phone-landscape", "pack": "android", "tag": ", android-phone-landscape" }, { "name": "android-bulb", "pack": "android", "tag": ", android-bulb" }, { "name": "android-sunny", "pack": "android", "tag": ", android-sunny" }, { "name": "android-alert", "pack": "android", "tag": ", android-alert" }, { "name": "android-warning", "pack": "android", "tag": ", android-warning" }, { "name": "social-twitter", "pack": "social", "tag": "follow, post, share, social-twitter" }, { "name": "social-twitter-outline", "pack": "social", "tag": "follow, post, share, social-twitter-outline" }, { "name": "social-facebook", "pack": "social", "tag": "like, post, share, social-facebook" }, { "name": "social-facebook-outline", "pack": "social", "tag": "like, post, share, social-facebook-outline" }, { "name": "social-googleplus", "pack": "social", "tag": "follow, post, share, social-googleplus" }, { "name": "social-googleplus-outline", "pack": "social", "tag": "follow, post, share, social-googleplus-outline" }, { "name": "social-google", "pack": "social", "tag": "follow, post, share, social-google" }, { "name": "social-google-outline", "pack": "social", "tag": "follow, post, share, social-google-outline" }, { "name": "social-dribbble", "pack": "social", "tag": "design, social-dribbble" }, { "name": "social-dribbble-outline", "pack": "social", "tag": "design, social-dribbble-outline" }, { "name": "social-octocat", "pack": "social", "tag": "code, github, fork, merge, clone, social-octocat" }, { "name": "social-github", "pack": "social", "tag": "code, fork, merge, clone, social-github" }, { "name": "social-github-outline", "pack": "social", "tag": "code, fork, merge, clone, social-github-outline" }, { "name": "social-instagram", "pack": "social", "tag": "photo, camera, facebook, social-instagram" }, { "name": "social-instagram-outline", "pack": "social", "tag": "photo, camera, facebook, social-instagram-outline" }, { "name": "social-whatsapp", "pack": "social", "tag": "text, sharing, private, facebook, social-whatsapp" }, { "name": "social-whatsapp-outline", "pack": "social", "tag": "text, sharing, private, facebook, social-whatsapp-outline" }, { "name": "social-snapchat", "pack": "social", "tag": "photos, app, social-snapchat" }, { "name": "social-snapchat-outline", "pack": "social", "tag": "photos, app, social-snapchat-outline" }, { "name": "social-foursquare", "pack": "social", "tag": "checkin, social-foursquare" }, { "name": "social-foursquare-outline", "pack": "social", "tag": "checkin, social-foursquare-outline" }, { "name": "social-pinterest", "pack": "social", "tag": "social, social-pinterest" }, { "name": "social-pinterest-outline", "pack": "social", "tag": "social, social-pinterest-outline" }, { "name": "social-rss", "pack": "social", "tag": "blogging, social-rss" }, { "name": "social-rss-outline", "pack": "social", "tag": "blogging, social-rss-outline" }, { "name": "social-tumblr", "pack": "social", "tag": "blogging, social-tumblr" }, { "name": "social-tumblr-outline", "pack": "social", "tag": "blogging, social-tumblr-outline" }, { "name": "social-wordpress", "pack": "social", "tag": "blogging, social-wordpress" }, { "name": "social-wordpress-outline", "pack": "social", "tag": "blogging, social-wordpress-outline" }, { "name": "social-reddit", "pack": "social", "tag": "news, upvotes, karma, social-reddit" }, { "name": "social-reddit-outline", "pack": "social", "tag": "news, upvotes, karma, social-reddit-outline" }, { "name": "social-hackernews", "pack": "social", "tag": "discuss, upvotes, karma, social-hackernews" }, { "name": "social-hackernews-outline", "pack": "social", "tag": "discuss, upvotes, karma, social-hackernews-outline" }, { "name": "social-designernews", "pack": "social", "tag": "design, post, social-designernews" }, { "name": "social-designernews-outline", "pack": "social", "tag": "design, post, social-designernews-outline" }, { "name": "social-yahoo", "pack": "social", "tag": ", social-yahoo" }, { "name": "social-yahoo-outline", "pack": "social", "tag": ", social-yahoo-outline" }, { "name": "social-buffer", "pack": "social", "tag": "share, social-buffer" }, { "name": "social-buffer-outline", "pack": "social", "tag": "share, social-buffer-outline" }, { "name": "social-skype", "pack": "social", "tag": "call, social-skype" }, { "name": "social-skype-outline", "pack": "social", "tag": "call, social-skype-outline" }, { "name": "social-linkedin", "pack": "social", "tag": "connect, social-linkedin" }, { "name": "social-linkedin-outline", "pack": "social", "tag": "connect, social-linkedin-outline" }, { "name": "social-vimeo", "pack": "social", "tag": "video, watch, share, view, social-vimeo" }, { "name": "social-vimeo-outline", "pack": "social", "tag": "video, watch, share, view, social-vimeo-outline" }, { "name": "social-twitch", "pack": "social", "tag": "gaming, games, live, streaming, video, watch, share, view, social-twitch" }, { "name": "social-twitch-outline", "pack": "social", "tag": "gaming, games, live, streaming, video, watch, share, view, social-twitch-outline" }, { "name": "social-youtube", "pack": "social", "tag": "video, watch, share, view, social-youtube" }, { "name": "social-youtube-outline", "pack": "social", "tag": "video, watch, share, view, social-youtube-outline" }, { "name": "social-dropbox", "pack": "social", "tag": "upload, social-dropbox" }, { "name": "social-dropbox-outline", "pack": "social", "tag": "upload, social-dropbox-outline" }, { "name": "social-apple", "pack": "social", "tag": "mac, mobile, social-apple" }, { "name": "social-apple-outline", "pack": "social", "tag": "mac, mobile, social-apple-outline" }, { "name": "social-android", "pack": "social", "tag": "mobile, social-android" }, { "name": "social-android-outline", "pack": "social", "tag": "mobile, social-android-outline" }, { "name": "social-windows", "pack": "social", "tag": "pc, social-windows" }, { "name": "social-windows-outline", "pack": "social", "tag": "pc, social-windows-outline" }, { "name": "social-html5", "pack": "social", "tag": "code, html, css, js, developer, social-html5" }, { "name": "social-html5-outline", "pack": "social", "tag": "code, html, css, js, developer, social-html5-outline" }, { "name": "social-css3", "pack": "social", "tag": "code, html, css, js, developer, social-css3" }, { "name": "social-css3-outline", "pack": "social", "tag": "code, html, css, js, developer, social-css3-outline" }, { "name": "social-javascript", "pack": "social", "tag": "code, html, css, js, developer, social-javascript" }, { "name": "social-javascript-outline", "pack": "social", "tag": "code, html, css, js, developer, social-javascript-outline" }, { "name": "social-angular", "pack": "social", "tag": "code, mobile, js, angularjs, ionic, social-angular" }, { "name": "social-angular-outline", "pack": "social", "tag": "code, mobile, js, angularjs, ionic, social-angular-outline" }, { "name": "social-nodejs", "pack": "social", "tag": "code, js, javascript, developer, social-nodejs" }, { "name": "social-sass", "pack": "social", "tag": "code, css, social-sass" }, { "name": "social-python", "pack": "social", "tag": "code, social-python" }, { "name": "social-chrome", "pack": "social", "tag": "code, mobile, js, angularjs, ionic, social-chrome" }, { "name": "social-chrome-outline", "pack": "social", "tag": "code, mobile, js, angularjs, ionic, social-chrome-outline" }, { "name": "social-codepen", "pack": "social", "tag": "testing, js, developer, social-codepen" }, { "name": "social-codepen-outline", "pack": "social", "tag": "testing, js, developer, social-codepen-outline" }, { "name": "social-markdown", "pack": "social", "tag": "code, testing, text, developer, social-markdown" }, { "name": "social-tux", "pack": "social", "tag": "code, linux, opensource, social-tux" }, { "name": "social-freebsd-devil", "pack": "social", "tag": "code, opensource, unix, social-freebsd-devil" }, { "name": "social-usd", "pack": "social", "tag": "currency, trade, money, cash, social-usd" }, { "name": "social-usd-outline", "pack": "social", "tag": "currency, trade, money, cash, social-usd-outline" }, { "name": "social-bitcoin", "pack": "social", "tag": "currency, trade, money, social-bitcoin" }, { "name": "social-bitcoin-outline", "pack": "social", "tag": "currency, trade, money, social-bitcoin-outline" }, { "name": "social-yen", "pack": "social", "tag": "currency, trade, money, japanese, social-yen" }, { "name": "social-yen-outline", "pack": "social", "tag": "currency, trade, money, japanese, social-yen-outline" }, { "name": "social-euro", "pack": "social", "tag": "currency, trade, money, europe, social-euro" }, { "name": "social-euro-outline", "pack": "social", "tag": "currency, trade, money, europe, social-euro-outline" }];
 
 /***/ }),
 
-/***/ 554:
-/***/ (function(module, exports) {
-
-// removed by extract-text-webpack-plugin
-
-/***/ }),
-
-/***/ 555:
+/***/ 564:
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
