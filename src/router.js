@@ -67,6 +67,13 @@ const routers = [
         component: (resolve) => require(['./views/components/layout.vue'], resolve)
     },
     {
+        path: '/mhc-iView-doc/components/jsonEditor',
+        meta: {
+            title: 'jsonEditor json编辑器'
+        },
+        component: (resolve) => require(['./views/components/jsonEditor.vue'], resolve)
+    },
+    {
         path: '/mhc-iView-doc/components/exception',
         meta: {
             title: '异常页 Exception'

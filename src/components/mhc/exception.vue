@@ -103,7 +103,7 @@
   }
 </script>
 
-<style rel="stylesheet/scss" lang="less" scoped>
+<style rel="stylesheet/scss" lang="scss" scoped>
     /* 401 */
     .errPage-container {
         width: 800px;

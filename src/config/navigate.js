@@ -62,6 +62,12 @@ const list = {
             title: '组件',
             list: [
                 {
+                    title: 'JsonEditor Json编辑器',
+                    path: '/mhc-iView-doc/components/jsonEditor',
+                    img: 'error.png',
+                    icon: 'social-nodejs'
+                },
+                {
                     title: 'Exception 异常页',
                     path: '/mhc-iView-doc/components/exception',
                     img: 'error.png',

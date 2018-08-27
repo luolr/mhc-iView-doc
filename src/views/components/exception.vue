@@ -77,19 +77,9 @@
         },
         data () {
             return {
-                code: Code,
-                loading: false,
-                loading2: false,
-                buttonSize: 'large'
+                code: Code
             }
         },
-        methods: {
-            toLoading () {
-                this.loading = true;
-            },
-            toLoading2 () {
-                this.loading2 = true;
-            }
-        }
+        methods: {}
     }
 </script>
