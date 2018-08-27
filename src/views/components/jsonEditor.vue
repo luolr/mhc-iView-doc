@@ -18,7 +18,7 @@
 
             <div class="api">
                 <inAnchor title="API" h2></inAnchor>
-                <inAnchor title="Exception props" h3></inAnchor>
+                <inAnchor title="JsonEditor props" h3></inAnchor>
                 <table>
                     <thead>
                         <tr>
@@ -34,6 +34,36 @@
                             <td>默认JSON，可选</td>
                             <td>Object</td>
                             <td></td>
+                        </tr>
+                        <tr>
+                            <td>theme</td>
+                            <td>主题，可选</td>
+                            <td>String</td>
+                            <td>rubyblue</td>
+                        </tr>
+                        <tr>
+                            <td>lint</td>
+                            <td>是否校验JSON格式</td>
+                            <td>Boolean</td>
+                            <td>true</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <inAnchor title="JsonEditor methods" h3></inAnchor>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>方法名</th>
+                            <th>说明</th>
+                            <th>参数</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>input</td>
+                            <td>内容改变</td>
+                            <td>无</td>
                         </tr>
                     </tbody>
                 </table>
