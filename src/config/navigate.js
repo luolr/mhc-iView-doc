@@ -68,6 +68,18 @@ const list = {
                     icon: 'social-nodejs'
                 },
                 {
+                    title: 'Calendar 日历',
+                    path: '/mhc-iView-doc/components/calendar',
+                    img: 'error.png',
+                    icon: 'calendar'
+                },
+                {
+                    title: 'waterfall 瀑布流',
+                    path: '/mhc-iView-doc/components/waterfall',
+                    img: 'error.png',
+                    icon: 'android-apps'
+                },
+                {
                     title: 'Exception 异常页',
                     path: '/mhc-iView-doc/components/exception',
                     img: 'error.png',

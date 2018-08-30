@@ -74,6 +74,20 @@ const routers = [
         component: (resolve) => require(['./views/components/jsonEditor.vue'], resolve)
     },
     {
+        path: '/mhc-iView-doc/components/calendar',
+        meta: {
+            title: 'calendar 日历'
+        },
+        component: (resolve) => require(['./views/components/calendar.vue'], resolve)
+    },
+    {
+        path: '/mhc-iView-doc/components/waterfall',
+        meta: {
+            title: 'waterfall 瀑布流'
+        },
+        component: (resolve) => require(['./views/components/waterfall.vue'], resolve)
+    },
+    {
         path: '/mhc-iView-doc/components/exception',
         meta: {
             title: '异常页 Exception'
