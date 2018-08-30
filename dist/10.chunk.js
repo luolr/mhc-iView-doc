@@ -1,20 +1,16 @@
-webpackJsonp([6],{
+webpackJsonp([10],{
 
-/***/ 485:
+/***/ 481:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_font_vue__ = __webpack_require__(548);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_font_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_font_vue__);
-/* harmony namespace reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_font_vue__) if(["default","default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_font_vue__[key]; }) }(__WEBPACK_IMPORT_KEY__));
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_2526d47e_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_font_vue__ = __webpack_require__(562);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_2526d47e_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_font_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_2526d47e_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_font_vue__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_button_vue__ = __webpack_require__(544);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_button_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_button_vue__);
+/* harmony namespace reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_button_vue__) if(["default","default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_button_vue__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_064c47be_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_button_vue__ = __webpack_require__(557);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_064c47be_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_button_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_064c47be_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_button_vue__);
 var disposed = false
-function injectStyle (ssrContext) {
-  if (disposed) return
-  __webpack_require__(597)
-}
 var normalizeComponent = __webpack_require__(197)
 /* script */
 
@@ -24,20 +20,20 @@ var normalizeComponent = __webpack_require__(197)
 /* template functional */
 var __vue_template_functional__ = false
 /* styles */
-var __vue_styles__ = injectStyle
+var __vue_styles__ = null
 /* scopeId */
-var __vue_scopeId__ = "data-v-2526d47e"
+var __vue_scopeId__ = null
 /* moduleIdentifier (server only) */
 var __vue_module_identifier__ = null
 var Component = normalizeComponent(
-  __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_font_vue___default.a,
-  __WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_2526d47e_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_font_vue___default.a,
+  __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_button_vue___default.a,
+  __WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_064c47be_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_button_vue___default.a,
   __vue_template_functional__,
   __vue_styles__,
   __vue_scopeId__,
   __vue_module_identifier__
 )
-Component.options.__file = "src/views/components/font.vue"
+Component.options.__file = "src/views/components/button.vue"
 
 /* hot reload */
 if (false) {(function () {
@@ -46,9 +42,9 @@ if (false) {(function () {
   if (!hotAPI.compatible) return
   module.hot.accept()
   if (!module.hot.data) {
-    hotAPI.createRecord("data-v-2526d47e", Component.options)
+    hotAPI.createRecord("data-v-064c47be", Component.options)
   } else {
-    hotAPI.reload("data-v-2526d47e", Component.options)
+    hotAPI.reload("data-v-064c47be", Component.options)
   }
   module.hot.dispose(function (data) {
     disposed = true
@@ -2426,7 +2422,7 @@ if (false) {(function () {
 
 /***/ }),
 
-/***/ 548:
+/***/ 544:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2448,6 +2444,10 @@ var _demo = __webpack_require__(533);
 
 var _demo2 = _interopRequireDefault(_demo);
 
+var _button = __webpack_require__(574);
+
+var _button2 = _interopRequireDefault(_button);
+
 var _anchor = __webpack_require__(525);
 
 var _anchor2 = _interopRequireDefault(_anchor);
@@ -2462,13 +2462,27 @@ exports.default = {
         inAnchor: _anchor2.default
     },
     data: function data() {
-        return {};
+        return {
+            code: _button2.default,
+            loading: false,
+            loading2: false,
+            buttonSize: 'large'
+        };
+    },
+
+    methods: {
+        toLoading: function toLoading() {
+            this.loading = true;
+        },
+        toLoading2: function toLoading2() {
+            this.loading2 = true;
+        }
     }
 };
 
 /***/ }),
 
-/***/ 562:
+/***/ 557:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2481,49 +2495,72 @@ var render = function render() {
   var _vm = this;
   var _h = _vm.$createElement;
   var _c = _vm._self._c || _h;
-  return _c("i-article", [_c("article", [_c("h1", [_vm._v("Font 字体")]), _vm._v(" "), _c("inAnchor", { attrs: { title: "概述", h2: "" } }), _vm._v(" "), _c("p", [_vm._v("iView 的 CSS 对字体进行了统一规范，力求在不同平台、浏览器下能显示出其最佳的效果。我们推荐 "), _c("Icon", { attrs: { type: "logo-apple" } }), _vm._v(" macOS（iOS）优先的策略，在不支持苹方字体的情况，使用备用字体。")], 1), _vm._v(" "), _c("inAnchor", { attrs: { title: "字体预览", h3: "" } }), _vm._v(" "), _c("ul", [_c("li", [_vm._v("中文字体")]), _vm._v(" "), _c("img", {
-    staticClass: "demo-font-img",
-    attrs: { src: __webpack_require__(608) }
-  }), _vm._v(" "), _c("li", [_vm._v("英文字体")]), _vm._v(" "), _c("img", {
-    staticClass: "demo-font-img",
-    attrs: { src: __webpack_require__(607) }
-  })]), _vm._v(" "), _c("inAnchor", { attrs: { title: "字体代码", h3: "" } }), _vm._v(" "), _c("i-code", { attrs: { lang: "css", bg: "" } }, [_vm._v('font-family: "Helvetica Neue",Helvetica,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","微软雅黑",Arial,sans-serif;')]), _vm._v(" "), _c("inAnchor", { attrs: { title: "字体使用规范", h3: "" } }), _vm._v(" "), _c("Row", { staticClass: "api", attrs: { gutter: 16 } }, [_c("i-col", { attrs: { span: "12" } }, [_c("table", [_c("thead", [_c("tr", [_c("th", [_vm._v("中文字体")]), _vm._v(" "), _c("th", [_vm._v("示例")]), _vm._v(" "), _c("th", [_vm._v("粗细")]), _vm._v(" "), _c("th", [_vm._v("颜色")]), _vm._v(" "), _c("th", [_vm._v("字号")])])]), _vm._v(" "), _c("tbody", [_c("tr", [_c("td", [_vm._v("主标题")]), _vm._v(" "), _c("td", [_c("span", {
+  return _c("i-article", [_c("article", [_c("h1", [_vm._v("Button 按钮")]), _vm._v(" "), _c("p", [_vm._v("基础组件，触发业务逻辑时使用。")]), _vm._v(" "), _c("Alert", { staticStyle: { "margin-top": "16px" }, attrs: { "show-icon": "" } }, [_vm._v("注意：非 template/render 模式下，需使用 "), _c("code", [_vm._v("i-button")]), _vm._v("。")]), _vm._v(" "), _c("inAnchor", { attrs: { title: "代码示例", h2: "" } }), _vm._v(" "), _c("Demo", { attrs: { title: "按钮类型" } }, [_c("div", { attrs: { slot: "demo" }, slot: "demo" }, [_c("Button", [_vm._v("Default")]), _vm._v(" "), _c("Button", { attrs: { type: "primary" } }, [_vm._v("Primary")]), _vm._v(" "), _c("Button", { attrs: { type: "dashed" } }, [_vm._v("Dashed")]), _vm._v(" "), _c("Button", { attrs: { type: "text" } }, [_vm._v("Text")]), _vm._v(" "), _c("br"), _c("br"), _vm._v(" "), _c("Button", { attrs: { type: "info" } }, [_vm._v("Info")]), _vm._v(" "), _c("Button", { attrs: { type: "success" } }, [_vm._v("Success")]), _vm._v(" "), _c("Button", { attrs: { type: "warning" } }, [_vm._v("Warning")]), _vm._v(" "), _c("Button", { attrs: { type: "error" } }, [_vm._v("Error")])], 1), _vm._v(" "), _c("div", { attrs: { slot: "desc" }, slot: "desc" }, [_c("p", [_vm._v("按钮类型有：默认按钮、主按钮、虚线按钮、文字按钮以及四种颜色按钮。")]), _vm._v(" "), _c("p", [_vm._v("通过设置"), _c("code", [_vm._v("type")]), _vm._v("为"), _c("code", [_vm._v("primary")]), _vm._v("、"), _c("code", [_vm._v("dashed")]), _vm._v("、"), _c("code", [_vm._v("text")]), _vm._v("、"), _c("code", [_vm._v("info")]), _vm._v("、"), _c("code", [_vm._v("success")]), _vm._v("、"), _c("code", [_vm._v("warning")]), _vm._v("、"), _c("code", [_vm._v("error")]), _vm._v("创建不同样式的按钮，不设置为默认样式。")])]), _vm._v(" "), _c("i-code", { attrs: { slot: "code", lang: "html" }, slot: "code" }, [_vm._v(_vm._s(_vm.code.type))])], 1), _vm._v(" "), _c("Demo", { attrs: { title: "幽灵按钮" } }, [_c("div", { attrs: { slot: "demo" }, slot: "demo" }, [_c("div", {
     staticStyle: {
-      "font-size": "16px",
-      "font-weight": "bold",
-      color: "#464c5b"
+      padding: "20px",
+      background: "rgb(190, 200, 200)"
     }
-  }, [_vm._v("我是标题")])]), _vm._v(" "), _c("td", [_vm._v("加粗")]), _vm._v(" "), _c("td", [_vm._v("#464c5b")]), _vm._v(" "), _c("td", [_vm._v("16px")])]), _vm._v(" "), _c("tr", [_c("td", [_vm._v("次级标题")]), _vm._v(" "), _c("td", [_c("span", {
-    staticStyle: {
-      "font-size": "14px",
-      "font-weight": "bold",
-      color: "#464c5b"
+  }, [_c("Button", { attrs: { type: "default", ghost: "" } }, [_vm._v("Default")]), _vm._v(" "), _c("Button", { attrs: { type: "primary", ghost: "" } }, [_vm._v("Primary")]), _vm._v(" "), _c("Button", { attrs: { type: "dashed", ghost: "" } }, [_vm._v("Dashed")]), _vm._v(" "), _c("Button", { attrs: { type: "text", ghost: "" } }, [_vm._v("Text")]), _vm._v(" "), _c("br"), _c("br"), _vm._v(" "), _c("Button", { attrs: { type: "info", ghost: "" } }, [_vm._v("Info")]), _vm._v(" "), _c("Button", { attrs: { type: "success", ghost: "" } }, [_vm._v("Success")]), _vm._v(" "), _c("Button", { attrs: { type: "warning", ghost: "" } }, [_vm._v("Warning")]), _vm._v(" "), _c("Button", { attrs: { type: "error", ghost: "" } }, [_vm._v("Error")])], 1)]), _vm._v(" "), _c("div", { attrs: { slot: "desc" }, slot: "desc" }, [_c("p", [_vm._v("幽灵按钮将其他按钮的内容反色，背景变为透明，常用在有色背景上。")])]), _vm._v(" "), _c("i-code", { attrs: { slot: "code", lang: "html" }, slot: "code" }, [_vm._v(_vm._s(_vm.code.ghost))])], 1), _vm._v(" "), _c("Demo", { attrs: { title: "图标按钮及按钮形状" } }, [_c("div", { attrs: { slot: "demo" }, slot: "demo" }, [_c("Button", {
+    attrs: {
+      type: "primary",
+      shape: "circle",
+      icon: "ios-search"
     }
-  }, [_vm._v("我是标题")])]), _vm._v(" "), _c("td", [_vm._v("加粗")]), _vm._v(" "), _c("td", [_vm._v("#464c5b")]), _vm._v(" "), _c("td", [_vm._v("14px")])]), _vm._v(" "), _c("tr", [_c("td", [_vm._v("小标题")]), _vm._v(" "), _c("td", [_c("span", {
-    staticStyle: {
-      "font-size": "12px",
-      "font-weight": "bold",
-      color: "#464c5b"
+  }), _vm._v(" "), _c("Button", { attrs: { type: "primary", icon: "ios-search" } }, [_vm._v("Search")]), _vm._v(" "), _c("Button", {
+    attrs: {
+      type: "primary",
+      shape: "circle",
+      icon: "ios-search"
     }
-  }, [_vm._v("我是标题")])]), _vm._v(" "), _c("td", [_vm._v("加粗")]), _vm._v(" "), _c("td", [_vm._v("#464c5b")]), _vm._v(" "), _c("td", [_vm._v("12px")])]), _vm._v(" "), _c("tr", [_c("td", [_vm._v("正文")]), _vm._v(" "), _c("td", [_c("span", { staticStyle: { color: "#657180" } }, [_vm._v("我是正文")])]), _vm._v(" "), _c("td", [_vm._v("默认")]), _vm._v(" "), _c("td", [_vm._v("#657180")]), _vm._v(" "), _c("td", [_vm._v("12px")])]), _vm._v(" "), _c("tr", [_c("td", [_vm._v("辅助文字")]), _vm._v(" "), _c("td", [_c("span", { staticStyle: { color: "#9ea7b4" } }, [_vm._v("我是辅助文字")])]), _vm._v(" "), _c("td", [_vm._v("默认")]), _vm._v(" "), _c("td", [_vm._v("#9ea7b4")]), _vm._v(" "), _c("td", [_vm._v("12px")])]), _vm._v(" "), _c("tr", [_c("td", [_vm._v("失效文字")]), _vm._v(" "), _c("td", [_c("span", { staticStyle: { color: "#c3cbd6" } }, [_vm._v("我是失效文字")])]), _vm._v(" "), _c("td", [_vm._v("默认")]), _vm._v(" "), _c("td", [_vm._v("#c3cbd6")]), _vm._v(" "), _c("td", [_vm._v("12px")])]), _vm._v(" "), _c("tr", [_c("td", [_vm._v("链接文字")]), _vm._v(" "), _c("td", [_c("a", { attrs: { href: "#" } }, [_vm._v("我是链接文字")])]), _vm._v(" "), _c("td", [_vm._v("默认")]), _vm._v(" "), _c("td", [_vm._v("#3399ff")]), _vm._v(" "), _c("td", [_vm._v("12px")])])])])]), _vm._v(" "), _c("i-col", { attrs: { span: "12" } }, [_c("table", [_c("thead", [_c("tr", [_c("th", [_vm._v("英文字体")]), _vm._v(" "), _c("th", [_vm._v("示例")]), _vm._v(" "), _c("th", [_vm._v("粗细")]), _vm._v(" "), _c("th", [_vm._v("颜色")]), _vm._v(" "), _c("th", [_vm._v("字号")])])]), _vm._v(" "), _c("tbody", [_c("tr", [_c("td", [_vm._v("Main Head")]), _vm._v(" "), _c("td", [_c("span", {
-    staticStyle: {
-      "font-size": "16px",
-      "font-weight": "bold",
-      color: "#464c5b"
+  }, [_vm._v("Search")]), _vm._v(" "), _c("Button", { attrs: { type: "primary", shape: "circle" } }, [_vm._v("Circle")]), _vm._v(" "), _c("br"), _c("br"), _vm._v(" "), _c("Button", {
+    attrs: { shape: "circle", icon: "ios-search" }
+  }), _vm._v(" "), _c("Button", { attrs: { icon: "ios-search" } }, [_vm._v("Search")]), _vm._v(" "), _c("Button", { attrs: { shape: "circle", icon: "ios-search" } }, [_vm._v("Search")]), _vm._v(" "), _c("Button", { attrs: { shape: "circle" } }, [_vm._v("Circle")])], 1), _vm._v(" "), _c("div", { attrs: { slot: "desc" }, slot: "desc" }, [_c("p", [_vm._v("通过设置"), _c("code", [_vm._v("icon")]), _vm._v("属性在"), _c("code", [_vm._v("Button")]), _vm._v("内嵌入一个"), _c("code", [_vm._v("Icon")]), _vm._v("，或者直接在"), _c("code", [_vm._v("Button")]), _vm._v("内使用"), _c("code", [_vm._v("Icon")]), _vm._v("组件。")]), _vm._v(" "), _c("p", [_vm._v("使用"), _c("code", [_vm._v("Button")]), _vm._v("的"), _c("code", [_vm._v("icon")]), _vm._v("属性，图标位置将在最左边，如果需要自定义位置，需使用"), _c("code", [_vm._v("Icon")]), _vm._v("组件。")]), _vm._v(" "), _c("p", [_vm._v("通过设置"), _c("code", [_vm._v("shape")]), _vm._v("属性为"), _c("code", [_vm._v("circle")]), _vm._v("，可将按钮置为圆的形状。")])]), _vm._v(" "), _c("i-code", { attrs: { slot: "code", lang: "html" }, slot: "code" }, [_vm._v(_vm._s(_vm.code.icon))])], 1), _vm._v(" "), _c("Demo", { attrs: { title: "按钮尺寸" } }, [_c("div", { attrs: { slot: "demo" }, slot: "demo" }, [_c("RadioGroup", {
+    attrs: { type: "button" },
+    model: {
+      value: _vm.buttonSize,
+      callback: function callback($$v) {
+        _vm.buttonSize = $$v;
+      },
+      expression: "buttonSize"
     }
-  }, [_vm._v("This is an example")])]), _vm._v(" "), _c("td", [_vm._v("bold")]), _vm._v(" "), _c("td", [_vm._v("#464c5b")]), _vm._v(" "), _c("td", [_vm._v("16px")])]), _vm._v(" "), _c("tr", [_c("td", [_vm._v("Sub Head")]), _vm._v(" "), _c("td", [_c("span", {
-    staticStyle: {
-      "font-size": "14px",
-      "font-weight": "bold",
-      color: "#464c5b"
+  }, [_c("Radio", { attrs: { label: "large" } }, [_vm._v("Large")]), _vm._v(" "), _c("Radio", { attrs: { label: "default" } }, [_vm._v("Default")]), _vm._v(" "), _c("Radio", { attrs: { label: "small" } }, [_vm._v("small")])], 1), _vm._v(" "), _c("br"), _c("br"), _vm._v(" "), _c("Button", { attrs: { size: _vm.buttonSize, type: "primary" } }, [_vm._v("Primary")]), _vm._v(" "), _c("Button", { attrs: { size: _vm.buttonSize, type: "default" } }, [_vm._v("Default")]), _vm._v(" "), _c("Button", { attrs: { size: _vm.buttonSize, type: "dashed" } }, [_vm._v("Dashed")]), _vm._v(" "), _c("Button", { attrs: { size: _vm.buttonSize, type: "text" } }, [_vm._v("Text")]), _vm._v(" "), _c("br"), _c("br"), _vm._v(" "), _c("Button", {
+    attrs: {
+      size: _vm.buttonSize,
+      icon: "ios-download-outline",
+      type: "primary",
+      shape: "circle"
     }
-  }, [_vm._v("This is an example")])]), _vm._v(" "), _c("td", [_vm._v("bold")]), _vm._v(" "), _c("td", [_vm._v("#464c5b")]), _vm._v(" "), _c("td", [_vm._v("14px")])]), _vm._v(" "), _c("tr", [_c("td", [_vm._v("Small Head")]), _vm._v(" "), _c("td", [_c("span", {
-    staticStyle: {
-      "font-size": "12px",
-      "font-weight": "bold",
-      color: "#464c5b"
+  }), _vm._v(" "), _c("Button", {
+    attrs: {
+      size: _vm.buttonSize,
+      icon: "ios-download-outline",
+      type: "primary"
     }
-  }, [_vm._v("This is an example")])]), _vm._v(" "), _c("td", [_vm._v("bold")]), _vm._v(" "), _c("td", [_vm._v("#464c5b")]), _vm._v(" "), _c("td", [_vm._v("12px")])]), _vm._v(" "), _c("tr", [_c("td", [_vm._v("Text")]), _vm._v(" "), _c("td", [_c("span", { staticStyle: { color: "#657180" } }, [_vm._v("This is an example")])]), _vm._v(" "), _c("td", [_vm._v("normal")]), _vm._v(" "), _c("td", [_vm._v("#657180")]), _vm._v(" "), _c("td", [_vm._v("12px")])]), _vm._v(" "), _c("tr", [_c("td", [_vm._v("Help")]), _vm._v(" "), _c("td", [_c("span", { staticStyle: { color: "#9ea7b4" } }, [_vm._v("This is an example")])]), _vm._v(" "), _c("td", [_vm._v("normal")]), _vm._v(" "), _c("td", [_vm._v("#9ea7b4")]), _vm._v(" "), _c("td", [_vm._v("12px")])]), _vm._v(" "), _c("tr", [_c("td", [_vm._v("Disabled")]), _vm._v(" "), _c("td", [_c("span", { staticStyle: { color: "#c3cbd6" } }, [_vm._v("This is an example")])]), _vm._v(" "), _c("td", [_vm._v("normal")]), _vm._v(" "), _c("td", [_vm._v("#c3cbd6")]), _vm._v(" "), _c("td", [_vm._v("12px")])]), _vm._v(" "), _c("tr", [_c("td", [_vm._v("Link")]), _vm._v(" "), _c("td", [_c("a", { attrs: { href: "#" } }, [_vm._v("This is an example")])]), _vm._v(" "), _c("td", [_vm._v("normal")]), _vm._v(" "), _c("td", [_vm._v("#3399ff")]), _vm._v(" "), _c("td", [_vm._v("12px")])])])])])], 1)], 1)]);
+  }, [_vm._v("Download")]), _vm._v(" "), _c("br"), _c("br"), _vm._v(" "), _c("ButtonGroup", { attrs: { size: _vm.buttonSize } }, [_c("Button", { attrs: { size: _vm.buttonSize, type: "primary" } }, [_c("Icon", { attrs: { type: "ios-arrow-back" } }), _vm._v("\n                        Backward\n                    ")], 1), _vm._v(" "), _c("Button", { attrs: { size: _vm.buttonSize, type: "primary" } }, [_vm._v("\n                        Forward\n                        "), _c("Icon", { attrs: { type: "ios-arrow-forward" } })], 1)], 1)], 1), _vm._v(" "), _c("div", { attrs: { slot: "desc" }, slot: "desc" }, [_c("p", [_vm._v("按钮有三种尺寸：大、默认（中）、小")]), _vm._v(" "), _c("p", [_vm._v("通过设置"), _c("code", [_vm._v("size")]), _vm._v("为"), _c("code", [_vm._v("large")]), _vm._v("和"), _c("code", [_vm._v("small")]), _vm._v("将按钮设置为大和小尺寸，不设置为默认（中）尺寸。")])]), _vm._v(" "), _c("i-code", { attrs: { slot: "code", lang: "html" }, slot: "code" }, [_vm._v(_vm._s(_vm.code.size))])], 1), _vm._v(" "), _c("Demo", { attrs: { title: "长按钮" } }, [_c("div", { attrs: { slot: "demo" }, slot: "demo" }, [_c("Button", { attrs: { type: "success", long: "" } }, [_vm._v("SUBMIT")]), _vm._v(" "), _c("br"), _c("br"), _vm._v(" "), _c("Button", { attrs: { type: "error", long: "" } }, [_vm._v("DELETE")])], 1), _vm._v(" "), _c("div", { attrs: { slot: "desc" }, slot: "desc" }, [_c("p", [_vm._v("通过设置属性 "), _c("code", [_vm._v("long")]), _vm._v(" 可将按钮宽度设置为 100%，常用于弹窗内操作按钮。")]), _vm._v(" "), _c("p", [_vm._v("使用者也可以直接通过给组件添加 "), _c("code", [_vm._v("style")]), _vm._v(" 来设置更细节的样式，比如定宽。")])]), _vm._v(" "), _c("i-code", { attrs: { slot: "code", lang: "html" }, slot: "code" }, [_vm._v(_vm._s(_vm.code.long))])], 1), _vm._v(" "), _c("Demo", { attrs: { title: "不可用状态" } }, [_c("div", { attrs: { slot: "demo" }, slot: "demo" }, [_c("Button", [_vm._v("Default")]), _vm._v(" "), _c("Button", { attrs: { disabled: "" } }, [_vm._v("Default(Disabled)")]), _vm._v(" "), _c("br"), _c("br"), _vm._v(" "), _c("Button", { attrs: { type: "primary" } }, [_vm._v("Primary")]), _vm._v(" "), _c("Button", { attrs: { type: "primary", disabled: "" } }, [_vm._v("Primary(Disabled)")]), _vm._v(" "), _c("br"), _c("br"), _vm._v(" "), _c("Button", { attrs: { type: "dashed" } }, [_vm._v("Dashed")]), _vm._v(" "), _c("Button", { attrs: { type: "dashed", disabled: "" } }, [_vm._v("Dashed(Disabled)")]), _vm._v(" "), _c("br"), _c("br"), _vm._v(" "), _c("Button", { attrs: { type: "text" } }, [_vm._v("Text")]), _vm._v(" "), _c("Button", { attrs: { type: "text", disabled: "" } }, [_vm._v("Text(Disabled)")])], 1), _vm._v(" "), _c("div", { attrs: { slot: "desc" }, slot: "desc" }, [_c("p", [_vm._v("通过添加"), _c("code", [_vm._v("disabled")]), _vm._v("属性可将按钮设置为不可用状态。")])]), _vm._v(" "), _c("i-code", { attrs: { slot: "code", lang: "html" }, slot: "code" }, [_vm._v(_vm._s(_vm.code.disabled))])], 1), _vm._v(" "), _c("Demo", { attrs: { title: "加载中状态" } }, [_c("div", { attrs: { slot: "demo" }, slot: "demo" }, [_c("Button", { attrs: { type: "primary", loading: "" } }, [_vm._v("Loading...")]), _vm._v(" "), _c("Button", {
+    attrs: { type: "primary", loading: _vm.loading },
+    on: { click: _vm.toLoading }
+  }, [!_vm.loading ? _c("span", [_vm._v("Click me!")]) : _c("span", [_vm._v("Loading...")])]), _vm._v(" "), _c("Button", {
+    attrs: {
+      type: "primary",
+      loading: _vm.loading2,
+      icon: "ios-power"
+    },
+    on: { click: _vm.toLoading2 }
+  }, [!_vm.loading2 ? _c("span", [_vm._v("Click me!")]) : _c("span", [_vm._v("Loading...")])]), _vm._v(" "), _c("Button", { attrs: { loading: "", shape: "circle" } }), _vm._v(" "), _c("Button", {
+    attrs: { loading: "", shape: "circle", type: "primary" }
+  })], 1), _vm._v(" "), _c("div", { attrs: { slot: "desc" }, slot: "desc" }, [_c("p", [_vm._v("通过添加"), _c("code", [_vm._v("loading")]), _vm._v("属性可以让按钮处于加载中状态，后两个按钮在点击时进入加载状态。")])]), _vm._v(" "), _c("i-code", { attrs: { slot: "code", lang: "html" }, slot: "code" }, [_vm._v(_vm._s(_vm.code.loading))])], 1), _vm._v(" "), _c("Demo", { attrs: { title: "按钮组合" } }, [_c("div", { attrs: { slot: "demo" }, slot: "demo" }, [_c("h4", [_vm._v("Basic")]), _vm._v(" "), _c("br"), _c("br"), _vm._v(" "), _c("ButtonGroup", [_c("Button", [_vm._v("Cancel")]), _vm._v(" "), _c("Button", { attrs: { type: "primary" } }, [_vm._v("Confirm")])], 1), _vm._v(" "), _c("ButtonGroup", [_c("Button", { attrs: { disabled: "" } }, [_vm._v("Yesterday")]), _vm._v(" "), _c("Button", { attrs: { disabled: "" } }, [_vm._v("Today")]), _vm._v(" "), _c("Button", { attrs: { disabled: "" } }, [_vm._v("Tomorrow")])], 1), _vm._v(" "), _c("ButtonGroup", [_c("Button", { attrs: { type: "primary" } }, [_vm._v("L")]), _vm._v(" "), _c("Button", [_vm._v("M")]), _vm._v(" "), _c("Button", [_vm._v("M")]), _vm._v(" "), _c("Button", { attrs: { type: "dashed" } }, [_vm._v("R")])], 1), _vm._v(" "), _c("br"), _c("br"), _vm._v(" "), _c("h4", [_vm._v("Icons")]), _vm._v(" "), _c("br"), _c("br"), _vm._v(" "), _c("ButtonGroup", [_c("Button", { attrs: { type: "primary" } }, [_c("Icon", { attrs: { type: "ios-arrow-back" } }), _vm._v("\n                        Backward\n                    ")], 1), _vm._v(" "), _c("Button", { attrs: { type: "primary" } }, [_vm._v("\n                        Forward\n                        "), _c("Icon", { attrs: { type: "ios-arrow-forward" } })], 1)], 1), _vm._v(" "), _c("ButtonGroup", [_c("Button", {
+    attrs: { type: "primary", icon: "ios-skip-backward" }
+  }), _vm._v(" "), _c("Button", {
+    attrs: { type: "primary", icon: "ios-skip-forward" }
+  })], 1), _vm._v(" "), _c("ButtonGroup", [_c("Button", { attrs: { icon: "ios-color-wand-outline" } }), _vm._v(" "), _c("Button", { attrs: { icon: "ios-sunny-outline" } }), _vm._v(" "), _c("Button", { attrs: { icon: "ios-crop" } }), _vm._v(" "), _c("Button", {
+    attrs: { icon: "ios-color-filter-outline" }
+  })], 1), _vm._v(" "), _c("br"), _c("br"), _vm._v(" "), _c("h4", [_vm._v("Circle")]), _vm._v(" "), _c("br"), _c("br"), _vm._v(" "), _c("ButtonGroup", { attrs: { shape: "circle" } }, [_c("Button", { attrs: { type: "primary" } }, [_c("Icon", { attrs: { type: "ios-arrow-back" } }), _vm._v("\n                        Backward\n                    ")], 1), _vm._v(" "), _c("Button", { attrs: { type: "primary" } }, [_vm._v("\n                        Forward\n                        "), _c("Icon", { attrs: { type: "ios-arrow-forward" } })], 1)], 1), _vm._v(" "), _c("ButtonGroup", { attrs: { shape: "circle" } }, [_c("Button", {
+    attrs: { type: "primary", icon: "ios-skip-backward" }
+  }), _vm._v(" "), _c("Button", {
+    attrs: { type: "primary", icon: "ios-skip-forward" }
+  })], 1), _vm._v(" "), _c("ButtonGroup", { attrs: { shape: "circle" } }, [_c("Button", { attrs: { icon: "ios-color-wand-outline" } }), _vm._v(" "), _c("Button", { attrs: { icon: "ios-sunny-outline" } }), _vm._v(" "), _c("Button", { attrs: { icon: "ios-crop" } }), _vm._v(" "), _c("Button", {
+    attrs: { icon: "ios-color-filter-outline" }
+  })], 1), _vm._v(" "), _c("br"), _c("br"), _vm._v(" "), _c("h4", [_vm._v("Size")]), _vm._v(" "), _c("br"), _c("br"), _vm._v(" "), _c("ButtonGroup", { attrs: { size: "large" } }, [_c("Button", [_vm._v("Large")]), _vm._v(" "), _c("Button", [_vm._v("Large")])], 1), _vm._v(" "), _c("ButtonGroup", [_c("Button", [_vm._v("Default")]), _vm._v(" "), _c("Button", [_vm._v("Default")])], 1), _vm._v(" "), _c("ButtonGroup", { attrs: { size: "small" } }, [_c("Button", [_vm._v("Small")]), _vm._v(" "), _c("Button", [_vm._v("Small")])], 1), _vm._v(" "), _c("br"), _c("br"), _vm._v(" "), _c("ButtonGroup", { attrs: { size: "large", shape: "circle" } }, [_c("Button", [_vm._v("Large")]), _vm._v(" "), _c("Button", [_vm._v("Large")])], 1), _vm._v(" "), _c("ButtonGroup", { attrs: { shape: "circle" } }, [_c("Button", [_vm._v("Default")]), _vm._v(" "), _c("Button", [_vm._v("Default")])], 1), _vm._v(" "), _c("ButtonGroup", { attrs: { size: "small", shape: "circle" } }, [_c("Button", [_vm._v("Small")]), _vm._v(" "), _c("Button", [_vm._v("Small")])], 1)], 1), _vm._v(" "), _c("div", { attrs: { slot: "desc" }, slot: "desc" }, [_c("p", [_vm._v("将多个"), _c("code", [_vm._v("Button")]), _vm._v("放入"), _c("code", [_vm._v("ButtonGroup")]), _vm._v("内，可实现按钮组合的效果。")]), _vm._v(" "), _c("p", [_vm._v("通过设置"), _c("code", [_vm._v("ButtonGroup")]), _vm._v("的属性"), _c("code", [_vm._v("size")]), _vm._v("为"), _c("code", [_vm._v("large")]), _vm._v("和"), _c("code", [_vm._v("small")]), _vm._v("，可将按钮组尺寸设置为大和小，不设置"), _c("code", [_vm._v("size")]), _vm._v("，则为默认（中）尺寸。")]), _vm._v(" "), _c("p", [_vm._v("通过设置"), _c("code", [_vm._v("ButtonGroup")]), _vm._v("的属性"), _c("code", [_vm._v("shape")]), _vm._v("为"), _c("code", [_vm._v("circle")]), _vm._v("，可将按钮组形状设置为圆角。")])]), _vm._v(" "), _c("i-code", { attrs: { slot: "code", lang: "html" }, slot: "code" }, [_vm._v(_vm._s(_vm.code.group))])], 1), _vm._v(" "), _c("Demo", { attrs: { title: "按钮组纵向排列" } }, [_c("div", { attrs: { slot: "demo" }, slot: "demo" }, [_c("ButtonGroup", { attrs: { vertical: "" } }, [_c("Button", { attrs: { icon: "logo-facebook" } }), _vm._v(" "), _c("Button", { attrs: { icon: "logo-twitter" } }), _vm._v(" "), _c("Button", { attrs: { icon: "logo-googleplus" } }), _vm._v(" "), _c("Button", { attrs: { icon: "logo-tumblr" } })], 1)], 1), _vm._v(" "), _c("div", { attrs: { slot: "desc" }, slot: "desc" }, [_c("p", [_vm._v("通过设置"), _c("code", [_vm._v("ButtonGroup")]), _vm._v("的属性"), _c("code", [_vm._v("vertical")]), _vm._v("，可以使按钮组纵向排列。")])]), _vm._v(" "), _c("i-code", { attrs: { slot: "code", lang: "html" }, slot: "code" }, [_vm._v(_vm._s(_vm.code.vertical))])], 1), _vm._v(" "), _c("Demo", { attrs: { title: "跳转" } }, [_c("div", { attrs: { slot: "demo" }, slot: "demo" }, [_c("Button", { attrs: { to: "/components/icon" } }, [_vm._v("普通跳转")]), _vm._v(" "), _c("Button", { attrs: { to: "/components/icon", replace: "" } }, [_vm._v("不保存历史的跳转")]), _vm._v(" "), _c("Button", { attrs: { to: "//iviewui.com", target: "_blank" } }, [_vm._v("新窗口打开")])], 1), _vm._v(" "), _c("div", { attrs: { slot: "desc" }, slot: "desc" }, [_c("p", [_vm._v("通过设置 "), _c("code", [_vm._v("to")]), _vm._v(" 可以实现点击按钮直接跳转，支持传入 vue-router 对象。")]), _vm._v(" "), _c("p", [_vm._v("设置 "), _c("code", [_vm._v("replace")]), _vm._v(" 则不会保存历史记录。")]), _vm._v(" "), _c("p", [_vm._v("设置 "), _c("code", [_vm._v("target")]), _vm._v("，会跟 a 标签一样的行为。")])]), _vm._v(" "), _c("i-code", { attrs: { slot: "code", lang: "html" }, slot: "code" }, [_vm._v(_vm._s(_vm.code.link))])], 1), _vm._v(" "), _c("div", { staticClass: "api" }, [_c("inAnchor", { attrs: { title: "API", h2: "" } }), _vm._v(" "), _c("inAnchor", { attrs: { title: "Button props", h3: "" } }), _vm._v(" "), _c("table", [_c("thead", [_c("tr", [_c("th", [_vm._v("属性")]), _vm._v(" "), _c("th", [_vm._v("说明")]), _vm._v(" "), _c("th", [_vm._v("类型")]), _vm._v(" "), _c("th", [_vm._v("默认值")])])]), _vm._v(" "), _c("tbody", [_c("tr", [_c("td", [_vm._v("type")]), _vm._v(" "), _c("td", [_vm._v("按钮类型，可选值为 "), _c("code", [_vm._v("default")]), _vm._v("、"), _c("code", [_vm._v("primary")]), _vm._v("、"), _c("code", [_vm._v("dashed")]), _vm._v("、"), _c("code", [_vm._v("text")]), _vm._v("、"), _c("code", [_vm._v("info")]), _vm._v("、"), _c("code", [_vm._v("success")]), _vm._v("、"), _c("code", [_vm._v("warning")]), _vm._v("、"), _c("code", [_vm._v("error")]), _vm._v("或者不设置")]), _vm._v(" "), _c("td", [_vm._v("String")]), _vm._v(" "), _c("td", [_vm._v("default")])]), _vm._v(" "), _c("tr", [_c("td", [_vm._v("ghost")]), _vm._v(" "), _c("td", [_vm._v("幽灵属性，使按钮背景透明")]), _vm._v(" "), _c("td", [_vm._v("Boolean")]), _vm._v(" "), _c("td", [_vm._v("false")])]), _vm._v(" "), _c("tr", [_c("td", [_vm._v("size")]), _vm._v(" "), _c("td", [_vm._v("按钮大小，可选值为"), _c("code", [_vm._v("large")]), _vm._v("、"), _c("code", [_vm._v("small")]), _vm._v("、"), _c("code", [_vm._v("default")]), _vm._v("或者不设置")]), _vm._v(" "), _c("td", [_vm._v("String")]), _vm._v(" "), _c("td", [_vm._v("default")])]), _vm._v(" "), _c("tr", [_c("td", [_vm._v("shape")]), _vm._v(" "), _c("td", [_vm._v("按钮形状，可选值为"), _c("code", [_vm._v("circle")]), _vm._v("或者不设置")]), _vm._v(" "), _c("td", [_vm._v("String")]), _vm._v(" "), _c("td", [_vm._v("-")])]), _vm._v(" "), _c("tr", [_c("td", [_vm._v("long")]), _vm._v(" "), _c("td", [_vm._v("开启后，按钮的长度为 100%")]), _vm._v(" "), _c("td", [_vm._v("Boolean")]), _vm._v(" "), _c("td", [_vm._v("false")])]), _vm._v(" "), _c("tr", [_c("td", [_vm._v("html-type")]), _vm._v(" "), _c("td", [_vm._v("设置"), _c("code", [_vm._v("button")]), _vm._v("原生的"), _c("code", [_vm._v("type")]), _vm._v("，可选值为"), _c("code", [_vm._v("button")]), _vm._v("、"), _c("code", [_vm._v("submit")]), _vm._v("、"), _c("code", [_vm._v("reset")])]), _vm._v(" "), _c("td", [_vm._v("String")]), _vm._v(" "), _c("td", [_vm._v("button")])]), _vm._v(" "), _c("tr", [_c("td", [_vm._v("disabled")]), _vm._v(" "), _c("td", [_vm._v("设置按钮为禁用状态")]), _vm._v(" "), _c("td", [_vm._v("Boolean")]), _vm._v(" "), _c("td", [_vm._v("false")])]), _vm._v(" "), _c("tr", [_c("td", [_vm._v("loading")]), _vm._v(" "), _c("td", [_vm._v("设置按钮为加载中状态")]), _vm._v(" "), _c("td", [_vm._v("Boolean")]), _vm._v(" "), _c("td", [_vm._v("false")])]), _vm._v(" "), _c("tr", [_c("td", [_vm._v("icon")]), _vm._v(" "), _c("td", [_vm._v("设置按钮的图标类型")]), _vm._v(" "), _c("td", [_vm._v("String")]), _vm._v(" "), _c("td", [_vm._v("-")])]), _vm._v(" "), _c("tr", [_c("td", [_vm._v("custom-icon")]), _vm._v(" "), _c("td", [_vm._v("设置按钮的自定义图标")]), _vm._v(" "), _c("td", [_vm._v("String")]), _vm._v(" "), _c("td", [_vm._v("-")])]), _vm._v(" "), _c("tr", [_c("td", [_vm._v("to")]), _vm._v(" "), _c("td", [_vm._v("跳转的链接，支持 vue-router 对象")]), _vm._v(" "), _c("td", [_vm._v("String | Object")]), _vm._v(" "), _c("td", [_vm._v("-")])]), _vm._v(" "), _c("tr", [_c("td", [_vm._v("replace")]), _vm._v(" "), _c("td", [_vm._v("路由跳转时，开启 replace 将不会向 history 添加新记录")]), _vm._v(" "), _c("td", [_vm._v("Boolean")]), _vm._v(" "), _c("td", [_vm._v("false")])]), _vm._v(" "), _c("tr", [_c("td", [_vm._v("target")]), _vm._v(" "), _c("td", [_vm._v("相当于 a 链接的 target 属性")]), _vm._v(" "), _c("td", [_vm._v("String")]), _vm._v(" "), _c("td", [_vm._v("_self")])])])]), _vm._v(" "), _c("inAnchor", { attrs: { title: "ButtonGroup props", h3: "" } }), _vm._v(" "), _c("table", [_c("thead", [_c("tr", [_c("th", [_vm._v("属性")]), _vm._v(" "), _c("th", [_vm._v("说明")]), _vm._v(" "), _c("th", [_vm._v("类型")]), _vm._v(" "), _c("th", [_vm._v("默认值")])])]), _vm._v(" "), _c("tbody", [_c("tr", [_c("td", [_vm._v("size")]), _vm._v(" "), _c("td", [_vm._v("按钮组合大小，可选值为"), _c("code", [_vm._v("large")]), _vm._v("、"), _c("code", [_vm._v("small")]), _vm._v("、"), _c("code", [_vm._v("default")]), _vm._v("或者不设置")]), _vm._v(" "), _c("td", [_vm._v("String")]), _vm._v(" "), _c("td", [_vm._v("default")])]), _vm._v(" "), _c("tr", [_c("td", [_vm._v("shape")]), _vm._v(" "), _c("td", [_vm._v("按钮组合形状，可选值为"), _c("code", [_vm._v("circle")]), _vm._v("或者不设置")]), _vm._v(" "), _c("td", [_vm._v("String")]), _vm._v(" "), _c("td", [_vm._v("-")])]), _vm._v(" "), _c("tr", [_c("td", [_vm._v("vertical")]), _vm._v(" "), _c("td", [_vm._v("是否纵向排列按钮组")]), _vm._v(" "), _c("td", [_vm._v("Boolean")]), _vm._v(" "), _c("td", [_vm._v("false")])])])])], 1)], 1)]);
 };
 var staticRenderFns = [];
 render._withStripped = true;
@@ -2533,32 +2570,45 @@ exports.default = esExports;
 if (false) {
   module.hot.accept();
   if (module.hot.data) {
-    require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-2526d47e", esExports);
+    require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-064c47be", esExports);
   }
 }
 
 /***/ }),
 
-/***/ 597:
-/***/ (function(module, exports) {
-
-// removed by extract-text-webpack-plugin
-
-/***/ }),
-
-/***/ 607:
+/***/ 574:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "f4b37f948e311cb4bbcb609b17b8db62.png";
+"use strict";
 
-/***/ }),
 
-/***/ 608:
-/***/ (function(module, exports, __webpack_require__) {
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+var code = {};
 
-module.exports = __webpack_require__.p + "aac43973c6b6d72bf7aa852ecb2302c5.png";
+code.type = "\n<template>\n    <Button>Default</Button>\n    <Button type=\"primary\">Primary</Button>\n    <Button type=\"dashed\">Dashed</Button>\n    <Button type=\"text\">Text</Button>\n    <br><br>\n    <Button type=\"info\">Info</Button>\n    <Button type=\"success\">Success</Button>\n    <Button type=\"warning\">Warning</Button>\n    <Button type=\"error\">Error</Button>\n</template>\n<script>\n    export default {\n        \n    }\n</script>\n";
+
+code.icon = "\n<template>\n    <Button type=\"primary\" shape=\"circle\" icon=\"ios-search\"></Button>\n    <Button type=\"primary\" icon=\"ios-search\">Search</Button>\n    <Button type=\"primary\" shape=\"circle\" icon=\"ios-search\">Search</Button>\n    <Button type=\"primary\" shape=\"circle\">Circle</Button>\n    <br><br>\n    <Button shape=\"circle\" icon=\"ios-search\"></Button>\n    <Button icon=\"ios-search\">Search</Button>\n    <Button shape=\"circle\" icon=\"ios-search\">Search</Button>\n    <Button shape=\"circle\">Circle</Button>\n</template>\n<script>\n    export default {\n        \n    }\n</script>\n";
+
+code.size = "\n<template>\n    <div>\n        <RadioGroup v-model=\"buttonSize\" type=\"button\">\n            <Radio label=\"large\">Large</Radio>\n            <Radio label=\"default\">Default</Radio>\n            <Radio label=\"small\">small</Radio>\n        </RadioGroup>\n        <br><br>\n        <Button :size=\"buttonSize\" type=\"primary\">Primary</Button>\n        <Button :size=\"buttonSize\" type=\"default\">Default</Button>\n        <Button :size=\"buttonSize\" type=\"dashed\">Dashed</Button>\n        <Button :size=\"buttonSize\" type=\"text\">Text</Button>\n        <br><br>\n        <Button :size=\"buttonSize\" icon=\"ios-download-outline\" type=\"primary\" shape=\"circle\"></Button>\n        <Button :size=\"buttonSize\" icon=\"ios-download-outline\" type=\"primary\">Download</Button>\n        <br><br>\n        <ButtonGroup :size=\"buttonSize\">\n            <Button :size=\"buttonSize\" type=\"primary\">\n                <Icon type=\"ios-arrow-back\" />\n                Backward\n            </Button>\n            <Button :size=\"buttonSize\" type=\"primary\">\n                Forward\n                <Icon type=\"ios-arrow-forward\" />\n            </Button>\n        </ButtonGroup>\n    </div>\n</template>\n<script>\n    export default {\n        data () {\n            return {\n                buttonSize: 'large'\n            }\n        },\n    }\n</script>\n";
+
+code.long = "\n<template>\n    <Button type=\"success\" long>SUBMIT</Button>\n    <br><br>\n    <Button type=\"error\" long>DELETE</Button>\n</template>\n<script>\n    export default {\n        \n    }\n</script>\n";
+
+code.disabled = "\n<template>\n    <Button>Default</Button>\n    <Button disabled>Default(Disabled)</Button>\n    <br>\n    <Button type=\"primary\">Primary</Button>\n    <Button type=\"primary\" disabled>Primary(Disabled)</Button>\n    <br>\n    <Button type=\"dashed\">Dashed</Button>\n    <Button type=\"dashed\" disabled>Dashed(Disabled)</Button>\n    <br>\n    <Button type=\"text\">Text</Button>\n    <Button type=\"text\" disabled>Text(Disabled)</Button>\n</template>\n<script>\n    export default {\n        \n    }\n</script>\n";
+
+code.loading = "\n<template>\n    <Button type=\"primary\" loading>Loading...</Button>\n    <Button type=\"primary\" :loading=\"loading\" @click=\"toLoading\">\n        <span v-if=\"!loading\">Click me!</span>\n        <span v-else>Loading...</span>\n    </Button>\n    <Button type=\"primary\" :loading=\"loading2\" icon=\"ios-power\" @click=\"toLoading2\">\n        <span v-if=\"!loading2\">Click me!</span>\n        <span v-else>Loading...</span>\n    </Button>\n    <Button loading shape=\"circle\"></Button>\n    <Button loading shape=\"circle\" type=\"primary\"></Button>\n</template>\n<script>\n    export default {\n        data () {\n            return {\n                loading: false,\n                loading2: false\n            }\n        },\n        methods: {\n            toLoading () {\n                this.loading = true;\n            },\n            toLoading2 () {\n                this.loading2 = true;\n            }\n        }\n    }\n</script>\n";
+code.group = "\n<template>\n    <h4>Basic</h4>\n    <br><br>\n    <ButtonGroup>\n        <Button>Cancel</Button>\n        <Button type=\"primary\">Confirm</Button>\n    </ButtonGroup>\n    <ButtonGroup>\n        <Button disabled>Yesterday</Button>\n        <Button disabled>Today</Button>\n        <Button disabled>Tomorrow</Button>\n    </ButtonGroup>\n    <ButtonGroup>\n        <Button type=\"primary\">L</Button>\n        <Button>M</Button>\n        <Button>M</Button>\n        <Button type=\"dashed\">R</Button>\n    </ButtonGroup>\n    <br><br>\n    <h4>Icons</h4>\n    <br><br>\n    <ButtonGroup>\n        <Button type=\"primary\">\n            <Icon type=\"ios-arrow-back\"></Icon>\n            Backward\n        </Button>\n        <Button type=\"primary\">\n            Forward\n            <Icon type=\"ios-arrow-forward\"></Icon>\n        </Button>\n    </ButtonGroup>\n    <ButtonGroup>\n        <Button type=\"primary\" icon=\"ios-skip-backward\"></Button>\n        <Button type=\"primary\" icon=\"ios-skip-forward\"></Button>\n    </ButtonGroup>\n    <ButtonGroup>\n        <Button icon=\"ios-color-wand-outline\"></Button>\n        <Button icon=\"ios-sunny-outline\"></Button>\n        <Button icon=\"ios-crop\"></Button>\n        <Button icon=\"ios-color-filter-outline\"></Button>\n    </ButtonGroup>\n    <br><br>\n    <h4>Circle</h4>\n    <br><br>\n    <ButtonGroup shape=\"circle\">\n        <Button type=\"primary\">\n            <Icon type=\"ios-arrow-back\"></Icon>\n            Backward\n        </Button>\n        <Button type=\"primary\">\n            Forward\n            <Icon type=\"ios-arrow-forward\"></Icon>\n        </Button>\n    </ButtonGroup>\n    <ButtonGroup shape=\"circle\">\n        <Button type=\"primary\" icon=\"ios-skip-backward\"></Button>\n        <Button type=\"primary\" icon=\"ios-skip-forward\"></Button>\n    </ButtonGroup>\n    <ButtonGroup shape=\"circle\">\n        <Button icon=\"ios-color-wand-outline\"></Button>\n        <Button icon=\"ios-sunny-outline\"></Button>\n        <Button icon=\"ios-crop\"></Button>\n        <Button icon=\"ios-color-filter-outline\"></Button>\n    </ButtonGroup>\n    <br><br>\n    <h4>Size</h4>\n    <br><br>\n    <ButtonGroup size=\"large\">\n        <Button>Large</Button>\n        <Button>Large</Button>\n    </ButtonGroup>\n    <ButtonGroup>\n        <Button>Default</Button>\n        <Button>Default</Button>\n    </ButtonGroup>\n    <ButtonGroup size=\"small\">\n        <Button>Small</Button>\n        <Button>Small</Button>\n    </ButtonGroup>\n    <br><br>\n    <ButtonGroup size=\"large\" shape=\"circle\">\n        <Button>Large</Button>\n        <Button>Large</Button>\n    </ButtonGroup>\n    <ButtonGroup shape=\"circle\">\n        <Button>Default</Button>\n        <Button>Default</Button>\n    </ButtonGroup>\n    <ButtonGroup size=\"small\" shape=\"circle\">\n        <Button>Small</Button>\n        <Button>Small</Button>\n    </ButtonGroup>\n</template>\n<script>\n    export default {\n        \n    }\n</script>\n";
+
+code.vertical = "\n<template>\n    <ButtonGroup vertical>\n        <Button icon=\"logo-facebook\"></Button>\n        <Button icon=\"logo-twitter\"></Button>\n        <Button icon=\"logo-googleplus\"></Button>\n        <Button icon=\"logo-tumblr\"></Button>\n    </ButtonGroup>\n</template>\n<script>\n    export default {\n        \n    }\n</script>\n";
+
+code.ghost = "\n<template>\n    <Button type=\"default\" ghost>Default</Button>\n    <Button type=\"primary\" ghost>Primary</Button>\n    <Button type=\"dashed\" ghost>Dashed</Button>\n    <Button type=\"text\" ghost>Text</Button>\n    <Button type=\"info\" ghost>Info</Button>\n    <Button type=\"success\" ghost>Success</Button>\n    <Button type=\"warning\" ghost>Warning</Button>\n    <Button type=\"error\" ghost>Error</Button>\n</template>\n<script>\n    export default {\n        \n    }\n</script>\n";
+
+code.link = "\n<template>\n    <Button to=\"/components/icon-en\">Normal</Button>\n    <Button to=\"/components/icon-en\" replace>No history</Button>\n    <Button to=\"//iviewui.com\" target=\"_blank\">New window</Button>\n</template>\n<script>\n    export default {\n        \n    }\n</script>\n";
+
+exports.default = code;
 
 /***/ })
 
 });
-//# sourceMappingURL=6.chunk.js.map
+//# sourceMappingURL=10.chunk.js.map
