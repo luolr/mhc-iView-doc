@@ -93,6 +93,12 @@ const routers = [
             title: '异常页 Exception'
         },
         component: (resolve) => require(['./views/components/exception.vue'], resolve)
+    },{
+        path: '/mhc-iView-doc/components/splitPanel',
+        meta: {
+            title: '分割面板 splitPanel'
+        },
+        component: (resolve) => require(['./views/components/splitPanel.vue'], resolve)
     },
   {
     path: '/mhc-iView-doc/components/slider',

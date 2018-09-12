@@ -62,64 +62,69 @@ const list = {
       title: '组件',
       list: [
         {
-          title: 'JsonEditor Json编辑器',
+          title: 'Json编辑器 JsonEditor',
           path: '/mhc-iView-doc/components/jsonEditor',
           img: 'error.png',
           icon: 'social-nodejs'
         },
         {
-          title: 'Calendar 日历',
+          title: '日历 calendar',
           path: '/mhc-iView-doc/components/calendar',
           img: 'error.png',
           icon: 'calendar'
         },
         {
-          title: 'waterfall 瀑布流',
+          title: '瀑布流 waterfall',
           path: '/mhc-iView-doc/components/waterfall',
           img: 'error.png',
           icon: 'android-apps'
         },
         {
-          title: 'Exception 异常页',
+          title: '异常页 exception',
           path: '/mhc-iView-doc/components/exception',
           img: 'error.png',
           icon: 'alert-circled'
+        },{
+          title: '分割面板 splitPanel',
+          path: '/mhc-iView-doc/components/splitPanel',
+          img: 'error.png',
+          icon: 'ios-grid-view-outline'
         },
         {
-          title: '轮播图 Slider',
+          title: '轮播图 slider',
           path: '/mhc-iView-doc/components/slider',
           img: 'error.png',
-          icon: 'social-nodejs'
+          icon: 'images'
         },
         {
           title: '照片预览 viewImages',
           path: '/mhc-iView-doc/components/viewImages',
           img: 'error.png',
-          icon: 'social-nodejs'
+          icon: 'image'
         },
         {
           title: '工作台 menu',
           path: '/mhc-iView-doc/components/myWorkbench',
           img: 'error.png',
-          icon: 'social-nodejs'
+          icon: 'grid'
         },
         {
-          title: 'loading',
-          path: '/mhc-iView-doc/components/lodding',
+          title: '加载 loading',
+          path: '/mhc-iView-doc/components/loading',
           img: 'error.png',
-          icon: 'social-nodejs'
+          icon: 'load-a'
         },
         {
           title: '下拉刷新 pullRefresh',
           path: '/mhc-iView-doc/components/pullRefresh',
           img: 'error.png',
-          icon: 'social-nodejs'
+          icon: 'arrow-down-c'
         },
         {
           title: '左右联动菜单 listview',
           path: '/mhc-iView-doc/components/listview',
           img: 'error.png',
-          icon: 'social-nodejs'
+          icon: 'navicon'
         },
       ]
      }
