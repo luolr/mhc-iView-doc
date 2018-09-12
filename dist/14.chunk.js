@@ -1,16 +1,20 @@
-webpackJsonp([9],{
+webpackJsonp([14],{
 
-/***/ 491:
+/***/ 489:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_loading_vue__ = __webpack_require__(576);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_loading_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_loading_vue__);
-/* harmony namespace reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_loading_vue__) if(["default","default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_loading_vue__[key]; }) }(__WEBPACK_IMPORT_KEY__));
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_07e3d546_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_loading_vue__ = __webpack_require__(591);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_07e3d546_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_loading_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_07e3d546_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_loading_vue__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_layout_vue__ = __webpack_require__(574);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_layout_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_layout_vue__);
+/* harmony namespace reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_layout_vue__) if(["default","default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_layout_vue__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_085017ce_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_layout_vue__ = __webpack_require__(592);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_085017ce_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_layout_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_085017ce_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_layout_vue__);
 var disposed = false
+function injectStyle (ssrContext) {
+  if (disposed) return
+  __webpack_require__(668)
+}
 var normalizeComponent = __webpack_require__(197)
 /* script */
 
@@ -20,20 +24,20 @@ var normalizeComponent = __webpack_require__(197)
 /* template functional */
 var __vue_template_functional__ = false
 /* styles */
-var __vue_styles__ = null
+var __vue_styles__ = injectStyle
 /* scopeId */
-var __vue_scopeId__ = null
+var __vue_scopeId__ = "data-v-085017ce"
 /* moduleIdentifier (server only) */
 var __vue_module_identifier__ = null
 var Component = normalizeComponent(
-  __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_loading_vue___default.a,
-  __WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_07e3d546_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_loading_vue___default.a,
+  __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_layout_vue___default.a,
+  __WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_085017ce_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_layout_vue___default.a,
   __vue_template_functional__,
   __vue_styles__,
   __vue_scopeId__,
   __vue_module_identifier__
 )
-Component.options.__file = "src/views/components/loading.vue"
+Component.options.__file = "src/views/components/layout.vue"
 
 /* hot reload */
 if (false) {(function () {
@@ -42,9 +46,9 @@ if (false) {(function () {
   if (!hotAPI.compatible) return
   module.hot.accept()
   if (!module.hot.data) {
-    hotAPI.createRecord("data-v-07e3d546", Component.options)
+    hotAPI.createRecord("data-v-085017ce", Component.options)
   } else {
-    hotAPI.reload("data-v-07e3d546", Component.options)
+    hotAPI.reload("data-v-085017ce", Component.options)
   }
   module.hot.dispose(function (data) {
     disposed = true
@@ -2457,371 +2461,14 @@ if (false) {(function () {
 
 /***/ }),
 
-/***/ 541:
-/***/ (function(module, exports) {
-
-/*
-	MIT License http://www.opensource.org/licenses/mit-license.php
-	Author Tobias Koppers @sokra
-*/
-// css base code, injected by the css-loader
-module.exports = function() {
-	var list = [];
-
-	// return the list of modules as css string
-	list.toString = function toString() {
-		var result = [];
-		for(var i = 0; i < this.length; i++) {
-			var item = this[i];
-			if(item[2]) {
-				result.push("@media " + item[2] + "{" + item[1] + "}");
-			} else {
-				result.push(item[1]);
-			}
-		}
-		return result.join("");
-	};
-
-	// import a list of modules into the list
-	list.i = function(modules, mediaQuery) {
-		if(typeof modules === "string")
-			modules = [[null, modules, ""]];
-		var alreadyImportedModules = {};
-		for(var i = 0; i < this.length; i++) {
-			var id = this[i][0];
-			if(typeof id === "number")
-				alreadyImportedModules[id] = true;
-		}
-		for(i = 0; i < modules.length; i++) {
-			var item = modules[i];
-			// skip already imported module
-			// this implementation is not 100% perfect for weird media query combinations
-			//  when a module is imported multiple times with different media queries.
-			//  I hope this will never occur (Hey this way we have smaller bundles)
-			if(typeof item[0] !== "number" || !alreadyImportedModules[item[0]]) {
-				if(mediaQuery && !item[2]) {
-					item[2] = mediaQuery;
-				} else if(mediaQuery) {
-					item[2] = "(" + item[2] + ") and (" + mediaQuery + ")";
-				}
-				list.push(item);
-			}
-		}
-	};
-	return list;
-};
-
-
-/***/ }),
-
-/***/ 542:
-/***/ (function(module, exports, __webpack_require__) {
-
-/*
-  MIT License http://www.opensource.org/licenses/mit-license.php
-  Author Tobias Koppers @sokra
-  Modified by Evan You @yyx990803
-*/
-
-var hasDocument = typeof document !== 'undefined'
-
-if (typeof DEBUG !== 'undefined' && DEBUG) {
-  if (!hasDocument) {
-    throw new Error(
-    'vue-style-loader cannot be used in a non-browser environment. ' +
-    "Use { target: 'node' } in your Webpack config to indicate a server-rendering environment."
-  ) }
-}
-
-var listToStyles = __webpack_require__(543)
-
-/*
-type StyleObject = {
-  id: number;
-  parts: Array<StyleObjectPart>
-}
-
-type StyleObjectPart = {
-  css: string;
-  media: string;
-  sourceMap: ?string
-}
-*/
-
-var stylesInDom = {/*
-  [id: number]: {
-    id: number,
-    refs: number,
-    parts: Array<(obj?: StyleObjectPart) => void>
-  }
-*/}
-
-var head = hasDocument && (document.head || document.getElementsByTagName('head')[0])
-var singletonElement = null
-var singletonCounter = 0
-var isProduction = false
-var noop = function () {}
-var options = null
-var ssrIdKey = 'data-vue-ssr-id'
-
-// Force single-tag solution on IE6-9, which has a hard limit on the # of <style>
-// tags it will allow on a page
-var isOldIE = typeof navigator !== 'undefined' && /msie [6-9]\b/.test(navigator.userAgent.toLowerCase())
-
-module.exports = function (parentId, list, _isProduction, _options) {
-  isProduction = _isProduction
-
-  options = _options || {}
-
-  var styles = listToStyles(parentId, list)
-  addStylesToDom(styles)
-
-  return function update (newList) {
-    var mayRemove = []
-    for (var i = 0; i < styles.length; i++) {
-      var item = styles[i]
-      var domStyle = stylesInDom[item.id]
-      domStyle.refs--
-      mayRemove.push(domStyle)
-    }
-    if (newList) {
-      styles = listToStyles(parentId, newList)
-      addStylesToDom(styles)
-    } else {
-      styles = []
-    }
-    for (var i = 0; i < mayRemove.length; i++) {
-      var domStyle = mayRemove[i]
-      if (domStyle.refs === 0) {
-        for (var j = 0; j < domStyle.parts.length; j++) {
-          domStyle.parts[j]()
-        }
-        delete stylesInDom[domStyle.id]
-      }
-    }
-  }
-}
-
-function addStylesToDom (styles /* Array<StyleObject> */) {
-  for (var i = 0; i < styles.length; i++) {
-    var item = styles[i]
-    var domStyle = stylesInDom[item.id]
-    if (domStyle) {
-      domStyle.refs++
-      for (var j = 0; j < domStyle.parts.length; j++) {
-        domStyle.parts[j](item.parts[j])
-      }
-      for (; j < item.parts.length; j++) {
-        domStyle.parts.push(addStyle(item.parts[j]))
-      }
-      if (domStyle.parts.length > item.parts.length) {
-        domStyle.parts.length = item.parts.length
-      }
-    } else {
-      var parts = []
-      for (var j = 0; j < item.parts.length; j++) {
-        parts.push(addStyle(item.parts[j]))
-      }
-      stylesInDom[item.id] = { id: item.id, refs: 1, parts: parts }
-    }
-  }
-}
-
-function createStyleElement () {
-  var styleElement = document.createElement('style')
-  styleElement.type = 'text/css'
-  head.appendChild(styleElement)
-  return styleElement
-}
-
-function addStyle (obj /* StyleObjectPart */) {
-  var update, remove
-  var styleElement = document.querySelector('style[' + ssrIdKey + '~="' + obj.id + '"]')
-
-  if (styleElement) {
-    if (isProduction) {
-      // has SSR styles and in production mode.
-      // simply do nothing.
-      return noop
-    } else {
-      // has SSR styles but in dev mode.
-      // for some reason Chrome can't handle source map in server-rendered
-      // style tags - source maps in <style> only works if the style tag is
-      // created and inserted dynamically. So we remove the server rendered
-      // styles and inject new ones.
-      styleElement.parentNode.removeChild(styleElement)
-    }
-  }
-
-  if (isOldIE) {
-    // use singleton mode for IE9.
-    var styleIndex = singletonCounter++
-    styleElement = singletonElement || (singletonElement = createStyleElement())
-    update = applyToSingletonTag.bind(null, styleElement, styleIndex, false)
-    remove = applyToSingletonTag.bind(null, styleElement, styleIndex, true)
-  } else {
-    // use multi-style-tag mode in all other cases
-    styleElement = createStyleElement()
-    update = applyToTag.bind(null, styleElement)
-    remove = function () {
-      styleElement.parentNode.removeChild(styleElement)
-    }
-  }
-
-  update(obj)
-
-  return function updateStyle (newObj /* StyleObjectPart */) {
-    if (newObj) {
-      if (newObj.css === obj.css &&
-          newObj.media === obj.media &&
-          newObj.sourceMap === obj.sourceMap) {
-        return
-      }
-      update(obj = newObj)
-    } else {
-      remove()
-    }
-  }
-}
-
-var replaceText = (function () {
-  var textStore = []
-
-  return function (index, replacement) {
-    textStore[index] = replacement
-    return textStore.filter(Boolean).join('\n')
-  }
-})()
-
-function applyToSingletonTag (styleElement, index, remove, obj) {
-  var css = remove ? '' : obj.css
-
-  if (styleElement.styleSheet) {
-    styleElement.styleSheet.cssText = replaceText(index, css)
-  } else {
-    var cssNode = document.createTextNode(css)
-    var childNodes = styleElement.childNodes
-    if (childNodes[index]) styleElement.removeChild(childNodes[index])
-    if (childNodes.length) {
-      styleElement.insertBefore(cssNode, childNodes[index])
-    } else {
-      styleElement.appendChild(cssNode)
-    }
-  }
-}
-
-function applyToTag (styleElement, obj) {
-  var css = obj.css
-  var media = obj.media
-  var sourceMap = obj.sourceMap
-
-  if (media) {
-    styleElement.setAttribute('media', media)
-  }
-  if (options.ssrId) {
-    styleElement.setAttribute(ssrIdKey, obj.id)
-  }
-
-  if (sourceMap) {
-    // https://developer.chrome.com/devtools/docs/javascript-debugging
-    // this makes source maps inside style tags work properly in Chrome
-    css += '\n/*# sourceURL=' + sourceMap.sources[0] + ' */'
-    // http://stackoverflow.com/a/26603875
-    css += '\n/*# sourceMappingURL=data:application/json;base64,' + btoa(unescape(encodeURIComponent(JSON.stringify(sourceMap)))) + ' */'
-  }
-
-  if (styleElement.styleSheet) {
-    styleElement.styleSheet.cssText = css
-  } else {
-    while (styleElement.firstChild) {
-      styleElement.removeChild(styleElement.firstChild)
-    }
-    styleElement.appendChild(document.createTextNode(css))
-  }
-}
-
-
-/***/ }),
-
-/***/ 543:
-/***/ (function(module, exports) {
-
-/**
- * Translates the list format produced by css-loader into something
- * easier to manipulate.
- */
-module.exports = function listToStyles (parentId, list) {
-  var styles = []
-  var newStyles = {}
-  for (var i = 0; i < list.length; i++) {
-    var item = list[i]
-    var id = item[0]
-    var css = item[1]
-    var media = item[2]
-    var sourceMap = item[3]
-    var part = {
-      id: parentId + ':' + i,
-      css: css,
-      media: media,
-      sourceMap: sourceMap
-    }
-    if (!newStyles[id]) {
-      styles.push(newStyles[id] = { id: id, parts: [part] })
-    } else {
-      newStyles[id].parts.push(part)
-    }
-  }
-  return styles
-}
-
-
-/***/ }),
-
-/***/ 558:
+/***/ 574:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
 Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = {
-  props: {
-    loadingText: {
-      type: String,
-      default: ' '
-    },
-    background: {
-      type: String,
-      default: ' '
-    },
-    opacityDeep: {
-      type: Number,
-      default: ' '
-    },
-    color: {
-      type: String,
-      default: ' '
-    },
-    loadingType: {
-      type: String,
-      default: ' '
-    }
-
-  }
-};
-
-/***/ }),
-
-/***/ 576:
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
+    value: true
 });
 
 var _article = __webpack_require__(534);
@@ -2836,46 +2483,67 @@ var _demo = __webpack_require__(540);
 
 var _demo2 = _interopRequireDefault(_demo);
 
-var _loading = __webpack_require__(630);
+var _layout = __webpack_require__(628);
 
-var _loading2 = _interopRequireDefault(_loading);
+var _layout2 = _interopRequireDefault(_layout);
 
 var _anchor = __webpack_require__(532);
 
 var _anchor2 = _interopRequireDefault(_anchor);
 
-var _loading3 = __webpack_require__(691);
-
-var _loading4 = _interopRequireDefault(_loading3);
-
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 exports.default = {
-  components: {
-    iArticle: _article2.default,
-    iCode: _iCode2.default,
-    Demo: _demo2.default,
-    inAnchor: _anchor2.default,
-    Loading: _loading4.default
-  },
-  data: function data() {
-    return {
-      code: _loading2.default,
+    components: {
+        iArticle: _article2.default,
+        iCode: _iCode2.default,
+        Demo: _demo2.default,
+        Anchor: _anchor2.default
+    },
+    data: function data() {
+        return {
+            code: _layout2.default,
+            spanLeft: 5,
+            spanRight: 19,
+            isCollapsed: false,
+            isCollapsed2: false
+        };
+    },
 
-      loadingText: '加载中...',
-      background: 'black',
-      opacityDeep: 0.6,
-      color: 'blue',
-      className: 'loading1'
-    };
-  },
+    computed: {
+        iconSize: function iconSize() {
+            return this.spanLeft === 5 ? 14 : 24;
+        },
+        rotateIcon: function rotateIcon() {
+            return ['menu-icon', this.isCollapsed ? 'rotate-icon' : ''];
+        },
 
-  methods: {}
+        menuitemClasses: function menuitemClasses() {
+            return ['menu-item', this.isCollapsed ? 'collapsed-menu' : ''];
+        },
+        menuitemClasses2: function menuitemClasses2() {
+            return ['menu-item', this.isCollapsed2 ? 'collapsed-menu' : ''];
+        }
+    },
+    methods: {
+        toggleClick: function toggleClick() {
+            if (this.spanLeft === 5) {
+                this.spanLeft = 2;
+                this.spanRight = 22;
+            } else {
+                this.spanLeft = 5;
+                this.spanRight = 19;
+            }
+        },
+        collapsedSider: function collapsedSider() {
+            this.$refs.side1.toggleCollapse();
+        }
+    }
 };
 
 /***/ }),
 
-/***/ 591:
+/***/ 592:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2888,54 +2556,220 @@ var render = function render() {
   var _vm = this;
   var _h = _vm.$createElement;
   var _c = _vm._self._c || _h;
-  return _c("i-article", [_c("article", [_c("h1", [_vm._v("loading")]), _vm._v(" "), _c("p", [_vm._v("loading")]), _vm._v(" "), _c("inAnchor", { attrs: { title: "代码示例", h2: "" } }), _vm._v(" "), _c("Demo", { attrs: { title: "loading" } }, [_c("div", { attrs: { slot: "demo" }, slot: "demo" }, [_c("div", { staticClass: "loading-container" }, [_c("Loading", {
+  return _c("i-article", [_c("article", [_c("Anchor", { attrs: { title: "Layout 布局", h1: "" } }), _vm._v(" "), _c("p", [_vm._v("协助进行页面级整体布局。")]), _vm._v(" "), _c("Anchor", { attrs: { title: "设计规则", h2: "" } }), _vm._v(" "), _c("Anchor", { attrs: { title: "尺寸", h3: "" } }), _vm._v(" "), _c("p", [_vm._v("一级导航项偏左靠近 logo 放置，辅助菜单偏右放置。")]), _vm._v(" "), _c("ul", [_c("li", [_vm._v("顶部导航（大部分系统）：一级导航高度 "), _c("code", [_vm._v("64px")]), _vm._v("，二级导航 "), _c("code", [_vm._v("48px")]), _vm._v("。")]), _vm._v(" "), _c("li", [_vm._v("顶部导航（展示类页面）：一级导航高度 "), _c("code", [_vm._v("80px")]), _vm._v("，二级导航 "), _c("code", [_vm._v("56px")]), _vm._v("。")]), _vm._v(" "), _c("li", [_vm._v("顶部导航高度的范围计算公式为："), _c("code", [_vm._v("48+8n")]), _vm._v("。")]), _vm._v(" "), _c("li", [_vm._v("侧边导航宽度的范围计算公式："), _c("code", [_vm._v("200+8n")]), _vm._v("。")])]), _vm._v(" "), _c("Anchor", { attrs: { title: "交互", h3: "" } }), _vm._v(" "), _c("ul", [_c("li", [_vm._v("一级导航和末级的导航需要在可视化的层面被强调出来；")]), _vm._v(" "), _c("li", [_vm._v("当前项应该在呈现上优先级最高；")]), _vm._v(" "), _c("li", [_vm._v("当导航收起的时候，当前项的样式自动赋予给它的上一个层级；")]), _vm._v(" "), _c("li", [_vm._v("左侧导航栏的收放交互同时支持手风琴和全展开的样式，根据业务的要求进行适当的选择。")])]), _vm._v(" "), _c("Anchor", { attrs: { title: "视觉", h3: "" } }), _vm._v(" "), _c("p", [_vm._v("导航样式上需要根据信息层级合理的选择样式：")]), _vm._v(" "), _c("ul", [_c("li", [_c("p", [_c("strong", [_vm._v("大色块强调")])]), _vm._v(" "), _c("p", [_vm._v("建议用于底色为深色系时，当前页面父级的导航项。")])]), _vm._v(" "), _c("li", [_c("p", [_c("strong", [_vm._v("高亮火柴棍")])]), _vm._v(" "), _c("p", [_vm._v("当导航栏底色为浅色系时使用，可用于当前页面对应导航项，建议尽量在导航路径的最终项使用。")])]), _vm._v(" "), _c("li", [_c("p", [_c("strong", [_vm._v("字体高亮变色")])]), _vm._v(" "), _c("p", [_vm._v("从可视化层面，字体高亮的视觉强化力度低于大色块，通常在当前项的上一级使用。")])]), _vm._v(" "), _c("li", [_c("p", [_c("strong", [_vm._v("字体放大")])]), _vm._v(" "), _c("p", [_c("code", [_vm._v("12px")]), _vm._v("、"), _c("code", [_vm._v("14px")]), _vm._v(" 是导航的标准字号，14 号字体用在一、二级导航中。字号可以考虑导航项的等级做相应选择。")])])]), _vm._v(" "), _c("Anchor", { attrs: { title: "组件概述", h2: "" } }), _vm._v(" "), _c("ul", [_c("li", [_c("code", [_vm._v("Layout")]), _vm._v("：布局容器，其下可嵌套 "), _c("code", [_vm._v("Header")]), _c("code", [_vm._v("Sider")]), _c("code", [_vm._v("Content")]), _c("code", [_vm._v("Footer")]), _vm._v("或 "), _c("code", [_vm._v("Layout")]), _vm._v(" 本身，可以放在任何父容器中。")]), _vm._v(" "), _c("li", [_c("code", [_vm._v("Header")]), _vm._v("：顶部布局，自带默认样式，其下可嵌套任何元素，只能放在 "), _c("code", [_vm._v("Layout")]), _vm._v(" 中。")]), _vm._v(" "), _c("li", [_c("code", [_vm._v("Sider")]), _vm._v("：侧边栏，自带默认样式及基本功能，其下可嵌套任何元素，只能放在 "), _c("code", [_vm._v("Layout")]), _vm._v(" 中。")]), _vm._v(" "), _c("li", [_c("code", [_vm._v("Content")]), _vm._v("：内容部分，自带默认样式，其下可嵌套任何元素，只能放在 "), _c("code", [_vm._v("Layout")]), _vm._v(" 中。")]), _vm._v(" "), _c("li", [_c("code", [_vm._v("Footer")]), _vm._v("：底部布局，自带默认样式，其下可嵌套任何元素，只能放在 "), _c("code", [_vm._v("Layout")]), _vm._v(" 中。")])]), _vm._v(" "), _c("Alert", { staticStyle: { "margin-top": "16px" }, attrs: { "show-icon": "" } }, [_vm._v("注意：采用 flex 布局实现，请注意"), _c("a", {
     attrs: {
-      loadingText: _vm.loadingText,
-      background: _vm.background,
-      loadingType: _vm.className,
-      opacityDeep: _vm.opacityDeep,
-      color: _vm.color
+      href: "https://caniuse.com/#search=flex",
+      target: "_blank",
+      title: "can i use"
     }
-  })], 1)]), _vm._v(" "), _c("div", { attrs: { slot: "desc" }, slot: "desc" }, [_c("p", [_vm._v("用于演示，添加了一个默认数据")])]), _vm._v(" "), _c("i-code", { attrs: { slot: "code", lang: "html" }, slot: "code" }, [_vm._v(_vm._s(_vm.code.default))])], 1), _vm._v(" "), _c("div", { staticClass: "api" }, [_c("inAnchor", { attrs: { title: "API", h2: "" } }), _vm._v(" "), _c("inAnchor", { attrs: { title: "Slider props", h3: "" } }), _vm._v(" "), _c("table", [_c("thead", [_c("tr", [_c("th", [_vm._v("属性")]), _vm._v(" "), _c("th", [_vm._v("说明")]), _vm._v(" "), _c("th", [_vm._v("类型")]), _vm._v(" "), _c("th", [_vm._v("默认值")])])]), _vm._v(" "), _c("tbody", [_c("tr", [_c("td", [_vm._v("loadingText")]), _vm._v(" "), _c("td", [_vm._v("加载文字")]), _vm._v(" "), _c("td", [_vm._v("String")]), _vm._v(" "), _c("td", [_vm._v("--")])]), _vm._v(" "), _c("tr", [_c("td", [_vm._v("background")]), _vm._v(" "), _c("td", [_vm._v("加载背景")]), _vm._v(" "), _c("td", [_vm._v("String")]), _vm._v(" "), _c("td", [_vm._v("--")])]), _vm._v(" "), _c("tr", [_c("td", [_vm._v("loadingType")]), _vm._v(" "), _c("td", [_vm._v("loading类型,暂有两种 loading1和loading2")]), _vm._v(" "), _c("td", [_vm._v("String")]), _vm._v(" "), _c("td", [_vm._v("loading1")])]), _vm._v(" "), _c("tr", [_c("td", [_vm._v("opacityDeep")]), _vm._v(" "), _c("td", [_vm._v("背景透明度")]), _vm._v(" "), _c("td", [_vm._v("Number")]), _vm._v(" "), _c("td", [_vm._v("0.6")])]), _vm._v(" "), _c("tr", [_c("td", [_vm._v("color")]), _vm._v(" "), _c("td", [_vm._v("文字颜色")]), _vm._v(" "), _c("td", [_vm._v("String")]), _vm._v(" "), _c("td", [_vm._v("--")])])])])], 1)], 1)]);
-};
-var staticRenderFns = [];
-render._withStripped = true;
-var esExports = { render: render, staticRenderFns: staticRenderFns };
-exports.default = esExports;
-
-if (false) {
-  module.hot.accept();
-  if (module.hot.data) {
-    require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-07e3d546", esExports);
-  }
-}
-
-/***/ }),
-
-/***/ 612:
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-var render = function render() {
-  var _vm = this;
-  var _h = _vm.$createElement;
-  var _c = _vm._self._c || _h;
-  return _c("Row", {
-    staticClass: "el-row-height",
-    attrs: { type: "flex", justify: "center", align: "middle" }
-  }, [true ? _c("div", {
-    staticClass: "loading",
+  }, [_vm._v("浏览器兼容性")]), _vm._v("问题。")]), _vm._v(" "), _c("Anchor", { attrs: { title: "代码示例", h2: "" } }), _vm._v(" "), _c("Demo", { attrs: { title: "基本结构", vertical: "", "hide-code": "" } }, [_c("div", { attrs: { slot: "demo" }, slot: "demo" }, [_c("div", { staticClass: "layout-con" }, [_c("div", { staticClass: "layout-single" }, [_c("Layout", [_c("Header", { staticClass: "layout-header" }, [_vm._v("Header")]), _vm._v(" "), _c("Content", { staticClass: "layout-content" }, [_vm._v("Content")]), _vm._v(" "), _c("Footer", { staticClass: "layout-footer" }, [_vm._v("Footer")])], 1)], 1), _vm._v(" "), _c("div", { staticClass: "layout-single" }, [_c("Layout", [_c("Header", { staticClass: "layout-header" }, [_vm._v("Header")]), _vm._v(" "), _c("Layout", [_c("Sider", {
+    staticClass: "layout-sider",
+    attrs: { "hide-trigger": "" }
+  }, [_vm._v("Sider")]), _vm._v(" "), _c("Content", { staticClass: "layout-content" }, [_vm._v("Content")])], 1), _vm._v(" "), _c("Footer", { staticClass: "layout-footer" }, [_vm._v("Footer")])], 1)], 1), _vm._v(" "), _c("div", { staticClass: "layout-single" }, [_c("Layout", [_c("Header", { staticClass: "layout-header" }, [_vm._v("Header")]), _vm._v(" "), _c("Layout", [_c("Content", { staticClass: "layout-content" }, [_vm._v("Content")]), _vm._v(" "), _c("Sider", {
+    staticClass: "layout-sider",
+    attrs: { "hide-trigger": "" }
+  }, [_vm._v("Sider")])], 1), _vm._v(" "), _c("Footer", { staticClass: "layout-footer" }, [_vm._v("Footer")])], 1)], 1), _vm._v(" "), _c("div", { staticClass: "layout-single" }, [_c("Layout", [_c("Sider", {
+    staticClass: "layout-sider",
+    style: { lineHeight: "253px" },
+    attrs: { "hide-trigger": "" }
+  }, [_vm._v("Sider")]), _vm._v(" "), _c("Layout", [_c("Header", { staticClass: "layout-header" }, [_vm._v("Header")]), _vm._v(" "), _c("Content", { staticClass: "layout-content" }, [_vm._v("Content")]), _vm._v(" "), _c("Footer", { staticClass: "layout-footer" }, [_vm._v("Footer")])], 1)], 1)], 1)])]), _vm._v(" "), _c("div", { attrs: { slot: "desc" }, slot: "desc" }, [_c("p", [_vm._v("典型的页面布局")])]), _vm._v(" "), _c("i-code", { attrs: { slot: "code", lang: "html" }, slot: "code" }, [_vm._v(_vm._s(_vm.code.basic))])], 1), _vm._v(" "), _c("Demo", { attrs: { title: "上中下布局", vertical: "", "hide-code": "" } }, [_c("div", { attrs: { slot: "demo" }, slot: "demo" }, [_c("div", { staticClass: "layout" }, [_c("Layout", [_c("Header", [_c("Menu", {
+    attrs: {
+      mode: "horizontal",
+      theme: "dark",
+      "active-name": "1"
+    }
+  }, [_c("div", { staticClass: "layout-logo" }), _vm._v(" "), _c("div", { staticClass: "layout-nav" }, [_c("MenuItem", { attrs: { name: "1" } }, [_c("Icon", {
+    attrs: { type: "ios-navigate" }
+  }), _vm._v("\n                                        Item 1\n                                    ")], 1), _vm._v(" "), _c("MenuItem", { attrs: { name: "2" } }, [_c("Icon", {
+    attrs: { type: "ios-keypad" }
+  }), _vm._v("\n                                        Item 2\n                                    ")], 1), _vm._v(" "), _c("MenuItem", { attrs: { name: "3" } }, [_c("Icon", {
+    attrs: { type: "ios-analytics" }
+  }), _vm._v("\n                                        Item 3\n                                    ")], 1), _vm._v(" "), _c("MenuItem", { attrs: { name: "4" } }, [_c("Icon", {
+    attrs: { type: "ios-paper" }
+  }), _vm._v("\n                                        Item 4\n                                    ")], 1)], 1)])], 1), _vm._v(" "), _c("Content", { style: { padding: "0 50px" } }, [_c("Breadcrumb", { style: { margin: "20px 0" } }, [_c("BreadcrumbItem", [_vm._v("Home")]), _vm._v(" "), _c("BreadcrumbItem", [_vm._v("Components")]), _vm._v(" "), _c("BreadcrumbItem", [_vm._v("Layout")])], 1), _vm._v(" "), _c("Card", [_c("div", { staticStyle: { "min-height": "200px" } }, [_vm._v("\n                                    Content\n                                ")])])], 1), _vm._v(" "), _c("Footer", { staticClass: "layout-footer-center" }, [_vm._v("2011-2016 © TalkingData")])], 1)], 1)]), _vm._v(" "), _c("div", { attrs: { slot: "desc" }, slot: "desc" }, [_c("p", [_vm._v("最基本的『上-中-下』布局。")]), _vm._v(" "), _c("p", [_vm._v("一般主导航放置于页面的顶端，从左自右依次为：logo、一级导航项、辅助菜单（用户、设置、通知等）。通常将内容放在固定尺寸（例如：1200px）内，整个页面排版稳定，不受用户终端显示器影响；上下级的结构符合用户上下浏览的习惯，也是较为经典的网站导航模式。页面上下切分的方式提高了主工作区域的信息展示效率，但在纵向空间上会有一些牺牲。此外，由于导航栏水平空间的限制，不适合那些一级导航项很多的信息结构。")])]), _vm._v(" "), _c("i-code", { attrs: { slot: "code", lang: "html" }, slot: "code" }, [_vm._v(_vm._s(_vm.code.topMiddleBottom))])], 1), _vm._v(" "), _c("Demo", {
+    attrs: {
+      title: "顶部-侧边布局-通栏",
+      vertical: "",
+      "hide-code": ""
+    }
+  }, [_c("div", { attrs: { slot: "demo" }, slot: "demo" }, [_c("div", { staticClass: "layout" }, [_c("Layout", [_c("Header", [_c("Menu", {
+    attrs: {
+      mode: "horizontal",
+      theme: "dark",
+      "active-name": "1"
+    }
+  }, [_c("div", { staticClass: "layout-logo" }), _vm._v(" "), _c("div", { staticClass: "layout-nav" }, [_c("MenuItem", { attrs: { name: "1" } }, [_c("Icon", {
+    attrs: { type: "ios-navigate" }
+  }), _vm._v("\n                                        Item 1\n                                    ")], 1), _vm._v(" "), _c("MenuItem", { attrs: { name: "2" } }, [_c("Icon", {
+    attrs: { type: "ios-keypad" }
+  }), _vm._v("\n                                        Item 2\n                                    ")], 1), _vm._v(" "), _c("MenuItem", { attrs: { name: "3" } }, [_c("Icon", {
+    attrs: { type: "ios-analytics" }
+  }), _vm._v("\n                                        Item 3\n                                    ")], 1), _vm._v(" "), _c("MenuItem", { attrs: { name: "4" } }, [_c("Icon", {
+    attrs: { type: "ios-paper" }
+  }), _vm._v("\n                                        Item 4\n                                    ")], 1)], 1)])], 1), _vm._v(" "), _c("Layout", [_c("Sider", {
+    style: { background: "white" },
+    attrs: { "hide-trigger": "" }
+  }, [_c("Menu", {
+    attrs: {
+      "active-name": "1-2",
+      theme: "light",
+      width: "auto",
+      "open-names": ["1"]
+    }
+  }, [_c("Submenu", { attrs: { name: "1" } }, [_c("template", { slot: "title" }, [_c("Icon", {
+    attrs: { type: "ios-navigate" }
+  }), _vm._v("\n                                            Item 1\n                                        ")], 1), _vm._v(" "), _c("MenuItem", { attrs: { name: "1-1" } }, [_vm._v("Option 1")]), _vm._v(" "), _c("MenuItem", { attrs: { name: "1-2" } }, [_vm._v("Option 2")]), _vm._v(" "), _c("MenuItem", { attrs: { name: "1-3" } }, [_vm._v("Option 3")])], 2), _vm._v(" "), _c("Submenu", { attrs: { name: "2" } }, [_c("template", { slot: "title" }, [_c("Icon", {
+    attrs: { type: "ios-keypad" }
+  }), _vm._v("\n                                            Item 2\n                                        ")], 1), _vm._v(" "), _c("MenuItem", { attrs: { name: "2-1" } }, [_vm._v("Option 1")]), _vm._v(" "), _c("MenuItem", { attrs: { name: "2-2" } }, [_vm._v("Option 2")])], 2), _vm._v(" "), _c("Submenu", { attrs: { name: "3" } }, [_c("template", { slot: "title" }, [_c("Icon", {
+    attrs: { type: "ios-analytics" }
+  }), _vm._v("\n                                            Item 3\n                                        ")], 1), _vm._v(" "), _c("MenuItem", { attrs: { name: "3-1" } }, [_vm._v("Option 1")]), _vm._v(" "), _c("MenuItem", { attrs: { name: "3-2" } }, [_vm._v("Option 2")])], 2)], 1)], 1), _vm._v(" "), _c("Layout", { style: { padding: "0 24px 24px" } }, [_c("Breadcrumb", { style: { margin: "24px 0" } }, [_c("BreadcrumbItem", [_vm._v("Home")]), _vm._v(" "), _c("BreadcrumbItem", [_vm._v("Components")]), _vm._v(" "), _c("BreadcrumbItem", [_vm._v("Layout")])], 1), _vm._v(" "), _c("Content", {
     style: {
-      background: "" + _vm.background,
-      opacity: "" + _vm.opacityDeep,
-      color: "" + _vm.color
+      padding: "24px",
+      minHeight: "280px",
+      background: "#fff"
     }
-  }, [_vm.loadingType == "loading1" ? _c("div", { staticClass: "loading1" }, [_c("div", { staticClass: "rect1" }), _vm._v(" "), _c("div", { staticClass: "rect2" }), _vm._v(" "), _c("div", { staticClass: "rect3" }), _vm._v(" "), _c("div", { staticClass: "rect4" }), _vm._v(" "), _c("div", { staticClass: "rect5" })]) : _vm._e(), _vm._v(" "), _vm.loadingType == "loading2" ? _c("div", { staticClass: "loading2" }, [_c("div", { staticClass: "double-bounce1" }), _vm._v(" "), _c("div", { staticClass: "double-bounce2" })]) : _vm._e(), _vm._v(" "), _c("p", { staticClass: "desc" }, [_vm._v(_vm._s(_vm.loadingText))])]) : _vm._e()]);
+  }, [_vm._v("\n                                    Content\n                                ")])], 1)], 1)], 1)], 1)]), _vm._v(" "), _c("div", { attrs: { slot: "desc" }, slot: "desc" }, [_c("p", [_vm._v("同样拥有顶部导航及侧边栏，区别是两边未留边距，多用于应用型的网站。")])]), _vm._v(" "), _c("i-code", { attrs: { slot: "code", lang: "html" }, slot: "code" }, [_vm._v(_vm._s(_vm.code.topLeftRight))])], 1), _vm._v(" "), _c("Demo", { attrs: { title: "顶部-侧边布局", vertical: "", "hide-code": "" } }, [_c("div", { attrs: { slot: "demo" }, slot: "demo" }, [_c("div", { staticClass: "layout" }, [_c("Layout", [_c("Header", [_c("Menu", {
+    attrs: {
+      mode: "horizontal",
+      theme: "dark",
+      "active-name": "1"
+    }
+  }, [_c("div", { staticClass: "layout-logo" }), _vm._v(" "), _c("div", { staticClass: "layout-nav" }, [_c("MenuItem", { attrs: { name: "1" } }, [_c("Icon", {
+    attrs: { type: "ios-navigate" }
+  }), _vm._v("\n                                        Item 1\n                                    ")], 1), _vm._v(" "), _c("MenuItem", { attrs: { name: "2" } }, [_c("Icon", {
+    attrs: { type: "ios-keypad" }
+  }), _vm._v("\n                                        Item 2\n                                    ")], 1), _vm._v(" "), _c("MenuItem", { attrs: { name: "3" } }, [_c("Icon", {
+    attrs: { type: "ios-analytics" }
+  }), _vm._v("\n                                        Item 3\n                                    ")], 1), _vm._v(" "), _c("MenuItem", { attrs: { name: "4" } }, [_c("Icon", {
+    attrs: { type: "ios-paper" }
+  }), _vm._v("\n                                        Item 4\n                                    ")], 1)], 1)])], 1), _vm._v(" "), _c("Layout", { style: { padding: "0 50px" } }, [_c("Breadcrumb", { style: { margin: "16px 0" } }, [_c("BreadcrumbItem", [_vm._v("Home")]), _vm._v(" "), _c("BreadcrumbItem", [_vm._v("Components")]), _vm._v(" "), _c("BreadcrumbItem", [_vm._v("Layout")])], 1), _vm._v(" "), _c("Content", {
+    style: {
+      padding: "24px 0",
+      minHeight: "280px",
+      background: "#fff"
+    }
+  }, [_c("Layout", [_c("Sider", {
+    style: { background: "white" },
+    attrs: { "hide-trigger": "" }
+  }, [_c("Menu", {
+    attrs: {
+      "active-name": "1-2",
+      theme: "light",
+      width: "auto",
+      "open-names": ["1"]
+    }
+  }, [_c("Submenu", { attrs: { name: "1" } }, [_c("template", { slot: "title" }, [_c("Icon", {
+    attrs: {
+      type: "ios-navigate"
+    }
+  }), _vm._v("\n                                                    Item 1\n                                                ")], 1), _vm._v(" "), _c("MenuItem", { attrs: { name: "1-1" } }, [_vm._v("Option 1")]), _vm._v(" "), _c("MenuItem", { attrs: { name: "1-2" } }, [_vm._v("Option 2")]), _vm._v(" "), _c("MenuItem", { attrs: { name: "1-3" } }, [_vm._v("Option 3")])], 2), _vm._v(" "), _c("Submenu", { attrs: { name: "2" } }, [_c("template", { slot: "title" }, [_c("Icon", {
+    attrs: {
+      type: "ios-keypad"
+    }
+  }), _vm._v("\n                                                    Item 2\n                                                ")], 1), _vm._v(" "), _c("MenuItem", { attrs: { name: "2-1" } }, [_vm._v("Option 1")]), _vm._v(" "), _c("MenuItem", { attrs: { name: "2-2" } }, [_vm._v("Option 2")])], 2), _vm._v(" "), _c("Submenu", { attrs: { name: "3" } }, [_c("template", { slot: "title" }, [_c("Icon", {
+    attrs: {
+      type: "ios-analytics"
+    }
+  }), _vm._v("\n                                                    Item 3\n                                                ")], 1), _vm._v(" "), _c("MenuItem", { attrs: { name: "3-1" } }, [_vm._v("Option 1")]), _vm._v(" "), _c("MenuItem", { attrs: { name: "3-2" } }, [_vm._v("Option 2")])], 2)], 1)], 1), _vm._v(" "), _c("Content", {
+    style: {
+      padding: "24px",
+      minHeight: "280px",
+      background: "#fff"
+    }
+  }, [_vm._v("\n                                        Content\n                                    ")])], 1)], 1)], 1), _vm._v(" "), _c("Footer", { staticClass: "layout-footer-center" }, [_vm._v("2011-2016 © TalkingData")])], 1)], 1)]), _vm._v(" "), _c("div", { attrs: { slot: "desc" }, slot: "desc" }, [_c("p", [_vm._v("拥有顶部导航及侧边栏的页面，多用于展示类网站。")])]), _vm._v(" "), _c("i-code", { attrs: { slot: "code", lang: "html" }, slot: "code" }, [_vm._v(_vm._s(_vm.code.topSiderFooter))])], 1), _vm._v(" "), _c("Demo", { attrs: { title: "侧边布局", vertical: "", "hide-code": "" } }, [_c("div", { attrs: { slot: "demo" }, slot: "demo" }, [_c("div", { staticClass: "layout" }, [_c("iframe", {
+    attrs: {
+      src: "https://file.iviewui.com/layout-page2/sider.html",
+      height: "360"
+    }
+  })])]), _vm._v(" "), _c("div", { attrs: { slot: "desc" }, slot: "desc" }, [_c("p", [_vm._v("侧边两列式布局。页面横向空间有限时，侧边导航可收起。")]), _vm._v(" "), _c("p", [_vm._v("侧边导航在页面布局上采用的是左右的结构，一般主导航放置于页面的左侧固定位置，辅助菜单放置于工作区顶部。内容根据浏览器终端进行自适应，能提高横向空间的使用率，但是整个页面排版不稳定。侧边导航的模式层级扩展性强，一、二、三级导航项目可以更为顺畅且具关联性的被展示，同时侧边导航可以固定，使得用户在操作和浏览中可以快速的定位和切换当前位置，有很高的操作效率。但这类导航横向页面内容的空间会被牺牲一部份。")])]), _vm._v(" "), _c("i-code", { attrs: { slot: "code", lang: "html" }, slot: "code" }, [_vm._v(_vm._s(_vm.code.left))])], 1), _vm._v(" "), _c("Demo", { attrs: { title: "自定义触发器", vertical: "", "hide-code": "" } }, [_c("div", { attrs: { slot: "demo" }, slot: "demo" }, [_c("div", {
+    class: ["layout", _vm.isCollapsed ? "layout-hide-text" : ""]
+  }, [_c("Layout", [_c("Sider", {
+    ref: "side1",
+    attrs: {
+      "hide-trigger": "",
+      collapsible: "",
+      "collapsed-width": 78
+    },
+    model: {
+      value: _vm.isCollapsed,
+      callback: function callback($$v) {
+        _vm.isCollapsed = $$v;
+      },
+      expression: "isCollapsed"
+    }
+  }, [_c("Menu", {
+    class: _vm.menuitemClasses,
+    attrs: {
+      "active-name": "1-2",
+      theme: "dark",
+      width: "auto"
+    }
+  }, [_c("MenuItem", { attrs: { name: "1-1" } }, [_c("Icon", {
+    attrs: { type: "ios-navigate" }
+  }), _vm._v(" "), _c("span", [_vm._v("Option 1")])], 1), _vm._v(" "), _c("MenuItem", { attrs: { name: "1-2" } }, [_c("Icon", { attrs: { type: "search" } }), _vm._v(" "), _c("span", [_vm._v("Option 2")])], 1), _vm._v(" "), _c("MenuItem", { attrs: { name: "1-3" } }, [_c("Icon", { attrs: { type: "settings" } }), _vm._v(" "), _c("span", [_vm._v("Option 3")])], 1)], 1)], 1), _vm._v(" "), _c("Layout", [_c("Header", {
+    staticClass: "layout-header-bar",
+    style: { padding: 0 }
+  }, [_c("Icon", {
+    class: _vm.rotateIcon,
+    style: { margin: "20px 20px 0" },
+    attrs: { type: "navicon-round", size: "24" },
+    nativeOn: {
+      click: function click($event) {
+        return _vm.collapsedSider($event);
+      }
+    }
+  })], 1), _vm._v(" "), _c("Content", {
+    style: {
+      margin: "20px",
+      background: "#fff",
+      minHeight: "260px"
+    }
+  }, [_vm._v("\n                                Content\n                            ")])], 1)], 1)], 1)]), _vm._v(" "), _c("div", { attrs: { slot: "desc" }, slot: "desc" }, [_c("p", [_vm._v("要使用自定义触发器，可以设置"), _c("code", [_vm._v("hide-trigger")]), _vm._v("属性来隐藏默认触发器，也可以通过"), _c("code", [_vm._v("slot")]), _vm._v("替换默认触发器。")])]), _vm._v(" "), _c("i-code", { attrs: { slot: "code", lang: "html" }, slot: "code" }, [_vm._v(_vm._s(_vm.code.selfTrigger))])], 1), _vm._v(" "), _c("Demo", { attrs: { title: "响应式布局", vertical: "", "hide-code": "" } }, [_c("div", { attrs: { slot: "demo" }, slot: "demo" }, [_c("div", { staticClass: "layout" }, [_c("Layout", [_c("Sider", {
+    attrs: {
+      breakpoint: "md",
+      collapsible: "",
+      "collapsed-width": 78
+    },
+    model: {
+      value: _vm.isCollapsed2,
+      callback: function callback($$v) {
+        _vm.isCollapsed2 = $$v;
+      },
+      expression: "isCollapsed2"
+    }
+  }, [_c("Menu", {
+    class: _vm.menuitemClasses2,
+    attrs: {
+      "active-name": "1-2",
+      theme: "dark",
+      width: "auto"
+    }
+  }, [_c("MenuItem", { attrs: { name: "1-1" } }, [_c("Icon", {
+    attrs: { type: "ios-navigate" }
+  }), _vm._v(" "), _c("span", [_vm._v("Option 1")])], 1), _vm._v(" "), _c("MenuItem", { attrs: { name: "1-2" } }, [_c("Icon", { attrs: { type: "search" } }), _vm._v(" "), _c("span", [_vm._v("Option 2")])], 1), _vm._v(" "), _c("MenuItem", { attrs: { name: "1-3" } }, [_c("Icon", { attrs: { type: "settings" } }), _vm._v(" "), _c("span", [_vm._v("Option 3")])], 1)], 1), _vm._v(" "), _c("div", {
+    attrs: { slot: "trigger" },
+    slot: "trigger"
+  })], 1), _vm._v(" "), _c("Layout", [_c("Header", { staticClass: "layout-header-bar" }), _vm._v(" "), _c("Content", {
+    style: {
+      margin: "20px",
+      background: "#fff",
+      minHeight: "220px"
+    }
+  }, [_vm._v("\n                                Content\n                            ")])], 1)], 1)], 1)]), _vm._v(" "), _c("div", { attrs: { slot: "desc" }, slot: "desc" }, [_c("p", [_vm._v("Sider支持响应式布局")]), _vm._v(" "), _c("Alert", { staticStyle: { "margin-top": "16px" } }, [_vm._v("说明：配置"), _c("code", [_vm._v("breakpoint")]), _vm._v(" 属性即生效，视窗宽度小于"), _c("code", [_vm._v("breakpoint")]), _vm._v(" 时 Sider 缩小为"), _c("code", [_vm._v("collapsedWidth")]), _vm._v(" 宽度，若将"), _c("code", [_vm._v("collapsedWidth")]), _vm._v(" 设置为零，会出现特殊 trigger。")])], 1), _vm._v(" "), _c("i-code", { attrs: { slot: "code", lang: "html" }, slot: "code" }, [_vm._v(_vm._s(_vm.code.media))])], 1), _vm._v(" "), _c("Demo", { attrs: { title: "固定头部", vertical: "", "hide-code": "" } }, [_c("div", { attrs: { slot: "demo" }, slot: "demo" }, [_c("div", { staticClass: "layout" }, [_c("div", { staticClass: "layout" }, [_c("iframe", {
+    attrs: {
+      src: "https://file.iviewui.com/layout-page2/header-fixed.html",
+      height: "360"
+    }
+  })])])]), _vm._v(" "), _c("div", { attrs: { slot: "desc" }, slot: "desc" }, [_c("p", [_vm._v("一般用于固定顶部导航，方便页面切换。")])]), _vm._v(" "), _c("i-code", { attrs: { slot: "code", lang: "html" }, slot: "code" }, [_vm._v(_vm._s(_vm.code.headerFixed))])], 1), _vm._v(" "), _c("Demo", { attrs: { title: "固定侧边栏", vertical: "", "hide-code": "" } }, [_c("div", { attrs: { slot: "demo" }, slot: "demo" }, [_c("div", { staticClass: "layout" }, [_c("div", { staticClass: "layout" }, [_c("iframe", {
+    attrs: {
+      src: "https://file.iviewui.com/layout-page2/sider-fixed.html",
+      height: "360"
+    }
+  })])])]), _vm._v(" "), _c("div", { attrs: { slot: "desc" }, slot: "desc" }, [_c("p", [_vm._v("当内容较长时，使用固定侧边栏可以提供更好的体验。")])]), _vm._v(" "), _c("i-code", { attrs: { slot: "code", lang: "html" }, slot: "code" }, [_vm._v(_vm._s(_vm.code.siderFixed))])], 1), _vm._v(" "), _c("div", { staticClass: "api" }, [_c("Anchor", { attrs: { title: "API", h2: "" } }), _vm._v(" "), _c("Anchor", { attrs: { title: "Sider props", h3: "" } }), _vm._v(" "), _c("table", [_c("thead", [_c("tr", [_c("th", [_vm._v("属性")]), _vm._v(" "), _c("th", [_vm._v("说明")]), _vm._v(" "), _c("th", [_vm._v("类型")]), _vm._v(" "), _c("th", [_vm._v("默认值")])])]), _vm._v(" "), _c("tbody", [_c("tr", [_c("td", [_vm._v("breakpoint")]), _vm._v(" "), _c("td", [_vm._v("触发响应式布局的断点，可选值为"), _c("code", [_vm._v("xs")]), _vm._v(","), _c("code", [_vm._v("sm")]), _vm._v(","), _c("code", [_vm._v("md")]), _vm._v(","), _c("code", [_vm._v("lg")]), _vm._v(","), _c("code", [_vm._v("xl")]), _vm._v("或"), _c("code", [_vm._v("xxl")]), _vm._v("，若不设此属性则不会触发响应式布局。")]), _vm._v(" "), _c("td", [_vm._v("String")]), _vm._v(" "), _c("td", [_vm._v("-")])]), _vm._v(" "), _c("tr", [_c("td", [_vm._v("value")]), _vm._v(" "), _c("td", [_vm._v("侧边栏是否收起，可使用 v-model 双向绑定数据。")]), _vm._v(" "), _c("td", [_vm._v("Boolean")]), _vm._v(" "), _c("td", [_vm._v("false")])]), _vm._v(" "), _c("tr", [_c("td", [_vm._v("width")]), _vm._v(" "), _c("td", [_vm._v("宽度")]), _vm._v(" "), _c("td", [_vm._v("Number")]), _vm._v(" "), _c("td", [_vm._v("200")])]), _vm._v(" "), _c("tr", [_c("td", [_vm._v("collapsible")]), _vm._v(" "), _c("td", [_vm._v("是否可收起，设为"), _c("code", [_vm._v("false")]), _vm._v("后，默认触发器会隐藏，且响应式布局不会触发")]), _vm._v(" "), _c("td", [_vm._v("Boolean")]), _vm._v(" "), _c("td", [_vm._v("false")])]), _vm._v(" "), _c("tr", [_c("td", [_vm._v("collapsed-width")]), _vm._v(" "), _c("td", [_vm._v("收缩宽度，设置为 0 会出现特殊 trigger")]), _vm._v(" "), _c("td", [_vm._v("Number")]), _vm._v(" "), _c("td", [_vm._v("64")])]), _vm._v(" "), _c("tr", [_c("td", [_vm._v("hide-trigger")]), _vm._v(" "), _c("td", [_vm._v("隐藏默认触发器")]), _vm._v(" "), _c("td", [_vm._v("Boolean")]), _vm._v(" "), _c("td", [_vm._v("false")])]), _vm._v(" "), _c("tr", [_c("td", [_vm._v("default-collapsed")]), _vm._v(" "), _c("td", [_vm._v("是否默认收起，设置了"), _c("code", [_vm._v("collapsible")]), _vm._v("后设置此属性侧边栏仍会收起。")]), _vm._v(" "), _c("td", [_vm._v("Boolean")]), _vm._v(" "), _c("td", [_vm._v("false")])]), _vm._v(" "), _c("tr", [_c("td", [_vm._v("reverse-arrow")]), _vm._v(" "), _c("td", [_vm._v("改变侧边栏触发器箭头方向，和改变侧边栏收起方向，当Sider在右边时可以使用。")]), _vm._v(" "), _c("td", [_vm._v("Boolean")]), _vm._v(" "), _c("td", [_vm._v("false")])])])]), _vm._v(" "), _c("Anchor", { attrs: { title: "Sider events", h3: "" } }), _vm._v(" "), _c("table", [_c("thead", [_c("tr", [_c("th", [_vm._v("事件名")]), _vm._v(" "), _c("th", [_vm._v("说明")]), _vm._v(" "), _c("th", [_vm._v("返回值")])])]), _vm._v(" "), _c("tbody", [_c("tr", [_c("td", [_vm._v("on-collapse")]), _vm._v(" "), _c("td", [_vm._v("展开-收起时的回调")]), _vm._v(" "), _c("td", [_vm._v("true / false")])])])]), _vm._v(" "), _c("Anchor", { attrs: { title: "Sider slot", h3: "" } }), _vm._v(" "), _c("table", [_c("thead", [_c("tr", [_c("th", [_vm._v("名称")]), _vm._v(" "), _c("th", [_vm._v("说明")])])]), _vm._v(" "), _c("tbody", [_c("tr", [_c("td", [_vm._v("trigger")]), _vm._v(" "), _c("td", [_vm._v("自定义触发器")])])])]), _vm._v(" "), _c("Anchor", { attrs: { title: "Sider methods", h3: "" } }), _vm._v(" "), _c("table", [_c("thead", [_c("tr", [_c("th", [_vm._v("方法名")]), _vm._v(" "), _c("th", [_vm._v("说明")])])]), _vm._v(" "), _c("tbody", [_c("tr", [_c("td", [_vm._v("toggleCollapse")]), _vm._v(" "), _c("td", [_vm._v("改变Sider展开-收起状态。")])])])])], 1), _vm._v(" "), _c("Anchor", { attrs: { title: "breakpoint width", h3: "" } }), _vm._v(" "), _c("i-code", {
+    style: { background: "#f2f4f5", height: "170px" },
+    attrs: { slot: "code", lang: "js" },
+    slot: "code"
+  }, [_vm._v("\n    {\n        xs: '480px',\n        sm: '768px',\n        md: '992px',\n        lg: '1200px',\n        xl: '1600px'\n    }\n        ")])], 1)]);
 };
 var staticRenderFns = [];
 render._withStripped = true;
@@ -2945,130 +2779,48 @@ exports.default = esExports;
 if (false) {
   module.hot.accept();
   if (module.hot.data) {
-    require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-6aad2016", esExports);
+    require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-085017ce", esExports);
   }
 }
 
 /***/ }),
 
-/***/ 630:
+/***/ 628:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
 Object.defineProperty(exports, "__esModule", {
-  value: true
+    value: true
 });
 var code = {};
 
-code.default = "\n<template>\n   <div class=\"loading-container\">\n     <Loading :loadingText=\"loadingText\" :background=\"background\" :className=\"className\" :opacityDeep=\"opacityDeep\" :color=\"color\"/>\n   </div>\n</template>\n<script>\n\texport default {\n        data () {\n            return {\n              loadingText:'\u52A0\u8F7D\u4E2D...',\n              background:'black',\n              opacityDeep:0.6,\n              color:'blue',\n              className: 'loading1',\n            }\n        },\n        methods: {}\n    }\n</script>\n";
+code.basic = "\n<template>\n<div class=\"layout\">\n    <Layout>\n        <Header>Header</Header>\n        <Content>Content</Content>\n        <Footer>Footer</Footer>\n    </Layout>\n\n    <Layout>\n        <Header>Header</Header>\n        <Layout>\n            <Sider hide-trigger>Sider</Sider>\n            <Content>Content</Content>\n        </Layout>\n        <Footer>Footer</Footer>\n    </Layout>\n\n    <Layout>\n        <Header>Header</Header>\n        <Layout>\n            <Content>Content</Content>\n            <Sider hide-trigger>Sider</Sider>\n        </Layout>\n        <Footer>Footer</Footer>\n    </Layout>\n\n    <Layout>\n        <Sider hide-trigger>Sider</Sider>\n        <Layout>\n            <Header>Header</Header>\n            <Content>Content</Content>\n            <Footer>Footer</Footer>\n        </Layout>\n    </Layout>\n</div>\n</template>\n<script>\n    export default {\n        \n    }\n</script>\n";
+
+code.topMiddleBottom = "\n<style scoped>\n.layout{\n    border: 1px solid #d7dde4;\n    background: #f5f7f9;\n    position: relative;\n    border-radius: 4px;\n    overflow: hidden;\n}\n.layout-logo{\n    width: 100px;\n    height: 30px;\n    background: #5b6270;\n    border-radius: 3px;\n    float: left;\n    position: relative;\n    top: 15px;\n    left: 20px;\n}\n.layout-nav{\n    width: 420px;\n    margin: 0 auto;\n    margin-right: 20px;\n}\n.layout-footer-center{\n    text-align: center;\n}\n</style>\n<template>\n    <div class=\"layout\">\n        <Layout>\n            <Header>\n                <Menu mode=\"horizontal\" theme=\"dark\" active-name=\"1\">\n                    <div class=\"layout-logo\"></div>\n                    <div class=\"layout-nav\">\n                        <MenuItem name=\"1\">\n                            <Icon type=\"ios-navigate\"></Icon>\n                            Item 1\n                        </MenuItem>\n                        <MenuItem name=\"2\">\n                            <Icon type=\"ios-keypad\"></Icon>\n                            Item 2\n                        </MenuItem>\n                        <MenuItem name=\"3\">\n                            <Icon type=\"ios-analytics\"></Icon>\n                            Item 3\n                        </MenuItem>\n                        <MenuItem name=\"4\">\n                            <Icon type=\"ios-paper\"></Icon>\n                            Item 4\n                        </MenuItem>\n                    </div>\n                </Menu>\n            </Header>\n            <Content :style=\"{padding: '0 50px'}\">\n                <Breadcrumb :style=\"{margin: '20px 0'}\">\n                    <BreadcrumbItem>Home</BreadcrumbItem>\n                    <BreadcrumbItem>Components</BreadcrumbItem>\n                    <BreadcrumbItem>Layout</BreadcrumbItem>\n                </Breadcrumb>\n                <Card>\n                    <div style=\"min-height: 200px;\">\n                        Content\n                    </div>\n                </Card>\n            </Content>\n            <Footer class=\"layout-footer-center\">2011-2016 &copy; TalkingData</Footer>\n        </Layout>\n    </div>\n</template>\n<script>\n    export default {\n        \n    }\n</script>\n";
+
+code.topLeftRight = "\n<style scoped>\n.layout{\n    border: 1px solid #d7dde4;\n    background: #f5f7f9;\n    position: relative;\n    border-radius: 4px;\n    overflow: hidden;\n}\n.layout-logo{\n    width: 100px;\n    height: 30px;\n    background: #5b6270;\n    border-radius: 3px;\n    float: left;\n    position: relative;\n    top: 15px;\n    left: 20px;\n}\n.layout-nav{\n    width: 420px;\n    margin: 0 auto;\n    margin-right: 20px;\n}\n</style>\n<template>\n    <div class=\"layout\">\n        <Layout>\n            <Header>\n                <Menu mode=\"horizontal\" theme=\"dark\" active-name=\"1\">\n                    <div class=\"layout-logo\"></div>\n                    <div class=\"layout-nav\">\n                        <MenuItem name=\"1\">\n                            <Icon type=\"ios-navigate\"></Icon>\n                            Item 1\n                        </MenuItem>\n                        <MenuItem name=\"2\">\n                            <Icon type=\"ios-keypad\"></Icon>\n                            Item 2\n                        </MenuItem>\n                        <MenuItem name=\"3\">\n                            <Icon type=\"ios-analytics\"></Icon>\n                            Item 3\n                        </MenuItem>\n                        <MenuItem name=\"4\">\n                            <Icon type=\"ios-paper\"></Icon>\n                            Item 4\n                        </MenuItem>\n                    </div>\n                </Menu>\n            </Header>\n            <Layout>\n                <Sider hide-trigger :style=\"{background: '#fff'}\">\n                    <Menu active-name=\"1-2\" theme=\"light\" width=\"auto\" :open-names=\"['1']\">\n                        <Submenu name=\"1\">\n                            <template slot=\"title\">\n                                <Icon type=\"ios-navigate\"></Icon>\n                                Item 1\n                            </template>\n                            <MenuItem name=\"1-1\">Option 1</MenuItem>\n                            <MenuItem name=\"1-2\">Option 2</MenuItem>\n                            <MenuItem name=\"1-3\">Option 3</MenuItem>\n                        </Submenu>\n                        <Submenu name=\"2\">\n                            <template slot=\"title\">\n                                <Icon type=\"ios-keypad\"></Icon>\n                                Item 2\n                            </template>\n                            <MenuItem name=\"2-1\">Option 1</MenuItem>\n                            <MenuItem name=\"2-2\">Option 2</MenuItem>\n                        </Submenu>\n                        <Submenu name=\"3\">\n                            <template slot=\"title\">\n                                <Icon type=\"ios-analytics\"></Icon>\n                                Item 3\n                            </template>\n                            <MenuItem name=\"3-1\">Option 1</MenuItem>\n                            <MenuItem name=\"3-2\">Option 2</MenuItem>\n                        </Submenu>\n                    </Menu>\n                </Sider>\n                <Layout :style=\"{padding: '0 24px 24px'}\">\n                    <Breadcrumb :style=\"{margin: '24px 0'}\">\n                        <BreadcrumbItem>Home</BreadcrumbItem>\n                        <BreadcrumbItem>Components</BreadcrumbItem>\n                        <BreadcrumbItem>Layout</BreadcrumbItem>\n                    </Breadcrumb>\n                    <Content :style=\"{padding: '24px', minHeight: '280px', background: '#fff'}\">\n                        Content\n                    </Content>\n                </Layout>\n            </Layout>\n        </Layout>\n    </div>\n</template>\n<script>\n    export default {\n        \n    }\n</script>\n";
+
+code.topSiderFooter = "\n<style scoped>\n.layout{\n    border: 1px solid #d7dde4;\n    background: #f5f7f9;\n    position: relative;\n    border-radius: 4px;\n    overflow: hidden;\n}\n.layout-logo{\n    width: 100px;\n    height: 30px;\n    background: #5b6270;\n    border-radius: 3px;\n    float: left;\n    position: relative;\n    top: 15px;\n    left: 20px;\n}\n.layout-nav{\n    width: 420px;\n    margin: 0 auto;\n    margin-right: 20px;\n}\n.layout-footer-center{\n    text-align: center;\n}\n</style>\n<template>\n    <div class=\"layout\">\n        <Layout>\n            <Header>\n                <Menu mode=\"horizontal\" theme=\"dark\" active-name=\"1\">\n                    <div class=\"layout-logo\"></div>\n                    <div class=\"layout-nav\">\n                        <MenuItem name=\"1\">\n                            <Icon type=\"ios-navigate\"></Icon>\n                            Item 1\n                        </MenuItem>\n                        <MenuItem name=\"2\">\n                            <Icon type=\"ios-keypad\"></Icon>\n                            Item 2\n                        </MenuItem>\n                        <MenuItem name=\"3\">\n                            <Icon type=\"ios-analytics\"></Icon>\n                            Item 3\n                        </MenuItem>\n                        <MenuItem name=\"4\">\n                            <Icon type=\"ios-paper\"></Icon>\n                            Item 4\n                        </MenuItem>\n                    </div>\n                </Menu>\n            </Header>\n            <Layout :style=\"{padding: '0 50px'}\">\n                <Breadcrumb :style=\"{margin: '16px 0'}\">\n                    <BreadcrumbItem>Home</BreadcrumbItem>\n                    <BreadcrumbItem>Components</BreadcrumbItem>\n                    <BreadcrumbItem>Layout</BreadcrumbItem>\n                </Breadcrumb>\n                <Content :style=\"{padding: '24px 0', minHeight: '280px', background: '#fff'}\">\n                    <Layout>\n                        <Sider hide-trigger :style=\"{background: '#fff'}\">\n                            <Menu active-name=\"1-2\" theme=\"light\" width=\"auto\" :open-names=\"['1']\">\n                                <Submenu name=\"1\">\n                                    <template slot=\"title\">\n                                        <Icon type=\"ios-navigate\"></Icon>\n                                        Item 1\n                                    </template>\n                                    <MenuItem name=\"1-1\">Option 1</MenuItem>\n                                    <MenuItem name=\"1-2\">Option 2</MenuItem>\n                                    <MenuItem name=\"1-3\">Option 3</MenuItem>\n                                </Submenu>\n                                <Submenu name=\"2\">\n                                    <template slot=\"title\">\n                                        <Icon type=\"ios-keypad\"></Icon>\n                                        Item 2\n                                    </template>\n                                    <MenuItem name=\"2-1\">Option 1</MenuItem>\n                                    <MenuItem name=\"2-2\">Option 2</MenuItem>\n                                </Submenu>\n                                <Submenu name=\"3\">\n                                    <template slot=\"title\">\n                                        <Icon type=\"ios-analytics\"></Icon>\n                                        Item 3\n                                    </template>\n                                    <MenuItem name=\"3-1\">Option 1</MenuItem>\n                                    <MenuItem name=\"3-2\">Option 2</MenuItem>\n                                </Submenu>\n                            </Menu>\n                        </Sider>\n                        <Content :style=\"{padding: '24px', minHeight: '280px', background: '#fff'}\">\n                            Content\n                        </Content>\n                    </Layout>\n                </Content>\n            </Layout>\n            <Footer class=\"layout-footer-center\">2011-2016 &copy; TalkingData</Footer>\n        </Layout>\n    </div>\n</div>\n</template>\n<script>\n    export default {\n        \n    }\n</script>\n";
+
+code.left = "\n<style scoped>\n    .layout-con{\n        height: 100%;\n        width: 100%;\n    }\n    .menu-item span{\n        display: inline-block;\n        overflow: hidden;\n        width: 69px;\n        text-overflow: ellipsis;\n        white-space: nowrap;\n        vertical-align: bottom;\n        transition: width .2s ease .2s;\n    }\n    .menu-item i{\n        transform: translateX(0px);\n        transition: font-size .2s ease, transform .2s ease;\n        vertical-align: middle;\n        font-size: 16px;\n    }\n    .collapsed-menu span{\n        width: 0px;\n        transition: width .2s ease;\n    }\n    .collapsed-menu i{\n        transform: translateX(5px);\n        transition: font-size .2s ease .2s, transform .2s ease .2s;\n        vertical-align: middle;\n        font-size: 22px;\n    }\n</style>\n<template>\n    <div class=\"layout\">\n        <Layout :style=\"{minHeight: '100vh'}\">\n            <Sider collapsible :collapsed-width=\"78\" v-model=\"isCollapsed\">\n                <Menu active-name=\"1-2\" theme=\"dark\" width=\"auto\" :class=\"menuitemClasses\">\n                    <MenuItem name=\"1-1\">\n                        <Icon type=\"ios-navigate\"></Icon>\n                        <span>Option 1</span>\n                    </MenuItem>\n                    <MenuItem name=\"1-2\">\n                        <Icon type=\"search\"></Icon>\n                        <span>Option 2</span>\n                    </MenuItem>\n                    <MenuItem name=\"1-3\">\n                        <Icon type=\"settings\"></Icon>\n                        <span>Option 3</span>\n                    </MenuItem>\n                </Menu>\n            </Sider>\n            <Layout>\n                <Header :style=\"{background: '#fff', boxShadow: '0 2px 3px 2px rgba(0,0,0,.1)'}\"></Header>\n                <Content :style=\"{padding: '0 16px 16px'}\">\n                    <Breadcrumb :style=\"{margin: '16px 0'}\">\n                        <BreadcrumbItem>Home</BreadcrumbItem>\n                        <BreadcrumbItem>Components</BreadcrumbItem>\n                        <BreadcrumbItem>Layout</BreadcrumbItem>\n                    </Breadcrumb>\n                    <Card>\n                        <div style=\"height: 600px\">Content</div>\n                    </Card>\n                </Content>\n            </Layout>\n        </Layout>\n    </div>\n</template>\n<script>\n    export default {\n        data () {\n            return {\n                isCollapsed: false\n            };\n        },\n        computed: {\n            menuitemClasses: function () {\n                return [\n                    'menu-item',\n                    this.isCollapsed ? 'collapsed-menu' : ''\n                ]\n            }\n        }\n    }\n</script>\n";
+
+code.selfTrigger = "\n<style scoped>\n    .layout{\n        border: 1px solid #d7dde4;\n        background: #f5f7f9;\n        position: relative;\n        border-radius: 4px;\n        overflow: hidden;\n    }\n    .layout-header-bar{\n        background: #fff;\n        box-shadow: 0 1px 1px rgba(0,0,0,.1);\n    }\n    .layout-logo-left{\n        width: 90%;\n        height: 30px;\n        background: #5b6270;\n        border-radius: 3px;\n        margin: 15px auto;\n    }\n    .menu-icon{\n        transition: all .3s;\n    }\n    .rotate-icon{\n        transform: rotate(-90deg);\n    }\n    .menu-item span{\n        display: inline-block;\n        overflow: hidden;\n        width: 69px;\n        text-overflow: ellipsis;\n        white-space: nowrap;\n        vertical-align: bottom;\n        transition: width .2s ease .2s;\n    }\n    .menu-item i{\n        transform: translateX(0px);\n        transition: font-size .2s ease, transform .2s ease;\n        vertical-align: middle;\n        font-size: 16px;\n    }\n    .collapsed-menu span{\n        width: 0px;\n        transition: width .2s ease;\n    }\n    .collapsed-menu i{\n        transform: translateX(5px);\n        transition: font-size .2s ease .2s, transform .2s ease .2s;\n        vertical-align: middle;\n        font-size: 22px;\n    }\n</style>\n<template>\n    <div class=\"layout\">\n        <Layout>\n            <Sider ref=\"side1\" hide-trigger collapsible :collapsed-width=\"78\" v-model=\"isCollapsed\">\n                <Menu active-name=\"1-2\" theme=\"dark\" width=\"auto\" :class=\"menuitemClasses\">\n                    <MenuItem name=\"1-1\">\n                        <Icon type=\"ios-navigate\"></Icon>\n                        <span>Option 1</span>\n                    </MenuItem>\n                    <MenuItem name=\"1-2\">\n                        <Icon type=\"ios-search\"></Icon>\n                        <span>Option 2</span>\n                    </MenuItem>\n                    <MenuItem name=\"1-3\">\n                        <Icon type=\"ios-settings\"></Icon>\n                        <span>Option 3</span>\n                    </MenuItem>\n                </Menu>\n            </Sider>\n            <Layout>\n                <Header :style=\"{padding: 0}\" class=\"layout-header-bar\">\n                    <Icon @click.native=\"collapsedSider\" :class=\"rotateIcon\" :style=\"{margin: '0 20px'}\" type=\"md-menu\" size=\"24\"></Icon>\n                </Header>\n                <Content :style=\"{margin: '20px', background: '#fff', minHeight: '260px'}\">\n                    Content\n                </Content>\n            </Layout>\n        </Layout>\n    </div>\n</template>\n<script>\n    export default {\n        data () {\n            return {\n                isCollapsed: false\n            }\n        },\n        computed: {\n            rotateIcon () {\n                return [\n                    'menu-icon',\n                    this.isCollapsed ? 'rotate-icon' : ''\n                ];\n            },\n            menuitemClasses () {\n                return [\n                    'menu-item',\n                    this.isCollapsed ? 'collapsed-menu' : ''\n                ]\n            }\n        },\n        methods: {\n            collapsedSider () {\n                this.$refs.side1.toggleCollapse();\n            }\n        }\n    }\n</script>\n";
+code.media = "\n<style scoped>\n    .layout{\n        border: 1px solid #d7dde4;\n        background: #f5f7f9;\n        position: relative;\n        border-radius: 4px;\n        overflow: hidden;\n    }\n    .layout-header-bar{\n        background: #fff;\n        box-shadow: 0 1px 1px rgba(0,0,0,.1);\n    }\n    .menu-item span{\n        display: inline-block;\n        overflow: hidden;\n        width: 69px;\n        text-overflow: ellipsis;\n        white-space: nowrap;\n        vertical-align: bottom;\n        transition: width .2s ease .2s;\n    }\n    .menu-item i{\n        transform: translateX(0px);\n        transition: font-size .2s ease, transform .2s ease;\n        vertical-align: middle;\n        font-size: 16px;\n    }\n    .collapsed-menu span{\n        width: 0px;\n        transition: width .2s ease;\n    }\n    .collapsed-menu i{\n        transform: translateX(5px);\n        transition: font-size .2s ease .2s, transform .2s ease .2s;\n        vertical-align: middle;\n        font-size: 22px;\n    }\n</style>\n<template>\n    <div class=\"layout\">\n        <Layout>\n            <Sider breakpoint=\"md\" collapsible :collapsed-width=\"78\" v-model=\"isCollapsed\">\n                <Menu active-name=\"1-2\" theme=\"dark\" width=\"auto\" :class=\"menuitemClasses\">\n                    <MenuItem name=\"1-1\">\n                        <Icon type=\"ios-navigate\"></Icon>\n                        <span>Option 1</span>\n                    </MenuItem>\n                    <MenuItem name=\"1-2\">\n                        <Icon type=\"ios-search\"></Icon>\n                        <span>Option 2</span>\n                    </MenuItem>\n                    <MenuItem name=\"1-3\">\n                        <Icon type=\"ios-settings\"></Icon>\n                        <span>Option 3</span>\n                    </MenuItem>\n                </Menu>\n                <div slot=\"trigger\"></div>\n            </Sider>\n            <Layout>\n                <Header class=\"layout-header-bar\"></Header>\n                <Content :style=\"{margin: '20px', background: '#fff', minHeight: '220px'}\">\n                    Content\n                </Content>\n            </Layout>\n        </Layout>\n    </div>\n</template>\n<script>\n    export default {\n        data () {\n            return {\n                isCollapsed: false\n            };\n        },\n        computed: {\n            menuitemClasses: function () {\n                return [\n                    'menu-item',\n                    this.isCollapsed ? 'collapsed-menu' : ''\n                ]\n            }\n        }\n    }\n</script>\n";
+code.headerFixed = "\n<style scoped>\n    .layout{\n        border: 1px solid #d7dde4;\n        background: #f5f7f9;\n        position: relative;\n        border-radius: 4px;\n        overflow: hidden;\n    }\n    .layout-logo{\n        width: 100px;\n        height: 30px;\n        background: #5b6270;\n        border-radius: 3px;\n        float: left;\n        position: relative;\n        top: 15px;\n        left: 20px;\n    }\n    .layout-nav{\n        width: 420px;\n        margin: 0 auto;\n        margin-right: 20px;\n    }\n    .layout-footer-center{\n        text-align: center;\n    }\n</style>\n<template>\n    <div class=\"layout\">\n        <Layout>\n            <Header :style=\"{position: 'fixed', width: '100%'}\">\n                <Menu mode=\"horizontal\" theme=\"dark\" active-name=\"1\">\n                    <div class=\"layout-logo\"></div>\n                    <div class=\"layout-nav\">\n                        <MenuItem name=\"1\">\n                            <Icon type=\"ios-navigate\"></Icon>\n                            Item 1\n                        </MenuItem>\n                        <MenuItem name=\"2\">\n                            <Icon type=\"ios-keypad\"></Icon>\n                            Item 2\n                        </MenuItem>\n                        <MenuItem name=\"3\">\n                            <Icon type=\"ios-analytics\"></Icon>\n                            Item 3\n                        </MenuItem>\n                        <MenuItem name=\"4\">\n                            <Icon type=\"ios-paper\"></Icon>\n                            Item 4\n                        </MenuItem>\n                    </div>\n                </Menu>\n            </Header>\n            <Content :style=\"{margin: '88px 20px 0', background: '#fff', minHeight: '500px'}\">\n                Content\n            </Content>\n            <Footer class=\"layout-footer-center\">2011-2016 &copy; TalkingData</Footer>\n        </Layout>\n    </div>\n</template>\n<script>\n    export default {\n        \n    }\n</script>\n";
+code.siderFixed = "\n<style scoped>\n    .layout{\n        border: 1px solid #d7dde4;\n        background: #f5f7f9;\n        position: relative;\n        border-radius: 4px;\n        overflow: hidden;\n    }\n    .layout-header-bar{\n        background: #fff;\n        box-shadow: 0 1px 1px rgba(0,0,0,.1);\n    }\n</style>\n<template>\n    <div class=\"layout\">\n        <Sider :style=\"{position: 'fixed', height: '100vh', left: 0, overflow: 'auto'}\">\n            <Menu active-name=\"1-2\" theme=\"dark\" width=\"auto\" :open-names=\"['1']\">\n                <Submenu name=\"1\">\n                    <template slot=\"title\">\n                        <Icon type=\"ios-navigate\"></Icon>\n                        Item 1\n                    </template>\n                    <MenuItem name=\"1-1\">Option 1</MenuItem>\n                    <MenuItem name=\"1-2\">Option 2</MenuItem>\n                    <MenuItem name=\"1-3\">Option 3</MenuItem>\n                </Submenu>\n                <Submenu name=\"2\">\n                    <template slot=\"title\">\n                        <Icon type=\"ios-keypad\"></Icon>\n                        Item 2\n                    </template>\n                    <MenuItem name=\"2-1\">Option 1</MenuItem>\n                    <MenuItem name=\"2-2\">Option 2</MenuItem>\n                </Submenu>\n                <Submenu name=\"3\">\n                    <template slot=\"title\">\n                        <Icon type=\"ios-analytics\"></Icon>\n                        Item 3\n                    </template>\n                    <MenuItem name=\"3-1\">Option 1</MenuItem>\n                    <MenuItem name=\"3-2\">Option 2</MenuItem>\n                </Submenu>\n            </Menu>\n        </Sider>\n        <Layout :style=\"{marginLeft: '200px'}\">\n            <Header :style=\"{background: '#fff', boxShadow: '0 2px 3px 2px rgba(0,0,0,.1)'}\"></Header>\n            <Content :style=\"{padding: '0 16px 16px'}\">\n                <Breadcrumb :style=\"{margin: '16px 0'}\">\n                    <BreadcrumbItem>Home</BreadcrumbItem>\n                    <BreadcrumbItem>Components</BreadcrumbItem>\n                    <BreadcrumbItem>Layout</BreadcrumbItem>\n                </Breadcrumb>\n                <Card>\n                    <div style=\"height: 600px\">Content</div>\n                </Card>\n            </Content>\n        </Layout>\n    </div>\n</template>\n<script>\n    export default {\n        \n    }\n</script>\n";
 
 exports.default = code;
 
 /***/ }),
 
-/***/ 659:
-/***/ (function(module, exports, __webpack_require__) {
+/***/ 668:
+/***/ (function(module, exports) {
 
-exports = module.exports = __webpack_require__(541)();
-// imports
-
-
-// module
-exports.push([module.i, "\n.loading[data-v-6aad2016] {\n  width: 100%;\n  text-align: center;\n}\n.desc[data-v-6aad2016] {\n  line-height: 20px;\n}\n.loading1[data-v-6aad2016] {\n  margin: 30px auto;\n  width: 50px;\n  height: 60px;\n  text-align: center;\n  font-size: 10px;\n}\n.loading1 > div[data-v-6aad2016] {\n  background-color: #67CF22;\n  height: 100%;\n  width: 6px;\n  display: inline-block;\n  -webkit-animation: stretchdelay-data-v-6aad2016 1.2s infinite ease-in-out;\n  animation: stretchdelay-data-v-6aad2016 1.2s infinite ease-in-out;\n}\n.loading1 .rect2[data-v-6aad2016] {\n  -webkit-animation-delay: -1.1s;\n  animation-delay: -1.1s;\n}\n.loading1 .rect3[data-v-6aad2016] {\n  -webkit-animation-delay: -1.0s;\n  animation-delay: -1.0s;\n}\n.loading1 .rect4[data-v-6aad2016] {\n  -webkit-animation-delay: -0.9s;\n  animation-delay: -0.9s;\n}\n.loading1 .rect5[data-v-6aad2016] {\n  -webkit-animation-delay: -0.8s;\n  animation-delay: -0.8s;\n}\n@-webkit-keyframes stretchdelay-data-v-6aad2016 {\n0%, 40%, 100% {\n    -webkit-transform: scaleY(0.4);\n}\n20% {\n    -webkit-transform: scaleY(1);\n}\n}\n@keyframes stretchdelay-data-v-6aad2016 {\n0%, 40%, 100% {\n    transform: scaleY(0.4);\n    -webkit-transform: scaleY(0.4);\n}\n20% {\n    transform: scaleY(1);\n    -webkit-transform: scaleY(1);\n}\n}\n.loading2[data-v-6aad2016] {\n  width: 60px;\n  height: 60px;\n  position: relative;\n  margin: 100px auto;\n}\n.double-bounce1[data-v-6aad2016], .double-bounce2[data-v-6aad2016] {\n  width: 100%;\n  height: 100%;\n  border-radius: 50%;\n  background-color: #67CF22;\n  opacity: 0.6;\n  position: absolute;\n  top: 0;\n  left: 0;\n  -webkit-animation: bounce-data-v-6aad2016 2.0s infinite ease-in-out;\n  animation: bounce-data-v-6aad2016 2.0s infinite ease-in-out;\n}\n.double-bounce2[data-v-6aad2016] {\n  -webkit-animation-delay: -1.0s;\n  animation-delay: -1.0s;\n}\n@-webkit-keyframes bounce-data-v-6aad2016 {\n0%, 100% {\n    -webkit-transform: scale(0);\n}\n50% {\n    -webkit-transform: scale(1);\n}\n}\n@keyframes bounce-data-v-6aad2016 {\n0%, 100% {\n    transform: scale(0);\n    -webkit-transform: scale(0);\n}\n50% {\n    transform: scale(1);\n    -webkit-transform: scale(1);\n}\n}\n", "", {"version":3,"sources":["/./src/components/mhc/loading.vue"],"names":[],"mappings":";AAAA;EACE,YAAY;EACZ,mBAAmB;CAAE;AAEvB;EACE,kBAAkB;CAAE;AAEtB;EACE,kBAAkB;EAClB,YAAY;EACZ,aAAa;EACb,mBAAmB;EACnB,gBAAgB;CAAE;AAEpB;EACE,0BAA0B;EAC1B,aAAa;EACb,WAAW;EACX,sBAAsB;EACtB,0EAA0D;EAC1D,kEAAkD;CAAE;AAEtD;EACE,+BAA+B;EAC/B,uBAAuB;CAAE;AAE3B;EACE,+BAA+B;EAC/B,uBAAuB;CAAE;AAE3B;EACE,+BAA+B;EAC/B,uBAAuB;CAAE;AAE3B;EACE,+BAA+B;EAC/B,uBAAuB;CAAE;AAE3B;AACE;IACE,+BAA+B;CAAE;AACnC;IACE,6BAA6B;CAAE;CAAE;AAErC;AACE;IACE,uBAAuB;IACvB,+BAA+B;CAAE;AACnC;IACE,qBAAqB;IACrB,6BAA6B;CAAE;CAAE;AAErC;EACE,YAAY;EACZ,aAAa;EACb,mBAAmB;EACnB,mBAAmB;CAAE;AAEvB;EACE,YAAY;EACZ,aAAa;EACb,mBAAmB;EACnB,0BAA0B;EAC1B,aAAa;EACb,mBAAmB;EACnB,OAAO;EACP,QAAQ;EACR,oEAAoD;EACpD,4DAA4C;CAAE;AAEhD;EACE,+BAA+B;EAC/B,uBAAuB;CAAE;AAE3B;AACE;IACE,4BAA4B;CAAE;AAChC;IACE,4BAA4B;CAAE;CAAE;AAEpC;AACE;IACE,oBAAoB;IACpB,4BAA4B;CAAE;AAChC;IACE,oBAAoB;IACpB,4BAA4B;CAAE;CAAE","file":"loading.vue","sourcesContent":[".loading {\n  width: 100%;\n  text-align: center; }\n\n.desc {\n  line-height: 20px; }\n\n.loading1 {\n  margin: 30px auto;\n  width: 50px;\n  height: 60px;\n  text-align: center;\n  font-size: 10px; }\n\n.loading1 > div {\n  background-color: #67CF22;\n  height: 100%;\n  width: 6px;\n  display: inline-block;\n  -webkit-animation: stretchdelay 1.2s infinite ease-in-out;\n  animation: stretchdelay 1.2s infinite ease-in-out; }\n\n.loading1 .rect2 {\n  -webkit-animation-delay: -1.1s;\n  animation-delay: -1.1s; }\n\n.loading1 .rect3 {\n  -webkit-animation-delay: -1.0s;\n  animation-delay: -1.0s; }\n\n.loading1 .rect4 {\n  -webkit-animation-delay: -0.9s;\n  animation-delay: -0.9s; }\n\n.loading1 .rect5 {\n  -webkit-animation-delay: -0.8s;\n  animation-delay: -0.8s; }\n\n@-webkit-keyframes stretchdelay {\n  0%, 40%, 100% {\n    -webkit-transform: scaleY(0.4); }\n  20% {\n    -webkit-transform: scaleY(1); } }\n\n@keyframes stretchdelay {\n  0%, 40%, 100% {\n    transform: scaleY(0.4);\n    -webkit-transform: scaleY(0.4); }\n  20% {\n    transform: scaleY(1);\n    -webkit-transform: scaleY(1); } }\n\n.loading2 {\n  width: 60px;\n  height: 60px;\n  position: relative;\n  margin: 100px auto; }\n\n.double-bounce1, .double-bounce2 {\n  width: 100%;\n  height: 100%;\n  border-radius: 50%;\n  background-color: #67CF22;\n  opacity: 0.6;\n  position: absolute;\n  top: 0;\n  left: 0;\n  -webkit-animation: bounce 2.0s infinite ease-in-out;\n  animation: bounce 2.0s infinite ease-in-out; }\n\n.double-bounce2 {\n  -webkit-animation-delay: -1.0s;\n  animation-delay: -1.0s; }\n\n@-webkit-keyframes bounce {\n  0%, 100% {\n    -webkit-transform: scale(0); }\n  50% {\n    -webkit-transform: scale(1); } }\n\n@keyframes bounce {\n  0%, 100% {\n    transform: scale(0);\n    -webkit-transform: scale(0); }\n  50% {\n    transform: scale(1);\n    -webkit-transform: scale(1); } }\n"],"sourceRoot":"webpack://"}]);
-
-// exports
-
-
-/***/ }),
-
-/***/ 691:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_loading_vue__ = __webpack_require__(558);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_loading_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_loading_vue__);
-/* harmony namespace reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_loading_vue__) if(["default","default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_loading_vue__[key]; }) }(__WEBPACK_IMPORT_KEY__));
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_6aad2016_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_loading_vue__ = __webpack_require__(612);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_6aad2016_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_loading_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_6aad2016_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_loading_vue__);
-var disposed = false
-function injectStyle (ssrContext) {
-  if (disposed) return
-  __webpack_require__(703)
-}
-var normalizeComponent = __webpack_require__(197)
-/* script */
-
-
-/* template */
-
-/* template functional */
-var __vue_template_functional__ = false
-/* styles */
-var __vue_styles__ = injectStyle
-/* scopeId */
-var __vue_scopeId__ = "data-v-6aad2016"
-/* moduleIdentifier (server only) */
-var __vue_module_identifier__ = null
-var Component = normalizeComponent(
-  __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_loading_vue___default.a,
-  __WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_6aad2016_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_loading_vue___default.a,
-  __vue_template_functional__,
-  __vue_styles__,
-  __vue_scopeId__,
-  __vue_module_identifier__
-)
-Component.options.__file = "src/components/mhc/loading.vue"
-
-/* hot reload */
-if (false) {(function () {
-  var hotAPI = require("vue-loader/node_modules/vue-hot-reload-api")
-  hotAPI.install(require("vue"), false)
-  if (!hotAPI.compatible) return
-  module.hot.accept()
-  if (!module.hot.data) {
-    hotAPI.createRecord("data-v-6aad2016", Component.options)
-  } else {
-    hotAPI.reload("data-v-6aad2016", Component.options)
-  }
-  module.hot.dispose(function (data) {
-    disposed = true
-  })
-})()}
-
-/* harmony default export */ __webpack_exports__["default"] = (Component.exports);
-
-
-/***/ }),
-
-/***/ 703:
-/***/ (function(module, exports, __webpack_require__) {
-
-// style-loader: Adds some css to the DOM by adding a <style> tag
-
-// load the styles
-var content = __webpack_require__(659);
-if(typeof content === 'string') content = [[module.i, content, '']];
-if(content.locals) module.exports = content.locals;
-// add the styles to the DOM
-var update = __webpack_require__(542)("98bf6f20", content, false, {});
-// Hot Module Replacement
-if(false) {
- // When the styles change, update the <style> tags
- if(!content.locals) {
-   module.hot.accept("!!../../../node_modules/css-loader/index.js?sourceMap!../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-6aad2016\",\"scoped\":true,\"hasInlineConfig\":false}!../../../node_modules/sass-loader/lib/loader.js!../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!../../../node_modules/iview-loader/index.js?{\"prefix\":false}!./loading.vue", function() {
-     var newContent = require("!!../../../node_modules/css-loader/index.js?sourceMap!../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-6aad2016\",\"scoped\":true,\"hasInlineConfig\":false}!../../../node_modules/sass-loader/lib/loader.js!../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!../../../node_modules/iview-loader/index.js?{\"prefix\":false}!./loading.vue");
-     if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
-     update(newContent);
-   });
- }
- // When the module is disposed, remove the <style> tags
- module.hot.dispose(function() { update(); });
-}
+// removed by extract-text-webpack-plugin
 
 /***/ })
 
 });
-//# sourceMappingURL=9.chunk.js.map
+//# sourceMappingURL=14.chunk.js.map

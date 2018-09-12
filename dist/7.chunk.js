@@ -1,20 +1,16 @@
 webpackJsonp([7],{
 
-/***/ 489:
+/***/ 494:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_layout_vue__ = __webpack_require__(552);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_layout_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_layout_vue__);
-/* harmony namespace reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_layout_vue__) if(["default","default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_layout_vue__[key]; }) }(__WEBPACK_IMPORT_KEY__));
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_085017ce_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_layout_vue__ = __webpack_require__(558);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_085017ce_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_layout_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_085017ce_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_layout_vue__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_slider_vue__ = __webpack_require__(579);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_slider_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_slider_vue__);
+/* harmony namespace reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_slider_vue__) if(["default","default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_slider_vue__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_2969be50_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_slider_vue__ = __webpack_require__(603);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_2969be50_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_slider_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_2969be50_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_slider_vue__);
 var disposed = false
-function injectStyle (ssrContext) {
-  if (disposed) return
-  __webpack_require__(595)
-}
 var normalizeComponent = __webpack_require__(197)
 /* script */
 
@@ -24,20 +20,20 @@ var normalizeComponent = __webpack_require__(197)
 /* template functional */
 var __vue_template_functional__ = false
 /* styles */
-var __vue_styles__ = injectStyle
+var __vue_styles__ = null
 /* scopeId */
-var __vue_scopeId__ = "data-v-085017ce"
+var __vue_scopeId__ = null
 /* moduleIdentifier (server only) */
 var __vue_module_identifier__ = null
 var Component = normalizeComponent(
-  __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_layout_vue___default.a,
-  __WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_085017ce_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_layout_vue___default.a,
+  __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_slider_vue___default.a,
+  __WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_2969be50_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_slider_vue___default.a,
   __vue_template_functional__,
   __vue_styles__,
   __vue_scopeId__,
   __vue_module_identifier__
 )
-Component.options.__file = "src/views/components/layout.vue"
+Component.options.__file = "src/views/components/slider.vue"
 
 /* hot reload */
 if (false) {(function () {
@@ -46,9 +42,9 @@ if (false) {(function () {
   if (!hotAPI.compatible) return
   module.hot.accept()
   if (!module.hot.data) {
-    hotAPI.createRecord("data-v-085017ce", Component.options)
+    hotAPI.createRecord("data-v-2969be50", Component.options)
   } else {
-    hotAPI.reload("data-v-085017ce", Component.options)
+    hotAPI.reload("data-v-2969be50", Component.options)
   }
   module.hot.dispose(function (data) {
     disposed = true
@@ -60,93 +56,128 @@ if (false) {(function () {
 
 /***/ }),
 
-/***/ 492:
+/***/ 499:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
 Object.defineProperty(exports, "__esModule", {
-    value: true
+  value: true
 });
 
 
 var list = {
-    beforeComponents: [{
-        title: '安装',
-        titleEn: 'Installation',
-        path: '/mhc-iView-doc/guide/install'
+  beforeComponents: [{
+    title: '安装',
+    titleEn: 'Installation',
+    path: '/mhc-iView-doc/guide/install'
+  }, {
+    title: '快速上手',
+    titleEn: 'Quick Start',
+    path: '/mhc-iView-doc/guide/start'
+  }],
+  components: [{
+    type: 'Basic',
+    title: '基础',
+    list: [{
+      title: 'Color 色彩',
+      path: '/mhc-iView-doc/components/color',
+      img: 'color.png',
+      icon: 'android-color-palette'
     }, {
-        title: '快速上手',
-        titleEn: 'Quick Start',
-        path: '/mhc-iView-doc/guide/start'
-    }],
-    components: [{
-        type: 'Basic',
-        title: '基础',
-        list: [{
-            title: 'Color 色彩',
-            path: '/mhc-iView-doc/components/color',
-            img: 'color.png',
-            icon: 'android-color-palette'
-        }, {
-            title: 'Font 字体',
-            path: '/mhc-iView-doc/components/font',
-            img: 'font.png',
-            icon: 'at'
-        }, {
-            title: 'Button 按钮',
-            path: '/mhc-iView-doc/components/button',
-            img: 'button.png',
-            icon: 'social-youtube-outline'
-        }, {
-            title: 'Icon 图标',
-            path: '/mhc-iView-doc/components/icon',
-            img: 'icon.png',
-            icon: 'ios-heart-outline'
-        }, {
-            title: 'Grid 栅格',
-            path: '/mhc-iView-doc/components/grid',
-            img: 'grid.png',
-            icon: 'ios-grid-view-outline'
-        }, {
-            title: 'Layout 布局',
-            path: '/mhc-iView-doc/components/layout',
-            img: 'layout-new.png',
-            icon: 'ios-browsers-outline'
-        }]
+      title: 'Font 字体',
+      path: '/mhc-iView-doc/components/font',
+      img: 'font.png',
+      icon: 'at'
     }, {
-        type: 'Components',
-        title: '组件',
-        list: [{
-            title: 'JsonEditor Json编辑器',
-            path: '/mhc-iView-doc/components/jsonEditor',
-            img: 'error.png',
-            icon: 'social-nodejs'
-        }, {
-            title: 'Calendar 日历',
-            path: '/mhc-iView-doc/components/calendar',
-            img: 'error.png',
-            icon: 'calendar'
-        }, {
-            title: 'waterfall 瀑布流',
-            path: '/mhc-iView-doc/components/waterfall',
-            img: 'error.png',
-            icon: 'android-apps'
-        }, {
-            title: 'Exception 异常页',
-            path: '/mhc-iView-doc/components/exception',
-            img: 'error.png',
-            icon: 'alert-circled'
-        }]
+      title: 'Button 按钮',
+      path: '/mhc-iView-doc/components/button',
+      img: 'button.png',
+      icon: 'social-youtube-outline'
+    }, {
+      title: 'Icon 图标',
+      path: '/mhc-iView-doc/components/icon',
+      img: 'icon.png',
+      icon: 'ios-heart-outline'
+    }, {
+      title: 'Grid 栅格',
+      path: '/mhc-iView-doc/components/grid',
+      img: 'grid.png',
+      icon: 'ios-grid-view-outline'
+    }, {
+      title: 'Layout 布局',
+      path: '/mhc-iView-doc/components/layout',
+      img: 'layout-new.png',
+      icon: 'ios-browsers-outline'
     }]
+  }, {
+    type: 'Components',
+    title: '组件',
+    list: [{
+      title: 'Json编辑器 JsonEditor',
+      path: '/mhc-iView-doc/components/jsonEditor',
+      img: 'error.png',
+      icon: 'social-nodejs'
+    }, {
+      title: '日历 calendar',
+      path: '/mhc-iView-doc/components/calendar',
+      img: 'error.png',
+      icon: 'calendar'
+    }, {
+      title: '瀑布流 waterfall',
+      path: '/mhc-iView-doc/components/waterfall',
+      img: 'error.png',
+      icon: 'android-apps'
+    }, {
+      title: '异常页 exception',
+      path: '/mhc-iView-doc/components/exception',
+      img: 'error.png',
+      icon: 'alert-circled'
+    }, {
+      title: '分割面板 splitPanel',
+      path: '/mhc-iView-doc/components/splitPanel',
+      img: 'error.png',
+      icon: 'ios-grid-view-outline'
+    }, {
+      title: '轮播图 slider',
+      path: '/mhc-iView-doc/components/slider',
+      img: 'error.png',
+      icon: 'images'
+    }, {
+      title: '照片预览 viewImages',
+      path: '/mhc-iView-doc/components/viewImages',
+      img: 'error.png',
+      icon: 'image'
+    }, {
+      title: '工作台 menu',
+      path: '/mhc-iView-doc/components/myWorkbench',
+      img: 'error.png',
+      icon: 'grid'
+    }, {
+      title: '加载 loading',
+      path: '/mhc-iView-doc/components/loading',
+      img: 'error.png',
+      icon: 'load-a'
+    }, {
+      title: '下拉刷新 pullRefresh',
+      path: '/mhc-iView-doc/components/pullRefresh',
+      img: 'error.png',
+      icon: 'arrow-down-c'
+    }, {
+      title: '左右联动菜单 listview',
+      path: '/mhc-iView-doc/components/listview',
+      img: 'error.png',
+      icon: 'navicon'
+    }]
+  }]
 };
 
 exports.default = list;
 
 /***/ }),
 
-/***/ 493:
+/***/ 500:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -172,7 +203,7 @@ exports.default = {
 
 /***/ }),
 
-/***/ 494:
+/***/ 501:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -182,7 +213,7 @@ Object.defineProperty(exports, "__esModule", {
     value: true
 });
 
-var _pinyinUtil = __webpack_require__(501);
+var _pinyinUtil = __webpack_require__(508);
 
 var _pinyinUtil2 = _interopRequireDefault(_pinyinUtil);
 
@@ -208,7 +239,7 @@ exports.default = {
 
 /***/ }),
 
-/***/ 495:
+/***/ 502:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -235,7 +266,7 @@ exports.default = {
 
 /***/ }),
 
-/***/ 496:
+/***/ 503:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -245,15 +276,15 @@ Object.defineProperty(exports, "__esModule", {
     value: true
 });
 
-var _navigate = __webpack_require__(530);
+var _navigate = __webpack_require__(537);
 
 var _navigate2 = _interopRequireDefault(_navigate);
 
-var _navigate3 = __webpack_require__(492);
+var _navigate3 = __webpack_require__(499);
 
 var _navigate4 = _interopRequireDefault(_navigate3);
 
-var _menu = __webpack_require__(529);
+var _menu = __webpack_require__(536);
 
 var _menu2 = _interopRequireDefault(_menu);
 
@@ -366,7 +397,7 @@ exports.default = {
 
 /***/ }),
 
-/***/ 497:
+/***/ 504:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -388,7 +419,7 @@ var _clipboard = __webpack_require__(133);
 
 var _clipboard2 = _interopRequireDefault(_clipboard);
 
-var _tagMap = __webpack_require__(510);
+var _tagMap = __webpack_require__(517);
 
 var _tagMap2 = _interopRequireDefault(_tagMap);
 
@@ -530,7 +561,7 @@ exports.default = {
 
 /***/ }),
 
-/***/ 498:
+/***/ 505:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -540,11 +571,11 @@ Object.defineProperty(exports, "__esModule", {
     value: true
 });
 
-var _navigate = __webpack_require__(492);
+var _navigate = __webpack_require__(499);
 
 var _navigate2 = _interopRequireDefault(_navigate);
 
-var _config = __webpack_require__(500);
+var _config = __webpack_require__(507);
 
 var _config2 = _interopRequireDefault(_config);
 
@@ -552,7 +583,7 @@ var _bus = __webpack_require__(88);
 
 var _bus2 = _interopRequireDefault(_bus);
 
-var _applications = __webpack_require__(526);
+var _applications = __webpack_require__(533);
 
 var _applications2 = _interopRequireDefault(_applications);
 
@@ -692,7 +723,7 @@ exports.default = {
 
 /***/ }),
 
-/***/ 499:
+/***/ 506:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -702,11 +733,11 @@ Object.defineProperty(exports, "__esModule", {
     value: true
 });
 
-var _navigate = __webpack_require__(492);
+var _navigate = __webpack_require__(499);
 
 var _navigate2 = _interopRequireDefault(_navigate);
 
-var _config = __webpack_require__(500);
+var _config = __webpack_require__(507);
 
 var _config2 = _interopRequireDefault(_config);
 
@@ -714,7 +745,7 @@ var _bus = __webpack_require__(88);
 
 var _bus2 = _interopRequireDefault(_bus);
 
-var _adSend = __webpack_require__(524);
+var _adSend = __webpack_require__(531);
 
 var _adSend2 = _interopRequireDefault(_adSend);
 
@@ -794,7 +825,7 @@ exports.default = {
 
 /***/ }),
 
-/***/ 500:
+/***/ 507:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -825,7 +856,7 @@ exports.default = config;
 
 /***/ }),
 
-/***/ 501:
+/***/ 508:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -839,7 +870,7 @@ var _typeof2 = __webpack_require__(89);
 
 var _typeof3 = _interopRequireDefault(_typeof2);
 
-var _pinyin_dict_firstletter = __webpack_require__(511);
+var _pinyin_dict_firstletter = __webpack_require__(518);
 
 var _pinyin_dict_firstletter2 = _interopRequireDefault(_pinyin_dict_firstletter);
 
@@ -1101,7 +1132,7 @@ exports.default = pinyinUtil;
 
 /***/ }),
 
-/***/ 502:
+/***/ 509:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1111,7 +1142,7 @@ Object.defineProperty(exports, "__esModule", {
     value: true
 });
 
-var _pinyinUtil = __webpack_require__(501);
+var _pinyinUtil = __webpack_require__(508);
 
 var _pinyinUtil2 = _interopRequireDefault(_pinyinUtil);
 
@@ -1225,7 +1256,7 @@ exports.default = {
 
 /***/ }),
 
-/***/ 503:
+/***/ 510:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1254,7 +1285,7 @@ if (false) {
 
 /***/ }),
 
-/***/ 504:
+/***/ 511:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1327,7 +1358,7 @@ var staticRenderFns = [function () {
   var _c = _vm._self._c || _h;
   return _c("div", { staticClass: "asd-main" }, [_c("img", {
     staticStyle: { "border-radius": "6px" },
-    attrs: { src: __webpack_require__(520) }
+    attrs: { src: __webpack_require__(527) }
   })]);
 }];
 render._withStripped = true;
@@ -1343,7 +1374,7 @@ if (false) {
 
 /***/ }),
 
-/***/ 505:
+/***/ 512:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1434,8 +1465,8 @@ var render = function render() {
       href: "https://segmentfault.com/t/iview",
       target: "_blank"
     }
-  }, [_vm._v("SegmentFault")])])])]), _vm._v(" "), _c("i-col", { attrs: { span: "5", offset: "2" } }, [_c("div", { staticClass: "footer-aside" }, [_c("div", { staticClass: "footer-logo" }, [_c("img", { attrs: { src: __webpack_require__(523) } })]), _vm._v(" "), _c("div", { staticClass: "footer-author" }, [_c("a", { attrs: { href: "https://www.talkingdata.com/" } }, [_c("img", {
-    attrs: { src: __webpack_require__(522) }
+  }, [_vm._v("SegmentFault")])])])]), _vm._v(" "), _c("i-col", { attrs: { span: "5", offset: "2" } }, [_c("div", { staticClass: "footer-aside" }, [_c("div", { staticClass: "footer-logo" }, [_c("img", { attrs: { src: __webpack_require__(530) } })]), _vm._v(" "), _c("div", { staticClass: "footer-author" }, [_c("a", { attrs: { href: "https://www.talkingdata.com/" } }, [_c("img", {
+    attrs: { src: __webpack_require__(529) }
   })])])])])], 1)], 1)])]);
 };
 var staticRenderFns = [];
@@ -1452,7 +1483,7 @@ if (false) {
 
 /***/ }),
 
-/***/ 506:
+/***/ 513:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1489,7 +1520,7 @@ if (false) {
 
 /***/ }),
 
-/***/ 507:
+/***/ 514:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1505,7 +1536,7 @@ var render = function render() {
   return _c("Menu", {
     attrs: { mode: "horizontal", "active-name": _vm.currentActiveKey },
     on: { "on-select": _vm.handleSelect }
-  }, [_c("div", { staticClass: "wrapper-header-nav" }, [_c("router-link", { staticClass: "wrapper-header-nav-logo", attrs: { to: "/" } }, [_c("img", { attrs: { src: __webpack_require__(521) } })]), _vm._v(" "), _c("ApplicationMenu"), _vm._v(" "), _c("div", { staticClass: "wrapper-header-nav-search" }, [_c("i-select", {
+  }, [_c("div", { staticClass: "wrapper-header-nav" }, [_c("router-link", { staticClass: "wrapper-header-nav-logo", attrs: { to: "/" } }, [_c("img", { attrs: { src: __webpack_require__(528) } })]), _vm._v(" "), _c("ApplicationMenu"), _vm._v(" "), _c("div", { staticClass: "wrapper-header-nav-search" }, [_c("i-select", {
     ref: "select",
     attrs: {
       filterable: "",
@@ -1553,7 +1584,7 @@ if (false) {
 
 /***/ }),
 
-/***/ 508:
+/***/ 515:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1630,7 +1661,7 @@ if (false) {
 
 /***/ }),
 
-/***/ 509:
+/***/ 516:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1665,7 +1696,7 @@ if (false) {
 
 /***/ }),
 
-/***/ 510:
+/***/ 517:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1753,7 +1784,7 @@ exports.default = {
 
 /***/ }),
 
-/***/ 511:
+/***/ 518:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1781,55 +1812,6 @@ exports.default = pinyin_dict_firstletter;
 
 /***/ }),
 
-/***/ 512:
-/***/ (function(module, exports) {
-
-// removed by extract-text-webpack-plugin
-
-/***/ }),
-
-/***/ 513:
-/***/ (function(module, exports) {
-
-// removed by extract-text-webpack-plugin
-
-/***/ }),
-
-/***/ 514:
-/***/ (function(module, exports) {
-
-// removed by extract-text-webpack-plugin
-
-/***/ }),
-
-/***/ 515:
-/***/ (function(module, exports) {
-
-// removed by extract-text-webpack-plugin
-
-/***/ }),
-
-/***/ 516:
-/***/ (function(module, exports) {
-
-// removed by extract-text-webpack-plugin
-
-/***/ }),
-
-/***/ 517:
-/***/ (function(module, exports) {
-
-// removed by extract-text-webpack-plugin
-
-/***/ }),
-
-/***/ 518:
-/***/ (function(module, exports) {
-
-// removed by extract-text-webpack-plugin
-
-/***/ }),
-
 /***/ 519:
 /***/ (function(module, exports) {
 
@@ -1838,47 +1820,96 @@ exports.default = pinyin_dict_firstletter;
 /***/ }),
 
 /***/ 520:
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
+
+/***/ }),
+
+/***/ 521:
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
+
+/***/ }),
+
+/***/ 522:
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
+
+/***/ }),
+
+/***/ 523:
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
+
+/***/ }),
+
+/***/ 524:
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
+
+/***/ }),
+
+/***/ 525:
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
+
+/***/ }),
+
+/***/ 526:
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
+
+/***/ }),
+
+/***/ 527:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "512a3fe18c92425975996411a04ac256.png";
 
 /***/ }),
 
-/***/ 521:
+/***/ 528:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "e1cf12c07bf6458992569e67927d767e.png";
 
 /***/ }),
 
-/***/ 522:
+/***/ 529:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "bca1556c01f16f9a9f6094169720c2da.png";
 
 /***/ }),
 
-/***/ 523:
+/***/ 530:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "2ecd3b0452aa197097d5131afacab7b8.png";
 
 /***/ }),
 
-/***/ 524:
+/***/ 531:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_ad_send_vue__ = __webpack_require__(493);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_ad_send_vue__ = __webpack_require__(500);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_ad_send_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_ad_send_vue__);
 /* harmony namespace reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_ad_send_vue__) if(["default","default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_ad_send_vue__[key]; }) }(__WEBPACK_IMPORT_KEY__));
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_642dc412_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_ad_send_vue__ = __webpack_require__(506);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_642dc412_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_ad_send_vue__ = __webpack_require__(513);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_642dc412_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_ad_send_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_642dc412_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_ad_send_vue__);
 var disposed = false
 function injectStyle (ssrContext) {
   if (disposed) return
-  __webpack_require__(515)
+  __webpack_require__(522)
 }
 var normalizeComponent = __webpack_require__(197)
 /* script */
@@ -1925,20 +1956,20 @@ if (false) {(function () {
 
 /***/ }),
 
-/***/ 525:
+/***/ 532:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_anchor_vue__ = __webpack_require__(494);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_anchor_vue__ = __webpack_require__(501);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_anchor_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_anchor_vue__);
 /* harmony namespace reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_anchor_vue__) if(["default","default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_anchor_vue__[key]; }) }(__WEBPACK_IMPORT_KEY__));
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_27dd2a45_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_anchor_vue__ = __webpack_require__(503);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_27dd2a45_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_anchor_vue__ = __webpack_require__(510);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_27dd2a45_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_anchor_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_27dd2a45_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_anchor_vue__);
 var disposed = false
 function injectStyle (ssrContext) {
   if (disposed) return
-  __webpack_require__(512)
+  __webpack_require__(519)
 }
 var normalizeComponent = __webpack_require__(197)
 /* script */
@@ -1985,20 +2016,20 @@ if (false) {(function () {
 
 /***/ }),
 
-/***/ 526:
+/***/ 533:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_applications_vue__ = __webpack_require__(495);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_applications_vue__ = __webpack_require__(502);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_applications_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_applications_vue__);
 /* harmony namespace reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_applications_vue__) if(["default","default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_applications_vue__[key]; }) }(__WEBPACK_IMPORT_KEY__));
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_e9faa89a_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_applications_vue__ = __webpack_require__(509);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_e9faa89a_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_applications_vue__ = __webpack_require__(516);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_e9faa89a_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_applications_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_e9faa89a_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_applications_vue__);
 var disposed = false
 function injectStyle (ssrContext) {
   if (disposed) return
-  __webpack_require__(519)
+  __webpack_require__(526)
 }
 var normalizeComponent = __webpack_require__(197)
 /* script */
@@ -2045,20 +2076,20 @@ if (false) {(function () {
 
 /***/ }),
 
-/***/ 527:
+/***/ 534:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_article_vue__ = __webpack_require__(496);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_article_vue__ = __webpack_require__(503);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_article_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_article_vue__);
 /* harmony namespace reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_article_vue__) if(["default","default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_article_vue__[key]; }) }(__WEBPACK_IMPORT_KEY__));
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_6338ec16_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_article_vue__ = __webpack_require__(505);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_6338ec16_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_article_vue__ = __webpack_require__(512);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_6338ec16_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_article_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_6338ec16_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_article_vue__);
 var disposed = false
 function injectStyle (ssrContext) {
   if (disposed) return
-  __webpack_require__(514)
+  __webpack_require__(521)
 }
 var normalizeComponent = __webpack_require__(197)
 /* script */
@@ -2105,21 +2136,21 @@ if (false) {(function () {
 
 /***/ }),
 
-/***/ 528:
+/***/ 535:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_code_vue__ = __webpack_require__(497);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_code_vue__ = __webpack_require__(504);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_code_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_code_vue__);
 /* harmony namespace reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_code_vue__) if(["default","default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_code_vue__[key]; }) }(__WEBPACK_IMPORT_KEY__));
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_c2ff9106_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_code_vue__ = __webpack_require__(508);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_c2ff9106_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_code_vue__ = __webpack_require__(515);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_c2ff9106_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_code_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_c2ff9106_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_code_vue__);
 var disposed = false
 function injectStyle (ssrContext) {
   if (disposed) return
-  __webpack_require__(518)
-  __webpack_require__(517)
+  __webpack_require__(525)
+  __webpack_require__(524)
 }
 var normalizeComponent = __webpack_require__(197)
 /* script */
@@ -2166,20 +2197,20 @@ if (false) {(function () {
 
 /***/ }),
 
-/***/ 529:
+/***/ 536:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_menu_vue__ = __webpack_require__(498);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_menu_vue__ = __webpack_require__(505);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_menu_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_menu_vue__);
 /* harmony namespace reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_menu_vue__) if(["default","default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_menu_vue__[key]; }) }(__WEBPACK_IMPORT_KEY__));
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_a380d422_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_menu_vue__ = __webpack_require__(507);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_a380d422_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_menu_vue__ = __webpack_require__(514);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_a380d422_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_menu_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_a380d422_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_menu_vue__);
 var disposed = false
 function injectStyle (ssrContext) {
   if (disposed) return
-  __webpack_require__(516)
+  __webpack_require__(523)
 }
 var normalizeComponent = __webpack_require__(197)
 /* script */
@@ -2226,20 +2257,20 @@ if (false) {(function () {
 
 /***/ }),
 
-/***/ 530:
+/***/ 537:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_navigate_vue__ = __webpack_require__(499);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_navigate_vue__ = __webpack_require__(506);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_navigate_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_navigate_vue__);
 /* harmony namespace reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_navigate_vue__) if(["default","default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_navigate_vue__[key]; }) }(__WEBPACK_IMPORT_KEY__));
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_39279dfe_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_navigate_vue__ = __webpack_require__(504);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_39279dfe_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_navigate_vue__ = __webpack_require__(511);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_39279dfe_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_navigate_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_39279dfe_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_navigate_vue__);
 var disposed = false
 function injectStyle (ssrContext) {
   if (disposed) return
-  __webpack_require__(513)
+  __webpack_require__(520)
 }
 var normalizeComponent = __webpack_require__(197)
 /* script */
@@ -2286,7 +2317,7 @@ if (false) {(function () {
 
 /***/ }),
 
-/***/ 531:
+/***/ 538:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2359,27 +2390,27 @@ if (false) {
 
 /***/ }),
 
-/***/ 532:
+/***/ 539:
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 
 /***/ }),
 
-/***/ 533:
+/***/ 540:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_demo_vue__ = __webpack_require__(502);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_demo_vue__ = __webpack_require__(509);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_demo_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_demo_vue__);
 /* harmony namespace reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_demo_vue__) if(["default","default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_demo_vue__[key]; }) }(__WEBPACK_IMPORT_KEY__));
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_054b9c73_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_demo_vue__ = __webpack_require__(531);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_054b9c73_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_demo_vue__ = __webpack_require__(538);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_054b9c73_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_demo_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_054b9c73_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_demo_vue__);
 var disposed = false
 function injectStyle (ssrContext) {
   if (disposed) return
-  __webpack_require__(532)
+  __webpack_require__(539)
 }
 var normalizeComponent = __webpack_require__(197)
 /* script */
@@ -2426,89 +2457,2098 @@ if (false) {(function () {
 
 /***/ }),
 
-/***/ 552:
+/***/ 541:
+/***/ (function(module, exports) {
+
+/*
+	MIT License http://www.opensource.org/licenses/mit-license.php
+	Author Tobias Koppers @sokra
+*/
+// css base code, injected by the css-loader
+module.exports = function() {
+	var list = [];
+
+	// return the list of modules as css string
+	list.toString = function toString() {
+		var result = [];
+		for(var i = 0; i < this.length; i++) {
+			var item = this[i];
+			if(item[2]) {
+				result.push("@media " + item[2] + "{" + item[1] + "}");
+			} else {
+				result.push(item[1]);
+			}
+		}
+		return result.join("");
+	};
+
+	// import a list of modules into the list
+	list.i = function(modules, mediaQuery) {
+		if(typeof modules === "string")
+			modules = [[null, modules, ""]];
+		var alreadyImportedModules = {};
+		for(var i = 0; i < this.length; i++) {
+			var id = this[i][0];
+			if(typeof id === "number")
+				alreadyImportedModules[id] = true;
+		}
+		for(i = 0; i < modules.length; i++) {
+			var item = modules[i];
+			// skip already imported module
+			// this implementation is not 100% perfect for weird media query combinations
+			//  when a module is imported multiple times with different media queries.
+			//  I hope this will never occur (Hey this way we have smaller bundles)
+			if(typeof item[0] !== "number" || !alreadyImportedModules[item[0]]) {
+				if(mediaQuery && !item[2]) {
+					item[2] = mediaQuery;
+				} else if(mediaQuery) {
+					item[2] = "(" + item[2] + ") and (" + mediaQuery + ")";
+				}
+				list.push(item);
+			}
+		}
+	};
+	return list;
+};
+
+
+/***/ }),
+
+/***/ 542:
+/***/ (function(module, exports, __webpack_require__) {
+
+/*
+  MIT License http://www.opensource.org/licenses/mit-license.php
+  Author Tobias Koppers @sokra
+  Modified by Evan You @yyx990803
+*/
+
+var hasDocument = typeof document !== 'undefined'
+
+if (typeof DEBUG !== 'undefined' && DEBUG) {
+  if (!hasDocument) {
+    throw new Error(
+    'vue-style-loader cannot be used in a non-browser environment. ' +
+    "Use { target: 'node' } in your Webpack config to indicate a server-rendering environment."
+  ) }
+}
+
+var listToStyles = __webpack_require__(543)
+
+/*
+type StyleObject = {
+  id: number;
+  parts: Array<StyleObjectPart>
+}
+
+type StyleObjectPart = {
+  css: string;
+  media: string;
+  sourceMap: ?string
+}
+*/
+
+var stylesInDom = {/*
+  [id: number]: {
+    id: number,
+    refs: number,
+    parts: Array<(obj?: StyleObjectPart) => void>
+  }
+*/}
+
+var head = hasDocument && (document.head || document.getElementsByTagName('head')[0])
+var singletonElement = null
+var singletonCounter = 0
+var isProduction = false
+var noop = function () {}
+var options = null
+var ssrIdKey = 'data-vue-ssr-id'
+
+// Force single-tag solution on IE6-9, which has a hard limit on the # of <style>
+// tags it will allow on a page
+var isOldIE = typeof navigator !== 'undefined' && /msie [6-9]\b/.test(navigator.userAgent.toLowerCase())
+
+module.exports = function (parentId, list, _isProduction, _options) {
+  isProduction = _isProduction
+
+  options = _options || {}
+
+  var styles = listToStyles(parentId, list)
+  addStylesToDom(styles)
+
+  return function update (newList) {
+    var mayRemove = []
+    for (var i = 0; i < styles.length; i++) {
+      var item = styles[i]
+      var domStyle = stylesInDom[item.id]
+      domStyle.refs--
+      mayRemove.push(domStyle)
+    }
+    if (newList) {
+      styles = listToStyles(parentId, newList)
+      addStylesToDom(styles)
+    } else {
+      styles = []
+    }
+    for (var i = 0; i < mayRemove.length; i++) {
+      var domStyle = mayRemove[i]
+      if (domStyle.refs === 0) {
+        for (var j = 0; j < domStyle.parts.length; j++) {
+          domStyle.parts[j]()
+        }
+        delete stylesInDom[domStyle.id]
+      }
+    }
+  }
+}
+
+function addStylesToDom (styles /* Array<StyleObject> */) {
+  for (var i = 0; i < styles.length; i++) {
+    var item = styles[i]
+    var domStyle = stylesInDom[item.id]
+    if (domStyle) {
+      domStyle.refs++
+      for (var j = 0; j < domStyle.parts.length; j++) {
+        domStyle.parts[j](item.parts[j])
+      }
+      for (; j < item.parts.length; j++) {
+        domStyle.parts.push(addStyle(item.parts[j]))
+      }
+      if (domStyle.parts.length > item.parts.length) {
+        domStyle.parts.length = item.parts.length
+      }
+    } else {
+      var parts = []
+      for (var j = 0; j < item.parts.length; j++) {
+        parts.push(addStyle(item.parts[j]))
+      }
+      stylesInDom[item.id] = { id: item.id, refs: 1, parts: parts }
+    }
+  }
+}
+
+function createStyleElement () {
+  var styleElement = document.createElement('style')
+  styleElement.type = 'text/css'
+  head.appendChild(styleElement)
+  return styleElement
+}
+
+function addStyle (obj /* StyleObjectPart */) {
+  var update, remove
+  var styleElement = document.querySelector('style[' + ssrIdKey + '~="' + obj.id + '"]')
+
+  if (styleElement) {
+    if (isProduction) {
+      // has SSR styles and in production mode.
+      // simply do nothing.
+      return noop
+    } else {
+      // has SSR styles but in dev mode.
+      // for some reason Chrome can't handle source map in server-rendered
+      // style tags - source maps in <style> only works if the style tag is
+      // created and inserted dynamically. So we remove the server rendered
+      // styles and inject new ones.
+      styleElement.parentNode.removeChild(styleElement)
+    }
+  }
+
+  if (isOldIE) {
+    // use singleton mode for IE9.
+    var styleIndex = singletonCounter++
+    styleElement = singletonElement || (singletonElement = createStyleElement())
+    update = applyToSingletonTag.bind(null, styleElement, styleIndex, false)
+    remove = applyToSingletonTag.bind(null, styleElement, styleIndex, true)
+  } else {
+    // use multi-style-tag mode in all other cases
+    styleElement = createStyleElement()
+    update = applyToTag.bind(null, styleElement)
+    remove = function () {
+      styleElement.parentNode.removeChild(styleElement)
+    }
+  }
+
+  update(obj)
+
+  return function updateStyle (newObj /* StyleObjectPart */) {
+    if (newObj) {
+      if (newObj.css === obj.css &&
+          newObj.media === obj.media &&
+          newObj.sourceMap === obj.sourceMap) {
+        return
+      }
+      update(obj = newObj)
+    } else {
+      remove()
+    }
+  }
+}
+
+var replaceText = (function () {
+  var textStore = []
+
+  return function (index, replacement) {
+    textStore[index] = replacement
+    return textStore.filter(Boolean).join('\n')
+  }
+})()
+
+function applyToSingletonTag (styleElement, index, remove, obj) {
+  var css = remove ? '' : obj.css
+
+  if (styleElement.styleSheet) {
+    styleElement.styleSheet.cssText = replaceText(index, css)
+  } else {
+    var cssNode = document.createTextNode(css)
+    var childNodes = styleElement.childNodes
+    if (childNodes[index]) styleElement.removeChild(childNodes[index])
+    if (childNodes.length) {
+      styleElement.insertBefore(cssNode, childNodes[index])
+    } else {
+      styleElement.appendChild(cssNode)
+    }
+  }
+}
+
+function applyToTag (styleElement, obj) {
+  var css = obj.css
+  var media = obj.media
+  var sourceMap = obj.sourceMap
+
+  if (media) {
+    styleElement.setAttribute('media', media)
+  }
+  if (options.ssrId) {
+    styleElement.setAttribute(ssrIdKey, obj.id)
+  }
+
+  if (sourceMap) {
+    // https://developer.chrome.com/devtools/docs/javascript-debugging
+    // this makes source maps inside style tags work properly in Chrome
+    css += '\n/*# sourceURL=' + sourceMap.sources[0] + ' */'
+    // http://stackoverflow.com/a/26603875
+    css += '\n/*# sourceMappingURL=data:application/json;base64,' + btoa(unescape(encodeURIComponent(JSON.stringify(sourceMap)))) + ' */'
+  }
+
+  if (styleElement.styleSheet) {
+    styleElement.styleSheet.cssText = css
+  } else {
+    while (styleElement.firstChild) {
+      styleElement.removeChild(styleElement.firstChild)
+    }
+    styleElement.appendChild(document.createTextNode(css))
+  }
+}
+
+
+/***/ }),
+
+/***/ 543:
+/***/ (function(module, exports) {
+
+/**
+ * Translates the list format produced by css-loader into something
+ * easier to manipulate.
+ */
+module.exports = function listToStyles (parentId, list) {
+  var styles = []
+  var newStyles = {}
+  for (var i = 0; i < list.length; i++) {
+    var item = list[i]
+    var id = item[0]
+    var css = item[1]
+    var media = item[2]
+    var sourceMap = item[3]
+    var part = {
+      id: parentId + ':' + i,
+      css: css,
+      media: media,
+      sourceMap: sourceMap
+    }
+    if (!newStyles[id]) {
+      styles.push(newStyles[id] = { id: id, parts: [part] })
+    } else {
+      newStyles[id].parts.push(part)
+    }
+  }
+  return styles
+}
+
+
+/***/ }),
+
+/***/ 545:
+/***/ (function(module, exports, __webpack_require__) {
+
+(function webpackUniversalModuleDefinition(root, factory) {
+	if(true)
+		module.exports = factory();
+	else if(typeof define === 'function' && define.amd)
+		define([], factory);
+	else if(typeof exports === 'object')
+		exports["BScroll"] = factory();
+	else
+		root["BScroll"] = factory();
+})(this, function() {
+return /******/ (function(modules) { // webpackBootstrap
+/******/ 	// The module cache
+/******/ 	var installedModules = {};
+
+/******/ 	// The require function
+/******/ 	function __webpack_require__(moduleId) {
+
+/******/ 		// Check if module is in cache
+/******/ 		if(installedModules[moduleId])
+/******/ 			return installedModules[moduleId].exports;
+
+/******/ 		// Create a new module (and put it into the cache)
+/******/ 		var module = installedModules[moduleId] = {
+/******/ 			exports: {},
+/******/ 			id: moduleId,
+/******/ 			loaded: false
+/******/ 		};
+
+/******/ 		// Execute the module function
+/******/ 		modules[moduleId].call(module.exports, module, module.exports, __webpack_require__);
+
+/******/ 		// Flag the module as loaded
+/******/ 		module.loaded = true;
+
+/******/ 		// Return the exports of the module
+/******/ 		return module.exports;
+/******/ 	}
+
+
+/******/ 	// expose the modules object (__webpack_modules__)
+/******/ 	__webpack_require__.m = modules;
+
+/******/ 	// expose the module cache
+/******/ 	__webpack_require__.c = installedModules;
+
+/******/ 	// __webpack_public_path__
+/******/ 	__webpack_require__.p = "/assets/";
+
+/******/ 	// Load entry module and return exports
+/******/ 	return __webpack_require__(0);
+/******/ })
+/************************************************************************/
+/******/ ([
+/* 0 */
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+
+	var _bscroll = __webpack_require__(1);
+
+	_bscroll.BScroll.Version = ("0.1.15");
+
+	module.exports = _bscroll.BScroll;
+
+/***/ },
+/* 1 */
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	exports.BScroll = undefined;
+
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+	var _util = __webpack_require__(2);
+
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+	var TOUCH_EVENT = 1;
+
+	var BScroll = exports.BScroll = function (_EventEmitter) {
+	  _inherits(BScroll, _EventEmitter);
+
+	  function BScroll(el, options) {
+	    _classCallCheck(this, BScroll);
+
+	    var _this = _possibleConstructorReturn(this, Object.getPrototypeOf(BScroll).call(this));
+
+	    _this.wrapper = typeof el === 'string' ? document.querySelector(el) : el;
+	    _this.scroller = _this.wrapper.children[0];
+
+	    _this.scrollerStyle = _this.scroller.style;
+
+	    _this.options = {
+	      startX: 0,
+	      startY: 0,
+	      scrollY: true,
+	      directionLockThreshold: 5,
+	      momentum: true,
+	      bounce: true,
+	      selectedIndex: 0,
+	      rotate: 25,
+	      wheel: false,
+	      snap: false,
+	      snapLoop: false,
+	      snapThreshold: 0.1,
+	      swipeTime: 2500,
+	      bounceTime: 700,
+	      adjustTime: 400,
+	      swipeBounceTime: 1200,
+	      deceleration: 0.001,
+	      momentumLimitTime: 300,
+	      momentumLimitDistance: 15,
+	      resizePolling: 60,
+	      preventDefault: true,
+	      preventDefaultException: {
+	        tagName: /^(INPUT|TEXTAREA|BUTTON|SELECT)$/
+	      },
+	      HWCompositing: true,
+	      useTransition: true,
+	      useTransform: true
+	    };
+
+	    (0, _util.extend)(_this.options, options);
+
+	    _this.translateZ = _this.options.HWCompositing && _util.hasPerspective ? ' translateZ(0)' : '';
+
+	    _this.options.useTransition = _this.options.useTransition && _util.hasTransition;
+	    _this.options.useTransform = _this.options.useTransform && _util.hasTransform;
+
+	    _this.options.eventPassthrough = _this.options.eventPassthrough === true ? 'vertical' : _this.options.eventPassthrough;
+	    _this.options.preventDefault = !_this.options.eventPassthrough && _this.options.preventDefault;
+
+	    _this.options.scrollX = _this.options.eventPassthrough === 'horizontal' ? false : _this.options.scrollX;
+	    _this.options.scrollY = _this.options.eventPassthrough === 'vertical' ? false : _this.options.scrollY;
+
+	    _this.options.freeScroll = _this.options.freeScroll && !_this.options.eventPassthrough;
+	    _this.options.directionLockThreshold = _this.options.eventPassthrough ? 0 : _this.options.directionLockThreshold;
+
+	    if (_this.options.tap === true) {
+	      _this.options.tap = 'tap';
+	    }
+
+	    _this._init();
+
+	    if (_this.options.snap) {
+	      _this._initSnap();
+	    }
+
+	    _this.refresh();
+
+	    if (!_this.options.snap) {
+	      _this.scrollTo(_this.options.startX, _this.options.startY);
+	    }
+
+	    _this.enable();
+	    return _this;
+	  }
+
+	  _createClass(BScroll, [{
+	    key: '_init',
+	    value: function _init() {
+	      this.x = 0;
+	      this.y = 0;
+	      this.directionX = 0;
+	      this.directionY = 0;
+
+	      this._addEvents();
+	    }
+	  }, {
+	    key: '_initSnap',
+	    value: function _initSnap() {
+	      var _this2 = this;
+
+	      this.currentPage = {};
+
+	      if (this.options.snapLoop) {
+	        var children = this.scroller.children;
+	        if (children.length > 0) {
+	          (0, _util.prepend)(children[children.length - 1].cloneNode(true), this.scroller);
+	          this.scroller.appendChild(children[1].cloneNode(true));
+	        }
+	      }
+
+	      if (typeof this.options.snap === 'string') {
+	        this.options.snap = this.scroller.querySelectorAll(this.options.snap);
+	      }
+
+	      this.on('refresh', function () {
+	        _this2.pages = [];
+
+	        if (!_this2.wrapperWidth || !_this2.wrapperHeight || !_this2.scrollerWidth || !_this2.scrollerHeight) {
+	          return;
+	        }
+
+	        var stepX = _this2.options.snapStepX || _this2.wrapperWidth;
+	        var stepY = _this2.options.snapStepY || _this2.wrapperHeight;
+
+	        var x = 0;
+	        var y = void 0;
+	        var cx = void 0;
+	        var cy = void 0;
+	        var i = 0;
+	        var l = void 0;
+	        var m = 0;
+	        var n = void 0;
+	        var el = void 0;
+	        var rect = void 0;
+	        if (_this2.options.snap === true) {
+	          cx = Math.round(stepX / 2);
+	          cy = Math.round(stepY / 2);
+
+	          while (x > -_this2.scrollerWidth) {
+	            _this2.pages[i] = [];
+	            l = 0;
+	            y = 0;
+
+	            while (y > -_this2.scrollerHeight) {
+	              _this2.pages[i][l] = {
+	                x: Math.max(x, _this2.maxScrollX),
+	                y: Math.max(y, _this2.maxScrollY),
+	                width: stepX,
+	                height: stepY,
+	                cx: x - cx,
+	                cy: y - cy
+	              };
+
+	              y -= stepY;
+	              l++;
+	            }
+
+	            x -= stepX;
+	            i++;
+	          }
+	        } else {
+	          el = _this2.options.snap;
+	          l = el.length;
+	          n = -1;
+
+	          for (; i < l; i++) {
+	            rect = (0, _util.getRect)(el[i]);
+	            if (i === 0 || rect.left <= (0, _util.getRect)(el[i - 1]).left) {
+	              m = 0;
+	              n++;
+	            }
+
+	            if (!_this2.pages[m]) {
+	              _this2.pages[m] = [];
+	            }
+
+	            x = Math.max(-rect.left, _this2.maxScrollX);
+	            y = Math.max(-rect.top, _this2.maxScrollY);
+	            cx = x - Math.round(rect.width / 2);
+	            cy = y - Math.round(rect.height / 2);
+
+	            _this2.pages[m][n] = {
+	              x: x,
+	              y: y,
+	              width: rect.width,
+	              height: rect.height,
+	              cx: cx,
+	              cy: cy
+	            };
+
+	            if (x > _this2.maxScrollX) {
+	              m++;
+	            }
+	          }
+	        }
+
+	        var initPage = _this2.options.snapLoop ? 1 : 0;
+	        _this2.goToPage(_this2.currentPage.pageX || initPage, _this2.currentPage.pageY || 0, 0);
+
+	        if (_this2.options.snapThreshold % 1 === 0) {
+	          _this2.snapThresholdX = _this2.options.snapThreshold;
+	          _this2.snapThresholdY = _this2.options.snapThreshold;
+	        } else {
+	          _this2.snapThresholdX = Math.round(_this2.pages[_this2.currentPage.pageX][_this2.currentPage.pageY].width * _this2.options.snapThreshold);
+	          _this2.snapThresholdY = Math.round(_this2.pages[_this2.currentPage.pageX][_this2.currentPage.pageY].height * _this2.options.snapThreshold);
+	        }
+	      });
+
+	      this.on('scrollEnd', function () {
+	        if (_this2.options.snapLoop) {
+	          if (_this2.currentPage.pageX === 0) {
+	            _this2.goToPage(_this2.pages.length - 2, _this2.currentPage.pageY, 0);
+	          }
+	          if (_this2.currentPage.pageX === _this2.pages.length - 1) {
+	            _this2.goToPage(1, _this2.currentPage.pageY, 0);
+	          }
+	        }
+	      });
+
+	      this.on('flick', function () {
+	        var time = _this2.options.snapSpeed || Math.max(Math.max(Math.min(Math.abs(_this2.x - _this2.startX), 1000), Math.min(Math.abs(_this2.y - _this2.startY), 1000)), 300);
+
+	        _this2.goToPage(_this2.currentPage.pageX + _this2.directionX, _this2.currentPage.pageY + _this2.directionY, time);
+	      });
+	    }
+	  }, {
+	    key: '_nearestSnap',
+	    value: function _nearestSnap(x, y) {
+	      if (!this.pages.length) {
+	        return { x: 0, y: 0, pageX: 0, pageY: 0 };
+	      }
+
+	      var i = 0;
+
+	      if (Math.abs(x - this.absStartX) < this.snapThresholdX && Math.abs(y - this.absStartY) < this.snapThresholdY) {
+	        return this.currentPage;
+	      }
+
+	      if (x > 0) {
+	        x = 0;
+	      } else if (x < this.maxScrollX) {
+	        x = this.maxScrollX;
+	      }
+
+	      if (y > 0) {
+	        y = 0;
+	      } else if (y < this.maxScrollY) {
+	        y = this.maxScrollY;
+	      }
+
+	      var l = this.pages.length;
+	      for (; i < l; i++) {
+	        if (x >= this.pages[i][0].cx) {
+	          x = this.pages[i][0].x;
+	          break;
+	        }
+	      }
+
+	      l = this.pages[i].length;
+
+	      var m = 0;
+	      for (; m < l; m++) {
+	        if (y >= this.pages[0][m].cy) {
+	          y = this.pages[0][m].y;
+	          break;
+	        }
+	      }
+
+	      if (i === this.currentPage.pageX) {
+	        i += this.directionX;
+
+	        if (i < 0) {
+	          i = 0;
+	        } else if (i >= this.pages.length) {
+	          i = this.pages.length - 1;
+	        }
+
+	        x = this.pages[i][0].x;
+	      }
+
+	      if (m === this.currentPage.pageY) {
+	        m += this.directionY;
+
+	        if (m < 0) {
+	          m = 0;
+	        } else if (m >= this.pages[0].length) {
+	          m = this.pages[0].length - 1;
+	        }
+
+	        y = this.pages[0][m].y;
+	      }
+
+	      return {
+	        x: x,
+	        y: y,
+	        pageX: i,
+	        pageY: m
+	      };
+	    }
+	  }, {
+	    key: '_addEvents',
+	    value: function _addEvents() {
+	      var eventOperation = _util.addEvent;
+	      this._handleEvents(eventOperation);
+	    }
+	  }, {
+	    key: '_removeEvents',
+	    value: function _removeEvents() {
+	      var eventOperation = _util.removeEvent;
+	      this._handleEvents(eventOperation);
+	    }
+	  }, {
+	    key: '_handleEvents',
+	    value: function _handleEvents(eventOperation) {
+	      var target = this.options.bindToWrapper ? this.wrapper : window;
+	      eventOperation(window, 'orientationchange', this);
+	      eventOperation(window, 'resize', this);
+
+	      if (this.options.click) {
+	        eventOperation(this.wrapper, 'click', this);
+	      }
+
+	      if (!this.options.disableMouse) {
+	        eventOperation(this.wrapper, 'mousedown', this);
+	        eventOperation(target, 'mousemove', this);
+	        eventOperation(target, 'mousecancel', this);
+	        eventOperation(target, 'mouseup', this);
+	      }
+
+	      if (_util.hasTouch && !this.options.disableTouch) {
+	        eventOperation(this.wrapper, 'touchstart', this);
+	        eventOperation(target, 'touchmove', this);
+	        eventOperation(target, 'touchcancel', this);
+	        eventOperation(target, 'touchend', this);
+	      }
+
+	      eventOperation(this.scroller, _util.style.transitionEnd, this);
+	    }
+	  }, {
+	    key: '_start',
+	    value: function _start(e) {
+	      var _eventType = _util.eventType[e.type];
+	      if (_eventType !== TOUCH_EVENT) {
+	        if (e.button !== 0) {
+	          return;
+	        }
+	      }
+	      if (!this.enabled || this.destroyed || this.initiated && this.initiated !== _eventType) {
+	        return;
+	      }
+	      this.initiated = _eventType;
+
+	      if (this.options.preventDefault && !_util.isBadAndroid && !(0, _util.preventDefaultException)(e.target, this.options.preventDefaultException)) {
+	        e.preventDefault();
+	      }
+
+	      this.moved = false;
+	      this.distX = 0;
+	      this.distY = 0;
+	      this.directionX = 0;
+	      this.directionY = 0;
+	      this.directionLocked = 0;
+
+	      this._transitionTime();
+	      this.startTime = +new Date();
+
+	      if (this.options.wheel) {
+	        this.target = e.target;
+	      }
+
+	      if (this.options.useTransition && this.isInTransition) {
+	        this.isInTransition = false;
+	        var pos = this.getComputedPosition();
+	        this._translate(pos.x, pos.y);
+	        if (this.options.wheel) {
+	          this.target = this.items[Math.round(-pos.y / this.itemHeight)];
+	        } else {
+	          this.trigger('scrollEnd');
+	        }
+	      }
+
+	      var point = e.touches ? e.touches[0] : e;
+
+	      this.startX = this.x;
+	      this.startY = this.y;
+	      this.absStartX = this.x;
+	      this.absStartY = this.y;
+	      this.pointX = point.pageX;
+	      this.pointY = point.pageY;
+
+	      this.trigger('beforeScrollStart');
+	    }
+	  }, {
+	    key: '_move',
+	    value: function _move(e) {
+	      if (!this.enabled || this.destroyed || _util.eventType[e.type] !== this.initiated) {
+	        return;
+	      }
+
+	      if (this.options.preventDefault) {
+	        e.preventDefault();
+	      }
+
+	      var point = e.touches ? e.touches[0] : e;
+	      var deltaX = point.pageX - this.pointX;
+	      var deltaY = point.pageY - this.pointY;
+
+	      this.pointX = point.pageX;
+	      this.pointY = point.pageY;
+
+	      this.distX += deltaX;
+	      this.distY += deltaY;
+
+	      var absDistX = Math.abs(this.distX);
+	      var absDistY = Math.abs(this.distY);
+
+	      var timestamp = +new Date();
+
+	      if (timestamp - this.endTime > this.options.momentumLimitTime && absDistY < this.options.momentumLimitDistance && absDistX < this.options.momentumLimitDistance) {
+	        return;
+	      }
+
+	      if (!this.directionLocked && !this.options.freeScroll) {
+	        if (absDistX > absDistY + this.options.directionLockThreshold) {
+	          this.directionLocked = 'h';
+	        } else if (absDistY >= absDistX + this.options.directionLockThreshold) {
+	          this.directionLocked = 'v';
+	        } else {
+	          this.directionLocked = 'n';
+	        }
+	      }
+
+	      if (this.directionLocked === 'h') {
+	        if (this.options.eventPassthrough === 'vertical') {
+	          e.preventDefault();
+	        } else if (this.options.eventPassthrough === 'horizontal') {
+	          this.initiated = false;
+	          return;
+	        }
+	        deltaY = 0;
+	      } else if (this.directionLocked === 'v') {
+	        if (this.options.eventPassthrough === 'horizontal') {
+	          e.preventDefault();
+	        } else if (this.options.eventPassthrough === 'vertical') {
+	          this.initiated = false;
+	          return;
+	        }
+	        deltaX = 0;
+	      }
+
+	      deltaX = this.hasHorizontalScroll ? deltaX : 0;
+	      deltaY = this.hasVerticalScroll ? deltaY : 0;
+
+	      var newX = this.x + deltaX;
+	      var newY = this.y + deltaY;
+
+	      if (newX > 0 || newX < this.maxScrollX) {
+	        if (this.options.bounce) {
+	          newX = this.x + deltaX / 3;
+	        } else {
+	          newX = newX > 0 ? 0 : this.maxScrollX;
+	        }
+	      }
+	      if (newY > 0 || newY < this.maxScrollY) {
+	        if (this.options.bounce) {
+	          newY = this.y + deltaY / 3;
+	        } else {
+	          newY = newY > 0 ? 0 : this.maxScrollY;
+	        }
+	      }
+
+	      this.directionX = deltaX > 0 ? -1 : deltaX < 0 ? 1 : 0;
+	      this.directionY = deltaY > 0 ? -1 : deltaY < 0 ? 1 : 0;
+
+	      if (!this.moved) {
+	        this.moved = true;
+	        this.trigger('scrollStart');
+	      }
+
+	      this._translate(newX, newY);
+
+	      if (timestamp - this.startTime > this.options.momentumLimitTime) {
+	        this.startTime = timestamp;
+	        this.startX = this.x;
+	        this.startY = this.y;
+
+	        if (this.options.probeType === 1) {
+	          this.trigger('scroll', {
+	            x: this.x,
+	            y: this.y
+	          });
+	        }
+	      }
+
+	      if (this.options.probeType > 1) {
+	        this.trigger('scroll', {
+	          x: this.x,
+	          y: this.y
+	        });
+	      }
+
+	      var scrollLeft = document.documentElement.scrollLeft || window.pageXOffset || document.body.scrollLeft;
+	      var scrollTop = document.documentElement.scrollTop || window.pageYOffset || document.body.scrollTop;
+
+	      var pX = this.pointX - scrollLeft;
+	      var pY = this.pointY - scrollTop;
+
+	      if (pX > document.documentElement.clientWidth - this.options.momentumLimitDistance || pX < this.options.momentumLimitDistance || pY < this.options.momentumLimitDistance || pY > document.documentElement.clientHeight - this.options.momentumLimitDistance) {
+	        this._end(e);
+	      }
+	    }
+	  }, {
+	    key: '_end',
+	    value: function _end(e) {
+	      if (!this.enabled || this.destroyed || _util.eventType[e.type] !== this.initiated) {
+	        return;
+	      }
+	      this.initiated = false;
+
+	      if (this.options.preventDefault && !(0, _util.preventDefaultException)(e.target, this.options.preventDefaultException)) {
+	        e.preventDefault();
+	      }
+
+	      this.trigger('touchend', {
+	        x: this.x,
+	        y: this.y
+	      });
+
+	      if (this.resetPosition(this.options.bounceTime, _util.ease.bounce)) {
+	        return;
+	      }
+	      this.isInTransition = false;
+
+	      var newX = Math.round(this.x);
+	      var newY = Math.round(this.y);
+
+	      if (!this.moved) {
+	        if (this.options.wheel) {
+	          if (this.target && this.target.className === 'wheel-scroll') {
+	            var index = Math.abs(Math.round(newY / this.itemHeight));
+	            var _offset = Math.round((this.pointY + (0, _util.offset)(this.target).top - this.itemHeight / 2) / this.itemHeight);
+	            this.target = this.items[index + _offset];
+	          }
+	          this.scrollToElement(this.target, this.options.adjustTime, true, true, _util.ease.swipe);
+	        } else {
+	          if (this.options.tap) {
+	            (0, _util.tap)(e, this.options.tap);
+	          }
+
+	          if (this.options.click) {
+	            (0, _util.click)(e);
+	          }
+	        }
+	        this.trigger('scrollCancel');
+	        return;
+	      }
+
+	      this.scrollTo(newX, newY);
+
+	      this.endTime = +new Date();
+
+	      var duration = this.endTime - this.startTime;
+	      var absDistX = Math.abs(newX - this.startX);
+	      var absDistY = Math.abs(newY - this.startY);
+
+	      if (this._events.flick && duration < this.options.momentumLimitTime && absDistX < this.options.momentumLimitDistance && absDistY < this.options.momentumLimitDistance) {
+	        this.trigger('flick');
+	        return;
+	      }
+
+	      var time = 0;
+
+	      if (this.options.momentum && duration < this.options.momentumLimitTime && (absDistY > this.options.momentumLimitDistance || absDistX > this.options.momentumLimitDistance)) {
+	        var momentumX = this.hasHorizontalScroll ? (0, _util.momentum)(this.x, this.startX, duration, this.maxScrollX, this.options.bounce ? this.wrapperWidth : 0, this.options) : { destination: newX, duration: 0 };
+	        var momentumY = this.hasVerticalScroll ? (0, _util.momentum)(this.y, this.startY, duration, this.maxScrollY, this.options.bounce ? this.wrapperHeight : 0, this.options) : { destination: newY, duration: 0 };
+	        newX = momentumX.destination;
+	        newY = momentumY.destination;
+	        time = Math.max(momentumX.duration, momentumY.duration);
+	        this.isInTransition = 1;
+	      } else {
+	        if (this.options.wheel) {
+	          newY = Math.round(newY / this.itemHeight) * this.itemHeight;
+	          time = this.options.adjustTime;
+	        }
+	      }
+
+	      var easing = _util.ease.swipe;
+	      if (this.options.snap) {
+	        var snap = this._nearestSnap(newX, newY);
+	        this.currentPage = snap;
+	        time = this.options.snapSpeed || Math.max(Math.max(Math.min(Math.abs(newX - snap.x), 1000), Math.min(Math.abs(newY - snap.y), 1000)), 300);
+	        newX = snap.x;
+	        newY = snap.y;
+
+	        this.directionX = 0;
+	        this.directionY = 0;
+	        easing = _util.ease.bounce;
+	      }
+
+	      if (newX !== this.x || newY !== this.y) {
+	        if (newX > 0 || newX < this.maxScrollX || newY > 0 || newY < this.maxScrollY) {
+	          easing = _util.ease.swipeBounce;
+	        }
+	        this.scrollTo(newX, newY, time, easing);
+	        return;
+	      }
+
+	      if (this.options.wheel) {
+	        this.selectedIndex = Math.abs(this.y / this.itemHeight) | 0;
+	      }
+	      this.trigger('scrollEnd');
+	    }
+	  }, {
+	    key: '_resize',
+	    value: function _resize() {
+	      var _this3 = this;
+
+	      if (!this.enabled) {
+	        return;
+	      }
+
+	      clearTimeout(this.resizeTimeout);
+	      this.resizeTimeout = setTimeout(function () {
+	        _this3.refresh();
+	      }, this.options.resizePolling);
+	    }
+	  }, {
+	    key: '_startProbe',
+	    value: function _startProbe() {
+	      (0, _util.cancelAnimationFrame)(this.probeTimer);
+	      this.probeTimer = (0, _util.requestAnimationFrame)(probe);
+
+	      var me = this;
+
+	      function probe() {
+	        var pos = me.getComputedPosition();
+	        me.trigger('scroll', pos);
+	        if (me.isInTransition) {
+	          me.probeTimer = (0, _util.requestAnimationFrame)(probe);
+	        }
+	      }
+	    }
+	  }, {
+	    key: '_transitionTime',
+	    value: function _transitionTime() {
+	      var _this4 = this;
+
+	      var time = arguments.length <= 0 || arguments[0] === undefined ? 0 : arguments[0];
+
+	      this.scrollerStyle[_util.style.transitionDuration] = time + 'ms';
+
+	      if (this.options.wheel && !_util.isBadAndroid) {
+	        for (var i = 0; i < this.items.length; i++) {
+	          this.items[i].style[_util.style.transitionDuration] = time + 'ms';
+	        }
+	      }
+
+	      if (!time && _util.isBadAndroid) {
+	        this.scrollerStyle[_util.style.transitionDuration] = '0.001s';
+
+	        (0, _util.requestAnimationFrame)(function () {
+	          if (_this4.scrollerStyle[_util.style.transitionDuration] === '0.0001ms') {
+	            _this4.scrollerStyle[_util.style.transitionDuration] = '0s';
+	          }
+	        });
+	      }
+	    }
+	  }, {
+	    key: '_transitionTimingFunction',
+	    value: function _transitionTimingFunction(easing) {
+	      this.scrollerStyle[_util.style.transitionTimingFunction] = easing;
+
+	      if (this.options.wheel && !_util.isBadAndroid) {
+	        for (var i = 0; i < this.items.length; i++) {
+	          this.items[i].style[_util.style.transitionTimingFunction] = easing;
+	        }
+	      }
+	    }
+	  }, {
+	    key: '_transitionEnd',
+	    value: function _transitionEnd(e) {
+	      if (e.target !== this.scroller || !this.isInTransition) {
+	        return;
+	      }
+
+	      this._transitionTime();
+	      if (!this.resetPosition(this.options.bounceTime, _util.ease.bounce)) {
+	        this.isInTransition = false;
+	        this.trigger('scrollEnd');
+	      }
+	    }
+	  }, {
+	    key: '_translate',
+	    value: function _translate(x, y) {
+	      if (this.options.useTransform) {
+	        this.scrollerStyle[_util.style.transform] = 'translate(' + x + 'px,' + y + 'px)' + this.translateZ;
+	      } else {
+	        x = Math.round(x);
+	        y = Math.round(y);
+	        this.scrollerStyle.left = x + 'px';
+	        this.scrollerStyle.top = y + 'px';
+	      }
+
+	      if (this.options.wheel && !_util.isBadAndroid) {
+	        for (var i = 0; i < this.items.length; i++) {
+	          var deg = this.options.rotate * (y / this.itemHeight + i);
+	          this.items[i].style[_util.style.transform] = 'rotateX(' + deg + 'deg)';
+	        }
+	      }
+
+	      this.x = x;
+	      this.y = y;
+	    }
+	  }, {
+	    key: 'enable',
+	    value: function enable() {
+	      this.enabled = true;
+	    }
+	  }, {
+	    key: 'disable',
+	    value: function disable() {
+	      this.enabled = false;
+	    }
+	  }, {
+	    key: 'refresh',
+	    value: function refresh() {
+	      var rf = this.wrapper.offsetHeight;
+
+	      this.wrapperWidth = parseInt(this.wrapper.style.width) || this.wrapper.clientWidth;
+	      this.wrapperHeight = parseInt(this.wrapper.style.height) || this.wrapper.clientHeight;
+
+	      this.scrollerWidth = parseInt(this.scroller.style.width) || this.scroller.clientWidth;
+	      this.scrollerHeight = parseInt(this.scroller.style.height) || this.scroller.clientHeight;
+	      if (this.options.wheel) {
+	        this.items = this.scroller.children;
+	        this.options.itemHeight = this.itemHeight = this.items.length ? this.items[0].clientHeight : 0;
+	        if (this.selectedIndex === undefined) {
+	          this.selectedIndex = this.options.selectedIndex;
+	        }
+	        this.options.startY = -this.selectedIndex * this.itemHeight;
+	        this.maxScrollX = 0;
+	        this.maxScrollY = -this.itemHeight * (this.items.length - 1);
+	      } else {
+	        this.maxScrollX = this.wrapperWidth - this.scrollerWidth;
+	        this.maxScrollY = this.wrapperHeight - this.scrollerHeight;
+	      }
+
+	      this.hasHorizontalScroll = this.options.scrollX && this.maxScrollX < 0;
+	      this.hasVerticalScroll = this.options.scrollY && this.maxScrollY < 0;
+
+	      if (!this.hasHorizontalScroll) {
+	        this.maxScrollX = 0;
+	        this.scrollerWidth = this.wrapperWidth;
+	      }
+
+	      if (!this.hasVerticalScroll) {
+	        this.maxScrollY = 0;
+	        this.scrollerHeight = this.wrapperHeight;
+	      }
+
+	      this.endTime = 0;
+	      this.directionX = 0;
+	      this.directionY = 0;
+	      this.wrapperOffset = (0, _util.offset)(this.wrapper);
+
+	      this.trigger('refresh');
+
+	      this.resetPosition();
+	    }
+	  }, {
+	    key: 'resetPosition',
+	    value: function resetPosition() {
+	      var time = arguments.length <= 0 || arguments[0] === undefined ? 0 : arguments[0];
+	      var easeing = arguments.length <= 1 || arguments[1] === undefined ? _util.ease.bounce : arguments[1];
+
+	      var x = this.x;
+	      if (!this.hasHorizontalScroll || x > 0) {
+	        x = 0;
+	      } else if (x < this.maxScrollX) {
+	        x = this.maxScrollX;
+	      }
+
+	      var y = this.y;
+	      if (!this.hasVerticalScroll || y > 0) {
+	        y = 0;
+	      } else if (y < this.maxScrollY) {
+	        y = this.maxScrollY;
+	      }
+
+	      if (x === this.x && y === this.y) {
+	        return false;
+	      }
+
+	      this.scrollTo(x, y, time, easeing);
+
+	      return true;
+	    }
+	  }, {
+	    key: 'wheelTo',
+	    value: function wheelTo(selectIndex) {
+	      if (this.options.wheel) {
+	        this.y = -selectIndex * this.itemHeight;
+	        this.scrollTo(0, this.y);
+	      }
+	    }
+	  }, {
+	    key: 'scrollBy',
+	    value: function scrollBy(x, y) {
+	      var time = arguments.length <= 2 || arguments[2] === undefined ? 0 : arguments[2];
+	      var easing = arguments.length <= 3 || arguments[3] === undefined ? _util.ease.bounce : arguments[3];
+
+	      x = this.x + x;
+	      y = this.y + y;
+
+	      this.scrollTo(x, y, time, easing);
+	    }
+	  }, {
+	    key: 'scrollTo',
+	    value: function scrollTo(x, y, time) {
+	      var easing = arguments.length <= 3 || arguments[3] === undefined ? _util.ease.bounce : arguments[3];
+
+	      this.isInTransition = this.options.useTransition && time > 0 && (x !== this.x || y !== this.y);
+
+	      if (!time || this.options.useTransition) {
+	        this._transitionTimingFunction(easing.style);
+	        this._transitionTime(time);
+	        this._translate(x, y);
+
+	        if (time && this.options.probeType === 3) {
+	          this._startProbe();
+	        }
+
+	        if (this.options.wheel) {
+	          if (y > 0) {
+	            this.selectedIndex = 0;
+	          } else if (y < this.maxScrollY) {
+	            this.selectedIndex = this.items.length - 1;
+	          } else {
+	            this.selectedIndex = Math.abs(y / this.itemHeight) | 0;
+	          }
+	        }
+	      }
+	    }
+	  }, {
+	    key: 'getSelectedIndex',
+	    value: function getSelectedIndex() {
+	      return this.options.wheel && this.selectedIndex;
+	    }
+	  }, {
+	    key: 'getCurrentPage',
+	    value: function getCurrentPage() {
+	      return this.options.snap && this.currentPage;
+	    }
+	  }, {
+	    key: 'scrollToElement',
+	    value: function scrollToElement(el, time, offsetX, offsetY, easing) {
+	      if (!el) {
+	        return;
+	      }
+	      el = el.nodeType ? el : this.scroller.querySelector(el);
+
+	      if (this.options.wheel && el.className !== 'wheel-item') {
+	        return;
+	      }
+
+	      var pos = (0, _util.offset)(el);
+	      pos.left -= this.wrapperOffset.left;
+	      pos.top -= this.wrapperOffset.top;
+
+	      if (offsetX === true) {
+	        offsetX = Math.round(el.offsetWidth / 2 - this.wrapper.offsetWidth / 2);
+	      }
+	      if (offsetY === true) {
+	        offsetY = Math.round(el.offsetHeight / 2 - this.wrapper.offsetHeight / 2);
+	      }
+
+	      pos.left -= offsetX || 0;
+	      pos.top -= offsetY || 0;
+	      pos.left = pos.left > 0 ? 0 : pos.left < this.maxScrollX ? this.maxScrollX : pos.left;
+	      pos.top = pos.top > 0 ? 0 : pos.top < this.maxScrollY ? this.maxScrollY : pos.top;
+
+	      if (this.options.wheel) {
+	        pos.top = Math.round(pos.top / this.itemHeight) * this.itemHeight;
+	      }
+
+	      time = time === undefined || time === null || time === 'auto' ? Math.max(Math.abs(this.x - pos.left), Math.abs(this.y - pos.top)) : time;
+
+	      this.scrollTo(pos.left, pos.top, time, easing);
+	    }
+	  }, {
+	    key: 'getComputedPosition',
+	    value: function getComputedPosition() {
+	      var matrix = window.getComputedStyle(this.scroller, null);
+	      var x = void 0;
+	      var y = void 0;
+
+	      if (this.options.useTransform) {
+	        matrix = matrix[_util.style.transform].split(')')[0].split(', ');
+	        x = +(matrix[12] || matrix[4]);
+	        y = +(matrix[13] || matrix[5]);
+	      } else {
+	        x = +matrix.left.replace(/[^-\d.]/g, '');
+	        y = +matrix.top.replace(/[^-\d.]/g, '');
+	      }
+
+	      return {
+	        x: x,
+	        y: y
+	      };
+	    }
+	  }, {
+	    key: 'goToPage',
+	    value: function goToPage(x, y, time) {
+	      var easing = arguments.length <= 3 || arguments[3] === undefined ? _util.ease.bounce : arguments[3];
+
+	      if (x >= this.pages.length) {
+	        x = this.pages.length - 1;
+	      } else if (x < 0) {
+	        x = 0;
+	      }
+
+	      if (y >= this.pages[x].length) {
+	        y = this.pages[x].length - 1;
+	      } else if (y < 0) {
+	        y = 0;
+	      }
+
+	      var posX = this.pages[x][y].x;
+	      var posY = this.pages[x][y].y;
+
+	      time = time === undefined ? this.options.snapSpeed || Math.max(Math.max(Math.min(Math.abs(posX - this.x), 1000), Math.min(Math.abs(posY - this.y), 1000)), 300) : time;
+
+	      this.currentPage = {
+	        x: posX,
+	        y: posY,
+	        pageX: x,
+	        pageY: y
+	      };
+	      this.scrollTo(posX, posY, time, easing);
+	    }
+	  }, {
+	    key: 'next',
+	    value: function next(time, easing) {
+	      var x = this.currentPage.pageX;
+	      var y = this.currentPage.pageY;
+
+	      x++;
+	      if (x >= this.pages.length && this.hasVerticalScroll) {
+	        x = 0;
+	        y++;
+	      }
+
+	      this.goToPage(x, y, time, easing);
+	    }
+	  }, {
+	    key: 'prev',
+	    value: function prev(time, easing) {
+	      var x = this.currentPage.pageX;
+	      var y = this.currentPage.pageY;
+
+	      x--;
+	      if (x < 0 && this.hasVerticalScroll) {
+	        x = 0;
+	        y--;
+	      }
+
+	      this.goToPage(x, y, time, easing);
+	    }
+	  }, {
+	    key: 'destroy',
+	    value: function destroy() {
+	      this._removeEvents();
+
+	      this.destroyed = true;
+	      this.trigger('destroy');
+	    }
+	  }, {
+	    key: 'handleEvent',
+	    value: function handleEvent(e) {
+	      switch (e.type) {
+	        case 'touchstart':
+	        case 'mousedown':
+	          this._start(e);
+	          break;
+	        case 'touchmove':
+	        case 'mousemove':
+	          this._move(e);
+	          break;
+	        case 'touchend':
+	        case 'mouseup':
+	        case 'touchcancel':
+	        case 'mousecancel':
+	          this._end(e);
+	          break;
+	        case 'orientationchange':
+	        case 'resize':
+	          this._resize();
+	          break;
+	        case 'transitionend':
+	        case 'webkitTransitionEnd':
+	        case 'oTransitionEnd':
+	        case 'MSTransitionEnd':
+	          this._transitionEnd(e);
+	          break;
+	        case 'click':
+	          if (this.enabled && !e._constructed && !/(SELECT|INPUT|TEXTAREA)/i.test(e.target.tagName)) {
+	            e.preventDefault();
+	            e.stopPropagation();
+	          }
+	          break;
+	      }
+	    }
+	  }]);
+
+	  return BScroll;
+	}(_util.EventEmitter);
+
+	;
+
+/***/ },
+/* 2 */
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+
+	var _dom = __webpack_require__(3);
+
+	Object.keys(_dom).forEach(function (key) {
+	  if (key === "default" || key === "__esModule") return;
+	  Object.defineProperty(exports, key, {
+	    enumerable: true,
+	    get: function get() {
+	      return _dom[key];
+	    }
+	  });
+	});
+
+	var _env = __webpack_require__(4);
+
+	Object.keys(_env).forEach(function (key) {
+	  if (key === "default" || key === "__esModule") return;
+	  Object.defineProperty(exports, key, {
+	    enumerable: true,
+	    get: function get() {
+	      return _env[key];
+	    }
+	  });
+	});
+
+	var _ease = __webpack_require__(5);
+
+	Object.keys(_ease).forEach(function (key) {
+	  if (key === "default" || key === "__esModule") return;
+	  Object.defineProperty(exports, key, {
+	    enumerable: true,
+	    get: function get() {
+	      return _ease[key];
+	    }
+	  });
+	});
+
+	var _eventEmitter = __webpack_require__(6);
+
+	Object.keys(_eventEmitter).forEach(function (key) {
+	  if (key === "default" || key === "__esModule") return;
+	  Object.defineProperty(exports, key, {
+	    enumerable: true,
+	    get: function get() {
+	      return _eventEmitter[key];
+	    }
+	  });
+	});
+
+	var _momentum = __webpack_require__(7);
+
+	Object.keys(_momentum).forEach(function (key) {
+	  if (key === "default" || key === "__esModule") return;
+	  Object.defineProperty(exports, key, {
+	    enumerable: true,
+	    get: function get() {
+	      return _momentum[key];
+	    }
+	  });
+	});
+
+	var _lang = __webpack_require__(8);
+
+	Object.keys(_lang).forEach(function (key) {
+	  if (key === "default" || key === "__esModule") return;
+	  Object.defineProperty(exports, key, {
+	    enumerable: true,
+	    get: function get() {
+	      return _lang[key];
+	    }
+	  });
+	});
+
+/***/ },
+/* 3 */
+/***/ function(module, exports) {
+
+	'use strict';
+
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	exports.addEvent = addEvent;
+	exports.removeEvent = removeEvent;
+	exports.offset = offset;
+	exports.getRect = getRect;
+	exports.preventDefaultException = preventDefaultException;
+	exports.tap = tap;
+	exports.click = click;
+	exports.prepend = prepend;
+	exports.before = before;
+	var elementStyle = document.createElement('div').style;
+
+	var vendor = function () {
+	  var transformNames = {
+	    webkit: 'webkitTransform',
+	    Moz: 'MozTransform',
+	    O: 'OTransform',
+	    ms: 'msTransform',
+	    standard: 'transform'
+	  };
+
+	  for (var key in transformNames) {
+	    if (elementStyle[transformNames[key]] !== undefined) {
+	      return key;
+	    }
+	  }
+
+	  return false;
+	}();
+
+	function prefixStyle(style) {
+	  if (vendor === false) {
+	    return false;
+	  }
+
+	  if (vendor === 'standard') {
+	    return style;
+	  }
+
+	  return vendor + style.charAt(0).toUpperCase() + style.substr(1);
+	}
+
+	function addEvent(el, type, fn, capture) {
+	  el.addEventListener(type, fn, { passive: false, capture: !!capture });
+	};
+
+	function removeEvent(el, type, fn, capture) {
+	  el.removeEventListener(type, fn, !!capture);
+	};
+
+	function offset(el) {
+	  var left = 0;
+	  var top = 0;
+
+	  while (el) {
+	    left -= el.offsetLeft;
+	    top -= el.offsetTop;
+	    el = el.offsetParent;
+	  }
+
+	  return {
+	    left: left,
+	    top: top
+	  };
+	};
+
+	var transform = prefixStyle('transform');
+
+	var hasPerspective = exports.hasPerspective = prefixStyle('perspective') in elementStyle;
+	var hasTouch = exports.hasTouch = 'ontouchstart' in window;
+	var hasTransform = exports.hasTransform = transform !== false;
+	var hasTransition = exports.hasTransition = prefixStyle('transition') in elementStyle;
+
+	var style = exports.style = {
+	  transform: transform,
+	  transitionTimingFunction: prefixStyle('transitionTimingFunction'),
+	  transitionDuration: prefixStyle('transitionDuration'),
+	  transitionDelay: prefixStyle('transitionDelay'),
+	  transformOrigin: prefixStyle('transformOrigin'),
+	  transitionEnd: prefixStyle('transitionEnd')
+	};
+
+	var TOUCH_EVENT = 1;
+	var MOUSE_EVENT = 2;
+	var eventType = exports.eventType = {
+	  touchstart: TOUCH_EVENT,
+	  touchmove: TOUCH_EVENT,
+	  touchend: TOUCH_EVENT,
+
+	  mousedown: MOUSE_EVENT,
+	  mousemove: MOUSE_EVENT,
+	  mouseup: MOUSE_EVENT
+	};
+
+	function getRect(el) {
+	  if (el instanceof window.SVGElement) {
+	    var rect = el.getBoundingClientRect();
+	    return {
+	      top: rect.top,
+	      left: rect.left,
+	      width: rect.width,
+	      height: rect.height
+	    };
+	  } else {
+	    return {
+	      top: el.offsetTop,
+	      left: el.offsetLeft,
+	      width: el.offsetWidth,
+	      height: el.offsetHeight
+	    };
+	  }
+	};
+
+	function preventDefaultException(el, exceptions) {
+	  for (var i in exceptions) {
+	    if (exceptions[i].test(el[i])) {
+	      return true;
+	    }
+	  }
+	  return false;
+	}
+
+	function tap(e, eventName) {
+	  var ev = document.createEvent('Event');
+	  ev.initEvent(eventName, true, true);
+	  ev.pageX = e.pageX;
+	  ev.pageY = e.pageY;
+	  e.target.dispatchEvent(ev);
+	};
+
+	function click(e) {
+	  var target = e.target;
+
+	  if (!/(SELECT|INPUT|TEXTAREA)/i.test(target.tagName)) {
+	    var ev = document.createEvent(window.MouseEvent ? 'MouseEvents' : 'Event');
+	    ev.initEvent('click', true, true);
+	    ev._constructed = true;
+	    target.dispatchEvent(ev);
+	  }
+	};
+
+	function prepend(el, target) {
+	  if (target.firstChild) {
+	    before(el, target.firstChild);
+	  } else {
+	    target.appendChild(el);
+	  }
+	}
+
+	function before(el, target) {
+	  target.parentNode.insertBefore(el, target);
+	}
+
+/***/ },
+/* 4 */
+/***/ function(module, exports) {
+
+	"use strict";
+
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	var isBadAndroid = exports.isBadAndroid = /Android /.test(window.navigator.appVersion) && !/Chrome\/\d/.test(window.navigator.appVersion);
+
+/***/ },
+/* 5 */
+/***/ function(module, exports) {
+
+	'use strict';
+
+	Object.defineProperty(exports, "__esModule", {
+		value: true
+	});
+	var ease = exports.ease = {
+		swipe: {
+			style: 'cubic-bezier(0.23, 1, 0.32, 1)',
+			fn: function fn(t) {
+				return 1 + --t * t * t * t * t;
+			}
+		},
+
+		swipeBounce: {
+			style: 'cubic-bezier(0.25, 0.46, 0.45, 0.94)',
+			fn: function fn(t) {
+				return t * (2 - t);
+			}
+		},
+
+		bounce: {
+			style: 'cubic-bezier(0.165, 0.84, 0.44, 1)',
+			fn: function fn(t) {
+				return 1 - --t * t * t * t;
+			}
+		}
+	};
+
+/***/ },
+/* 6 */
+/***/ function(module, exports) {
+
+	"use strict";
+
+	Object.defineProperty(exports, "__esModule", {
+		value: true
+	});
+
+	var _slicedToArray = function () { function sliceIterator(arr, i) { var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"]) _i["return"](); } finally { if (_d) throw _e; } } return _arr; } return function (arr, i) { if (Array.isArray(arr)) { return arr; } else if (Symbol.iterator in Object(arr)) { return sliceIterator(arr, i); } else { throw new TypeError("Invalid attempt to destructure non-iterable instance"); } }; }();
+
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+	function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr2 = Array(arr.length); i < arr.length; i++) { arr2[i] = arr[i]; } return arr2; } else { return Array.from(arr); } }
+
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+	var EventEmitter = exports.EventEmitter = function () {
+		function EventEmitter() {
+			_classCallCheck(this, EventEmitter);
+
+			this._events = {};
+		}
+
+		_createClass(EventEmitter, [{
+			key: "on",
+			value: function on(type, fn) {
+				var context = arguments.length <= 2 || arguments[2] === undefined ? this : arguments[2];
+
+				if (!this._events[type]) {
+					this._events[type] = [];
+				}
+
+				this._events[type].push([fn, context]);
+			}
+		}, {
+			key: "once",
+			value: function once(type, fn) {
+				var context = arguments.length <= 2 || arguments[2] === undefined ? this : arguments[2];
+
+				var fired = false;
+
+				function magic() {
+					this.off(type, magic);
+
+					if (!fired) {
+						fired = true;
+						fn.apply(context, arguments);
+					}
+				}
+
+				this.on(type, magic);
+			}
+		}, {
+			key: "off",
+			value: function off(type, fn) {
+				var _events = this._events[type];
+				if (!_events) {
+					return;
+				}
+
+				var count = _events.length;
+				while (count--) {
+					if (_events[count][0] === fn) {
+						_events[count][0] = undefined;
+					}
+				}
+			}
+		}, {
+			key: "trigger",
+			value: function trigger(type) {
+				var events = this._events[type];
+				if (!events) {
+					return;
+				}
+
+				var len = events.length;
+				var eventsCopy = [].concat(_toConsumableArray(events));
+				for (var i = 0; i < len; i++) {
+					var event = eventsCopy[i];
+
+					var _event = _slicedToArray(event, 2);
+
+					var fn = _event[0];
+					var context = _event[1];
+
+					if (fn) {
+						fn.apply(context, [].slice.call(arguments, 1));
+					}
+				}
+			}
+		}]);
+
+		return EventEmitter;
+	}();
+
+/***/ },
+/* 7 */
+/***/ function(module, exports) {
+
+	"use strict";
+
+	Object.defineProperty(exports, "__esModule", {
+		value: true
+	});
+	exports.momentum = momentum;
+	function momentum(current, start, time, lowerMargin, wrapperSize, options) {
+		var distance = current - start;
+		var speed = Math.abs(distance) / time;
+
+		var deceleration = options.deceleration;
+		var itemHeight = options.itemHeight;
+		var swipeBounceTime = options.swipeBounceTime;
+		var bounceTime = options.bounceTime;
+
+		var duration = options.swipeTime;
+		var rate = options.wheel ? 4 : 15;
+
+		var destination = current + speed / deceleration * (distance < 0 ? -1 : 1);
+
+		if (options.wheel && itemHeight) {
+			destination = Math.round(destination / itemHeight) * itemHeight;
+		}
+
+		if (destination < lowerMargin) {
+			destination = wrapperSize ? lowerMargin - wrapperSize / rate * speed : lowerMargin;
+			duration = swipeBounceTime - bounceTime;
+		} else if (destination > 0) {
+			destination = wrapperSize ? wrapperSize / rate * speed : 0;
+			duration = swipeBounceTime - bounceTime;
+		}
+
+		return {
+			destination: Math.round(destination),
+			duration: duration
+		};
+	};
+
+/***/ },
+/* 8 */
+/***/ function(module, exports) {
+
+	"use strict";
+
+	Object.defineProperty(exports, "__esModule", {
+		value: true
+	});
+	exports.extend = extend;
+	function extend(target, source) {
+		for (var key in source) {
+			target[key] = source[key];
+		}
+	};
+
+	var DEFAULT_INTERVAL = 100 / 60;
+
+	var requestAnimationFrame = exports.requestAnimationFrame = function () {
+		return window.requestAnimationFrame || window.webkitRequestAnimationFrame || window.mozRequestAnimationFrame || window.oRequestAnimationFrame || function (callback) {
+			return window.setTimeout(callback, (callback.interval || DEFAULT_INTERVAL) / 2);
+		};
+	}();
+
+	var cancelAnimationFrame = exports.cancelAnimationFrame = function () {
+		return window.cancelAnimationFrame || window.webkitCancelAnimationFrame || window.mozCancelAnimationFrame || window.oCancelAnimationFrame || function (id) {
+			window.clearTimeout(id);
+		};
+	}();
+
+/***/ }
+/******/ ])
+});
+;
+
+/***/ }),
+
+/***/ 557:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
 Object.defineProperty(exports, "__esModule", {
-    value: true
+  value: true
 });
 
-var _article = __webpack_require__(527);
+var _betterScroll = __webpack_require__(545);
 
-var _article2 = _interopRequireDefault(_article);
-
-var _iCode = __webpack_require__(528);
-
-var _iCode2 = _interopRequireDefault(_iCode);
-
-var _demo = __webpack_require__(533);
-
-var _demo2 = _interopRequireDefault(_demo);
-
-var _layout = __webpack_require__(580);
-
-var _layout2 = _interopRequireDefault(_layout);
-
-var _anchor = __webpack_require__(525);
-
-var _anchor2 = _interopRequireDefault(_anchor);
+var _betterScroll2 = _interopRequireDefault(_betterScroll);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 exports.default = {
-    components: {
-        iArticle: _article2.default,
-        iCode: _iCode2.default,
-        Demo: _demo2.default,
-        Anchor: _anchor2.default
+  name: 'Slider',
+  props: {
+    imgArr: Array,
+    default: [],
+    loop: {
+      type: Boolean,
+      default: true
     },
-    data: function data() {
-        return {
-            code: _layout2.default,
-            spanLeft: 5,
-            spanRight: 19,
-            isCollapsed: false,
-            isCollapsed2: false
-        };
+    autoPlay: {
+      type: Boolean,
+      default: true
     },
-
-    computed: {
-        iconSize: function iconSize() {
-            return this.spanLeft === 5 ? 14 : 24;
-        },
-        rotateIcon: function rotateIcon() {
-            return ['menu-icon', this.isCollapsed ? 'rotate-icon' : ''];
-        },
-
-        menuitemClasses: function menuitemClasses() {
-            return ['menu-item', this.isCollapsed ? 'collapsed-menu' : ''];
-        },
-        menuitemClasses2: function menuitemClasses2() {
-            return ['menu-item', this.isCollapsed2 ? 'collapsed-menu' : ''];
-        }
-    },
-    methods: {
-        toggleClick: function toggleClick() {
-            if (this.spanLeft === 5) {
-                this.spanLeft = 2;
-                this.spanRight = 22;
-            } else {
-                this.spanLeft = 5;
-                this.spanRight = 19;
-            }
-        },
-        collapsedSider: function collapsedSider() {
-            this.$refs.side1.toggleCollapse();
-        }
+    interval: {
+      type: Number,
+      default: 4000
     }
+  },
+  data: function data() {
+    return {
+      dots: [],
+      currentPageIndex: 0
+    };
+  },
+  mounted: function mounted() {
+    var _this = this;
+
+    setTimeout(function () {
+      _this._setSliderWidth();
+      _this._initDots();
+      _this._initSlider();
+
+      if (_this.autoPlay) {
+        _this._play();
+      }
+    }, 20);
+
+    window.addEventListener('resize', function () {
+      if (!_this.slider) {
+        return;
+      }
+      _this._setSliderWidth(true);
+      _this.slider.refresh();
+    });
+  },
+  activated: function activated() {
+    if (this.autoPlay) {
+      this._play();
+    }
+  },
+  deactivated: function deactivated() {
+    clearTimeout(this.timer);
+  },
+  beforeDestroy: function beforeDestroy() {
+    clearTimeout(this.timer);
+  },
+
+  methods: {
+    addClass: function addClass(el, className) {
+      var newClass = el.className.split(' ');
+      newClass.push(className);
+      el.className = newClass.join(' ');
+    },
+    _setSliderWidth: function _setSliderWidth(isResize) {
+      this.children = this.$refs.sliderGroup.children;
+      var width = 0;
+      var sliderWidth = this.$refs.slider.clientWidth;
+      for (var i = 0; i < this.children.length; i++) {
+        var child = this.children[i];
+        this.addClass(child, 'slider-item');
+        child.style.width = sliderWidth + 'px';
+        width += sliderWidth;
+      }
+      if (this.loop && !isResize) {
+        width += 2 * sliderWidth;
+      }
+
+      this.$refs.sliderGroup.style.width = width + 'px';
+    },
+    _initSlider: function _initSlider() {
+      var _this2 = this;
+
+      this.slider = new _betterScroll2.default(this.$refs.slider, {
+        scrollX: true,
+        scrollY: false,
+        momentum: false,
+        snap: true,
+        snapLoop: this.loop,
+        snapThreshold: 0.3,
+        snapSpeed: 400,
+        click: true
+      });
+
+      this.slider.on('scrollEnd', function () {
+        _this2.$emit('scrollEnd', event);
+        var pageIndex = _this2.slider.getCurrentPage().pageX;
+
+        if (_this2.loop) {
+          pageIndex -= 1;
+        }
+
+        _this2.currentPageIndex = pageIndex;
+
+        if (_this2.autoPlay) {
+          _this2._play();
+        }
+      });
+
+      this.slider.on('beforeScrollStart', function () {
+        _this2.$emit('beforeScrollStart', event);
+        if (_this2.autoPlay) {
+          clearTimeout(_this2.timer);
+        }
+      });
+    },
+    _initDots: function _initDots() {
+      this.dots = new Array(this.children.length);
+    },
+    _play: function _play() {
+      var _this3 = this;
+
+      var pageIndex = this.currentPageIndex + 1;
+      if (this.loop) {
+        pageIndex += 1;
+      }
+      this.timer = setTimeout(function () {
+        _this3.slider.goToPage(pageIndex, 0, 400);
+      }, this.interval);
+    }
+  }
 };
 
 /***/ }),
 
-/***/ 558:
+/***/ 579:
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _article = __webpack_require__(534);
+
+var _article2 = _interopRequireDefault(_article);
+
+var _iCode = __webpack_require__(535);
+
+var _iCode2 = _interopRequireDefault(_iCode);
+
+var _demo = __webpack_require__(540);
+
+var _demo2 = _interopRequireDefault(_demo);
+
+var _slider = __webpack_require__(633);
+
+var _slider2 = _interopRequireDefault(_slider);
+
+var _anchor = __webpack_require__(532);
+
+var _anchor2 = _interopRequireDefault(_anchor);
+
+var _Slider = __webpack_require__(690);
+
+var _Slider2 = _interopRequireDefault(_Slider);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+exports.default = {
+  components: {
+    iArticle: _article2.default,
+    iCode: _iCode2.default,
+    Demo: _demo2.default,
+    inAnchor: _anchor2.default,
+    Slider: _Slider2.default
+  },
+  data: function data() {
+    return {
+      code: _slider2.default,
+      imgs: ['http://y.gtimg.cn/music/common/upload/MUSIC_FOCUS/318993.jpg', 'http://y.gtimg.cn/music/common/upload/MUSIC_FOCUS/319680.jpg', 'http://y.gtimg.cn/music/common/upload/MUSIC_FOCUS/316605.jpg']
+    };
+  },
+
+  methods: {}
+};
+
+/***/ }),
+
+/***/ 594:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2521,220 +4561,14 @@ var render = function render() {
   var _vm = this;
   var _h = _vm.$createElement;
   var _c = _vm._self._c || _h;
-  return _c("i-article", [_c("article", [_c("Anchor", { attrs: { title: "Layout 布局", h1: "" } }), _vm._v(" "), _c("p", [_vm._v("协助进行页面级整体布局。")]), _vm._v(" "), _c("Anchor", { attrs: { title: "设计规则", h2: "" } }), _vm._v(" "), _c("Anchor", { attrs: { title: "尺寸", h3: "" } }), _vm._v(" "), _c("p", [_vm._v("一级导航项偏左靠近 logo 放置，辅助菜单偏右放置。")]), _vm._v(" "), _c("ul", [_c("li", [_vm._v("顶部导航（大部分系统）：一级导航高度 "), _c("code", [_vm._v("64px")]), _vm._v("，二级导航 "), _c("code", [_vm._v("48px")]), _vm._v("。")]), _vm._v(" "), _c("li", [_vm._v("顶部导航（展示类页面）：一级导航高度 "), _c("code", [_vm._v("80px")]), _vm._v("，二级导航 "), _c("code", [_vm._v("56px")]), _vm._v("。")]), _vm._v(" "), _c("li", [_vm._v("顶部导航高度的范围计算公式为："), _c("code", [_vm._v("48+8n")]), _vm._v("。")]), _vm._v(" "), _c("li", [_vm._v("侧边导航宽度的范围计算公式："), _c("code", [_vm._v("200+8n")]), _vm._v("。")])]), _vm._v(" "), _c("Anchor", { attrs: { title: "交互", h3: "" } }), _vm._v(" "), _c("ul", [_c("li", [_vm._v("一级导航和末级的导航需要在可视化的层面被强调出来；")]), _vm._v(" "), _c("li", [_vm._v("当前项应该在呈现上优先级最高；")]), _vm._v(" "), _c("li", [_vm._v("当导航收起的时候，当前项的样式自动赋予给它的上一个层级；")]), _vm._v(" "), _c("li", [_vm._v("左侧导航栏的收放交互同时支持手风琴和全展开的样式，根据业务的要求进行适当的选择。")])]), _vm._v(" "), _c("Anchor", { attrs: { title: "视觉", h3: "" } }), _vm._v(" "), _c("p", [_vm._v("导航样式上需要根据信息层级合理的选择样式：")]), _vm._v(" "), _c("ul", [_c("li", [_c("p", [_c("strong", [_vm._v("大色块强调")])]), _vm._v(" "), _c("p", [_vm._v("建议用于底色为深色系时，当前页面父级的导航项。")])]), _vm._v(" "), _c("li", [_c("p", [_c("strong", [_vm._v("高亮火柴棍")])]), _vm._v(" "), _c("p", [_vm._v("当导航栏底色为浅色系时使用，可用于当前页面对应导航项，建议尽量在导航路径的最终项使用。")])]), _vm._v(" "), _c("li", [_c("p", [_c("strong", [_vm._v("字体高亮变色")])]), _vm._v(" "), _c("p", [_vm._v("从可视化层面，字体高亮的视觉强化力度低于大色块，通常在当前项的上一级使用。")])]), _vm._v(" "), _c("li", [_c("p", [_c("strong", [_vm._v("字体放大")])]), _vm._v(" "), _c("p", [_c("code", [_vm._v("12px")]), _vm._v("、"), _c("code", [_vm._v("14px")]), _vm._v(" 是导航的标准字号，14 号字体用在一、二级导航中。字号可以考虑导航项的等级做相应选择。")])])]), _vm._v(" "), _c("Anchor", { attrs: { title: "组件概述", h2: "" } }), _vm._v(" "), _c("ul", [_c("li", [_c("code", [_vm._v("Layout")]), _vm._v("：布局容器，其下可嵌套 "), _c("code", [_vm._v("Header")]), _c("code", [_vm._v("Sider")]), _c("code", [_vm._v("Content")]), _c("code", [_vm._v("Footer")]), _vm._v("或 "), _c("code", [_vm._v("Layout")]), _vm._v(" 本身，可以放在任何父容器中。")]), _vm._v(" "), _c("li", [_c("code", [_vm._v("Header")]), _vm._v("：顶部布局，自带默认样式，其下可嵌套任何元素，只能放在 "), _c("code", [_vm._v("Layout")]), _vm._v(" 中。")]), _vm._v(" "), _c("li", [_c("code", [_vm._v("Sider")]), _vm._v("：侧边栏，自带默认样式及基本功能，其下可嵌套任何元素，只能放在 "), _c("code", [_vm._v("Layout")]), _vm._v(" 中。")]), _vm._v(" "), _c("li", [_c("code", [_vm._v("Content")]), _vm._v("：内容部分，自带默认样式，其下可嵌套任何元素，只能放在 "), _c("code", [_vm._v("Layout")]), _vm._v(" 中。")]), _vm._v(" "), _c("li", [_c("code", [_vm._v("Footer")]), _vm._v("：底部布局，自带默认样式，其下可嵌套任何元素，只能放在 "), _c("code", [_vm._v("Layout")]), _vm._v(" 中。")])]), _vm._v(" "), _c("Alert", { staticStyle: { "margin-top": "16px" }, attrs: { "show-icon": "" } }, [_vm._v("注意：采用 flex 布局实现，请注意"), _c("a", {
-    attrs: {
-      href: "https://caniuse.com/#search=flex",
-      target: "_blank",
-      title: "can i use"
-    }
-  }, [_vm._v("浏览器兼容性")]), _vm._v("问题。")]), _vm._v(" "), _c("Anchor", { attrs: { title: "代码示例", h2: "" } }), _vm._v(" "), _c("Demo", { attrs: { title: "基本结构", vertical: "", "hide-code": "" } }, [_c("div", { attrs: { slot: "demo" }, slot: "demo" }, [_c("div", { staticClass: "layout-con" }, [_c("div", { staticClass: "layout-single" }, [_c("Layout", [_c("Header", { staticClass: "layout-header" }, [_vm._v("Header")]), _vm._v(" "), _c("Content", { staticClass: "layout-content" }, [_vm._v("Content")]), _vm._v(" "), _c("Footer", { staticClass: "layout-footer" }, [_vm._v("Footer")])], 1)], 1), _vm._v(" "), _c("div", { staticClass: "layout-single" }, [_c("Layout", [_c("Header", { staticClass: "layout-header" }, [_vm._v("Header")]), _vm._v(" "), _c("Layout", [_c("Sider", {
-    staticClass: "layout-sider",
-    attrs: { "hide-trigger": "" }
-  }, [_vm._v("Sider")]), _vm._v(" "), _c("Content", { staticClass: "layout-content" }, [_vm._v("Content")])], 1), _vm._v(" "), _c("Footer", { staticClass: "layout-footer" }, [_vm._v("Footer")])], 1)], 1), _vm._v(" "), _c("div", { staticClass: "layout-single" }, [_c("Layout", [_c("Header", { staticClass: "layout-header" }, [_vm._v("Header")]), _vm._v(" "), _c("Layout", [_c("Content", { staticClass: "layout-content" }, [_vm._v("Content")]), _vm._v(" "), _c("Sider", {
-    staticClass: "layout-sider",
-    attrs: { "hide-trigger": "" }
-  }, [_vm._v("Sider")])], 1), _vm._v(" "), _c("Footer", { staticClass: "layout-footer" }, [_vm._v("Footer")])], 1)], 1), _vm._v(" "), _c("div", { staticClass: "layout-single" }, [_c("Layout", [_c("Sider", {
-    staticClass: "layout-sider",
-    style: { lineHeight: "253px" },
-    attrs: { "hide-trigger": "" }
-  }, [_vm._v("Sider")]), _vm._v(" "), _c("Layout", [_c("Header", { staticClass: "layout-header" }, [_vm._v("Header")]), _vm._v(" "), _c("Content", { staticClass: "layout-content" }, [_vm._v("Content")]), _vm._v(" "), _c("Footer", { staticClass: "layout-footer" }, [_vm._v("Footer")])], 1)], 1)], 1)])]), _vm._v(" "), _c("div", { attrs: { slot: "desc" }, slot: "desc" }, [_c("p", [_vm._v("典型的页面布局")])]), _vm._v(" "), _c("i-code", { attrs: { slot: "code", lang: "html" }, slot: "code" }, [_vm._v(_vm._s(_vm.code.basic))])], 1), _vm._v(" "), _c("Demo", { attrs: { title: "上中下布局", vertical: "", "hide-code": "" } }, [_c("div", { attrs: { slot: "demo" }, slot: "demo" }, [_c("div", { staticClass: "layout" }, [_c("Layout", [_c("Header", [_c("Menu", {
-    attrs: {
-      mode: "horizontal",
-      theme: "dark",
-      "active-name": "1"
-    }
-  }, [_c("div", { staticClass: "layout-logo" }), _vm._v(" "), _c("div", { staticClass: "layout-nav" }, [_c("MenuItem", { attrs: { name: "1" } }, [_c("Icon", {
-    attrs: { type: "ios-navigate" }
-  }), _vm._v("\n                                        Item 1\n                                    ")], 1), _vm._v(" "), _c("MenuItem", { attrs: { name: "2" } }, [_c("Icon", {
-    attrs: { type: "ios-keypad" }
-  }), _vm._v("\n                                        Item 2\n                                    ")], 1), _vm._v(" "), _c("MenuItem", { attrs: { name: "3" } }, [_c("Icon", {
-    attrs: { type: "ios-analytics" }
-  }), _vm._v("\n                                        Item 3\n                                    ")], 1), _vm._v(" "), _c("MenuItem", { attrs: { name: "4" } }, [_c("Icon", {
-    attrs: { type: "ios-paper" }
-  }), _vm._v("\n                                        Item 4\n                                    ")], 1)], 1)])], 1), _vm._v(" "), _c("Content", { style: { padding: "0 50px" } }, [_c("Breadcrumb", { style: { margin: "20px 0" } }, [_c("BreadcrumbItem", [_vm._v("Home")]), _vm._v(" "), _c("BreadcrumbItem", [_vm._v("Components")]), _vm._v(" "), _c("BreadcrumbItem", [_vm._v("Layout")])], 1), _vm._v(" "), _c("Card", [_c("div", { staticStyle: { "min-height": "200px" } }, [_vm._v("\n                                    Content\n                                ")])])], 1), _vm._v(" "), _c("Footer", { staticClass: "layout-footer-center" }, [_vm._v("2011-2016 © TalkingData")])], 1)], 1)]), _vm._v(" "), _c("div", { attrs: { slot: "desc" }, slot: "desc" }, [_c("p", [_vm._v("最基本的『上-中-下』布局。")]), _vm._v(" "), _c("p", [_vm._v("一般主导航放置于页面的顶端，从左自右依次为：logo、一级导航项、辅助菜单（用户、设置、通知等）。通常将内容放在固定尺寸（例如：1200px）内，整个页面排版稳定，不受用户终端显示器影响；上下级的结构符合用户上下浏览的习惯，也是较为经典的网站导航模式。页面上下切分的方式提高了主工作区域的信息展示效率，但在纵向空间上会有一些牺牲。此外，由于导航栏水平空间的限制，不适合那些一级导航项很多的信息结构。")])]), _vm._v(" "), _c("i-code", { attrs: { slot: "code", lang: "html" }, slot: "code" }, [_vm._v(_vm._s(_vm.code.topMiddleBottom))])], 1), _vm._v(" "), _c("Demo", {
-    attrs: {
-      title: "顶部-侧边布局-通栏",
-      vertical: "",
-      "hide-code": ""
-    }
-  }, [_c("div", { attrs: { slot: "demo" }, slot: "demo" }, [_c("div", { staticClass: "layout" }, [_c("Layout", [_c("Header", [_c("Menu", {
-    attrs: {
-      mode: "horizontal",
-      theme: "dark",
-      "active-name": "1"
-    }
-  }, [_c("div", { staticClass: "layout-logo" }), _vm._v(" "), _c("div", { staticClass: "layout-nav" }, [_c("MenuItem", { attrs: { name: "1" } }, [_c("Icon", {
-    attrs: { type: "ios-navigate" }
-  }), _vm._v("\n                                        Item 1\n                                    ")], 1), _vm._v(" "), _c("MenuItem", { attrs: { name: "2" } }, [_c("Icon", {
-    attrs: { type: "ios-keypad" }
-  }), _vm._v("\n                                        Item 2\n                                    ")], 1), _vm._v(" "), _c("MenuItem", { attrs: { name: "3" } }, [_c("Icon", {
-    attrs: { type: "ios-analytics" }
-  }), _vm._v("\n                                        Item 3\n                                    ")], 1), _vm._v(" "), _c("MenuItem", { attrs: { name: "4" } }, [_c("Icon", {
-    attrs: { type: "ios-paper" }
-  }), _vm._v("\n                                        Item 4\n                                    ")], 1)], 1)])], 1), _vm._v(" "), _c("Layout", [_c("Sider", {
-    style: { background: "white" },
-    attrs: { "hide-trigger": "" }
-  }, [_c("Menu", {
-    attrs: {
-      "active-name": "1-2",
-      theme: "light",
-      width: "auto",
-      "open-names": ["1"]
-    }
-  }, [_c("Submenu", { attrs: { name: "1" } }, [_c("template", { slot: "title" }, [_c("Icon", {
-    attrs: { type: "ios-navigate" }
-  }), _vm._v("\n                                            Item 1\n                                        ")], 1), _vm._v(" "), _c("MenuItem", { attrs: { name: "1-1" } }, [_vm._v("Option 1")]), _vm._v(" "), _c("MenuItem", { attrs: { name: "1-2" } }, [_vm._v("Option 2")]), _vm._v(" "), _c("MenuItem", { attrs: { name: "1-3" } }, [_vm._v("Option 3")])], 2), _vm._v(" "), _c("Submenu", { attrs: { name: "2" } }, [_c("template", { slot: "title" }, [_c("Icon", {
-    attrs: { type: "ios-keypad" }
-  }), _vm._v("\n                                            Item 2\n                                        ")], 1), _vm._v(" "), _c("MenuItem", { attrs: { name: "2-1" } }, [_vm._v("Option 1")]), _vm._v(" "), _c("MenuItem", { attrs: { name: "2-2" } }, [_vm._v("Option 2")])], 2), _vm._v(" "), _c("Submenu", { attrs: { name: "3" } }, [_c("template", { slot: "title" }, [_c("Icon", {
-    attrs: { type: "ios-analytics" }
-  }), _vm._v("\n                                            Item 3\n                                        ")], 1), _vm._v(" "), _c("MenuItem", { attrs: { name: "3-1" } }, [_vm._v("Option 1")]), _vm._v(" "), _c("MenuItem", { attrs: { name: "3-2" } }, [_vm._v("Option 2")])], 2)], 1)], 1), _vm._v(" "), _c("Layout", { style: { padding: "0 24px 24px" } }, [_c("Breadcrumb", { style: { margin: "24px 0" } }, [_c("BreadcrumbItem", [_vm._v("Home")]), _vm._v(" "), _c("BreadcrumbItem", [_vm._v("Components")]), _vm._v(" "), _c("BreadcrumbItem", [_vm._v("Layout")])], 1), _vm._v(" "), _c("Content", {
-    style: {
-      padding: "24px",
-      minHeight: "280px",
-      background: "#fff"
-    }
-  }, [_vm._v("\n                                    Content\n                                ")])], 1)], 1)], 1)], 1)]), _vm._v(" "), _c("div", { attrs: { slot: "desc" }, slot: "desc" }, [_c("p", [_vm._v("同样拥有顶部导航及侧边栏，区别是两边未留边距，多用于应用型的网站。")])]), _vm._v(" "), _c("i-code", { attrs: { slot: "code", lang: "html" }, slot: "code" }, [_vm._v(_vm._s(_vm.code.topLeftRight))])], 1), _vm._v(" "), _c("Demo", { attrs: { title: "顶部-侧边布局", vertical: "", "hide-code": "" } }, [_c("div", { attrs: { slot: "demo" }, slot: "demo" }, [_c("div", { staticClass: "layout" }, [_c("Layout", [_c("Header", [_c("Menu", {
-    attrs: {
-      mode: "horizontal",
-      theme: "dark",
-      "active-name": "1"
-    }
-  }, [_c("div", { staticClass: "layout-logo" }), _vm._v(" "), _c("div", { staticClass: "layout-nav" }, [_c("MenuItem", { attrs: { name: "1" } }, [_c("Icon", {
-    attrs: { type: "ios-navigate" }
-  }), _vm._v("\n                                        Item 1\n                                    ")], 1), _vm._v(" "), _c("MenuItem", { attrs: { name: "2" } }, [_c("Icon", {
-    attrs: { type: "ios-keypad" }
-  }), _vm._v("\n                                        Item 2\n                                    ")], 1), _vm._v(" "), _c("MenuItem", { attrs: { name: "3" } }, [_c("Icon", {
-    attrs: { type: "ios-analytics" }
-  }), _vm._v("\n                                        Item 3\n                                    ")], 1), _vm._v(" "), _c("MenuItem", { attrs: { name: "4" } }, [_c("Icon", {
-    attrs: { type: "ios-paper" }
-  }), _vm._v("\n                                        Item 4\n                                    ")], 1)], 1)])], 1), _vm._v(" "), _c("Layout", { style: { padding: "0 50px" } }, [_c("Breadcrumb", { style: { margin: "16px 0" } }, [_c("BreadcrumbItem", [_vm._v("Home")]), _vm._v(" "), _c("BreadcrumbItem", [_vm._v("Components")]), _vm._v(" "), _c("BreadcrumbItem", [_vm._v("Layout")])], 1), _vm._v(" "), _c("Content", {
-    style: {
-      padding: "24px 0",
-      minHeight: "280px",
-      background: "#fff"
-    }
-  }, [_c("Layout", [_c("Sider", {
-    style: { background: "white" },
-    attrs: { "hide-trigger": "" }
-  }, [_c("Menu", {
-    attrs: {
-      "active-name": "1-2",
-      theme: "light",
-      width: "auto",
-      "open-names": ["1"]
-    }
-  }, [_c("Submenu", { attrs: { name: "1" } }, [_c("template", { slot: "title" }, [_c("Icon", {
-    attrs: {
-      type: "ios-navigate"
-    }
-  }), _vm._v("\n                                                    Item 1\n                                                ")], 1), _vm._v(" "), _c("MenuItem", { attrs: { name: "1-1" } }, [_vm._v("Option 1")]), _vm._v(" "), _c("MenuItem", { attrs: { name: "1-2" } }, [_vm._v("Option 2")]), _vm._v(" "), _c("MenuItem", { attrs: { name: "1-3" } }, [_vm._v("Option 3")])], 2), _vm._v(" "), _c("Submenu", { attrs: { name: "2" } }, [_c("template", { slot: "title" }, [_c("Icon", {
-    attrs: {
-      type: "ios-keypad"
-    }
-  }), _vm._v("\n                                                    Item 2\n                                                ")], 1), _vm._v(" "), _c("MenuItem", { attrs: { name: "2-1" } }, [_vm._v("Option 1")]), _vm._v(" "), _c("MenuItem", { attrs: { name: "2-2" } }, [_vm._v("Option 2")])], 2), _vm._v(" "), _c("Submenu", { attrs: { name: "3" } }, [_c("template", { slot: "title" }, [_c("Icon", {
-    attrs: {
-      type: "ios-analytics"
-    }
-  }), _vm._v("\n                                                    Item 3\n                                                ")], 1), _vm._v(" "), _c("MenuItem", { attrs: { name: "3-1" } }, [_vm._v("Option 1")]), _vm._v(" "), _c("MenuItem", { attrs: { name: "3-2" } }, [_vm._v("Option 2")])], 2)], 1)], 1), _vm._v(" "), _c("Content", {
-    style: {
-      padding: "24px",
-      minHeight: "280px",
-      background: "#fff"
-    }
-  }, [_vm._v("\n                                        Content\n                                    ")])], 1)], 1)], 1), _vm._v(" "), _c("Footer", { staticClass: "layout-footer-center" }, [_vm._v("2011-2016 © TalkingData")])], 1)], 1)]), _vm._v(" "), _c("div", { attrs: { slot: "desc" }, slot: "desc" }, [_c("p", [_vm._v("拥有顶部导航及侧边栏的页面，多用于展示类网站。")])]), _vm._v(" "), _c("i-code", { attrs: { slot: "code", lang: "html" }, slot: "code" }, [_vm._v(_vm._s(_vm.code.topSiderFooter))])], 1), _vm._v(" "), _c("Demo", { attrs: { title: "侧边布局", vertical: "", "hide-code": "" } }, [_c("div", { attrs: { slot: "demo" }, slot: "demo" }, [_c("div", { staticClass: "layout" }, [_c("iframe", {
-    attrs: {
-      src: "https://file.iviewui.com/layout-page2/sider.html",
-      height: "360"
-    }
-  })])]), _vm._v(" "), _c("div", { attrs: { slot: "desc" }, slot: "desc" }, [_c("p", [_vm._v("侧边两列式布局。页面横向空间有限时，侧边导航可收起。")]), _vm._v(" "), _c("p", [_vm._v("侧边导航在页面布局上采用的是左右的结构，一般主导航放置于页面的左侧固定位置，辅助菜单放置于工作区顶部。内容根据浏览器终端进行自适应，能提高横向空间的使用率，但是整个页面排版不稳定。侧边导航的模式层级扩展性强，一、二、三级导航项目可以更为顺畅且具关联性的被展示，同时侧边导航可以固定，使得用户在操作和浏览中可以快速的定位和切换当前位置，有很高的操作效率。但这类导航横向页面内容的空间会被牺牲一部份。")])]), _vm._v(" "), _c("i-code", { attrs: { slot: "code", lang: "html" }, slot: "code" }, [_vm._v(_vm._s(_vm.code.left))])], 1), _vm._v(" "), _c("Demo", { attrs: { title: "自定义触发器", vertical: "", "hide-code": "" } }, [_c("div", { attrs: { slot: "demo" }, slot: "demo" }, [_c("div", {
-    class: ["layout", _vm.isCollapsed ? "layout-hide-text" : ""]
-  }, [_c("Layout", [_c("Sider", {
-    ref: "side1",
-    attrs: {
-      "hide-trigger": "",
-      collapsible: "",
-      "collapsed-width": 78
-    },
-    model: {
-      value: _vm.isCollapsed,
-      callback: function callback($$v) {
-        _vm.isCollapsed = $$v;
-      },
-      expression: "isCollapsed"
-    }
-  }, [_c("Menu", {
-    class: _vm.menuitemClasses,
-    attrs: {
-      "active-name": "1-2",
-      theme: "dark",
-      width: "auto"
-    }
-  }, [_c("MenuItem", { attrs: { name: "1-1" } }, [_c("Icon", {
-    attrs: { type: "ios-navigate" }
-  }), _vm._v(" "), _c("span", [_vm._v("Option 1")])], 1), _vm._v(" "), _c("MenuItem", { attrs: { name: "1-2" } }, [_c("Icon", { attrs: { type: "search" } }), _vm._v(" "), _c("span", [_vm._v("Option 2")])], 1), _vm._v(" "), _c("MenuItem", { attrs: { name: "1-3" } }, [_c("Icon", { attrs: { type: "settings" } }), _vm._v(" "), _c("span", [_vm._v("Option 3")])], 1)], 1)], 1), _vm._v(" "), _c("Layout", [_c("Header", {
-    staticClass: "layout-header-bar",
-    style: { padding: 0 }
-  }, [_c("Icon", {
-    class: _vm.rotateIcon,
-    style: { margin: "20px 20px 0" },
-    attrs: { type: "navicon-round", size: "24" },
-    nativeOn: {
-      click: function click($event) {
-        return _vm.collapsedSider($event);
-      }
-    }
-  })], 1), _vm._v(" "), _c("Content", {
-    style: {
-      margin: "20px",
-      background: "#fff",
-      minHeight: "260px"
-    }
-  }, [_vm._v("\n                                Content\n                            ")])], 1)], 1)], 1)]), _vm._v(" "), _c("div", { attrs: { slot: "desc" }, slot: "desc" }, [_c("p", [_vm._v("要使用自定义触发器，可以设置"), _c("code", [_vm._v("hide-trigger")]), _vm._v("属性来隐藏默认触发器，也可以通过"), _c("code", [_vm._v("slot")]), _vm._v("替换默认触发器。")])]), _vm._v(" "), _c("i-code", { attrs: { slot: "code", lang: "html" }, slot: "code" }, [_vm._v(_vm._s(_vm.code.selfTrigger))])], 1), _vm._v(" "), _c("Demo", { attrs: { title: "响应式布局", vertical: "", "hide-code": "" } }, [_c("div", { attrs: { slot: "demo" }, slot: "demo" }, [_c("div", { staticClass: "layout" }, [_c("Layout", [_c("Sider", {
-    attrs: {
-      breakpoint: "md",
-      collapsible: "",
-      "collapsed-width": 78
-    },
-    model: {
-      value: _vm.isCollapsed2,
-      callback: function callback($$v) {
-        _vm.isCollapsed2 = $$v;
-      },
-      expression: "isCollapsed2"
-    }
-  }, [_c("Menu", {
-    class: _vm.menuitemClasses2,
-    attrs: {
-      "active-name": "1-2",
-      theme: "dark",
-      width: "auto"
-    }
-  }, [_c("MenuItem", { attrs: { name: "1-1" } }, [_c("Icon", {
-    attrs: { type: "ios-navigate" }
-  }), _vm._v(" "), _c("span", [_vm._v("Option 1")])], 1), _vm._v(" "), _c("MenuItem", { attrs: { name: "1-2" } }, [_c("Icon", { attrs: { type: "search" } }), _vm._v(" "), _c("span", [_vm._v("Option 2")])], 1), _vm._v(" "), _c("MenuItem", { attrs: { name: "1-3" } }, [_c("Icon", { attrs: { type: "settings" } }), _vm._v(" "), _c("span", [_vm._v("Option 3")])], 1)], 1), _vm._v(" "), _c("div", {
-    attrs: { slot: "trigger" },
-    slot: "trigger"
-  })], 1), _vm._v(" "), _c("Layout", [_c("Header", { staticClass: "layout-header-bar" }), _vm._v(" "), _c("Content", {
-    style: {
-      margin: "20px",
-      background: "#fff",
-      minHeight: "220px"
-    }
-  }, [_vm._v("\n                                Content\n                            ")])], 1)], 1)], 1)]), _vm._v(" "), _c("div", { attrs: { slot: "desc" }, slot: "desc" }, [_c("p", [_vm._v("Sider支持响应式布局")]), _vm._v(" "), _c("Alert", { staticStyle: { "margin-top": "16px" } }, [_vm._v("说明：配置"), _c("code", [_vm._v("breakpoint")]), _vm._v(" 属性即生效，视窗宽度小于"), _c("code", [_vm._v("breakpoint")]), _vm._v(" 时 Sider 缩小为"), _c("code", [_vm._v("collapsedWidth")]), _vm._v(" 宽度，若将"), _c("code", [_vm._v("collapsedWidth")]), _vm._v(" 设置为零，会出现特殊 trigger。")])], 1), _vm._v(" "), _c("i-code", { attrs: { slot: "code", lang: "html" }, slot: "code" }, [_vm._v(_vm._s(_vm.code.media))])], 1), _vm._v(" "), _c("Demo", { attrs: { title: "固定头部", vertical: "", "hide-code": "" } }, [_c("div", { attrs: { slot: "demo" }, slot: "demo" }, [_c("div", { staticClass: "layout" }, [_c("div", { staticClass: "layout" }, [_c("iframe", {
-    attrs: {
-      src: "https://file.iviewui.com/layout-page2/header-fixed.html",
-      height: "360"
-    }
-  })])])]), _vm._v(" "), _c("div", { attrs: { slot: "desc" }, slot: "desc" }, [_c("p", [_vm._v("一般用于固定顶部导航，方便页面切换。")])]), _vm._v(" "), _c("i-code", { attrs: { slot: "code", lang: "html" }, slot: "code" }, [_vm._v(_vm._s(_vm.code.headerFixed))])], 1), _vm._v(" "), _c("Demo", { attrs: { title: "固定侧边栏", vertical: "", "hide-code": "" } }, [_c("div", { attrs: { slot: "demo" }, slot: "demo" }, [_c("div", { staticClass: "layout" }, [_c("div", { staticClass: "layout" }, [_c("iframe", {
-    attrs: {
-      src: "https://file.iviewui.com/layout-page2/sider-fixed.html",
-      height: "360"
-    }
-  })])])]), _vm._v(" "), _c("div", { attrs: { slot: "desc" }, slot: "desc" }, [_c("p", [_vm._v("当内容较长时，使用固定侧边栏可以提供更好的体验。")])]), _vm._v(" "), _c("i-code", { attrs: { slot: "code", lang: "html" }, slot: "code" }, [_vm._v(_vm._s(_vm.code.siderFixed))])], 1), _vm._v(" "), _c("div", { staticClass: "api" }, [_c("Anchor", { attrs: { title: "API", h2: "" } }), _vm._v(" "), _c("Anchor", { attrs: { title: "Sider props", h3: "" } }), _vm._v(" "), _c("table", [_c("thead", [_c("tr", [_c("th", [_vm._v("属性")]), _vm._v(" "), _c("th", [_vm._v("说明")]), _vm._v(" "), _c("th", [_vm._v("类型")]), _vm._v(" "), _c("th", [_vm._v("默认值")])])]), _vm._v(" "), _c("tbody", [_c("tr", [_c("td", [_vm._v("breakpoint")]), _vm._v(" "), _c("td", [_vm._v("触发响应式布局的断点，可选值为"), _c("code", [_vm._v("xs")]), _vm._v(","), _c("code", [_vm._v("sm")]), _vm._v(","), _c("code", [_vm._v("md")]), _vm._v(","), _c("code", [_vm._v("lg")]), _vm._v(","), _c("code", [_vm._v("xl")]), _vm._v("或"), _c("code", [_vm._v("xxl")]), _vm._v("，若不设此属性则不会触发响应式布局。")]), _vm._v(" "), _c("td", [_vm._v("String")]), _vm._v(" "), _c("td", [_vm._v("-")])]), _vm._v(" "), _c("tr", [_c("td", [_vm._v("value")]), _vm._v(" "), _c("td", [_vm._v("侧边栏是否收起，可使用 v-model 双向绑定数据。")]), _vm._v(" "), _c("td", [_vm._v("Boolean")]), _vm._v(" "), _c("td", [_vm._v("false")])]), _vm._v(" "), _c("tr", [_c("td", [_vm._v("width")]), _vm._v(" "), _c("td", [_vm._v("宽度")]), _vm._v(" "), _c("td", [_vm._v("Number")]), _vm._v(" "), _c("td", [_vm._v("200")])]), _vm._v(" "), _c("tr", [_c("td", [_vm._v("collapsible")]), _vm._v(" "), _c("td", [_vm._v("是否可收起，设为"), _c("code", [_vm._v("false")]), _vm._v("后，默认触发器会隐藏，且响应式布局不会触发")]), _vm._v(" "), _c("td", [_vm._v("Boolean")]), _vm._v(" "), _c("td", [_vm._v("false")])]), _vm._v(" "), _c("tr", [_c("td", [_vm._v("collapsed-width")]), _vm._v(" "), _c("td", [_vm._v("收缩宽度，设置为 0 会出现特殊 trigger")]), _vm._v(" "), _c("td", [_vm._v("Number")]), _vm._v(" "), _c("td", [_vm._v("64")])]), _vm._v(" "), _c("tr", [_c("td", [_vm._v("hide-trigger")]), _vm._v(" "), _c("td", [_vm._v("隐藏默认触发器")]), _vm._v(" "), _c("td", [_vm._v("Boolean")]), _vm._v(" "), _c("td", [_vm._v("false")])]), _vm._v(" "), _c("tr", [_c("td", [_vm._v("default-collapsed")]), _vm._v(" "), _c("td", [_vm._v("是否默认收起，设置了"), _c("code", [_vm._v("collapsible")]), _vm._v("后设置此属性侧边栏仍会收起。")]), _vm._v(" "), _c("td", [_vm._v("Boolean")]), _vm._v(" "), _c("td", [_vm._v("false")])]), _vm._v(" "), _c("tr", [_c("td", [_vm._v("reverse-arrow")]), _vm._v(" "), _c("td", [_vm._v("改变侧边栏触发器箭头方向，和改变侧边栏收起方向，当Sider在右边时可以使用。")]), _vm._v(" "), _c("td", [_vm._v("Boolean")]), _vm._v(" "), _c("td", [_vm._v("false")])])])]), _vm._v(" "), _c("Anchor", { attrs: { title: "Sider events", h3: "" } }), _vm._v(" "), _c("table", [_c("thead", [_c("tr", [_c("th", [_vm._v("事件名")]), _vm._v(" "), _c("th", [_vm._v("说明")]), _vm._v(" "), _c("th", [_vm._v("返回值")])])]), _vm._v(" "), _c("tbody", [_c("tr", [_c("td", [_vm._v("on-collapse")]), _vm._v(" "), _c("td", [_vm._v("展开-收起时的回调")]), _vm._v(" "), _c("td", [_vm._v("true / false")])])])]), _vm._v(" "), _c("Anchor", { attrs: { title: "Sider slot", h3: "" } }), _vm._v(" "), _c("table", [_c("thead", [_c("tr", [_c("th", [_vm._v("名称")]), _vm._v(" "), _c("th", [_vm._v("说明")])])]), _vm._v(" "), _c("tbody", [_c("tr", [_c("td", [_vm._v("trigger")]), _vm._v(" "), _c("td", [_vm._v("自定义触发器")])])])]), _vm._v(" "), _c("Anchor", { attrs: { title: "Sider methods", h3: "" } }), _vm._v(" "), _c("table", [_c("thead", [_c("tr", [_c("th", [_vm._v("方法名")]), _vm._v(" "), _c("th", [_vm._v("说明")])])]), _vm._v(" "), _c("tbody", [_c("tr", [_c("td", [_vm._v("toggleCollapse")]), _vm._v(" "), _c("td", [_vm._v("改变Sider展开-收起状态。")])])])])], 1), _vm._v(" "), _c("Anchor", { attrs: { title: "breakpoint width", h3: "" } }), _vm._v(" "), _c("i-code", {
-    style: { background: "#f2f4f5", height: "170px" },
-    attrs: { slot: "code", lang: "js" },
-    slot: "code"
-  }, [_vm._v("\n    {\n        xs: '480px',\n        sm: '768px',\n        md: '992px',\n        lg: '1200px',\n        xl: '1600px'\n    }\n        ")])], 1)]);
+  return _c("div", [_c("div", { staticClass: "slider-wrapper" }, [_c("div", { ref: "slider", staticClass: "slider" }, [_c("div", { ref: "sliderGroup", staticClass: "slider-group" }, _vm._l(_vm.imgArr, function (item) {
+    return _c("div", [_c("img", { attrs: { src: item } })]);
+  })), _vm._v(" "), _c("div", { staticClass: "dots" }, _vm._l(_vm.dots, function (item, index) {
+    return _c("span", {
+      staticClass: "dot",
+      class: { active: _vm.currentPageIndex === index }
+    });
+  }))])])]);
 };
 var staticRenderFns = [];
 render._withStripped = true;
@@ -2744,46 +4578,157 @@ exports.default = esExports;
 if (false) {
   module.hot.accept();
   if (module.hot.data) {
-    require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-085017ce", esExports);
+    require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-09fe8cd8", esExports);
   }
 }
 
 /***/ }),
 
-/***/ 580:
+/***/ 603:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
 Object.defineProperty(exports, "__esModule", {
-    value: true
+  value: true
+});
+var render = function render() {
+  var _vm = this;
+  var _h = _vm.$createElement;
+  var _c = _vm._self._c || _h;
+  return _c("i-article", [_c("article", [_c("h1", [_vm._v("工作台")]), _vm._v(" "), _c("p", [_vm._v("工作台")]), _vm._v(" "), _c("inAnchor", { attrs: { title: "代码示例", h2: "" } }), _vm._v(" "), _c("Demo", { attrs: { title: "myWorkbench" } }, [_c("div", { attrs: { slot: "demo" }, slot: "demo" }, [_c("div", { staticClass: "slider-container" }, [_c("Slider", { attrs: { imgArr: _vm.imgs } })], 1)]), _vm._v(" "), _c("div", { attrs: { slot: "desc" }, slot: "desc" }, [_c("p", [_vm._v("用于演示，添加了一个默认数据")])]), _vm._v(" "), _c("i-code", { attrs: { slot: "code", lang: "html" }, slot: "code" }, [_vm._v(_vm._s(_vm.code.default))])], 1), _vm._v(" "), _c("div", { staticClass: "api" }, [_c("inAnchor", { attrs: { title: "API", h2: "" } }), _vm._v(" "), _c("inAnchor", { attrs: { title: "Slider props", h3: "" } }), _vm._v(" "), _c("table", [_c("thead", [_c("tr", [_c("th", [_vm._v("属性")]), _vm._v(" "), _c("th", [_vm._v("说明")]), _vm._v(" "), _c("th", [_vm._v("类型")]), _vm._v(" "), _c("th", [_vm._v("默认值")])])]), _vm._v(" "), _c("tbody", [_c("tr", [_c("td", [_vm._v("imgArr")]), _vm._v(" "), _c("td", [_vm._v("图片地址数组")]), _vm._v(" "), _c("td", [_vm._v("Array")]), _vm._v(" "), _c("td", [_vm._v("[]")])]), _vm._v(" "), _c("tr", [_c("td", [_vm._v("loop")]), _vm._v(" "), _c("td", [_vm._v("是否循环播放")]), _vm._v(" "), _c("td", [_vm._v("Boolean")]), _vm._v(" "), _c("td", [_vm._v("true")])]), _vm._v(" "), _c("tr", [_c("td", [_vm._v("autoPlay")]), _vm._v(" "), _c("td", [_vm._v("是否自动播放")]), _vm._v(" "), _c("td", [_vm._v("Boolean")]), _vm._v(" "), _c("td", [_vm._v("true")])]), _vm._v(" "), _c("tr", [_c("td", [_vm._v("interval")]), _vm._v(" "), _c("td", [_vm._v("进行下一次轮播的时间")]), _vm._v(" "), _c("td", [_vm._v("Number")]), _vm._v(" "), _c("td", [_vm._v("2000")])])])]), _vm._v(" "), _c("inAnchor", { attrs: { title: "Slider event", h3: "" } }), _vm._v(" "), _c("table", [_c("thead", [_c("tr", [_c("th", [_vm._v("事件名")]), _vm._v(" "), _c("th", [_vm._v("说明")]), _vm._v(" "), _c("th", [_vm._v("参数")])])]), _vm._v(" "), _c("tbody", [_c("tr", [_c("td", [_vm._v("beforeScrollStart")]), _vm._v(" "), _c("td", [_vm._v("滑动开始前触发事件")]), _vm._v(" "), _c("td", [_vm._v("event")])]), _vm._v(" "), _c("tr", [_c("td", [_vm._v("scrollEnd")]), _vm._v(" "), _c("td", [_vm._v("滑动后触发事件")]), _vm._v(" "), _c("td", [_vm._v("event")])])])])], 1)], 1)]);
+};
+var staticRenderFns = [];
+render._withStripped = true;
+var esExports = { render: render, staticRenderFns: staticRenderFns };
+exports.default = esExports;
+
+if (false) {
+  module.hot.accept();
+  if (module.hot.data) {
+    require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-2969be50", esExports);
+  }
+}
+
+/***/ }),
+
+/***/ 633:
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
 });
 var code = {};
 
-code.basic = "\n<template>\n<div class=\"layout\">\n    <Layout>\n        <Header>Header</Header>\n        <Content>Content</Content>\n        <Footer>Footer</Footer>\n    </Layout>\n\n    <Layout>\n        <Header>Header</Header>\n        <Layout>\n            <Sider hide-trigger>Sider</Sider>\n            <Content>Content</Content>\n        </Layout>\n        <Footer>Footer</Footer>\n    </Layout>\n\n    <Layout>\n        <Header>Header</Header>\n        <Layout>\n            <Content>Content</Content>\n            <Sider hide-trigger>Sider</Sider>\n        </Layout>\n        <Footer>Footer</Footer>\n    </Layout>\n\n    <Layout>\n        <Sider hide-trigger>Sider</Sider>\n        <Layout>\n            <Header>Header</Header>\n            <Content>Content</Content>\n            <Footer>Footer</Footer>\n        </Layout>\n    </Layout>\n</div>\n</template>\n<script>\n    export default {\n        \n    }\n</script>\n";
-
-code.topMiddleBottom = "\n<style scoped>\n.layout{\n    border: 1px solid #d7dde4;\n    background: #f5f7f9;\n    position: relative;\n    border-radius: 4px;\n    overflow: hidden;\n}\n.layout-logo{\n    width: 100px;\n    height: 30px;\n    background: #5b6270;\n    border-radius: 3px;\n    float: left;\n    position: relative;\n    top: 15px;\n    left: 20px;\n}\n.layout-nav{\n    width: 420px;\n    margin: 0 auto;\n    margin-right: 20px;\n}\n.layout-footer-center{\n    text-align: center;\n}\n</style>\n<template>\n    <div class=\"layout\">\n        <Layout>\n            <Header>\n                <Menu mode=\"horizontal\" theme=\"dark\" active-name=\"1\">\n                    <div class=\"layout-logo\"></div>\n                    <div class=\"layout-nav\">\n                        <MenuItem name=\"1\">\n                            <Icon type=\"ios-navigate\"></Icon>\n                            Item 1\n                        </MenuItem>\n                        <MenuItem name=\"2\">\n                            <Icon type=\"ios-keypad\"></Icon>\n                            Item 2\n                        </MenuItem>\n                        <MenuItem name=\"3\">\n                            <Icon type=\"ios-analytics\"></Icon>\n                            Item 3\n                        </MenuItem>\n                        <MenuItem name=\"4\">\n                            <Icon type=\"ios-paper\"></Icon>\n                            Item 4\n                        </MenuItem>\n                    </div>\n                </Menu>\n            </Header>\n            <Content :style=\"{padding: '0 50px'}\">\n                <Breadcrumb :style=\"{margin: '20px 0'}\">\n                    <BreadcrumbItem>Home</BreadcrumbItem>\n                    <BreadcrumbItem>Components</BreadcrumbItem>\n                    <BreadcrumbItem>Layout</BreadcrumbItem>\n                </Breadcrumb>\n                <Card>\n                    <div style=\"min-height: 200px;\">\n                        Content\n                    </div>\n                </Card>\n            </Content>\n            <Footer class=\"layout-footer-center\">2011-2016 &copy; TalkingData</Footer>\n        </Layout>\n    </div>\n</template>\n<script>\n    export default {\n        \n    }\n</script>\n";
-
-code.topLeftRight = "\n<style scoped>\n.layout{\n    border: 1px solid #d7dde4;\n    background: #f5f7f9;\n    position: relative;\n    border-radius: 4px;\n    overflow: hidden;\n}\n.layout-logo{\n    width: 100px;\n    height: 30px;\n    background: #5b6270;\n    border-radius: 3px;\n    float: left;\n    position: relative;\n    top: 15px;\n    left: 20px;\n}\n.layout-nav{\n    width: 420px;\n    margin: 0 auto;\n    margin-right: 20px;\n}\n</style>\n<template>\n    <div class=\"layout\">\n        <Layout>\n            <Header>\n                <Menu mode=\"horizontal\" theme=\"dark\" active-name=\"1\">\n                    <div class=\"layout-logo\"></div>\n                    <div class=\"layout-nav\">\n                        <MenuItem name=\"1\">\n                            <Icon type=\"ios-navigate\"></Icon>\n                            Item 1\n                        </MenuItem>\n                        <MenuItem name=\"2\">\n                            <Icon type=\"ios-keypad\"></Icon>\n                            Item 2\n                        </MenuItem>\n                        <MenuItem name=\"3\">\n                            <Icon type=\"ios-analytics\"></Icon>\n                            Item 3\n                        </MenuItem>\n                        <MenuItem name=\"4\">\n                            <Icon type=\"ios-paper\"></Icon>\n                            Item 4\n                        </MenuItem>\n                    </div>\n                </Menu>\n            </Header>\n            <Layout>\n                <Sider hide-trigger :style=\"{background: '#fff'}\">\n                    <Menu active-name=\"1-2\" theme=\"light\" width=\"auto\" :open-names=\"['1']\">\n                        <Submenu name=\"1\">\n                            <template slot=\"title\">\n                                <Icon type=\"ios-navigate\"></Icon>\n                                Item 1\n                            </template>\n                            <MenuItem name=\"1-1\">Option 1</MenuItem>\n                            <MenuItem name=\"1-2\">Option 2</MenuItem>\n                            <MenuItem name=\"1-3\">Option 3</MenuItem>\n                        </Submenu>\n                        <Submenu name=\"2\">\n                            <template slot=\"title\">\n                                <Icon type=\"ios-keypad\"></Icon>\n                                Item 2\n                            </template>\n                            <MenuItem name=\"2-1\">Option 1</MenuItem>\n                            <MenuItem name=\"2-2\">Option 2</MenuItem>\n                        </Submenu>\n                        <Submenu name=\"3\">\n                            <template slot=\"title\">\n                                <Icon type=\"ios-analytics\"></Icon>\n                                Item 3\n                            </template>\n                            <MenuItem name=\"3-1\">Option 1</MenuItem>\n                            <MenuItem name=\"3-2\">Option 2</MenuItem>\n                        </Submenu>\n                    </Menu>\n                </Sider>\n                <Layout :style=\"{padding: '0 24px 24px'}\">\n                    <Breadcrumb :style=\"{margin: '24px 0'}\">\n                        <BreadcrumbItem>Home</BreadcrumbItem>\n                        <BreadcrumbItem>Components</BreadcrumbItem>\n                        <BreadcrumbItem>Layout</BreadcrumbItem>\n                    </Breadcrumb>\n                    <Content :style=\"{padding: '24px', minHeight: '280px', background: '#fff'}\">\n                        Content\n                    </Content>\n                </Layout>\n            </Layout>\n        </Layout>\n    </div>\n</template>\n<script>\n    export default {\n        \n    }\n</script>\n";
-
-code.topSiderFooter = "\n<style scoped>\n.layout{\n    border: 1px solid #d7dde4;\n    background: #f5f7f9;\n    position: relative;\n    border-radius: 4px;\n    overflow: hidden;\n}\n.layout-logo{\n    width: 100px;\n    height: 30px;\n    background: #5b6270;\n    border-radius: 3px;\n    float: left;\n    position: relative;\n    top: 15px;\n    left: 20px;\n}\n.layout-nav{\n    width: 420px;\n    margin: 0 auto;\n    margin-right: 20px;\n}\n.layout-footer-center{\n    text-align: center;\n}\n</style>\n<template>\n    <div class=\"layout\">\n        <Layout>\n            <Header>\n                <Menu mode=\"horizontal\" theme=\"dark\" active-name=\"1\">\n                    <div class=\"layout-logo\"></div>\n                    <div class=\"layout-nav\">\n                        <MenuItem name=\"1\">\n                            <Icon type=\"ios-navigate\"></Icon>\n                            Item 1\n                        </MenuItem>\n                        <MenuItem name=\"2\">\n                            <Icon type=\"ios-keypad\"></Icon>\n                            Item 2\n                        </MenuItem>\n                        <MenuItem name=\"3\">\n                            <Icon type=\"ios-analytics\"></Icon>\n                            Item 3\n                        </MenuItem>\n                        <MenuItem name=\"4\">\n                            <Icon type=\"ios-paper\"></Icon>\n                            Item 4\n                        </MenuItem>\n                    </div>\n                </Menu>\n            </Header>\n            <Layout :style=\"{padding: '0 50px'}\">\n                <Breadcrumb :style=\"{margin: '16px 0'}\">\n                    <BreadcrumbItem>Home</BreadcrumbItem>\n                    <BreadcrumbItem>Components</BreadcrumbItem>\n                    <BreadcrumbItem>Layout</BreadcrumbItem>\n                </Breadcrumb>\n                <Content :style=\"{padding: '24px 0', minHeight: '280px', background: '#fff'}\">\n                    <Layout>\n                        <Sider hide-trigger :style=\"{background: '#fff'}\">\n                            <Menu active-name=\"1-2\" theme=\"light\" width=\"auto\" :open-names=\"['1']\">\n                                <Submenu name=\"1\">\n                                    <template slot=\"title\">\n                                        <Icon type=\"ios-navigate\"></Icon>\n                                        Item 1\n                                    </template>\n                                    <MenuItem name=\"1-1\">Option 1</MenuItem>\n                                    <MenuItem name=\"1-2\">Option 2</MenuItem>\n                                    <MenuItem name=\"1-3\">Option 3</MenuItem>\n                                </Submenu>\n                                <Submenu name=\"2\">\n                                    <template slot=\"title\">\n                                        <Icon type=\"ios-keypad\"></Icon>\n                                        Item 2\n                                    </template>\n                                    <MenuItem name=\"2-1\">Option 1</MenuItem>\n                                    <MenuItem name=\"2-2\">Option 2</MenuItem>\n                                </Submenu>\n                                <Submenu name=\"3\">\n                                    <template slot=\"title\">\n                                        <Icon type=\"ios-analytics\"></Icon>\n                                        Item 3\n                                    </template>\n                                    <MenuItem name=\"3-1\">Option 1</MenuItem>\n                                    <MenuItem name=\"3-2\">Option 2</MenuItem>\n                                </Submenu>\n                            </Menu>\n                        </Sider>\n                        <Content :style=\"{padding: '24px', minHeight: '280px', background: '#fff'}\">\n                            Content\n                        </Content>\n                    </Layout>\n                </Content>\n            </Layout>\n            <Footer class=\"layout-footer-center\">2011-2016 &copy; TalkingData</Footer>\n        </Layout>\n    </div>\n</div>\n</template>\n<script>\n    export default {\n        \n    }\n</script>\n";
-
-code.left = "\n<style scoped>\n    .layout-con{\n        height: 100%;\n        width: 100%;\n    }\n    .menu-item span{\n        display: inline-block;\n        overflow: hidden;\n        width: 69px;\n        text-overflow: ellipsis;\n        white-space: nowrap;\n        vertical-align: bottom;\n        transition: width .2s ease .2s;\n    }\n    .menu-item i{\n        transform: translateX(0px);\n        transition: font-size .2s ease, transform .2s ease;\n        vertical-align: middle;\n        font-size: 16px;\n    }\n    .collapsed-menu span{\n        width: 0px;\n        transition: width .2s ease;\n    }\n    .collapsed-menu i{\n        transform: translateX(5px);\n        transition: font-size .2s ease .2s, transform .2s ease .2s;\n        vertical-align: middle;\n        font-size: 22px;\n    }\n</style>\n<template>\n    <div class=\"layout\">\n        <Layout :style=\"{minHeight: '100vh'}\">\n            <Sider collapsible :collapsed-width=\"78\" v-model=\"isCollapsed\">\n                <Menu active-name=\"1-2\" theme=\"dark\" width=\"auto\" :class=\"menuitemClasses\">\n                    <MenuItem name=\"1-1\">\n                        <Icon type=\"ios-navigate\"></Icon>\n                        <span>Option 1</span>\n                    </MenuItem>\n                    <MenuItem name=\"1-2\">\n                        <Icon type=\"search\"></Icon>\n                        <span>Option 2</span>\n                    </MenuItem>\n                    <MenuItem name=\"1-3\">\n                        <Icon type=\"settings\"></Icon>\n                        <span>Option 3</span>\n                    </MenuItem>\n                </Menu>\n            </Sider>\n            <Layout>\n                <Header :style=\"{background: '#fff', boxShadow: '0 2px 3px 2px rgba(0,0,0,.1)'}\"></Header>\n                <Content :style=\"{padding: '0 16px 16px'}\">\n                    <Breadcrumb :style=\"{margin: '16px 0'}\">\n                        <BreadcrumbItem>Home</BreadcrumbItem>\n                        <BreadcrumbItem>Components</BreadcrumbItem>\n                        <BreadcrumbItem>Layout</BreadcrumbItem>\n                    </Breadcrumb>\n                    <Card>\n                        <div style=\"height: 600px\">Content</div>\n                    </Card>\n                </Content>\n            </Layout>\n        </Layout>\n    </div>\n</template>\n<script>\n    export default {\n        data () {\n            return {\n                isCollapsed: false\n            };\n        },\n        computed: {\n            menuitemClasses: function () {\n                return [\n                    'menu-item',\n                    this.isCollapsed ? 'collapsed-menu' : ''\n                ]\n            }\n        }\n    }\n</script>\n";
-
-code.selfTrigger = "\n<style scoped>\n    .layout{\n        border: 1px solid #d7dde4;\n        background: #f5f7f9;\n        position: relative;\n        border-radius: 4px;\n        overflow: hidden;\n    }\n    .layout-header-bar{\n        background: #fff;\n        box-shadow: 0 1px 1px rgba(0,0,0,.1);\n    }\n    .layout-logo-left{\n        width: 90%;\n        height: 30px;\n        background: #5b6270;\n        border-radius: 3px;\n        margin: 15px auto;\n    }\n    .menu-icon{\n        transition: all .3s;\n    }\n    .rotate-icon{\n        transform: rotate(-90deg);\n    }\n    .menu-item span{\n        display: inline-block;\n        overflow: hidden;\n        width: 69px;\n        text-overflow: ellipsis;\n        white-space: nowrap;\n        vertical-align: bottom;\n        transition: width .2s ease .2s;\n    }\n    .menu-item i{\n        transform: translateX(0px);\n        transition: font-size .2s ease, transform .2s ease;\n        vertical-align: middle;\n        font-size: 16px;\n    }\n    .collapsed-menu span{\n        width: 0px;\n        transition: width .2s ease;\n    }\n    .collapsed-menu i{\n        transform: translateX(5px);\n        transition: font-size .2s ease .2s, transform .2s ease .2s;\n        vertical-align: middle;\n        font-size: 22px;\n    }\n</style>\n<template>\n    <div class=\"layout\">\n        <Layout>\n            <Sider ref=\"side1\" hide-trigger collapsible :collapsed-width=\"78\" v-model=\"isCollapsed\">\n                <Menu active-name=\"1-2\" theme=\"dark\" width=\"auto\" :class=\"menuitemClasses\">\n                    <MenuItem name=\"1-1\">\n                        <Icon type=\"ios-navigate\"></Icon>\n                        <span>Option 1</span>\n                    </MenuItem>\n                    <MenuItem name=\"1-2\">\n                        <Icon type=\"ios-search\"></Icon>\n                        <span>Option 2</span>\n                    </MenuItem>\n                    <MenuItem name=\"1-3\">\n                        <Icon type=\"ios-settings\"></Icon>\n                        <span>Option 3</span>\n                    </MenuItem>\n                </Menu>\n            </Sider>\n            <Layout>\n                <Header :style=\"{padding: 0}\" class=\"layout-header-bar\">\n                    <Icon @click.native=\"collapsedSider\" :class=\"rotateIcon\" :style=\"{margin: '0 20px'}\" type=\"md-menu\" size=\"24\"></Icon>\n                </Header>\n                <Content :style=\"{margin: '20px', background: '#fff', minHeight: '260px'}\">\n                    Content\n                </Content>\n            </Layout>\n        </Layout>\n    </div>\n</template>\n<script>\n    export default {\n        data () {\n            return {\n                isCollapsed: false\n            }\n        },\n        computed: {\n            rotateIcon () {\n                return [\n                    'menu-icon',\n                    this.isCollapsed ? 'rotate-icon' : ''\n                ];\n            },\n            menuitemClasses () {\n                return [\n                    'menu-item',\n                    this.isCollapsed ? 'collapsed-menu' : ''\n                ]\n            }\n        },\n        methods: {\n            collapsedSider () {\n                this.$refs.side1.toggleCollapse();\n            }\n        }\n    }\n</script>\n";
-code.media = "\n<style scoped>\n    .layout{\n        border: 1px solid #d7dde4;\n        background: #f5f7f9;\n        position: relative;\n        border-radius: 4px;\n        overflow: hidden;\n    }\n    .layout-header-bar{\n        background: #fff;\n        box-shadow: 0 1px 1px rgba(0,0,0,.1);\n    }\n    .menu-item span{\n        display: inline-block;\n        overflow: hidden;\n        width: 69px;\n        text-overflow: ellipsis;\n        white-space: nowrap;\n        vertical-align: bottom;\n        transition: width .2s ease .2s;\n    }\n    .menu-item i{\n        transform: translateX(0px);\n        transition: font-size .2s ease, transform .2s ease;\n        vertical-align: middle;\n        font-size: 16px;\n    }\n    .collapsed-menu span{\n        width: 0px;\n        transition: width .2s ease;\n    }\n    .collapsed-menu i{\n        transform: translateX(5px);\n        transition: font-size .2s ease .2s, transform .2s ease .2s;\n        vertical-align: middle;\n        font-size: 22px;\n    }\n</style>\n<template>\n    <div class=\"layout\">\n        <Layout>\n            <Sider breakpoint=\"md\" collapsible :collapsed-width=\"78\" v-model=\"isCollapsed\">\n                <Menu active-name=\"1-2\" theme=\"dark\" width=\"auto\" :class=\"menuitemClasses\">\n                    <MenuItem name=\"1-1\">\n                        <Icon type=\"ios-navigate\"></Icon>\n                        <span>Option 1</span>\n                    </MenuItem>\n                    <MenuItem name=\"1-2\">\n                        <Icon type=\"ios-search\"></Icon>\n                        <span>Option 2</span>\n                    </MenuItem>\n                    <MenuItem name=\"1-3\">\n                        <Icon type=\"ios-settings\"></Icon>\n                        <span>Option 3</span>\n                    </MenuItem>\n                </Menu>\n                <div slot=\"trigger\"></div>\n            </Sider>\n            <Layout>\n                <Header class=\"layout-header-bar\"></Header>\n                <Content :style=\"{margin: '20px', background: '#fff', minHeight: '220px'}\">\n                    Content\n                </Content>\n            </Layout>\n        </Layout>\n    </div>\n</template>\n<script>\n    export default {\n        data () {\n            return {\n                isCollapsed: false\n            };\n        },\n        computed: {\n            menuitemClasses: function () {\n                return [\n                    'menu-item',\n                    this.isCollapsed ? 'collapsed-menu' : ''\n                ]\n            }\n        }\n    }\n</script>\n";
-code.headerFixed = "\n<style scoped>\n    .layout{\n        border: 1px solid #d7dde4;\n        background: #f5f7f9;\n        position: relative;\n        border-radius: 4px;\n        overflow: hidden;\n    }\n    .layout-logo{\n        width: 100px;\n        height: 30px;\n        background: #5b6270;\n        border-radius: 3px;\n        float: left;\n        position: relative;\n        top: 15px;\n        left: 20px;\n    }\n    .layout-nav{\n        width: 420px;\n        margin: 0 auto;\n        margin-right: 20px;\n    }\n    .layout-footer-center{\n        text-align: center;\n    }\n</style>\n<template>\n    <div class=\"layout\">\n        <Layout>\n            <Header :style=\"{position: 'fixed', width: '100%'}\">\n                <Menu mode=\"horizontal\" theme=\"dark\" active-name=\"1\">\n                    <div class=\"layout-logo\"></div>\n                    <div class=\"layout-nav\">\n                        <MenuItem name=\"1\">\n                            <Icon type=\"ios-navigate\"></Icon>\n                            Item 1\n                        </MenuItem>\n                        <MenuItem name=\"2\">\n                            <Icon type=\"ios-keypad\"></Icon>\n                            Item 2\n                        </MenuItem>\n                        <MenuItem name=\"3\">\n                            <Icon type=\"ios-analytics\"></Icon>\n                            Item 3\n                        </MenuItem>\n                        <MenuItem name=\"4\">\n                            <Icon type=\"ios-paper\"></Icon>\n                            Item 4\n                        </MenuItem>\n                    </div>\n                </Menu>\n            </Header>\n            <Content :style=\"{margin: '88px 20px 0', background: '#fff', minHeight: '500px'}\">\n                Content\n            </Content>\n            <Footer class=\"layout-footer-center\">2011-2016 &copy; TalkingData</Footer>\n        </Layout>\n    </div>\n</template>\n<script>\n    export default {\n        \n    }\n</script>\n";
-code.siderFixed = "\n<style scoped>\n    .layout{\n        border: 1px solid #d7dde4;\n        background: #f5f7f9;\n        position: relative;\n        border-radius: 4px;\n        overflow: hidden;\n    }\n    .layout-header-bar{\n        background: #fff;\n        box-shadow: 0 1px 1px rgba(0,0,0,.1);\n    }\n</style>\n<template>\n    <div class=\"layout\">\n        <Sider :style=\"{position: 'fixed', height: '100vh', left: 0, overflow: 'auto'}\">\n            <Menu active-name=\"1-2\" theme=\"dark\" width=\"auto\" :open-names=\"['1']\">\n                <Submenu name=\"1\">\n                    <template slot=\"title\">\n                        <Icon type=\"ios-navigate\"></Icon>\n                        Item 1\n                    </template>\n                    <MenuItem name=\"1-1\">Option 1</MenuItem>\n                    <MenuItem name=\"1-2\">Option 2</MenuItem>\n                    <MenuItem name=\"1-3\">Option 3</MenuItem>\n                </Submenu>\n                <Submenu name=\"2\">\n                    <template slot=\"title\">\n                        <Icon type=\"ios-keypad\"></Icon>\n                        Item 2\n                    </template>\n                    <MenuItem name=\"2-1\">Option 1</MenuItem>\n                    <MenuItem name=\"2-2\">Option 2</MenuItem>\n                </Submenu>\n                <Submenu name=\"3\">\n                    <template slot=\"title\">\n                        <Icon type=\"ios-analytics\"></Icon>\n                        Item 3\n                    </template>\n                    <MenuItem name=\"3-1\">Option 1</MenuItem>\n                    <MenuItem name=\"3-2\">Option 2</MenuItem>\n                </Submenu>\n            </Menu>\n        </Sider>\n        <Layout :style=\"{marginLeft: '200px'}\">\n            <Header :style=\"{background: '#fff', boxShadow: '0 2px 3px 2px rgba(0,0,0,.1)'}\"></Header>\n            <Content :style=\"{padding: '0 16px 16px'}\">\n                <Breadcrumb :style=\"{margin: '16px 0'}\">\n                    <BreadcrumbItem>Home</BreadcrumbItem>\n                    <BreadcrumbItem>Components</BreadcrumbItem>\n                    <BreadcrumbItem>Layout</BreadcrumbItem>\n                </Breadcrumb>\n                <Card>\n                    <div style=\"height: 600px\">Content</div>\n                </Card>\n            </Content>\n        </Layout>\n    </div>\n</template>\n<script>\n    export default {\n        \n    }\n</script>\n";
+code.default = "\n<template>\n   <div class=\"slider-container\">\n     <slider :imgArr=\"imgs\" :interval=4000 :autoPlay=true :loop=true />\n   </div>\n</template>\n<script>\n\texport default {\n        data () {\n            return {\n              imgs:['http://y.gtimg.cn/music/common/upload/MUSIC_FOCUS/318993.jpg','http://y.gtimg.cn/music/common/upload/MUSIC_FOCUS/319680.jpg','http://y.gtimg.cn/music/common/upload/MUSIC_FOCUS/316605.jpg']\n            }\n        },\n        methods: {}\n    }\n</script>\n";
 
 exports.default = code;
 
 /***/ }),
 
-/***/ 595:
-/***/ (function(module, exports) {
+/***/ 656:
+/***/ (function(module, exports, __webpack_require__) {
 
-// removed by extract-text-webpack-plugin
+exports = module.exports = __webpack_require__(541)();
+// imports
+
+
+// module
+exports.push([module.i, "\n.slider-wrapper[data-v-09fe8cd8] {\n  position: relative;\n  width: 100%;\n  overflow: hidden;\n}\n.slider-wrapper .slider[data-v-09fe8cd8] {\n    min-height: 1px;\n}\n.slider-wrapper .slider .slider-group[data-v-09fe8cd8] {\n      position: relative;\n      overflow: hidden;\n      white-space: nowrap;\n}\n.slider-wrapper .slider .slider-group .slider-item[data-v-09fe8cd8] {\n        float: left;\n        box-sizing: border-box;\n        overflow: hidden;\n        text-align: center;\n}\n.slider-wrapper .slider .slider-group .slider-item img[data-v-09fe8cd8] {\n          display: block;\n          width: 100%;\n}\n.slider-wrapper .slider .dots[data-v-09fe8cd8] {\n      right: 0;\n      left: 0;\n      bottom: 20px;\n      text-align: center;\n      font-size: 0;\n      margin-top: 15px;\n}\n.slider-wrapper .slider .dots .dot[data-v-09fe8cd8] {\n        display: inline-block;\n        margin: 0 4px;\n        width: 8px;\n        height: 8px;\n        border-radius: 50%;\n        background: gainsboro;\n}\n.slider-wrapper .slider .dots .dot.active[data-v-09fe8cd8] {\n          width: 20px;\n          border-radius: 5px;\n          background: greenyellow;\n}\n", "", {"version":3,"sources":["/./src/components/mhc/Slider.vue"],"names":[],"mappings":";AAAA;EACE,mBAAmB;EACnB,YAAY;EACZ,iBAAiB;CAAE;AACnB;IACE,gBAAgB;CAAE;AAClB;MACE,mBAAmB;MACnB,iBAAiB;MACjB,oBAAoB;CAAE;AACtB;QACE,YAAY;QACZ,uBAAuB;QACvB,iBAAiB;QACjB,mBAAmB;CAAE;AACrB;UACE,eAAe;UACf,YAAY;CAAE;AACpB;MACE,SAAS;MACT,QAAQ;MACR,aAAa;MACb,mBAAmB;MACnB,aAAa;MACb,iBAAiB;CAAE;AACnB;QACE,sBAAsB;QACtB,cAAc;QACd,WAAW;QACX,YAAY;QACZ,mBAAmB;QACnB,sBAAsB;CAAE;AACxB;UACE,YAAY;UACZ,mBAAmB;UACnB,wBAAwB;CAAE","file":"Slider.vue","sourcesContent":[".slider-wrapper {\n  position: relative;\n  width: 100%;\n  overflow: hidden; }\n  .slider-wrapper .slider {\n    min-height: 1px; }\n    .slider-wrapper .slider .slider-group {\n      position: relative;\n      overflow: hidden;\n      white-space: nowrap; }\n      .slider-wrapper .slider .slider-group .slider-item {\n        float: left;\n        box-sizing: border-box;\n        overflow: hidden;\n        text-align: center; }\n        .slider-wrapper .slider .slider-group .slider-item img {\n          display: block;\n          width: 100%; }\n    .slider-wrapper .slider .dots {\n      right: 0;\n      left: 0;\n      bottom: 20px;\n      text-align: center;\n      font-size: 0;\n      margin-top: 15px; }\n      .slider-wrapper .slider .dots .dot {\n        display: inline-block;\n        margin: 0 4px;\n        width: 8px;\n        height: 8px;\n        border-radius: 50%;\n        background: gainsboro; }\n        .slider-wrapper .slider .dots .dot.active {\n          width: 20px;\n          border-radius: 5px;\n          background: greenyellow; }\n"],"sourceRoot":"webpack://"}]);
+
+// exports
+
+
+/***/ }),
+
+/***/ 690:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_Slider_vue__ = __webpack_require__(557);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_Slider_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_Slider_vue__);
+/* harmony namespace reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_Slider_vue__) if(["default","default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_Slider_vue__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_09fe8cd8_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_Slider_vue__ = __webpack_require__(594);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_09fe8cd8_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_Slider_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_09fe8cd8_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_Slider_vue__);
+var disposed = false
+function injectStyle (ssrContext) {
+  if (disposed) return
+  __webpack_require__(700)
+}
+var normalizeComponent = __webpack_require__(197)
+/* script */
+
+
+/* template */
+
+/* template functional */
+var __vue_template_functional__ = false
+/* styles */
+var __vue_styles__ = injectStyle
+/* scopeId */
+var __vue_scopeId__ = "data-v-09fe8cd8"
+/* moduleIdentifier (server only) */
+var __vue_module_identifier__ = null
+var Component = normalizeComponent(
+  __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_Slider_vue___default.a,
+  __WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_09fe8cd8_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_Slider_vue___default.a,
+  __vue_template_functional__,
+  __vue_styles__,
+  __vue_scopeId__,
+  __vue_module_identifier__
+)
+Component.options.__file = "src/components/mhc/Slider.vue"
+
+/* hot reload */
+if (false) {(function () {
+  var hotAPI = require("vue-loader/node_modules/vue-hot-reload-api")
+  hotAPI.install(require("vue"), false)
+  if (!hotAPI.compatible) return
+  module.hot.accept()
+  if (!module.hot.data) {
+    hotAPI.createRecord("data-v-09fe8cd8", Component.options)
+  } else {
+    hotAPI.reload("data-v-09fe8cd8", Component.options)
+  }
+  module.hot.dispose(function (data) {
+    disposed = true
+  })
+})()}
+
+/* harmony default export */ __webpack_exports__["default"] = (Component.exports);
+
+
+/***/ }),
+
+/***/ 700:
+/***/ (function(module, exports, __webpack_require__) {
+
+// style-loader: Adds some css to the DOM by adding a <style> tag
+
+// load the styles
+var content = __webpack_require__(656);
+if(typeof content === 'string') content = [[module.i, content, '']];
+if(content.locals) module.exports = content.locals;
+// add the styles to the DOM
+var update = __webpack_require__(542)("15b1d8fe", content, false, {});
+// Hot Module Replacement
+if(false) {
+ // When the styles change, update the <style> tags
+ if(!content.locals) {
+   module.hot.accept("!!../../../node_modules/css-loader/index.js?sourceMap!../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-09fe8cd8\",\"scoped\":true,\"hasInlineConfig\":false}!../../../node_modules/sass-loader/lib/loader.js!../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!../../../node_modules/iview-loader/index.js?{\"prefix\":false}!./Slider.vue", function() {
+     var newContent = require("!!../../../node_modules/css-loader/index.js?sourceMap!../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-09fe8cd8\",\"scoped\":true,\"hasInlineConfig\":false}!../../../node_modules/sass-loader/lib/loader.js!../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!../../../node_modules/iview-loader/index.js?{\"prefix\":false}!./Slider.vue");
+     if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+     update(newContent);
+   });
+ }
+ // When the module is disposed, remove the <style> tags
+ module.hot.dispose(function() { update(); });
+}
 
 /***/ })
 
