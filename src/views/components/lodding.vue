@@ -1,8 +1,8 @@
 <template>
     <i-article>
         <article>
-            <h1>加载lodding</h1>
-            <p>加载lodding</p>
+            <h1>lodding</h1>
+            <p>lodding</p>
             <inAnchor title="代码示例" h2></inAnchor>
             <Demo title="lodding">
                 <div slot="demo">
