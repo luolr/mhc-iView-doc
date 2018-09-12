@@ -171,6 +171,7 @@
                 bottom: 20px;
                 text-align: center;
                 font-size: 0;
+                margin-top: 15px;
                 .dot {
                     display: inline-block;
                     margin: 0 4px;

@@ -116,11 +116,11 @@ const routers = [
     component: (resolve) => require(['./views/components/myWorkbench.vue'], resolve)
   },
   {
-    path: '/mhc-iView-doc/components/lodding',
+    path: '/mhc-iView-doc/components/loading',
     meta: {
-      title: 'lodding'
+      title: 'loading'
     },
-    component: (resolve) => require(['./views/components/lodding.vue'], resolve)
+    component: (resolve) => require(['./views/components/loading.vue'], resolve)
   },
   {
     path: '/mhc-iView-doc/components/pullRefresh',
