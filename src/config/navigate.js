@@ -55,38 +55,74 @@ const list = {
                     icon: 'ios-browsers-outline'
                 },
 
-            ]
+      ]
+    },
+    {
+      type: 'Components',
+      title: '组件',
+      list: [
+        {
+          title: 'JsonEditor Json编辑器',
+          path: '/mhc-iView-doc/components/jsonEditor',
+          img: 'error.png',
+          icon: 'social-nodejs'
         },
         {
-            type: 'Components',
-            title: '组件',
-            list: [
-                {
-                    title: 'JsonEditor Json编辑器',
-                    path: '/mhc-iView-doc/components/jsonEditor',
-                    img: 'error.png',
-                    icon: 'social-nodejs'
-                },
-                {
-                    title: 'Calendar 日历',
-                    path: '/mhc-iView-doc/components/calendar',
-                    img: 'error.png',
-                    icon: 'calendar'
-                },
-                {
-                    title: 'waterfall 瀑布流',
-                    path: '/mhc-iView-doc/components/waterfall',
-                    img: 'error.png',
-                    icon: 'android-apps'
-                },
-                {
-                    title: 'Exception 异常页',
-                    path: '/mhc-iView-doc/components/exception',
-                    img: 'error.png',
-                    icon: 'alert-circled'
-                }
-            ]
-        }
+          title: 'Calendar 日历',
+          path: '/mhc-iView-doc/components/calendar',
+          img: 'error.png',
+          icon: 'calendar'
+        },
+        {
+          title: 'waterfall 瀑布流',
+          path: '/mhc-iView-doc/components/waterfall',
+          img: 'error.png',
+          icon: 'android-apps'
+        },
+        {
+          title: 'Exception 异常页',
+          path: '/mhc-iView-doc/components/exception',
+          img: 'error.png',
+          icon: 'alert-circled'
+        },
+        {
+          title: '轮播图 Slider',
+          path: '/mhc-iView-doc/components/slider',
+          img: 'error.png',
+          icon: 'social-nodejs'
+        },
+        {
+          title: '照片预览 viewImages',
+          path: '/mhc-iView-doc/components/viewImages',
+          img: 'error.png',
+          icon: 'social-nodejs'
+        },
+        {
+          title: '工作台 menu',
+          path: '/mhc-iView-doc/components/myWorkbench',
+          img: 'error.png',
+          icon: 'social-nodejs'
+        },
+        {
+          title: 'loading',
+          path: '/mhc-iView-doc/components/lodding',
+          img: 'error.png',
+          icon: 'social-nodejs'
+        },
+        {
+          title: '下拉刷新 pullRefresh',
+          path: '/mhc-iView-doc/components/pullRefresh',
+          img: 'error.png',
+          icon: 'social-nodejs'
+        },
+        {
+          title: '左右联动菜单 listview',
+          path: '/mhc-iView-doc/components/listview',
+          img: 'error.png',
+          icon: 'social-nodejs'
+        },
+      ]
+     }
     ]
 };
 

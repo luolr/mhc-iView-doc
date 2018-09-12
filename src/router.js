@@ -94,6 +94,48 @@ const routers = [
         },
         component: (resolve) => require(['./views/components/exception.vue'], resolve)
     },
+  {
+    path: '/mhc-iView-doc/components/slider',
+    meta: {
+      title: '轮播图 Slider'
+    },
+    component: (resolve) => require(['./views/components/slider.vue'], resolve)
+  },
+  {
+    path: '/mhc-iView-doc/components/viewImages',
+    meta: {
+      title: '照片预览 viewImages'
+    },
+    component: (resolve) => require(['./views/components/viewImages.vue'], resolve)
+  },
+  {
+    path: '/mhc-iView-doc/components/myWorkbench',
+    meta: {
+      title: '工作台 menu'
+    },
+    component: (resolve) => require(['./views/components/myWorkbench.vue'], resolve)
+  },
+  {
+    path: '/mhc-iView-doc/components/lodding',
+    meta: {
+      title: 'lodding'
+    },
+    component: (resolve) => require(['./views/components/lodding.vue'], resolve)
+  },
+  {
+    path: '/mhc-iView-doc/components/pullRefresh',
+    meta: {
+      title: 'pullRefresh'
+    },
+    component: (resolve) => require(['./views/components/pullRefresh.vue'], resolve)
+  },
+  {
+    path: '/mhc-iView-doc/components/listview',
+    meta: {
+      title: 'listview'
+    },
+    component: (resolve) => require(['./views/components/listview.vue'], resolve)
+  },
     {
         path: '*',
         redirect: '/'
