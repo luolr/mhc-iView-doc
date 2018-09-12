@@ -71,7 +71,7 @@
     import Demo from '../../components/demo.vue';
     import Code from '../../code/exception';
     import inAnchor from '../../components/anchor.vue';
-    import Exception from '../../components/mhc/exception.vue'
+    import Exception from '../../components/mhc/Exception.vue'
 
     export default {
         components: {
