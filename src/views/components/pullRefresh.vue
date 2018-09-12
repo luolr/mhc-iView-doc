@@ -51,7 +51,7 @@
   import iArticle from '../../components/article.vue';
   import iCode from 'iCode';
   import Demo from '../../components/demo.vue';
-  import Code from '../../code/lodding';
+  import Code from '../../code/pullRefresh';
   import inAnchor from '../../components/anchor.vue';
   import pullRefresh from '../../components/mhc/pullRefresh.vue'
 
