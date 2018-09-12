@@ -1,6 +1,6 @@
 let code = {};
 
-code = `
+code.default = `
 <template>
     <Calendar></Calendar>
 </template>

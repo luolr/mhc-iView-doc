@@ -11,7 +11,7 @@
                 <div slot="desc">
                     <p>日历</p>
                 </div>
-                <i-code lang="html" slot="code">{{ code }}</i-code>
+                <i-code lang="html" slot="code.default">{{ code }}</i-code>
             </Demo>
 
             <div class="api">

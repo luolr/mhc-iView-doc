@@ -6,8 +6,8 @@
             <inAnchor title="代码示例" h2></inAnchor>
             <Demo title="loading">
                 <div slot="demo">
-                    <div class="lodding-container">
-                        <Loading :loddingText="loddingText" :background="background" :loddingType="className" :opacityDeep="opacityDeep" :color="color"/>
+                    <div class="loading-container">
+                        <Loading :loadingText="loadingText" :background="background" :loadingType="className" :opacityDeep="opacityDeep" :color="color"/>
                     </div>
                 </div>
                 <div slot="desc">
@@ -69,9 +69,9 @@
   import iArticle from '../../components/article.vue';
   import iCode from 'iCode';
   import Demo from '../../components/demo.vue';
-  import Code from '../../code/lodding';
+  import Code from '../../code/loading';
   import inAnchor from '../../components/anchor.vue';
-  import Loading from '../../components/mhc/lodding.vue'
+  import Loading from '../../components/mhc/loading.vue'
 
   export default {
     components: {
@@ -84,12 +84,12 @@
     data () {
       return {
         code: Code,
-        // lodding
-        loddingText:'加载中...',
+        // loading
+        loadingText:'加载中...',
         background:'black',
         opacityDeep:0.6,
         color:'blue',
-        className: 'lodding1'
+        className: 'loading1'
       }
     },
     methods: {
