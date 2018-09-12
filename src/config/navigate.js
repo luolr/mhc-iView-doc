@@ -104,7 +104,7 @@ const list = {
           icon: 'social-nodejs'
         },
         {
-          title: 'lodding',
+          title: 'loading',
           path: '/mhc-iView-doc/components/lodding',
           img: 'error.png',
           icon: 'social-nodejs'

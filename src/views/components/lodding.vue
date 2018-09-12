@@ -1,13 +1,13 @@
 <template>
     <i-article>
         <article>
-            <h1>lodding</h1>
-            <p>lodding</p>
+            <h1>loading</h1>
+            <p>loading</p>
             <inAnchor title="代码示例" h2></inAnchor>
-            <Demo title="lodding">
+            <Demo title="loading">
                 <div slot="demo">
                     <div class="lodding-container">
-                        <Lodding :loddingText="loddingText" :background="background" :loddingType="className" :opacityDeep="opacityDeep" :color="color"/>
+                        <Loading :loddingText="loddingText" :background="background" :loddingType="className" :opacityDeep="opacityDeep" :color="color"/>
                     </div>
                 </div>
                 <div slot="desc">
@@ -30,7 +30,7 @@
                     </thead>
                     <tbody>
                     <tr>
-                        <td>loddingText</td>
+                        <td>loadingText</td>
                         <td>加载文字</td>
                         <td>String</td>
                         <td>--</td>
@@ -42,10 +42,10 @@
                         <td>--</td>
                     </tr>
                     <tr>
-                        <td>loddingType</td>
-                        <td>lodding类型,暂有两种 lodding1和lodding2</td>
+                        <td>loadingType</td>
+                        <td>loading类型,暂有两种 loading1和loading2</td>
                         <td>String</td>
-                        <td>lodding1</td>
+                        <td>loading1</td>
                     </tr>
                     <tr>
                         <td>opacityDeep</td>
@@ -71,7 +71,7 @@
   import Demo from '../../components/demo.vue';
   import Code from '../../code/lodding';
   import inAnchor from '../../components/anchor.vue';
-  import Lodding from '../../components/mhc/lodding.vue'
+  import Loading from '../../components/mhc/lodding.vue'
 
   export default {
     components: {
@@ -79,7 +79,7 @@
       iCode,
       Demo,
       inAnchor,
-      Lodding
+      Loading
     },
     data () {
       return {
