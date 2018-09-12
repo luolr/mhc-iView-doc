@@ -34,12 +34,13 @@
       this.containerWidth = document.querySelector('#waterfall').offsetWidth;
       this.splitGroup();
 
-      window.addEventListener('resize', () => {
+      window.addEventListener('resize', this.resizeHandle);
+    },
+    methods: {
+      resizeHandle: function () {
         this.containerWidth = document.querySelector('#waterfall').offsetWidth;
         this.splitGroup();
-      })
-     },
-    methods: {
+      },
       splitGroup: function () {
         const emptyArray = [];
         this.data.map((item, index) => {
@@ -58,6 +59,9 @@
         })
         this.groupData = emptyArray;
       }
+    },
+     destroyed() {
+      window.removeEventListener('resize', this.resizeHandle);
     }
   }
 </script>
