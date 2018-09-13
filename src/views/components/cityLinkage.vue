@@ -6,7 +6,8 @@
             <inAnchor title="代码示例" h2></inAnchor>
             <Demo title="省市区联动">
                 <div slot="demo">
-                    <CityLinkage></CityLinkage>
+                    <span>当前选中：{{ `${privance} ${city} ${area}` }}</span><br/>
+                    <CityLinkage @changeSelected="getChange"></CityLinkage>
                 </div>
                 <div slot="desc">
                     <p>省市区联动：返回省市区三个变量值</p>
@@ -67,9 +68,18 @@
         },
         data () {
             return {
-                code: Code
+                code: Code,
+                privance: '',
+                city: '',
+                area: ''
             }
         },
-        methods: {}
+        methods: {
+            getChange (pri, city, area) {
+                this.privance = pri
+                this.city = city
+                this.area = area
+            }
+        }
     }
 </script>
