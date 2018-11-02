@@ -10,25 +10,25 @@
           color: `${color}`
 
         }">
-        <div class="lodding1" v-if="loddingType=='lodding1'">
+        <div class="loading1" v-if="loadingType=='loading1'">
             <div class="rect1"></div>
             <div class="rect2"></div>
             <div class="rect3"></div>
             <div class="rect4"></div>
             <div class="rect5"></div>
         </div>
-        <div class="lodding2" v-if="loddingType=='lodding2'">
+        <div class="loading2" v-if="loadingType=='loading2'">
             <div class="double-bounce1"></div>
             <div class="double-bounce2"></div>
         </div>
-        <p class="desc">{{ loddingText }}</p>
+        <p class="desc">{{ loadingText }}</p>
     </div>
     </Row>
 </template>
 <script>
   export default {
     props: {
-      loddingText: {
+      loadingText: {
         type: String,
         default: ' '
       },
@@ -44,7 +44,7 @@
         type: String,
         default: ' '
       },
-      loddingType: {
+      loadingType: {
         type: String,
         default: ' '
       }
@@ -62,7 +62,7 @@
         line-height:20px;
     }
     // --------------------------
-    .lodding1 {
+    .loading1 {
         margin: 30px auto;
         width: 50px;
         height: 60px;
@@ -70,7 +70,7 @@
         font-size: 10px;
     }
 
-    .lodding1 > div {
+    .loading1 > div {
         background-color: #67CF22;
         height: 100%;
         width: 6px;
@@ -80,22 +80,22 @@
         animation: stretchdelay 1.2s infinite ease-in-out;
     }
 
-    .lodding1 .rect2 {
+    .loading1 .rect2 {
         -webkit-animation-delay: -1.1s;
         animation-delay: -1.1s;
     }
 
-    .lodding1 .rect3 {
+    .loading1 .rect3 {
         -webkit-animation-delay: -1.0s;
         animation-delay: -1.0s;
     }
 
-    .lodding1 .rect4 {
+    .loading1 .rect4 {
         -webkit-animation-delay: -0.9s;
         animation-delay: -0.9s;
     }
 
-    .lodding1 .rect5 {
+    .loading1 .rect5 {
         -webkit-animation-delay: -0.8s;
         animation-delay: -0.8s;
     }
@@ -116,7 +116,7 @@
     }
     //-----------------------------------------------
 
-    .lodding2 {
+    .loading2 {
         width: 60px;
         height: 60px;
 

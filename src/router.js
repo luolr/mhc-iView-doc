@@ -93,6 +93,12 @@ const routers = [
             title: '异常页 Exception'
         },
         component: (resolve) => require(['./views/components/exception.vue'], resolve)
+    },{
+        path: '/mhc-iView-doc/components/splitPanel',
+        meta: {
+            title: '分割面板 splitPanel'
+        },
+        component: (resolve) => require(['./views/components/splitPanel.vue'], resolve)
     },
   {
     path: '/mhc-iView-doc/components/slider',
@@ -116,11 +122,11 @@ const routers = [
     component: (resolve) => require(['./views/components/myWorkbench.vue'], resolve)
   },
   {
-    path: '/mhc-iView-doc/components/lodding',
+    path: '/mhc-iView-doc/components/loading',
     meta: {
-      title: 'lodding'
+      title: 'loading'
     },
-    component: (resolve) => require(['./views/components/lodding.vue'], resolve)
+    component: (resolve) => require(['./views/components/loading.vue'], resolve)
   },
   {
     path: '/mhc-iView-doc/components/pullRefresh',
@@ -135,6 +141,41 @@ const routers = [
       title: 'listview'
     },
     component: (resolve) => require(['./views/components/listview.vue'], resolve)
+  },
+  {
+    path: '/mhc-iView-doc/components/BlockHeader',
+    meta: {
+        title: '模块标题 BlockHeader'
+    },
+    component: (resolve) => require(['./views/components/BlockHeader.vue'], resolve)
+  },
+  {
+    path: '/mhc-iView-doc/components/CityLinkage',
+    meta: {
+        title: '省市区联动 CityLinkage'
+    },
+    component: (resolve) => require(['./views/components/CityLinkage.vue'], resolve)
+  },
+  {
+    path: '/mhc-iView-doc/components/CountDown',
+    meta: {
+        title: '倒计时 CountDown'
+    },
+    component: (resolve) => require(['./views/components/CountDown.vue'], resolve)
+  },
+  {
+    path: '/mhc-iView-doc/components/ClampLines',
+    meta: {
+        title: '文本裁剪 ClampLines'
+    },
+    component: (resolve) => require(['./views/components/ClampLines.vue'], resolve)
+  },
+  {
+    path: '/mhc-iView-doc/components/TextCopy',
+    meta: {
+        title: '文本复制 TextCopy'
+    },
+    component: (resolve) => require(['./views/components/TextCopy.vue'], resolve)
   },
     {
         path: '*',

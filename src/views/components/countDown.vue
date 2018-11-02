@@ -1,46 +1,44 @@
 <template>
     <i-article>
         <article>
-            <h1>Calendar 日历</h1>
+            <h1>CountDown 倒计时</h1>
             <p></p>
             <inAnchor title="代码示例" h2></inAnchor>
-            <Demo title="日历">
+            <Demo title="倒计时">
                 <div slot="demo">
-                    <Calendar></Calendar>
+                    <CountDown :endTime="`2018-11-30`"></CountDown>
                 </div>
                 <div slot="desc">
-                    <p>日历</p>
+                    <p>倒计时组件</p>
                 </div>
-                <i-code lang="html" slot="code.default">{{ code }}</i-code>
+                <i-code lang="html" slot="code">{{ code.default }}</i-code>
             </Demo>
 
             <div class="api">
                 <inAnchor title="API" h2></inAnchor>
 
-                <inAnchor title="Calendar methods" h3></inAnchor>
+                <inAnchor title="CountDown methods" h3></inAnchor>
                 <table>
                     <thead>
                         <tr>
-                            <th>方法名</th>
+                            <th>属性</th>
                             <th>说明</th>
-                            <th>参数</th>
+                            <th>类型</th>
+                            <th>默认值</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
-                            <td>changeMonth</td>
-                            <td>月份改变</td>
-                            <td>无</td>
+                            <td>endTime</td>
+                            <td>倒计时结束时间</td>
+                            <td>String</td>
+                            <td>当前时间</td>
                         </tr>
                         <tr>
-                            <td>choseDay</td>
-                            <td>选中某一天</td>
-                            <td>无</td>
-                        </tr>
-                        <tr>
-                            <td>isToday</td>
-                            <td>选中的是否是今天</td>
-                            <td>无</td>
+                            <td>endFun</td>
+                            <td>倒计时结束后的回调函数</td>
+                            <td>Function</td>
+                            <td></td>
                         </tr>
                     </tbody>
                 </table>
@@ -52,9 +50,9 @@
     import iArticle from '../../components/article.vue';
     import iCode from 'iCode';
     import Demo from '../../components/demo.vue';
-    import Code from '../../code/calendar';
+    import Code from '../../code/countDown';
     import inAnchor from '../../components/anchor.vue';
-    import Calendar from '../../components/mhc/Calendar.vue'
+    import CountDown from '../../components/mhc/CountDown.vue'
 
     export default {
         components: {
@@ -62,7 +60,7 @@
             iCode,
             Demo,
             inAnchor,
-            Calendar
+            CountDown
         },
         data () {
             return {

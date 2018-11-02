@@ -11,7 +11,7 @@
                 <div slot="desc">
                     <p>图片瀑布流，会随着页面大小的改变，重新计算一行展示的数量。</p>
                 </div>
-                <i-code lang="html" slot="code">{{ code }}</i-code>
+                <i-code lang="html" slot="code">{{ code.default }}</i-code>
             </Demo>
 
             <div class="api">

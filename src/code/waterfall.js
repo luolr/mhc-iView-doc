@@ -1,6 +1,6 @@
 let code = {};
 
-code = `
+code.default = `
 <template>
    <Waterfall :data="data"></Waterfall>
 </template>

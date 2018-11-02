@@ -2,20 +2,19 @@ let code = {};
 
 code.default = `
 <template>
-   <div class="lodding-container">
-     <Lodding :loddingText="loddingText" :background="background" :className="className" :opacityDeep="opacityDeep" :color="color"/>
+   <div class="loading-container">
+     <Loading :loadingText="loadingText" :background="background" :className="className" :opacityDeep="opacityDeep" :color="color"/>
    </div>
 </template>
 <script>
 	export default {
         data () {
             return {
-              // lodding
-              loddingText:'加载中...',
+              loadingText:'加载中...',
               background:'black',
               opacityDeep:0.6,
               color:'blue',
-              className: 'lodding1',
+              className: 'loading1',
             }
         },
         methods: {}
