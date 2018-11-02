@@ -8,7 +8,7 @@ code.default = `
 	export default {
         data () {
             return {
-              endTime: '2018-09-30'
+              endTime: '2018-11-30'
             }
         },
         methods: {

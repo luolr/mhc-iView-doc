@@ -6,7 +6,7 @@
             <inAnchor title="代码示例" h2></inAnchor>
             <Demo title="倒计时">
                 <div slot="demo">
-                    <CountDown :endTime="`2018-09-16 08:00:00`"></CountDown>
+                    <CountDown :endTime="`2018-11-30`"></CountDown>
                 </div>
                 <div slot="desc">
                     <p>倒计时组件</p>
