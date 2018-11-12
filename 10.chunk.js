@@ -1,15 +1,15 @@
 webpackJsonp([10],{
 
-/***/ 481:
+/***/ 493:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_button_vue__ = __webpack_require__(544);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_button_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_button_vue__);
-/* harmony namespace reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_button_vue__) if(["default","default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_button_vue__[key]; }) }(__WEBPACK_IMPORT_KEY__));
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_064c47be_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_button_vue__ = __webpack_require__(557);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_064c47be_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_button_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_064c47be_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_button_vue__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_loading_vue__ = __webpack_require__(582);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_loading_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_loading_vue__);
+/* harmony namespace reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_loading_vue__) if(["default","default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_loading_vue__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_07e3d546_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_loading_vue__ = __webpack_require__(595);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_07e3d546_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_loading_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_07e3d546_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_loading_vue__);
 var disposed = false
 var normalizeComponent = __webpack_require__(197)
 /* script */
@@ -26,14 +26,14 @@ var __vue_scopeId__ = null
 /* moduleIdentifier (server only) */
 var __vue_module_identifier__ = null
 var Component = normalizeComponent(
-  __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_button_vue___default.a,
-  __WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_064c47be_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_button_vue___default.a,
+  __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_loading_vue___default.a,
+  __WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_07e3d546_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_loading_vue___default.a,
   __vue_template_functional__,
   __vue_styles__,
   __vue_scopeId__,
   __vue_module_identifier__
 )
-Component.options.__file = "src/views/components/button.vue"
+Component.options.__file = "src/views/components/loading.vue"
 
 /* hot reload */
 if (false) {(function () {
@@ -42,9 +42,9 @@ if (false) {(function () {
   if (!hotAPI.compatible) return
   module.hot.accept()
   if (!module.hot.data) {
-    hotAPI.createRecord("data-v-064c47be", Component.options)
+    hotAPI.createRecord("data-v-07e3d546", Component.options)
   } else {
-    hotAPI.reload("data-v-064c47be", Component.options)
+    hotAPI.reload("data-v-07e3d546", Component.options)
   }
   module.hot.dispose(function (data) {
     disposed = true
@@ -56,93 +56,134 @@ if (false) {(function () {
 
 /***/ }),
 
-/***/ 492:
+/***/ 500:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
 Object.defineProperty(exports, "__esModule", {
-    value: true
+  value: true
 });
 
 
 var list = {
-    beforeComponents: [{
-        title: '安装',
-        titleEn: 'Installation',
-        path: '/mhc-iView-doc/guide/install'
+  beforeComponents: [{
+    title: '安装',
+    titleEn: 'Installation',
+    path: '/mhc-iView-doc/guide/install'
+  }],
+  components: [{
+    type: 'Basic',
+    title: '基础',
+    list: [{
+      title: 'Color 色彩',
+      path: '/mhc-iView-doc/components/color',
+      img: 'color.png',
+      icon: 'android-color-palette'
     }, {
-        title: '快速上手',
-        titleEn: 'Quick Start',
-        path: '/mhc-iView-doc/guide/start'
-    }],
-    components: [{
-        type: 'Basic',
-        title: '基础',
-        list: [{
-            title: 'Color 色彩',
-            path: '/mhc-iView-doc/components/color',
-            img: 'color.png',
-            icon: 'android-color-palette'
-        }, {
-            title: 'Font 字体',
-            path: '/mhc-iView-doc/components/font',
-            img: 'font.png',
-            icon: 'at'
-        }, {
-            title: 'Button 按钮',
-            path: '/mhc-iView-doc/components/button',
-            img: 'button.png',
-            icon: 'social-youtube-outline'
-        }, {
-            title: 'Icon 图标',
-            path: '/mhc-iView-doc/components/icon',
-            img: 'icon.png',
-            icon: 'ios-heart-outline'
-        }, {
-            title: 'Grid 栅格',
-            path: '/mhc-iView-doc/components/grid',
-            img: 'grid.png',
-            icon: 'ios-grid-view-outline'
-        }, {
-            title: 'Layout 布局',
-            path: '/mhc-iView-doc/components/layout',
-            img: 'layout-new.png',
-            icon: 'ios-browsers-outline'
-        }]
+      title: 'Button 按钮',
+      path: '/mhc-iView-doc/components/button',
+      img: 'button.png',
+      icon: 'social-youtube-outline'
     }, {
-        type: 'Components',
-        title: '组件',
-        list: [{
-            title: 'JsonEditor Json编辑器',
-            path: '/mhc-iView-doc/components/jsonEditor',
-            img: 'error.png',
-            icon: 'social-nodejs'
-        }, {
-            title: 'Calendar 日历',
-            path: '/mhc-iView-doc/components/calendar',
-            img: 'error.png',
-            icon: 'calendar'
-        }, {
-            title: 'waterfall 瀑布流',
-            path: '/mhc-iView-doc/components/waterfall',
-            img: 'error.png',
-            icon: 'android-apps'
-        }, {
-            title: 'Exception 异常页',
-            path: '/mhc-iView-doc/components/exception',
-            img: 'error.png',
-            icon: 'alert-circled'
-        }]
+      title: 'Icon 图标',
+      path: '/mhc-iView-doc/components/icon',
+      img: 'icon.png',
+      icon: 'ios-heart-outline'
     }]
+  }, {
+    type: 'Components',
+    title: '组件',
+    list: [{
+      title: 'Json编辑器 JsonEditor',
+      path: '/mhc-iView-doc/components/jsonEditor',
+      img: 'error.png',
+      icon: 'social-nodejs'
+    }, {
+      title: '日历 calendar',
+      path: '/mhc-iView-doc/components/calendar',
+      img: 'error.png',
+      icon: 'calendar'
+    }, {
+      title: '瀑布流 waterfall',
+      path: '/mhc-iView-doc/components/waterfall',
+      img: 'error.png',
+      icon: 'android-apps'
+    }, {
+      title: '异常页 exception',
+      path: '/mhc-iView-doc/components/exception',
+      img: 'error.png',
+      icon: 'alert-circled'
+    }, {
+      title: '分割面板 splitPanel',
+      path: '/mhc-iView-doc/components/splitPanel',
+      img: 'error.png',
+      icon: 'ios-grid-view-outline'
+    }, {
+      title: '轮播图 slider',
+      path: '/mhc-iView-doc/components/slider',
+      img: 'error.png',
+      icon: 'images'
+    }, {
+      title: '照片预览 viewImages',
+      path: '/mhc-iView-doc/components/viewImages',
+      img: 'error.png',
+      icon: 'image'
+    }, {
+      title: '工作台 menu',
+      path: '/mhc-iView-doc/components/myWorkbench',
+      img: 'error.png',
+      icon: 'grid'
+    }, {
+      title: '加载 loading',
+      path: '/mhc-iView-doc/components/loading',
+      img: 'error.png',
+      icon: 'load-a'
+    }, {
+      title: '下拉刷新 pullRefresh',
+      path: '/mhc-iView-doc/components/pullRefresh',
+      img: 'error.png',
+      icon: 'arrow-down-c'
+    }, {
+      title: '左右联动菜单 listview',
+      path: '/mhc-iView-doc/components/listview',
+      img: 'error.png',
+      icon: 'navicon'
+    }, {
+      title: '省市区联动 cityLinkage',
+      path: '/mhc-iView-doc/components/CityLinkage',
+      img: 'error.png',
+      icon: 'ios-more-outline'
+    }, {
+      title: '倒计时 countDowm',
+      path: '/mhc-iView-doc/components/CountDown',
+      img: 'error.png',
+      icon: 'ios-clock-outline'
+    }, {
+      title: '模块标题 blockHeader',
+      path: '/mhc-iView-doc/components/BlockHeader',
+      img: 'error.png',
+      icon: 'social-tumblr'
+    }, {
+      title: '文本裁剪 ClampLines',
+      path: '/mhc-iView-doc/components/ClampLines',
+      img: 'error.png',
+      icon: 'ios-more-outline'
+    }, {
+      title: '文本复制 TextCopy',
+      path: '/mhc-iView-doc/components/TextCopy',
+      img: 'error.png',
+      icon: 'ios-copy-outline'
+    }]
+  }]
 };
 
 exports.default = list;
 
 /***/ }),
 
-/***/ 493:
+/***/ 501:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -168,7 +209,7 @@ exports.default = {
 
 /***/ }),
 
-/***/ 494:
+/***/ 502:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -178,7 +219,7 @@ Object.defineProperty(exports, "__esModule", {
     value: true
 });
 
-var _pinyinUtil = __webpack_require__(501);
+var _pinyinUtil = __webpack_require__(509);
 
 var _pinyinUtil2 = _interopRequireDefault(_pinyinUtil);
 
@@ -204,7 +245,7 @@ exports.default = {
 
 /***/ }),
 
-/***/ 495:
+/***/ 503:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -231,7 +272,7 @@ exports.default = {
 
 /***/ }),
 
-/***/ 496:
+/***/ 504:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -241,15 +282,15 @@ Object.defineProperty(exports, "__esModule", {
     value: true
 });
 
-var _navigate = __webpack_require__(530);
+var _navigate = __webpack_require__(538);
 
 var _navigate2 = _interopRequireDefault(_navigate);
 
-var _navigate3 = __webpack_require__(492);
+var _navigate3 = __webpack_require__(500);
 
 var _navigate4 = _interopRequireDefault(_navigate3);
 
-var _menu = __webpack_require__(529);
+var _menu = __webpack_require__(537);
 
 var _menu2 = _interopRequireDefault(_menu);
 
@@ -362,7 +403,7 @@ exports.default = {
 
 /***/ }),
 
-/***/ 497:
+/***/ 505:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -384,7 +425,7 @@ var _clipboard = __webpack_require__(133);
 
 var _clipboard2 = _interopRequireDefault(_clipboard);
 
-var _tagMap = __webpack_require__(510);
+var _tagMap = __webpack_require__(518);
 
 var _tagMap2 = _interopRequireDefault(_tagMap);
 
@@ -526,7 +567,7 @@ exports.default = {
 
 /***/ }),
 
-/***/ 498:
+/***/ 506:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -536,11 +577,11 @@ Object.defineProperty(exports, "__esModule", {
     value: true
 });
 
-var _navigate = __webpack_require__(492);
+var _navigate = __webpack_require__(500);
 
 var _navigate2 = _interopRequireDefault(_navigate);
 
-var _config = __webpack_require__(500);
+var _config = __webpack_require__(508);
 
 var _config2 = _interopRequireDefault(_config);
 
@@ -548,7 +589,7 @@ var _bus = __webpack_require__(88);
 
 var _bus2 = _interopRequireDefault(_bus);
 
-var _applications = __webpack_require__(526);
+var _applications = __webpack_require__(534);
 
 var _applications2 = _interopRequireDefault(_applications);
 
@@ -688,7 +729,7 @@ exports.default = {
 
 /***/ }),
 
-/***/ 499:
+/***/ 507:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -698,11 +739,11 @@ Object.defineProperty(exports, "__esModule", {
     value: true
 });
 
-var _navigate = __webpack_require__(492);
+var _navigate = __webpack_require__(500);
 
 var _navigate2 = _interopRequireDefault(_navigate);
 
-var _config = __webpack_require__(500);
+var _config = __webpack_require__(508);
 
 var _config2 = _interopRequireDefault(_config);
 
@@ -710,7 +751,7 @@ var _bus = __webpack_require__(88);
 
 var _bus2 = _interopRequireDefault(_bus);
 
-var _adSend = __webpack_require__(524);
+var _adSend = __webpack_require__(532);
 
 var _adSend2 = _interopRequireDefault(_adSend);
 
@@ -790,7 +831,7 @@ exports.default = {
 
 /***/ }),
 
-/***/ 500:
+/***/ 508:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -821,7 +862,7 @@ exports.default = config;
 
 /***/ }),
 
-/***/ 501:
+/***/ 509:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -835,7 +876,7 @@ var _typeof2 = __webpack_require__(89);
 
 var _typeof3 = _interopRequireDefault(_typeof2);
 
-var _pinyin_dict_firstletter = __webpack_require__(511);
+var _pinyin_dict_firstletter = __webpack_require__(519);
 
 var _pinyin_dict_firstletter2 = _interopRequireDefault(_pinyin_dict_firstletter);
 
@@ -1097,7 +1138,7 @@ exports.default = pinyinUtil;
 
 /***/ }),
 
-/***/ 502:
+/***/ 510:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1107,7 +1148,7 @@ Object.defineProperty(exports, "__esModule", {
     value: true
 });
 
-var _pinyinUtil = __webpack_require__(501);
+var _pinyinUtil = __webpack_require__(509);
 
 var _pinyinUtil2 = _interopRequireDefault(_pinyinUtil);
 
@@ -1221,7 +1262,7 @@ exports.default = {
 
 /***/ }),
 
-/***/ 503:
+/***/ 511:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1250,7 +1291,7 @@ if (false) {
 
 /***/ }),
 
-/***/ 504:
+/***/ 512:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1323,7 +1364,7 @@ var staticRenderFns = [function () {
   var _c = _vm._self._c || _h;
   return _c("div", { staticClass: "asd-main" }, [_c("img", {
     staticStyle: { "border-radius": "6px" },
-    attrs: { src: __webpack_require__(520) }
+    attrs: { src: __webpack_require__(528) }
   })]);
 }];
 render._withStripped = true;
@@ -1339,7 +1380,7 @@ if (false) {
 
 /***/ }),
 
-/***/ 505:
+/***/ 513:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1430,8 +1471,8 @@ var render = function render() {
       href: "https://segmentfault.com/t/iview",
       target: "_blank"
     }
-  }, [_vm._v("SegmentFault")])])])]), _vm._v(" "), _c("i-col", { attrs: { span: "5", offset: "2" } }, [_c("div", { staticClass: "footer-aside" }, [_c("div", { staticClass: "footer-logo" }, [_c("img", { attrs: { src: __webpack_require__(523) } })]), _vm._v(" "), _c("div", { staticClass: "footer-author" }, [_c("a", { attrs: { href: "https://www.talkingdata.com/" } }, [_c("img", {
-    attrs: { src: __webpack_require__(522) }
+  }, [_vm._v("SegmentFault")])])])]), _vm._v(" "), _c("i-col", { attrs: { span: "5", offset: "2" } }, [_c("div", { staticClass: "footer-aside" }, [_c("div", { staticClass: "footer-logo" }, [_c("img", { attrs: { src: __webpack_require__(531) } })]), _vm._v(" "), _c("div", { staticClass: "footer-author" }, [_c("a", { attrs: { href: "https://www.talkingdata.com/" } }, [_c("img", {
+    attrs: { src: __webpack_require__(530) }
   })])])])])], 1)], 1)])]);
 };
 var staticRenderFns = [];
@@ -1448,7 +1489,7 @@ if (false) {
 
 /***/ }),
 
-/***/ 506:
+/***/ 514:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1485,7 +1526,7 @@ if (false) {
 
 /***/ }),
 
-/***/ 507:
+/***/ 515:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1501,7 +1542,7 @@ var render = function render() {
   return _c("Menu", {
     attrs: { mode: "horizontal", "active-name": _vm.currentActiveKey },
     on: { "on-select": _vm.handleSelect }
-  }, [_c("div", { staticClass: "wrapper-header-nav" }, [_c("router-link", { staticClass: "wrapper-header-nav-logo", attrs: { to: "/" } }, [_c("img", { attrs: { src: __webpack_require__(521) } })]), _vm._v(" "), _c("ApplicationMenu"), _vm._v(" "), _c("div", { staticClass: "wrapper-header-nav-search" }, [_c("i-select", {
+  }, [_c("div", { staticClass: "wrapper-header-nav" }, [_c("router-link", { staticClass: "wrapper-header-nav-logo", attrs: { to: "/" } }, [_c("img", { attrs: { src: __webpack_require__(529) } })]), _vm._v(" "), _c("ApplicationMenu"), _vm._v(" "), _c("div", { staticClass: "wrapper-header-nav-search" }, [_c("i-select", {
     ref: "select",
     attrs: {
       filterable: "",
@@ -1549,7 +1590,7 @@ if (false) {
 
 /***/ }),
 
-/***/ 508:
+/***/ 516:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1626,7 +1667,7 @@ if (false) {
 
 /***/ }),
 
-/***/ 509:
+/***/ 517:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1661,7 +1702,7 @@ if (false) {
 
 /***/ }),
 
-/***/ 510:
+/***/ 518:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1749,7 +1790,7 @@ exports.default = {
 
 /***/ }),
 
-/***/ 511:
+/***/ 519:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1777,104 +1818,104 @@ exports.default = pinyin_dict_firstletter;
 
 /***/ }),
 
-/***/ 512:
-/***/ (function(module, exports) {
-
-// removed by extract-text-webpack-plugin
-
-/***/ }),
-
-/***/ 513:
-/***/ (function(module, exports) {
-
-// removed by extract-text-webpack-plugin
-
-/***/ }),
-
-/***/ 514:
-/***/ (function(module, exports) {
-
-// removed by extract-text-webpack-plugin
-
-/***/ }),
-
-/***/ 515:
-/***/ (function(module, exports) {
-
-// removed by extract-text-webpack-plugin
-
-/***/ }),
-
-/***/ 516:
-/***/ (function(module, exports) {
-
-// removed by extract-text-webpack-plugin
-
-/***/ }),
-
-/***/ 517:
-/***/ (function(module, exports) {
-
-// removed by extract-text-webpack-plugin
-
-/***/ }),
-
-/***/ 518:
-/***/ (function(module, exports) {
-
-// removed by extract-text-webpack-plugin
-
-/***/ }),
-
-/***/ 519:
-/***/ (function(module, exports) {
-
-// removed by extract-text-webpack-plugin
-
-/***/ }),
-
 /***/ 520:
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
+
+/***/ }),
+
+/***/ 521:
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
+
+/***/ }),
+
+/***/ 522:
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
+
+/***/ }),
+
+/***/ 523:
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
+
+/***/ }),
+
+/***/ 524:
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
+
+/***/ }),
+
+/***/ 525:
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
+
+/***/ }),
+
+/***/ 526:
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
+
+/***/ }),
+
+/***/ 527:
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
+
+/***/ }),
+
+/***/ 528:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "512a3fe18c92425975996411a04ac256.png";
 
 /***/ }),
 
-/***/ 521:
+/***/ 529:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "e1cf12c07bf6458992569e67927d767e.png";
 
 /***/ }),
 
-/***/ 522:
+/***/ 530:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "bca1556c01f16f9a9f6094169720c2da.png";
 
 /***/ }),
 
-/***/ 523:
+/***/ 531:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "2ecd3b0452aa197097d5131afacab7b8.png";
 
 /***/ }),
 
-/***/ 524:
+/***/ 532:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_ad_send_vue__ = __webpack_require__(493);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_ad_send_vue__ = __webpack_require__(501);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_ad_send_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_ad_send_vue__);
 /* harmony namespace reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_ad_send_vue__) if(["default","default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_ad_send_vue__[key]; }) }(__WEBPACK_IMPORT_KEY__));
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_642dc412_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_ad_send_vue__ = __webpack_require__(506);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_642dc412_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_ad_send_vue__ = __webpack_require__(514);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_642dc412_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_ad_send_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_642dc412_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_ad_send_vue__);
 var disposed = false
 function injectStyle (ssrContext) {
   if (disposed) return
-  __webpack_require__(515)
+  __webpack_require__(523)
 }
 var normalizeComponent = __webpack_require__(197)
 /* script */
@@ -1921,20 +1962,20 @@ if (false) {(function () {
 
 /***/ }),
 
-/***/ 525:
+/***/ 533:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_anchor_vue__ = __webpack_require__(494);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_anchor_vue__ = __webpack_require__(502);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_anchor_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_anchor_vue__);
 /* harmony namespace reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_anchor_vue__) if(["default","default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_anchor_vue__[key]; }) }(__WEBPACK_IMPORT_KEY__));
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_27dd2a45_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_anchor_vue__ = __webpack_require__(503);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_27dd2a45_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_anchor_vue__ = __webpack_require__(511);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_27dd2a45_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_anchor_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_27dd2a45_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_anchor_vue__);
 var disposed = false
 function injectStyle (ssrContext) {
   if (disposed) return
-  __webpack_require__(512)
+  __webpack_require__(520)
 }
 var normalizeComponent = __webpack_require__(197)
 /* script */
@@ -1981,20 +2022,20 @@ if (false) {(function () {
 
 /***/ }),
 
-/***/ 526:
+/***/ 534:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_applications_vue__ = __webpack_require__(495);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_applications_vue__ = __webpack_require__(503);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_applications_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_applications_vue__);
 /* harmony namespace reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_applications_vue__) if(["default","default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_applications_vue__[key]; }) }(__WEBPACK_IMPORT_KEY__));
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_e9faa89a_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_applications_vue__ = __webpack_require__(509);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_e9faa89a_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_applications_vue__ = __webpack_require__(517);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_e9faa89a_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_applications_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_e9faa89a_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_applications_vue__);
 var disposed = false
 function injectStyle (ssrContext) {
   if (disposed) return
-  __webpack_require__(519)
+  __webpack_require__(527)
 }
 var normalizeComponent = __webpack_require__(197)
 /* script */
@@ -2041,20 +2082,20 @@ if (false) {(function () {
 
 /***/ }),
 
-/***/ 527:
+/***/ 535:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_article_vue__ = __webpack_require__(496);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_article_vue__ = __webpack_require__(504);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_article_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_article_vue__);
 /* harmony namespace reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_article_vue__) if(["default","default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_article_vue__[key]; }) }(__WEBPACK_IMPORT_KEY__));
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_6338ec16_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_article_vue__ = __webpack_require__(505);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_6338ec16_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_article_vue__ = __webpack_require__(513);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_6338ec16_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_article_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_6338ec16_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_article_vue__);
 var disposed = false
 function injectStyle (ssrContext) {
   if (disposed) return
-  __webpack_require__(514)
+  __webpack_require__(522)
 }
 var normalizeComponent = __webpack_require__(197)
 /* script */
@@ -2101,21 +2142,21 @@ if (false) {(function () {
 
 /***/ }),
 
-/***/ 528:
+/***/ 536:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_code_vue__ = __webpack_require__(497);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_code_vue__ = __webpack_require__(505);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_code_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_code_vue__);
 /* harmony namespace reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_code_vue__) if(["default","default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_code_vue__[key]; }) }(__WEBPACK_IMPORT_KEY__));
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_c2ff9106_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_code_vue__ = __webpack_require__(508);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_c2ff9106_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_code_vue__ = __webpack_require__(516);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_c2ff9106_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_code_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_c2ff9106_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_code_vue__);
 var disposed = false
 function injectStyle (ssrContext) {
   if (disposed) return
-  __webpack_require__(518)
-  __webpack_require__(517)
+  __webpack_require__(526)
+  __webpack_require__(525)
 }
 var normalizeComponent = __webpack_require__(197)
 /* script */
@@ -2162,20 +2203,20 @@ if (false) {(function () {
 
 /***/ }),
 
-/***/ 529:
+/***/ 537:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_menu_vue__ = __webpack_require__(498);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_menu_vue__ = __webpack_require__(506);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_menu_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_menu_vue__);
 /* harmony namespace reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_menu_vue__) if(["default","default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_menu_vue__[key]; }) }(__WEBPACK_IMPORT_KEY__));
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_a380d422_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_menu_vue__ = __webpack_require__(507);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_a380d422_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_menu_vue__ = __webpack_require__(515);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_a380d422_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_menu_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_a380d422_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_menu_vue__);
 var disposed = false
 function injectStyle (ssrContext) {
   if (disposed) return
-  __webpack_require__(516)
+  __webpack_require__(524)
 }
 var normalizeComponent = __webpack_require__(197)
 /* script */
@@ -2222,20 +2263,20 @@ if (false) {(function () {
 
 /***/ }),
 
-/***/ 530:
+/***/ 538:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_navigate_vue__ = __webpack_require__(499);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_navigate_vue__ = __webpack_require__(507);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_navigate_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_navigate_vue__);
 /* harmony namespace reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_navigate_vue__) if(["default","default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_navigate_vue__[key]; }) }(__WEBPACK_IMPORT_KEY__));
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_39279dfe_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_navigate_vue__ = __webpack_require__(504);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_39279dfe_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_navigate_vue__ = __webpack_require__(512);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_39279dfe_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_navigate_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_39279dfe_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_navigate_vue__);
 var disposed = false
 function injectStyle (ssrContext) {
   if (disposed) return
-  __webpack_require__(513)
+  __webpack_require__(521)
 }
 var normalizeComponent = __webpack_require__(197)
 /* script */
@@ -2282,7 +2323,7 @@ if (false) {(function () {
 
 /***/ }),
 
-/***/ 531:
+/***/ 539:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2355,27 +2396,27 @@ if (false) {
 
 /***/ }),
 
-/***/ 532:
+/***/ 540:
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 
 /***/ }),
 
-/***/ 533:
+/***/ 541:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_demo_vue__ = __webpack_require__(502);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_demo_vue__ = __webpack_require__(510);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_demo_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_demo_vue__);
 /* harmony namespace reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_demo_vue__) if(["default","default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_demo_vue__[key]; }) }(__WEBPACK_IMPORT_KEY__));
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_054b9c73_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_demo_vue__ = __webpack_require__(531);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_054b9c73_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_demo_vue__ = __webpack_require__(539);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_054b9c73_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_demo_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_054b9c73_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_demo_vue__);
 var disposed = false
 function injectStyle (ssrContext) {
   if (disposed) return
-  __webpack_require__(532)
+  __webpack_require__(540)
 }
 var normalizeComponent = __webpack_require__(197)
 /* script */
@@ -2422,67 +2463,425 @@ if (false) {(function () {
 
 /***/ }),
 
+/***/ 542:
+/***/ (function(module, exports) {
+
+/*
+	MIT License http://www.opensource.org/licenses/mit-license.php
+	Author Tobias Koppers @sokra
+*/
+// css base code, injected by the css-loader
+module.exports = function() {
+	var list = [];
+
+	// return the list of modules as css string
+	list.toString = function toString() {
+		var result = [];
+		for(var i = 0; i < this.length; i++) {
+			var item = this[i];
+			if(item[2]) {
+				result.push("@media " + item[2] + "{" + item[1] + "}");
+			} else {
+				result.push(item[1]);
+			}
+		}
+		return result.join("");
+	};
+
+	// import a list of modules into the list
+	list.i = function(modules, mediaQuery) {
+		if(typeof modules === "string")
+			modules = [[null, modules, ""]];
+		var alreadyImportedModules = {};
+		for(var i = 0; i < this.length; i++) {
+			var id = this[i][0];
+			if(typeof id === "number")
+				alreadyImportedModules[id] = true;
+		}
+		for(i = 0; i < modules.length; i++) {
+			var item = modules[i];
+			// skip already imported module
+			// this implementation is not 100% perfect for weird media query combinations
+			//  when a module is imported multiple times with different media queries.
+			//  I hope this will never occur (Hey this way we have smaller bundles)
+			if(typeof item[0] !== "number" || !alreadyImportedModules[item[0]]) {
+				if(mediaQuery && !item[2]) {
+					item[2] = mediaQuery;
+				} else if(mediaQuery) {
+					item[2] = "(" + item[2] + ") and (" + mediaQuery + ")";
+				}
+				list.push(item);
+			}
+		}
+	};
+	return list;
+};
+
+
+/***/ }),
+
+/***/ 543:
+/***/ (function(module, exports, __webpack_require__) {
+
+/*
+  MIT License http://www.opensource.org/licenses/mit-license.php
+  Author Tobias Koppers @sokra
+  Modified by Evan You @yyx990803
+*/
+
+var hasDocument = typeof document !== 'undefined'
+
+if (typeof DEBUG !== 'undefined' && DEBUG) {
+  if (!hasDocument) {
+    throw new Error(
+    'vue-style-loader cannot be used in a non-browser environment. ' +
+    "Use { target: 'node' } in your Webpack config to indicate a server-rendering environment."
+  ) }
+}
+
+var listToStyles = __webpack_require__(544)
+
+/*
+type StyleObject = {
+  id: number;
+  parts: Array<StyleObjectPart>
+}
+
+type StyleObjectPart = {
+  css: string;
+  media: string;
+  sourceMap: ?string
+}
+*/
+
+var stylesInDom = {/*
+  [id: number]: {
+    id: number,
+    refs: number,
+    parts: Array<(obj?: StyleObjectPart) => void>
+  }
+*/}
+
+var head = hasDocument && (document.head || document.getElementsByTagName('head')[0])
+var singletonElement = null
+var singletonCounter = 0
+var isProduction = false
+var noop = function () {}
+var options = null
+var ssrIdKey = 'data-vue-ssr-id'
+
+// Force single-tag solution on IE6-9, which has a hard limit on the # of <style>
+// tags it will allow on a page
+var isOldIE = typeof navigator !== 'undefined' && /msie [6-9]\b/.test(navigator.userAgent.toLowerCase())
+
+module.exports = function (parentId, list, _isProduction, _options) {
+  isProduction = _isProduction
+
+  options = _options || {}
+
+  var styles = listToStyles(parentId, list)
+  addStylesToDom(styles)
+
+  return function update (newList) {
+    var mayRemove = []
+    for (var i = 0; i < styles.length; i++) {
+      var item = styles[i]
+      var domStyle = stylesInDom[item.id]
+      domStyle.refs--
+      mayRemove.push(domStyle)
+    }
+    if (newList) {
+      styles = listToStyles(parentId, newList)
+      addStylesToDom(styles)
+    } else {
+      styles = []
+    }
+    for (var i = 0; i < mayRemove.length; i++) {
+      var domStyle = mayRemove[i]
+      if (domStyle.refs === 0) {
+        for (var j = 0; j < domStyle.parts.length; j++) {
+          domStyle.parts[j]()
+        }
+        delete stylesInDom[domStyle.id]
+      }
+    }
+  }
+}
+
+function addStylesToDom (styles /* Array<StyleObject> */) {
+  for (var i = 0; i < styles.length; i++) {
+    var item = styles[i]
+    var domStyle = stylesInDom[item.id]
+    if (domStyle) {
+      domStyle.refs++
+      for (var j = 0; j < domStyle.parts.length; j++) {
+        domStyle.parts[j](item.parts[j])
+      }
+      for (; j < item.parts.length; j++) {
+        domStyle.parts.push(addStyle(item.parts[j]))
+      }
+      if (domStyle.parts.length > item.parts.length) {
+        domStyle.parts.length = item.parts.length
+      }
+    } else {
+      var parts = []
+      for (var j = 0; j < item.parts.length; j++) {
+        parts.push(addStyle(item.parts[j]))
+      }
+      stylesInDom[item.id] = { id: item.id, refs: 1, parts: parts }
+    }
+  }
+}
+
+function createStyleElement () {
+  var styleElement = document.createElement('style')
+  styleElement.type = 'text/css'
+  head.appendChild(styleElement)
+  return styleElement
+}
+
+function addStyle (obj /* StyleObjectPart */) {
+  var update, remove
+  var styleElement = document.querySelector('style[' + ssrIdKey + '~="' + obj.id + '"]')
+
+  if (styleElement) {
+    if (isProduction) {
+      // has SSR styles and in production mode.
+      // simply do nothing.
+      return noop
+    } else {
+      // has SSR styles but in dev mode.
+      // for some reason Chrome can't handle source map in server-rendered
+      // style tags - source maps in <style> only works if the style tag is
+      // created and inserted dynamically. So we remove the server rendered
+      // styles and inject new ones.
+      styleElement.parentNode.removeChild(styleElement)
+    }
+  }
+
+  if (isOldIE) {
+    // use singleton mode for IE9.
+    var styleIndex = singletonCounter++
+    styleElement = singletonElement || (singletonElement = createStyleElement())
+    update = applyToSingletonTag.bind(null, styleElement, styleIndex, false)
+    remove = applyToSingletonTag.bind(null, styleElement, styleIndex, true)
+  } else {
+    // use multi-style-tag mode in all other cases
+    styleElement = createStyleElement()
+    update = applyToTag.bind(null, styleElement)
+    remove = function () {
+      styleElement.parentNode.removeChild(styleElement)
+    }
+  }
+
+  update(obj)
+
+  return function updateStyle (newObj /* StyleObjectPart */) {
+    if (newObj) {
+      if (newObj.css === obj.css &&
+          newObj.media === obj.media &&
+          newObj.sourceMap === obj.sourceMap) {
+        return
+      }
+      update(obj = newObj)
+    } else {
+      remove()
+    }
+  }
+}
+
+var replaceText = (function () {
+  var textStore = []
+
+  return function (index, replacement) {
+    textStore[index] = replacement
+    return textStore.filter(Boolean).join('\n')
+  }
+})()
+
+function applyToSingletonTag (styleElement, index, remove, obj) {
+  var css = remove ? '' : obj.css
+
+  if (styleElement.styleSheet) {
+    styleElement.styleSheet.cssText = replaceText(index, css)
+  } else {
+    var cssNode = document.createTextNode(css)
+    var childNodes = styleElement.childNodes
+    if (childNodes[index]) styleElement.removeChild(childNodes[index])
+    if (childNodes.length) {
+      styleElement.insertBefore(cssNode, childNodes[index])
+    } else {
+      styleElement.appendChild(cssNode)
+    }
+  }
+}
+
+function applyToTag (styleElement, obj) {
+  var css = obj.css
+  var media = obj.media
+  var sourceMap = obj.sourceMap
+
+  if (media) {
+    styleElement.setAttribute('media', media)
+  }
+  if (options.ssrId) {
+    styleElement.setAttribute(ssrIdKey, obj.id)
+  }
+
+  if (sourceMap) {
+    // https://developer.chrome.com/devtools/docs/javascript-debugging
+    // this makes source maps inside style tags work properly in Chrome
+    css += '\n/*# sourceURL=' + sourceMap.sources[0] + ' */'
+    // http://stackoverflow.com/a/26603875
+    css += '\n/*# sourceMappingURL=data:application/json;base64,' + btoa(unescape(encodeURIComponent(JSON.stringify(sourceMap)))) + ' */'
+  }
+
+  if (styleElement.styleSheet) {
+    styleElement.styleSheet.cssText = css
+  } else {
+    while (styleElement.firstChild) {
+      styleElement.removeChild(styleElement.firstChild)
+    }
+    styleElement.appendChild(document.createTextNode(css))
+  }
+}
+
+
+/***/ }),
+
 /***/ 544:
+/***/ (function(module, exports) {
+
+/**
+ * Translates the list format produced by css-loader into something
+ * easier to manipulate.
+ */
+module.exports = function listToStyles (parentId, list) {
+  var styles = []
+  var newStyles = {}
+  for (var i = 0; i < list.length; i++) {
+    var item = list[i]
+    var id = item[0]
+    var css = item[1]
+    var media = item[2]
+    var sourceMap = item[3]
+    var part = {
+      id: parentId + ':' + i,
+      css: css,
+      media: media,
+      sourceMap: sourceMap
+    }
+    if (!newStyles[id]) {
+      styles.push(newStyles[id] = { id: id, parts: [part] })
+    } else {
+      newStyles[id].parts.push(part)
+    }
+  }
+  return styles
+}
+
+
+/***/ }),
+
+/***/ 563:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
 Object.defineProperty(exports, "__esModule", {
-    value: true
+  value: true
 });
-
-var _article = __webpack_require__(527);
-
-var _article2 = _interopRequireDefault(_article);
-
-var _iCode = __webpack_require__(528);
-
-var _iCode2 = _interopRequireDefault(_iCode);
-
-var _demo = __webpack_require__(533);
-
-var _demo2 = _interopRequireDefault(_demo);
-
-var _button = __webpack_require__(574);
-
-var _button2 = _interopRequireDefault(_button);
-
-var _anchor = __webpack_require__(525);
-
-var _anchor2 = _interopRequireDefault(_anchor);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
 exports.default = {
-    components: {
-        iArticle: _article2.default,
-        iCode: _iCode2.default,
-        Demo: _demo2.default,
-        inAnchor: _anchor2.default
+  props: {
+    loadingText: {
+      type: String,
+      default: ' '
     },
-    data: function data() {
-        return {
-            code: _button2.default,
-            loading: false,
-            loading2: false,
-            buttonSize: 'large'
-        };
+    background: {
+      type: String,
+      default: ' '
     },
-
-    methods: {
-        toLoading: function toLoading() {
-            this.loading = true;
-        },
-        toLoading2: function toLoading2() {
-            this.loading2 = true;
-        }
+    opacityDeep: {
+      type: Number,
+      default: ' '
+    },
+    color: {
+      type: String,
+      default: ' '
+    },
+    loadingType: {
+      type: String,
+      default: ' '
     }
+
+  }
 };
 
 /***/ }),
 
-/***/ 557:
+/***/ 582:
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _article = __webpack_require__(535);
+
+var _article2 = _interopRequireDefault(_article);
+
+var _iCode = __webpack_require__(536);
+
+var _iCode2 = _interopRequireDefault(_iCode);
+
+var _demo = __webpack_require__(541);
+
+var _demo2 = _interopRequireDefault(_demo);
+
+var _loading = __webpack_require__(643);
+
+var _loading2 = _interopRequireDefault(_loading);
+
+var _anchor = __webpack_require__(533);
+
+var _anchor2 = _interopRequireDefault(_anchor);
+
+var _loading3 = __webpack_require__(710);
+
+var _loading4 = _interopRequireDefault(_loading3);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+exports.default = {
+  components: {
+    iArticle: _article2.default,
+    iCode: _iCode2.default,
+    Demo: _demo2.default,
+    inAnchor: _anchor2.default,
+    Loading: _loading4.default
+  },
+  data: function data() {
+    return {
+      code: _loading2.default,
+
+      loadingText: '加载中...',
+      background: 'black',
+      opacityDeep: 0.6,
+      color: 'blue',
+      className: 'loading1'
+    };
+  },
+
+  methods: {}
+};
+
+/***/ }),
+
+/***/ 595:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2495,72 +2894,15 @@ var render = function render() {
   var _vm = this;
   var _h = _vm.$createElement;
   var _c = _vm._self._c || _h;
-  return _c("i-article", [_c("article", [_c("h1", [_vm._v("Button 按钮")]), _vm._v(" "), _c("p", [_vm._v("基础组件，触发业务逻辑时使用。")]), _vm._v(" "), _c("Alert", { staticStyle: { "margin-top": "16px" }, attrs: { "show-icon": "" } }, [_vm._v("注意：非 template/render 模式下，需使用 "), _c("code", [_vm._v("i-button")]), _vm._v("。")]), _vm._v(" "), _c("inAnchor", { attrs: { title: "代码示例", h2: "" } }), _vm._v(" "), _c("Demo", { attrs: { title: "按钮类型" } }, [_c("div", { attrs: { slot: "demo" }, slot: "demo" }, [_c("Button", [_vm._v("Default")]), _vm._v(" "), _c("Button", { attrs: { type: "primary" } }, [_vm._v("Primary")]), _vm._v(" "), _c("Button", { attrs: { type: "dashed" } }, [_vm._v("Dashed")]), _vm._v(" "), _c("Button", { attrs: { type: "text" } }, [_vm._v("Text")]), _vm._v(" "), _c("br"), _c("br"), _vm._v(" "), _c("Button", { attrs: { type: "info" } }, [_vm._v("Info")]), _vm._v(" "), _c("Button", { attrs: { type: "success" } }, [_vm._v("Success")]), _vm._v(" "), _c("Button", { attrs: { type: "warning" } }, [_vm._v("Warning")]), _vm._v(" "), _c("Button", { attrs: { type: "error" } }, [_vm._v("Error")])], 1), _vm._v(" "), _c("div", { attrs: { slot: "desc" }, slot: "desc" }, [_c("p", [_vm._v("按钮类型有：默认按钮、主按钮、虚线按钮、文字按钮以及四种颜色按钮。")]), _vm._v(" "), _c("p", [_vm._v("通过设置"), _c("code", [_vm._v("type")]), _vm._v("为"), _c("code", [_vm._v("primary")]), _vm._v("、"), _c("code", [_vm._v("dashed")]), _vm._v("、"), _c("code", [_vm._v("text")]), _vm._v("、"), _c("code", [_vm._v("info")]), _vm._v("、"), _c("code", [_vm._v("success")]), _vm._v("、"), _c("code", [_vm._v("warning")]), _vm._v("、"), _c("code", [_vm._v("error")]), _vm._v("创建不同样式的按钮，不设置为默认样式。")])]), _vm._v(" "), _c("i-code", { attrs: { slot: "code", lang: "html" }, slot: "code" }, [_vm._v(_vm._s(_vm.code.type))])], 1), _vm._v(" "), _c("Demo", { attrs: { title: "幽灵按钮" } }, [_c("div", { attrs: { slot: "demo" }, slot: "demo" }, [_c("div", {
-    staticStyle: {
-      padding: "20px",
-      background: "rgb(190, 200, 200)"
-    }
-  }, [_c("Button", { attrs: { type: "default", ghost: "" } }, [_vm._v("Default")]), _vm._v(" "), _c("Button", { attrs: { type: "primary", ghost: "" } }, [_vm._v("Primary")]), _vm._v(" "), _c("Button", { attrs: { type: "dashed", ghost: "" } }, [_vm._v("Dashed")]), _vm._v(" "), _c("Button", { attrs: { type: "text", ghost: "" } }, [_vm._v("Text")]), _vm._v(" "), _c("br"), _c("br"), _vm._v(" "), _c("Button", { attrs: { type: "info", ghost: "" } }, [_vm._v("Info")]), _vm._v(" "), _c("Button", { attrs: { type: "success", ghost: "" } }, [_vm._v("Success")]), _vm._v(" "), _c("Button", { attrs: { type: "warning", ghost: "" } }, [_vm._v("Warning")]), _vm._v(" "), _c("Button", { attrs: { type: "error", ghost: "" } }, [_vm._v("Error")])], 1)]), _vm._v(" "), _c("div", { attrs: { slot: "desc" }, slot: "desc" }, [_c("p", [_vm._v("幽灵按钮将其他按钮的内容反色，背景变为透明，常用在有色背景上。")])]), _vm._v(" "), _c("i-code", { attrs: { slot: "code", lang: "html" }, slot: "code" }, [_vm._v(_vm._s(_vm.code.ghost))])], 1), _vm._v(" "), _c("Demo", { attrs: { title: "图标按钮及按钮形状" } }, [_c("div", { attrs: { slot: "demo" }, slot: "demo" }, [_c("Button", {
+  return _c("i-article", [_c("article", [_c("h1", [_vm._v("loading")]), _vm._v(" "), _c("p", [_vm._v("loading")]), _vm._v(" "), _c("inAnchor", { attrs: { title: "代码示例", h2: "" } }), _vm._v(" "), _c("Demo", { attrs: { title: "loading" } }, [_c("div", { attrs: { slot: "demo" }, slot: "demo" }, [_c("div", { staticClass: "loading-container" }, [_c("Loading", {
     attrs: {
-      type: "primary",
-      shape: "circle",
-      icon: "ios-search"
+      loadingText: _vm.loadingText,
+      background: _vm.background,
+      loadingType: _vm.className,
+      opacityDeep: _vm.opacityDeep,
+      color: _vm.color
     }
-  }), _vm._v(" "), _c("Button", { attrs: { type: "primary", icon: "ios-search" } }, [_vm._v("Search")]), _vm._v(" "), _c("Button", {
-    attrs: {
-      type: "primary",
-      shape: "circle",
-      icon: "ios-search"
-    }
-  }, [_vm._v("Search")]), _vm._v(" "), _c("Button", { attrs: { type: "primary", shape: "circle" } }, [_vm._v("Circle")]), _vm._v(" "), _c("br"), _c("br"), _vm._v(" "), _c("Button", {
-    attrs: { shape: "circle", icon: "ios-search" }
-  }), _vm._v(" "), _c("Button", { attrs: { icon: "ios-search" } }, [_vm._v("Search")]), _vm._v(" "), _c("Button", { attrs: { shape: "circle", icon: "ios-search" } }, [_vm._v("Search")]), _vm._v(" "), _c("Button", { attrs: { shape: "circle" } }, [_vm._v("Circle")])], 1), _vm._v(" "), _c("div", { attrs: { slot: "desc" }, slot: "desc" }, [_c("p", [_vm._v("通过设置"), _c("code", [_vm._v("icon")]), _vm._v("属性在"), _c("code", [_vm._v("Button")]), _vm._v("内嵌入一个"), _c("code", [_vm._v("Icon")]), _vm._v("，或者直接在"), _c("code", [_vm._v("Button")]), _vm._v("内使用"), _c("code", [_vm._v("Icon")]), _vm._v("组件。")]), _vm._v(" "), _c("p", [_vm._v("使用"), _c("code", [_vm._v("Button")]), _vm._v("的"), _c("code", [_vm._v("icon")]), _vm._v("属性，图标位置将在最左边，如果需要自定义位置，需使用"), _c("code", [_vm._v("Icon")]), _vm._v("组件。")]), _vm._v(" "), _c("p", [_vm._v("通过设置"), _c("code", [_vm._v("shape")]), _vm._v("属性为"), _c("code", [_vm._v("circle")]), _vm._v("，可将按钮置为圆的形状。")])]), _vm._v(" "), _c("i-code", { attrs: { slot: "code", lang: "html" }, slot: "code" }, [_vm._v(_vm._s(_vm.code.icon))])], 1), _vm._v(" "), _c("Demo", { attrs: { title: "按钮尺寸" } }, [_c("div", { attrs: { slot: "demo" }, slot: "demo" }, [_c("RadioGroup", {
-    attrs: { type: "button" },
-    model: {
-      value: _vm.buttonSize,
-      callback: function callback($$v) {
-        _vm.buttonSize = $$v;
-      },
-      expression: "buttonSize"
-    }
-  }, [_c("Radio", { attrs: { label: "large" } }, [_vm._v("Large")]), _vm._v(" "), _c("Radio", { attrs: { label: "default" } }, [_vm._v("Default")]), _vm._v(" "), _c("Radio", { attrs: { label: "small" } }, [_vm._v("small")])], 1), _vm._v(" "), _c("br"), _c("br"), _vm._v(" "), _c("Button", { attrs: { size: _vm.buttonSize, type: "primary" } }, [_vm._v("Primary")]), _vm._v(" "), _c("Button", { attrs: { size: _vm.buttonSize, type: "default" } }, [_vm._v("Default")]), _vm._v(" "), _c("Button", { attrs: { size: _vm.buttonSize, type: "dashed" } }, [_vm._v("Dashed")]), _vm._v(" "), _c("Button", { attrs: { size: _vm.buttonSize, type: "text" } }, [_vm._v("Text")]), _vm._v(" "), _c("br"), _c("br"), _vm._v(" "), _c("Button", {
-    attrs: {
-      size: _vm.buttonSize,
-      icon: "ios-download-outline",
-      type: "primary",
-      shape: "circle"
-    }
-  }), _vm._v(" "), _c("Button", {
-    attrs: {
-      size: _vm.buttonSize,
-      icon: "ios-download-outline",
-      type: "primary"
-    }
-  }, [_vm._v("Download")]), _vm._v(" "), _c("br"), _c("br"), _vm._v(" "), _c("ButtonGroup", { attrs: { size: _vm.buttonSize } }, [_c("Button", { attrs: { size: _vm.buttonSize, type: "primary" } }, [_c("Icon", { attrs: { type: "ios-arrow-back" } }), _vm._v("\n                        Backward\n                    ")], 1), _vm._v(" "), _c("Button", { attrs: { size: _vm.buttonSize, type: "primary" } }, [_vm._v("\n                        Forward\n                        "), _c("Icon", { attrs: { type: "ios-arrow-forward" } })], 1)], 1)], 1), _vm._v(" "), _c("div", { attrs: { slot: "desc" }, slot: "desc" }, [_c("p", [_vm._v("按钮有三种尺寸：大、默认（中）、小")]), _vm._v(" "), _c("p", [_vm._v("通过设置"), _c("code", [_vm._v("size")]), _vm._v("为"), _c("code", [_vm._v("large")]), _vm._v("和"), _c("code", [_vm._v("small")]), _vm._v("将按钮设置为大和小尺寸，不设置为默认（中）尺寸。")])]), _vm._v(" "), _c("i-code", { attrs: { slot: "code", lang: "html" }, slot: "code" }, [_vm._v(_vm._s(_vm.code.size))])], 1), _vm._v(" "), _c("Demo", { attrs: { title: "长按钮" } }, [_c("div", { attrs: { slot: "demo" }, slot: "demo" }, [_c("Button", { attrs: { type: "success", long: "" } }, [_vm._v("SUBMIT")]), _vm._v(" "), _c("br"), _c("br"), _vm._v(" "), _c("Button", { attrs: { type: "error", long: "" } }, [_vm._v("DELETE")])], 1), _vm._v(" "), _c("div", { attrs: { slot: "desc" }, slot: "desc" }, [_c("p", [_vm._v("通过设置属性 "), _c("code", [_vm._v("long")]), _vm._v(" 可将按钮宽度设置为 100%，常用于弹窗内操作按钮。")]), _vm._v(" "), _c("p", [_vm._v("使用者也可以直接通过给组件添加 "), _c("code", [_vm._v("style")]), _vm._v(" 来设置更细节的样式，比如定宽。")])]), _vm._v(" "), _c("i-code", { attrs: { slot: "code", lang: "html" }, slot: "code" }, [_vm._v(_vm._s(_vm.code.long))])], 1), _vm._v(" "), _c("Demo", { attrs: { title: "不可用状态" } }, [_c("div", { attrs: { slot: "demo" }, slot: "demo" }, [_c("Button", [_vm._v("Default")]), _vm._v(" "), _c("Button", { attrs: { disabled: "" } }, [_vm._v("Default(Disabled)")]), _vm._v(" "), _c("br"), _c("br"), _vm._v(" "), _c("Button", { attrs: { type: "primary" } }, [_vm._v("Primary")]), _vm._v(" "), _c("Button", { attrs: { type: "primary", disabled: "" } }, [_vm._v("Primary(Disabled)")]), _vm._v(" "), _c("br"), _c("br"), _vm._v(" "), _c("Button", { attrs: { type: "dashed" } }, [_vm._v("Dashed")]), _vm._v(" "), _c("Button", { attrs: { type: "dashed", disabled: "" } }, [_vm._v("Dashed(Disabled)")]), _vm._v(" "), _c("br"), _c("br"), _vm._v(" "), _c("Button", { attrs: { type: "text" } }, [_vm._v("Text")]), _vm._v(" "), _c("Button", { attrs: { type: "text", disabled: "" } }, [_vm._v("Text(Disabled)")])], 1), _vm._v(" "), _c("div", { attrs: { slot: "desc" }, slot: "desc" }, [_c("p", [_vm._v("通过添加"), _c("code", [_vm._v("disabled")]), _vm._v("属性可将按钮设置为不可用状态。")])]), _vm._v(" "), _c("i-code", { attrs: { slot: "code", lang: "html" }, slot: "code" }, [_vm._v(_vm._s(_vm.code.disabled))])], 1), _vm._v(" "), _c("Demo", { attrs: { title: "加载中状态" } }, [_c("div", { attrs: { slot: "demo" }, slot: "demo" }, [_c("Button", { attrs: { type: "primary", loading: "" } }, [_vm._v("Loading...")]), _vm._v(" "), _c("Button", {
-    attrs: { type: "primary", loading: _vm.loading },
-    on: { click: _vm.toLoading }
-  }, [!_vm.loading ? _c("span", [_vm._v("Click me!")]) : _c("span", [_vm._v("Loading...")])]), _vm._v(" "), _c("Button", {
-    attrs: {
-      type: "primary",
-      loading: _vm.loading2,
-      icon: "ios-power"
-    },
-    on: { click: _vm.toLoading2 }
-  }, [!_vm.loading2 ? _c("span", [_vm._v("Click me!")]) : _c("span", [_vm._v("Loading...")])]), _vm._v(" "), _c("Button", { attrs: { loading: "", shape: "circle" } }), _vm._v(" "), _c("Button", {
-    attrs: { loading: "", shape: "circle", type: "primary" }
-  })], 1), _vm._v(" "), _c("div", { attrs: { slot: "desc" }, slot: "desc" }, [_c("p", [_vm._v("通过添加"), _c("code", [_vm._v("loading")]), _vm._v("属性可以让按钮处于加载中状态，后两个按钮在点击时进入加载状态。")])]), _vm._v(" "), _c("i-code", { attrs: { slot: "code", lang: "html" }, slot: "code" }, [_vm._v(_vm._s(_vm.code.loading))])], 1), _vm._v(" "), _c("Demo", { attrs: { title: "按钮组合" } }, [_c("div", { attrs: { slot: "demo" }, slot: "demo" }, [_c("h4", [_vm._v("Basic")]), _vm._v(" "), _c("br"), _c("br"), _vm._v(" "), _c("ButtonGroup", [_c("Button", [_vm._v("Cancel")]), _vm._v(" "), _c("Button", { attrs: { type: "primary" } }, [_vm._v("Confirm")])], 1), _vm._v(" "), _c("ButtonGroup", [_c("Button", { attrs: { disabled: "" } }, [_vm._v("Yesterday")]), _vm._v(" "), _c("Button", { attrs: { disabled: "" } }, [_vm._v("Today")]), _vm._v(" "), _c("Button", { attrs: { disabled: "" } }, [_vm._v("Tomorrow")])], 1), _vm._v(" "), _c("ButtonGroup", [_c("Button", { attrs: { type: "primary" } }, [_vm._v("L")]), _vm._v(" "), _c("Button", [_vm._v("M")]), _vm._v(" "), _c("Button", [_vm._v("M")]), _vm._v(" "), _c("Button", { attrs: { type: "dashed" } }, [_vm._v("R")])], 1), _vm._v(" "), _c("br"), _c("br"), _vm._v(" "), _c("h4", [_vm._v("Icons")]), _vm._v(" "), _c("br"), _c("br"), _vm._v(" "), _c("ButtonGroup", [_c("Button", { attrs: { type: "primary" } }, [_c("Icon", { attrs: { type: "ios-arrow-back" } }), _vm._v("\n                        Backward\n                    ")], 1), _vm._v(" "), _c("Button", { attrs: { type: "primary" } }, [_vm._v("\n                        Forward\n                        "), _c("Icon", { attrs: { type: "ios-arrow-forward" } })], 1)], 1), _vm._v(" "), _c("ButtonGroup", [_c("Button", {
-    attrs: { type: "primary", icon: "ios-skip-backward" }
-  }), _vm._v(" "), _c("Button", {
-    attrs: { type: "primary", icon: "ios-skip-forward" }
-  })], 1), _vm._v(" "), _c("ButtonGroup", [_c("Button", { attrs: { icon: "ios-color-wand-outline" } }), _vm._v(" "), _c("Button", { attrs: { icon: "ios-sunny-outline" } }), _vm._v(" "), _c("Button", { attrs: { icon: "ios-crop" } }), _vm._v(" "), _c("Button", {
-    attrs: { icon: "ios-color-filter-outline" }
-  })], 1), _vm._v(" "), _c("br"), _c("br"), _vm._v(" "), _c("h4", [_vm._v("Circle")]), _vm._v(" "), _c("br"), _c("br"), _vm._v(" "), _c("ButtonGroup", { attrs: { shape: "circle" } }, [_c("Button", { attrs: { type: "primary" } }, [_c("Icon", { attrs: { type: "ios-arrow-back" } }), _vm._v("\n                        Backward\n                    ")], 1), _vm._v(" "), _c("Button", { attrs: { type: "primary" } }, [_vm._v("\n                        Forward\n                        "), _c("Icon", { attrs: { type: "ios-arrow-forward" } })], 1)], 1), _vm._v(" "), _c("ButtonGroup", { attrs: { shape: "circle" } }, [_c("Button", {
-    attrs: { type: "primary", icon: "ios-skip-backward" }
-  }), _vm._v(" "), _c("Button", {
-    attrs: { type: "primary", icon: "ios-skip-forward" }
-  })], 1), _vm._v(" "), _c("ButtonGroup", { attrs: { shape: "circle" } }, [_c("Button", { attrs: { icon: "ios-color-wand-outline" } }), _vm._v(" "), _c("Button", { attrs: { icon: "ios-sunny-outline" } }), _vm._v(" "), _c("Button", { attrs: { icon: "ios-crop" } }), _vm._v(" "), _c("Button", {
-    attrs: { icon: "ios-color-filter-outline" }
-  })], 1), _vm._v(" "), _c("br"), _c("br"), _vm._v(" "), _c("h4", [_vm._v("Size")]), _vm._v(" "), _c("br"), _c("br"), _vm._v(" "), _c("ButtonGroup", { attrs: { size: "large" } }, [_c("Button", [_vm._v("Large")]), _vm._v(" "), _c("Button", [_vm._v("Large")])], 1), _vm._v(" "), _c("ButtonGroup", [_c("Button", [_vm._v("Default")]), _vm._v(" "), _c("Button", [_vm._v("Default")])], 1), _vm._v(" "), _c("ButtonGroup", { attrs: { size: "small" } }, [_c("Button", [_vm._v("Small")]), _vm._v(" "), _c("Button", [_vm._v("Small")])], 1), _vm._v(" "), _c("br"), _c("br"), _vm._v(" "), _c("ButtonGroup", { attrs: { size: "large", shape: "circle" } }, [_c("Button", [_vm._v("Large")]), _vm._v(" "), _c("Button", [_vm._v("Large")])], 1), _vm._v(" "), _c("ButtonGroup", { attrs: { shape: "circle" } }, [_c("Button", [_vm._v("Default")]), _vm._v(" "), _c("Button", [_vm._v("Default")])], 1), _vm._v(" "), _c("ButtonGroup", { attrs: { size: "small", shape: "circle" } }, [_c("Button", [_vm._v("Small")]), _vm._v(" "), _c("Button", [_vm._v("Small")])], 1)], 1), _vm._v(" "), _c("div", { attrs: { slot: "desc" }, slot: "desc" }, [_c("p", [_vm._v("将多个"), _c("code", [_vm._v("Button")]), _vm._v("放入"), _c("code", [_vm._v("ButtonGroup")]), _vm._v("内，可实现按钮组合的效果。")]), _vm._v(" "), _c("p", [_vm._v("通过设置"), _c("code", [_vm._v("ButtonGroup")]), _vm._v("的属性"), _c("code", [_vm._v("size")]), _vm._v("为"), _c("code", [_vm._v("large")]), _vm._v("和"), _c("code", [_vm._v("small")]), _vm._v("，可将按钮组尺寸设置为大和小，不设置"), _c("code", [_vm._v("size")]), _vm._v("，则为默认（中）尺寸。")]), _vm._v(" "), _c("p", [_vm._v("通过设置"), _c("code", [_vm._v("ButtonGroup")]), _vm._v("的属性"), _c("code", [_vm._v("shape")]), _vm._v("为"), _c("code", [_vm._v("circle")]), _vm._v("，可将按钮组形状设置为圆角。")])]), _vm._v(" "), _c("i-code", { attrs: { slot: "code", lang: "html" }, slot: "code" }, [_vm._v(_vm._s(_vm.code.group))])], 1), _vm._v(" "), _c("Demo", { attrs: { title: "按钮组纵向排列" } }, [_c("div", { attrs: { slot: "demo" }, slot: "demo" }, [_c("ButtonGroup", { attrs: { vertical: "" } }, [_c("Button", { attrs: { icon: "logo-facebook" } }), _vm._v(" "), _c("Button", { attrs: { icon: "logo-twitter" } }), _vm._v(" "), _c("Button", { attrs: { icon: "logo-googleplus" } }), _vm._v(" "), _c("Button", { attrs: { icon: "logo-tumblr" } })], 1)], 1), _vm._v(" "), _c("div", { attrs: { slot: "desc" }, slot: "desc" }, [_c("p", [_vm._v("通过设置"), _c("code", [_vm._v("ButtonGroup")]), _vm._v("的属性"), _c("code", [_vm._v("vertical")]), _vm._v("，可以使按钮组纵向排列。")])]), _vm._v(" "), _c("i-code", { attrs: { slot: "code", lang: "html" }, slot: "code" }, [_vm._v(_vm._s(_vm.code.vertical))])], 1), _vm._v(" "), _c("Demo", { attrs: { title: "跳转" } }, [_c("div", { attrs: { slot: "demo" }, slot: "demo" }, [_c("Button", { attrs: { to: "/components/icon" } }, [_vm._v("普通跳转")]), _vm._v(" "), _c("Button", { attrs: { to: "/components/icon", replace: "" } }, [_vm._v("不保存历史的跳转")]), _vm._v(" "), _c("Button", { attrs: { to: "//iviewui.com", target: "_blank" } }, [_vm._v("新窗口打开")])], 1), _vm._v(" "), _c("div", { attrs: { slot: "desc" }, slot: "desc" }, [_c("p", [_vm._v("通过设置 "), _c("code", [_vm._v("to")]), _vm._v(" 可以实现点击按钮直接跳转，支持传入 vue-router 对象。")]), _vm._v(" "), _c("p", [_vm._v("设置 "), _c("code", [_vm._v("replace")]), _vm._v(" 则不会保存历史记录。")]), _vm._v(" "), _c("p", [_vm._v("设置 "), _c("code", [_vm._v("target")]), _vm._v("，会跟 a 标签一样的行为。")])]), _vm._v(" "), _c("i-code", { attrs: { slot: "code", lang: "html" }, slot: "code" }, [_vm._v(_vm._s(_vm.code.link))])], 1), _vm._v(" "), _c("div", { staticClass: "api" }, [_c("inAnchor", { attrs: { title: "API", h2: "" } }), _vm._v(" "), _c("inAnchor", { attrs: { title: "Button props", h3: "" } }), _vm._v(" "), _c("table", [_c("thead", [_c("tr", [_c("th", [_vm._v("属性")]), _vm._v(" "), _c("th", [_vm._v("说明")]), _vm._v(" "), _c("th", [_vm._v("类型")]), _vm._v(" "), _c("th", [_vm._v("默认值")])])]), _vm._v(" "), _c("tbody", [_c("tr", [_c("td", [_vm._v("type")]), _vm._v(" "), _c("td", [_vm._v("按钮类型，可选值为 "), _c("code", [_vm._v("default")]), _vm._v("、"), _c("code", [_vm._v("primary")]), _vm._v("、"), _c("code", [_vm._v("dashed")]), _vm._v("、"), _c("code", [_vm._v("text")]), _vm._v("、"), _c("code", [_vm._v("info")]), _vm._v("、"), _c("code", [_vm._v("success")]), _vm._v("、"), _c("code", [_vm._v("warning")]), _vm._v("、"), _c("code", [_vm._v("error")]), _vm._v("或者不设置")]), _vm._v(" "), _c("td", [_vm._v("String")]), _vm._v(" "), _c("td", [_vm._v("default")])]), _vm._v(" "), _c("tr", [_c("td", [_vm._v("ghost")]), _vm._v(" "), _c("td", [_vm._v("幽灵属性，使按钮背景透明")]), _vm._v(" "), _c("td", [_vm._v("Boolean")]), _vm._v(" "), _c("td", [_vm._v("false")])]), _vm._v(" "), _c("tr", [_c("td", [_vm._v("size")]), _vm._v(" "), _c("td", [_vm._v("按钮大小，可选值为"), _c("code", [_vm._v("large")]), _vm._v("、"), _c("code", [_vm._v("small")]), _vm._v("、"), _c("code", [_vm._v("default")]), _vm._v("或者不设置")]), _vm._v(" "), _c("td", [_vm._v("String")]), _vm._v(" "), _c("td", [_vm._v("default")])]), _vm._v(" "), _c("tr", [_c("td", [_vm._v("shape")]), _vm._v(" "), _c("td", [_vm._v("按钮形状，可选值为"), _c("code", [_vm._v("circle")]), _vm._v("或者不设置")]), _vm._v(" "), _c("td", [_vm._v("String")]), _vm._v(" "), _c("td", [_vm._v("-")])]), _vm._v(" "), _c("tr", [_c("td", [_vm._v("long")]), _vm._v(" "), _c("td", [_vm._v("开启后，按钮的长度为 100%")]), _vm._v(" "), _c("td", [_vm._v("Boolean")]), _vm._v(" "), _c("td", [_vm._v("false")])]), _vm._v(" "), _c("tr", [_c("td", [_vm._v("html-type")]), _vm._v(" "), _c("td", [_vm._v("设置"), _c("code", [_vm._v("button")]), _vm._v("原生的"), _c("code", [_vm._v("type")]), _vm._v("，可选值为"), _c("code", [_vm._v("button")]), _vm._v("、"), _c("code", [_vm._v("submit")]), _vm._v("、"), _c("code", [_vm._v("reset")])]), _vm._v(" "), _c("td", [_vm._v("String")]), _vm._v(" "), _c("td", [_vm._v("button")])]), _vm._v(" "), _c("tr", [_c("td", [_vm._v("disabled")]), _vm._v(" "), _c("td", [_vm._v("设置按钮为禁用状态")]), _vm._v(" "), _c("td", [_vm._v("Boolean")]), _vm._v(" "), _c("td", [_vm._v("false")])]), _vm._v(" "), _c("tr", [_c("td", [_vm._v("loading")]), _vm._v(" "), _c("td", [_vm._v("设置按钮为加载中状态")]), _vm._v(" "), _c("td", [_vm._v("Boolean")]), _vm._v(" "), _c("td", [_vm._v("false")])]), _vm._v(" "), _c("tr", [_c("td", [_vm._v("icon")]), _vm._v(" "), _c("td", [_vm._v("设置按钮的图标类型")]), _vm._v(" "), _c("td", [_vm._v("String")]), _vm._v(" "), _c("td", [_vm._v("-")])]), _vm._v(" "), _c("tr", [_c("td", [_vm._v("custom-icon")]), _vm._v(" "), _c("td", [_vm._v("设置按钮的自定义图标")]), _vm._v(" "), _c("td", [_vm._v("String")]), _vm._v(" "), _c("td", [_vm._v("-")])]), _vm._v(" "), _c("tr", [_c("td", [_vm._v("to")]), _vm._v(" "), _c("td", [_vm._v("跳转的链接，支持 vue-router 对象")]), _vm._v(" "), _c("td", [_vm._v("String | Object")]), _vm._v(" "), _c("td", [_vm._v("-")])]), _vm._v(" "), _c("tr", [_c("td", [_vm._v("replace")]), _vm._v(" "), _c("td", [_vm._v("路由跳转时，开启 replace 将不会向 history 添加新记录")]), _vm._v(" "), _c("td", [_vm._v("Boolean")]), _vm._v(" "), _c("td", [_vm._v("false")])]), _vm._v(" "), _c("tr", [_c("td", [_vm._v("target")]), _vm._v(" "), _c("td", [_vm._v("相当于 a 链接的 target 属性")]), _vm._v(" "), _c("td", [_vm._v("String")]), _vm._v(" "), _c("td", [_vm._v("_self")])])])]), _vm._v(" "), _c("inAnchor", { attrs: { title: "ButtonGroup props", h3: "" } }), _vm._v(" "), _c("table", [_c("thead", [_c("tr", [_c("th", [_vm._v("属性")]), _vm._v(" "), _c("th", [_vm._v("说明")]), _vm._v(" "), _c("th", [_vm._v("类型")]), _vm._v(" "), _c("th", [_vm._v("默认值")])])]), _vm._v(" "), _c("tbody", [_c("tr", [_c("td", [_vm._v("size")]), _vm._v(" "), _c("td", [_vm._v("按钮组合大小，可选值为"), _c("code", [_vm._v("large")]), _vm._v("、"), _c("code", [_vm._v("small")]), _vm._v("、"), _c("code", [_vm._v("default")]), _vm._v("或者不设置")]), _vm._v(" "), _c("td", [_vm._v("String")]), _vm._v(" "), _c("td", [_vm._v("default")])]), _vm._v(" "), _c("tr", [_c("td", [_vm._v("shape")]), _vm._v(" "), _c("td", [_vm._v("按钮组合形状，可选值为"), _c("code", [_vm._v("circle")]), _vm._v("或者不设置")]), _vm._v(" "), _c("td", [_vm._v("String")]), _vm._v(" "), _c("td", [_vm._v("-")])]), _vm._v(" "), _c("tr", [_c("td", [_vm._v("vertical")]), _vm._v(" "), _c("td", [_vm._v("是否纵向排列按钮组")]), _vm._v(" "), _c("td", [_vm._v("Boolean")]), _vm._v(" "), _c("td", [_vm._v("false")])])])])], 1)], 1)]);
+  })], 1)]), _vm._v(" "), _c("div", { attrs: { slot: "desc" }, slot: "desc" }, [_c("p", [_vm._v("用于演示，添加了一个默认数据")])]), _vm._v(" "), _c("i-code", { attrs: { slot: "code", lang: "html" }, slot: "code" }, [_vm._v(_vm._s(_vm.code.default))])], 1), _vm._v(" "), _c("div", { staticClass: "api" }, [_c("inAnchor", { attrs: { title: "API", h2: "" } }), _vm._v(" "), _c("inAnchor", { attrs: { title: "Slider props", h3: "" } }), _vm._v(" "), _c("table", [_c("thead", [_c("tr", [_c("th", [_vm._v("属性")]), _vm._v(" "), _c("th", [_vm._v("说明")]), _vm._v(" "), _c("th", [_vm._v("类型")]), _vm._v(" "), _c("th", [_vm._v("默认值")])])]), _vm._v(" "), _c("tbody", [_c("tr", [_c("td", [_vm._v("loadingText")]), _vm._v(" "), _c("td", [_vm._v("加载文字")]), _vm._v(" "), _c("td", [_vm._v("String")]), _vm._v(" "), _c("td", [_vm._v("--")])]), _vm._v(" "), _c("tr", [_c("td", [_vm._v("background")]), _vm._v(" "), _c("td", [_vm._v("加载背景")]), _vm._v(" "), _c("td", [_vm._v("String")]), _vm._v(" "), _c("td", [_vm._v("--")])]), _vm._v(" "), _c("tr", [_c("td", [_vm._v("loadingType")]), _vm._v(" "), _c("td", [_vm._v("loading类型,暂有两种 loading1和loading2")]), _vm._v(" "), _c("td", [_vm._v("String")]), _vm._v(" "), _c("td", [_vm._v("loading1")])]), _vm._v(" "), _c("tr", [_c("td", [_vm._v("opacityDeep")]), _vm._v(" "), _c("td", [_vm._v("背景透明度")]), _vm._v(" "), _c("td", [_vm._v("Number")]), _vm._v(" "), _c("td", [_vm._v("0.6")])]), _vm._v(" "), _c("tr", [_c("td", [_vm._v("color")]), _vm._v(" "), _c("td", [_vm._v("文字颜色")]), _vm._v(" "), _c("td", [_vm._v("String")]), _vm._v(" "), _c("td", [_vm._v("--")])])])])], 1)], 1)]);
 };
 var staticRenderFns = [];
 render._withStripped = true;
@@ -2570,43 +2912,167 @@ exports.default = esExports;
 if (false) {
   module.hot.accept();
   if (module.hot.data) {
-    require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-064c47be", esExports);
+    require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-07e3d546", esExports);
   }
 }
 
 /***/ }),
 
-/***/ 574:
+/***/ 620:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
 Object.defineProperty(exports, "__esModule", {
-    value: true
+  value: true
+});
+var render = function render() {
+  var _vm = this;
+  var _h = _vm.$createElement;
+  var _c = _vm._self._c || _h;
+  return _c("Row", {
+    staticClass: "el-row-height",
+    attrs: { type: "flex", justify: "center", align: "middle" }
+  }, [true ? _c("div", {
+    staticClass: "loading",
+    style: {
+      background: "" + _vm.background,
+      opacity: "" + _vm.opacityDeep,
+      color: "" + _vm.color
+    }
+  }, [_vm.loadingType == "loading1" ? _c("div", { staticClass: "loading1" }, [_c("div", { staticClass: "rect1" }), _vm._v(" "), _c("div", { staticClass: "rect2" }), _vm._v(" "), _c("div", { staticClass: "rect3" }), _vm._v(" "), _c("div", { staticClass: "rect4" }), _vm._v(" "), _c("div", { staticClass: "rect5" })]) : _vm._e(), _vm._v(" "), _vm.loadingType == "loading2" ? _c("div", { staticClass: "loading2" }, [_c("div", { staticClass: "double-bounce1" }), _vm._v(" "), _c("div", { staticClass: "double-bounce2" })]) : _vm._e(), _vm._v(" "), _c("p", { staticClass: "desc" }, [_vm._v(_vm._s(_vm.loadingText))])]) : _vm._e()]);
+};
+var staticRenderFns = [];
+render._withStripped = true;
+var esExports = { render: render, staticRenderFns: staticRenderFns };
+exports.default = esExports;
+
+if (false) {
+  module.hot.accept();
+  if (module.hot.data) {
+    require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-6aad2016", esExports);
+  }
+}
+
+/***/ }),
+
+/***/ 643:
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
 });
 var code = {};
 
-code.type = "\n<template>\n    <Button>Default</Button>\n    <Button type=\"primary\">Primary</Button>\n    <Button type=\"dashed\">Dashed</Button>\n    <Button type=\"text\">Text</Button>\n    <br><br>\n    <Button type=\"info\">Info</Button>\n    <Button type=\"success\">Success</Button>\n    <Button type=\"warning\">Warning</Button>\n    <Button type=\"error\">Error</Button>\n</template>\n<script>\n    export default {\n        \n    }\n</script>\n";
-
-code.icon = "\n<template>\n    <Button type=\"primary\" shape=\"circle\" icon=\"ios-search\"></Button>\n    <Button type=\"primary\" icon=\"ios-search\">Search</Button>\n    <Button type=\"primary\" shape=\"circle\" icon=\"ios-search\">Search</Button>\n    <Button type=\"primary\" shape=\"circle\">Circle</Button>\n    <br><br>\n    <Button shape=\"circle\" icon=\"ios-search\"></Button>\n    <Button icon=\"ios-search\">Search</Button>\n    <Button shape=\"circle\" icon=\"ios-search\">Search</Button>\n    <Button shape=\"circle\">Circle</Button>\n</template>\n<script>\n    export default {\n        \n    }\n</script>\n";
-
-code.size = "\n<template>\n    <div>\n        <RadioGroup v-model=\"buttonSize\" type=\"button\">\n            <Radio label=\"large\">Large</Radio>\n            <Radio label=\"default\">Default</Radio>\n            <Radio label=\"small\">small</Radio>\n        </RadioGroup>\n        <br><br>\n        <Button :size=\"buttonSize\" type=\"primary\">Primary</Button>\n        <Button :size=\"buttonSize\" type=\"default\">Default</Button>\n        <Button :size=\"buttonSize\" type=\"dashed\">Dashed</Button>\n        <Button :size=\"buttonSize\" type=\"text\">Text</Button>\n        <br><br>\n        <Button :size=\"buttonSize\" icon=\"ios-download-outline\" type=\"primary\" shape=\"circle\"></Button>\n        <Button :size=\"buttonSize\" icon=\"ios-download-outline\" type=\"primary\">Download</Button>\n        <br><br>\n        <ButtonGroup :size=\"buttonSize\">\n            <Button :size=\"buttonSize\" type=\"primary\">\n                <Icon type=\"ios-arrow-back\" />\n                Backward\n            </Button>\n            <Button :size=\"buttonSize\" type=\"primary\">\n                Forward\n                <Icon type=\"ios-arrow-forward\" />\n            </Button>\n        </ButtonGroup>\n    </div>\n</template>\n<script>\n    export default {\n        data () {\n            return {\n                buttonSize: 'large'\n            }\n        },\n    }\n</script>\n";
-
-code.long = "\n<template>\n    <Button type=\"success\" long>SUBMIT</Button>\n    <br><br>\n    <Button type=\"error\" long>DELETE</Button>\n</template>\n<script>\n    export default {\n        \n    }\n</script>\n";
-
-code.disabled = "\n<template>\n    <Button>Default</Button>\n    <Button disabled>Default(Disabled)</Button>\n    <br>\n    <Button type=\"primary\">Primary</Button>\n    <Button type=\"primary\" disabled>Primary(Disabled)</Button>\n    <br>\n    <Button type=\"dashed\">Dashed</Button>\n    <Button type=\"dashed\" disabled>Dashed(Disabled)</Button>\n    <br>\n    <Button type=\"text\">Text</Button>\n    <Button type=\"text\" disabled>Text(Disabled)</Button>\n</template>\n<script>\n    export default {\n        \n    }\n</script>\n";
-
-code.loading = "\n<template>\n    <Button type=\"primary\" loading>Loading...</Button>\n    <Button type=\"primary\" :loading=\"loading\" @click=\"toLoading\">\n        <span v-if=\"!loading\">Click me!</span>\n        <span v-else>Loading...</span>\n    </Button>\n    <Button type=\"primary\" :loading=\"loading2\" icon=\"ios-power\" @click=\"toLoading2\">\n        <span v-if=\"!loading2\">Click me!</span>\n        <span v-else>Loading...</span>\n    </Button>\n    <Button loading shape=\"circle\"></Button>\n    <Button loading shape=\"circle\" type=\"primary\"></Button>\n</template>\n<script>\n    export default {\n        data () {\n            return {\n                loading: false,\n                loading2: false\n            }\n        },\n        methods: {\n            toLoading () {\n                this.loading = true;\n            },\n            toLoading2 () {\n                this.loading2 = true;\n            }\n        }\n    }\n</script>\n";
-code.group = "\n<template>\n    <h4>Basic</h4>\n    <br><br>\n    <ButtonGroup>\n        <Button>Cancel</Button>\n        <Button type=\"primary\">Confirm</Button>\n    </ButtonGroup>\n    <ButtonGroup>\n        <Button disabled>Yesterday</Button>\n        <Button disabled>Today</Button>\n        <Button disabled>Tomorrow</Button>\n    </ButtonGroup>\n    <ButtonGroup>\n        <Button type=\"primary\">L</Button>\n        <Button>M</Button>\n        <Button>M</Button>\n        <Button type=\"dashed\">R</Button>\n    </ButtonGroup>\n    <br><br>\n    <h4>Icons</h4>\n    <br><br>\n    <ButtonGroup>\n        <Button type=\"primary\">\n            <Icon type=\"ios-arrow-back\"></Icon>\n            Backward\n        </Button>\n        <Button type=\"primary\">\n            Forward\n            <Icon type=\"ios-arrow-forward\"></Icon>\n        </Button>\n    </ButtonGroup>\n    <ButtonGroup>\n        <Button type=\"primary\" icon=\"ios-skip-backward\"></Button>\n        <Button type=\"primary\" icon=\"ios-skip-forward\"></Button>\n    </ButtonGroup>\n    <ButtonGroup>\n        <Button icon=\"ios-color-wand-outline\"></Button>\n        <Button icon=\"ios-sunny-outline\"></Button>\n        <Button icon=\"ios-crop\"></Button>\n        <Button icon=\"ios-color-filter-outline\"></Button>\n    </ButtonGroup>\n    <br><br>\n    <h4>Circle</h4>\n    <br><br>\n    <ButtonGroup shape=\"circle\">\n        <Button type=\"primary\">\n            <Icon type=\"ios-arrow-back\"></Icon>\n            Backward\n        </Button>\n        <Button type=\"primary\">\n            Forward\n            <Icon type=\"ios-arrow-forward\"></Icon>\n        </Button>\n    </ButtonGroup>\n    <ButtonGroup shape=\"circle\">\n        <Button type=\"primary\" icon=\"ios-skip-backward\"></Button>\n        <Button type=\"primary\" icon=\"ios-skip-forward\"></Button>\n    </ButtonGroup>\n    <ButtonGroup shape=\"circle\">\n        <Button icon=\"ios-color-wand-outline\"></Button>\n        <Button icon=\"ios-sunny-outline\"></Button>\n        <Button icon=\"ios-crop\"></Button>\n        <Button icon=\"ios-color-filter-outline\"></Button>\n    </ButtonGroup>\n    <br><br>\n    <h4>Size</h4>\n    <br><br>\n    <ButtonGroup size=\"large\">\n        <Button>Large</Button>\n        <Button>Large</Button>\n    </ButtonGroup>\n    <ButtonGroup>\n        <Button>Default</Button>\n        <Button>Default</Button>\n    </ButtonGroup>\n    <ButtonGroup size=\"small\">\n        <Button>Small</Button>\n        <Button>Small</Button>\n    </ButtonGroup>\n    <br><br>\n    <ButtonGroup size=\"large\" shape=\"circle\">\n        <Button>Large</Button>\n        <Button>Large</Button>\n    </ButtonGroup>\n    <ButtonGroup shape=\"circle\">\n        <Button>Default</Button>\n        <Button>Default</Button>\n    </ButtonGroup>\n    <ButtonGroup size=\"small\" shape=\"circle\">\n        <Button>Small</Button>\n        <Button>Small</Button>\n    </ButtonGroup>\n</template>\n<script>\n    export default {\n        \n    }\n</script>\n";
-
-code.vertical = "\n<template>\n    <ButtonGroup vertical>\n        <Button icon=\"logo-facebook\"></Button>\n        <Button icon=\"logo-twitter\"></Button>\n        <Button icon=\"logo-googleplus\"></Button>\n        <Button icon=\"logo-tumblr\"></Button>\n    </ButtonGroup>\n</template>\n<script>\n    export default {\n        \n    }\n</script>\n";
-
-code.ghost = "\n<template>\n    <Button type=\"default\" ghost>Default</Button>\n    <Button type=\"primary\" ghost>Primary</Button>\n    <Button type=\"dashed\" ghost>Dashed</Button>\n    <Button type=\"text\" ghost>Text</Button>\n    <Button type=\"info\" ghost>Info</Button>\n    <Button type=\"success\" ghost>Success</Button>\n    <Button type=\"warning\" ghost>Warning</Button>\n    <Button type=\"error\" ghost>Error</Button>\n</template>\n<script>\n    export default {\n        \n    }\n</script>\n";
-
-code.link = "\n<template>\n    <Button to=\"/components/icon-en\">Normal</Button>\n    <Button to=\"/components/icon-en\" replace>No history</Button>\n    <Button to=\"//iviewui.com\" target=\"_blank\">New window</Button>\n</template>\n<script>\n    export default {\n        \n    }\n</script>\n";
+code.default = "\n<template>\n   <div class=\"loading-container\">\n     <Loading :loadingText=\"loadingText\" :background=\"background\" :className=\"className\" :opacityDeep=\"opacityDeep\" :color=\"color\"/>\n   </div>\n</template>\n<script>\n\texport default {\n        data () {\n            return {\n              loadingText:'\u52A0\u8F7D\u4E2D...',\n              background:'black',\n              opacityDeep:0.6,\n              color:'blue',\n              className: 'loading1',\n            }\n        },\n        methods: {}\n    }\n</script>\n";
 
 exports.default = code;
+
+/***/ }),
+
+/***/ 677:
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(542)();
+// imports
+
+
+// module
+exports.push([module.i, "\n.loading[data-v-6aad2016] {\n  width: 100%;\n  text-align: center;\n}\n.desc[data-v-6aad2016] {\n  line-height: 20px;\n}\n.loading1[data-v-6aad2016] {\n  margin: 30px auto;\n  width: 50px;\n  height: 60px;\n  text-align: center;\n  font-size: 10px;\n}\n.loading1 > div[data-v-6aad2016] {\n  background-color: #67CF22;\n  height: 100%;\n  width: 6px;\n  display: inline-block;\n  -webkit-animation: stretchdelay-data-v-6aad2016 1.2s infinite ease-in-out;\n  animation: stretchdelay-data-v-6aad2016 1.2s infinite ease-in-out;\n}\n.loading1 .rect2[data-v-6aad2016] {\n  -webkit-animation-delay: -1.1s;\n  animation-delay: -1.1s;\n}\n.loading1 .rect3[data-v-6aad2016] {\n  -webkit-animation-delay: -1.0s;\n  animation-delay: -1.0s;\n}\n.loading1 .rect4[data-v-6aad2016] {\n  -webkit-animation-delay: -0.9s;\n  animation-delay: -0.9s;\n}\n.loading1 .rect5[data-v-6aad2016] {\n  -webkit-animation-delay: -0.8s;\n  animation-delay: -0.8s;\n}\n@-webkit-keyframes stretchdelay-data-v-6aad2016 {\n0%, 40%, 100% {\n    -webkit-transform: scaleY(0.4);\n}\n20% {\n    -webkit-transform: scaleY(1);\n}\n}\n@keyframes stretchdelay-data-v-6aad2016 {\n0%, 40%, 100% {\n    transform: scaleY(0.4);\n    -webkit-transform: scaleY(0.4);\n}\n20% {\n    transform: scaleY(1);\n    -webkit-transform: scaleY(1);\n}\n}\n.loading2[data-v-6aad2016] {\n  width: 60px;\n  height: 60px;\n  position: relative;\n  margin: 100px auto;\n}\n.double-bounce1[data-v-6aad2016], .double-bounce2[data-v-6aad2016] {\n  width: 100%;\n  height: 100%;\n  border-radius: 50%;\n  background-color: #67CF22;\n  opacity: 0.6;\n  position: absolute;\n  top: 0;\n  left: 0;\n  -webkit-animation: bounce-data-v-6aad2016 2.0s infinite ease-in-out;\n  animation: bounce-data-v-6aad2016 2.0s infinite ease-in-out;\n}\n.double-bounce2[data-v-6aad2016] {\n  -webkit-animation-delay: -1.0s;\n  animation-delay: -1.0s;\n}\n@-webkit-keyframes bounce-data-v-6aad2016 {\n0%, 100% {\n    -webkit-transform: scale(0);\n}\n50% {\n    -webkit-transform: scale(1);\n}\n}\n@keyframes bounce-data-v-6aad2016 {\n0%, 100% {\n    transform: scale(0);\n    -webkit-transform: scale(0);\n}\n50% {\n    transform: scale(1);\n    -webkit-transform: scale(1);\n}\n}\n", "", {"version":3,"sources":["/./src/components/mhc/loading.vue"],"names":[],"mappings":";AAAA;EACE,YAAY;EACZ,mBAAmB;CAAE;AAEvB;EACE,kBAAkB;CAAE;AAEtB;EACE,kBAAkB;EAClB,YAAY;EACZ,aAAa;EACb,mBAAmB;EACnB,gBAAgB;CAAE;AAEpB;EACE,0BAA0B;EAC1B,aAAa;EACb,WAAW;EACX,sBAAsB;EACtB,0EAA0D;EAC1D,kEAAkD;CAAE;AAEtD;EACE,+BAA+B;EAC/B,uBAAuB;CAAE;AAE3B;EACE,+BAA+B;EAC/B,uBAAuB;CAAE;AAE3B;EACE,+BAA+B;EAC/B,uBAAuB;CAAE;AAE3B;EACE,+BAA+B;EAC/B,uBAAuB;CAAE;AAE3B;AACE;IACE,+BAA+B;CAAE;AACnC;IACE,6BAA6B;CAAE;CAAE;AAErC;AACE;IACE,uBAAuB;IACvB,+BAA+B;CAAE;AACnC;IACE,qBAAqB;IACrB,6BAA6B;CAAE;CAAE;AAErC;EACE,YAAY;EACZ,aAAa;EACb,mBAAmB;EACnB,mBAAmB;CAAE;AAEvB;EACE,YAAY;EACZ,aAAa;EACb,mBAAmB;EACnB,0BAA0B;EAC1B,aAAa;EACb,mBAAmB;EACnB,OAAO;EACP,QAAQ;EACR,oEAAoD;EACpD,4DAA4C;CAAE;AAEhD;EACE,+BAA+B;EAC/B,uBAAuB;CAAE;AAE3B;AACE;IACE,4BAA4B;CAAE;AAChC;IACE,4BAA4B;CAAE;CAAE;AAEpC;AACE;IACE,oBAAoB;IACpB,4BAA4B;CAAE;AAChC;IACE,oBAAoB;IACpB,4BAA4B;CAAE;CAAE","file":"loading.vue","sourcesContent":[".loading {\n  width: 100%;\n  text-align: center; }\n\n.desc {\n  line-height: 20px; }\n\n.loading1 {\n  margin: 30px auto;\n  width: 50px;\n  height: 60px;\n  text-align: center;\n  font-size: 10px; }\n\n.loading1 > div {\n  background-color: #67CF22;\n  height: 100%;\n  width: 6px;\n  display: inline-block;\n  -webkit-animation: stretchdelay 1.2s infinite ease-in-out;\n  animation: stretchdelay 1.2s infinite ease-in-out; }\n\n.loading1 .rect2 {\n  -webkit-animation-delay: -1.1s;\n  animation-delay: -1.1s; }\n\n.loading1 .rect3 {\n  -webkit-animation-delay: -1.0s;\n  animation-delay: -1.0s; }\n\n.loading1 .rect4 {\n  -webkit-animation-delay: -0.9s;\n  animation-delay: -0.9s; }\n\n.loading1 .rect5 {\n  -webkit-animation-delay: -0.8s;\n  animation-delay: -0.8s; }\n\n@-webkit-keyframes stretchdelay {\n  0%, 40%, 100% {\n    -webkit-transform: scaleY(0.4); }\n  20% {\n    -webkit-transform: scaleY(1); } }\n\n@keyframes stretchdelay {\n  0%, 40%, 100% {\n    transform: scaleY(0.4);\n    -webkit-transform: scaleY(0.4); }\n  20% {\n    transform: scaleY(1);\n    -webkit-transform: scaleY(1); } }\n\n.loading2 {\n  width: 60px;\n  height: 60px;\n  position: relative;\n  margin: 100px auto; }\n\n.double-bounce1, .double-bounce2 {\n  width: 100%;\n  height: 100%;\n  border-radius: 50%;\n  background-color: #67CF22;\n  opacity: 0.6;\n  position: absolute;\n  top: 0;\n  left: 0;\n  -webkit-animation: bounce 2.0s infinite ease-in-out;\n  animation: bounce 2.0s infinite ease-in-out; }\n\n.double-bounce2 {\n  -webkit-animation-delay: -1.0s;\n  animation-delay: -1.0s; }\n\n@-webkit-keyframes bounce {\n  0%, 100% {\n    -webkit-transform: scale(0); }\n  50% {\n    -webkit-transform: scale(1); } }\n\n@keyframes bounce {\n  0%, 100% {\n    transform: scale(0);\n    -webkit-transform: scale(0); }\n  50% {\n    transform: scale(1);\n    -webkit-transform: scale(1); } }\n"],"sourceRoot":"webpack://"}]);
+
+// exports
+
+
+/***/ }),
+
+/***/ 710:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_loading_vue__ = __webpack_require__(563);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_loading_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_loading_vue__);
+/* harmony namespace reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_loading_vue__) if(["default","default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_loading_vue__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_6aad2016_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_loading_vue__ = __webpack_require__(620);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_6aad2016_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_loading_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_6aad2016_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_loading_vue__);
+var disposed = false
+function injectStyle (ssrContext) {
+  if (disposed) return
+  __webpack_require__(725)
+}
+var normalizeComponent = __webpack_require__(197)
+/* script */
+
+
+/* template */
+
+/* template functional */
+var __vue_template_functional__ = false
+/* styles */
+var __vue_styles__ = injectStyle
+/* scopeId */
+var __vue_scopeId__ = "data-v-6aad2016"
+/* moduleIdentifier (server only) */
+var __vue_module_identifier__ = null
+var Component = normalizeComponent(
+  __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_node_modules_iview_loader_index_js_ref_0_1_loading_vue___default.a,
+  __WEBPACK_IMPORTED_MODULE_1__babel_loader_node_modules_vue_loader_lib_template_compiler_index_id_data_v_6aad2016_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_node_modules_iview_loader_index_js_ref_0_1_loading_vue___default.a,
+  __vue_template_functional__,
+  __vue_styles__,
+  __vue_scopeId__,
+  __vue_module_identifier__
+)
+Component.options.__file = "src/components/mhc/loading.vue"
+
+/* hot reload */
+if (false) {(function () {
+  var hotAPI = require("vue-loader/node_modules/vue-hot-reload-api")
+  hotAPI.install(require("vue"), false)
+  if (!hotAPI.compatible) return
+  module.hot.accept()
+  if (!module.hot.data) {
+    hotAPI.createRecord("data-v-6aad2016", Component.options)
+  } else {
+    hotAPI.reload("data-v-6aad2016", Component.options)
+  }
+  module.hot.dispose(function (data) {
+    disposed = true
+  })
+})()}
+
+/* harmony default export */ __webpack_exports__["default"] = (Component.exports);
+
+
+/***/ }),
+
+/***/ 725:
+/***/ (function(module, exports, __webpack_require__) {
+
+// style-loader: Adds some css to the DOM by adding a <style> tag
+
+// load the styles
+var content = __webpack_require__(677);
+if(typeof content === 'string') content = [[module.i, content, '']];
+if(content.locals) module.exports = content.locals;
+// add the styles to the DOM
+var update = __webpack_require__(543)("98bf6f20", content, false, {});
+// Hot Module Replacement
+if(false) {
+ // When the styles change, update the <style> tags
+ if(!content.locals) {
+   module.hot.accept("!!../../../node_modules/css-loader/index.js?sourceMap!../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-6aad2016\",\"scoped\":true,\"hasInlineConfig\":false}!../../../node_modules/sass-loader/lib/loader.js!../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!../../../node_modules/iview-loader/index.js?{\"prefix\":false}!./loading.vue", function() {
+     var newContent = require("!!../../../node_modules/css-loader/index.js?sourceMap!../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-6aad2016\",\"scoped\":true,\"hasInlineConfig\":false}!../../../node_modules/sass-loader/lib/loader.js!../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!../../../node_modules/iview-loader/index.js?{\"prefix\":false}!./loading.vue");
+     if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+     update(newContent);
+   });
+ }
+ // When the module is disposed, remove the <style> tags
+ module.hot.dispose(function() { update(); });
+}
 
 /***/ })
 
