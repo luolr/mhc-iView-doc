@@ -18,25 +18,11 @@ const routers = [
         component: (resolve) => require(['./views/guide/install.vue'], resolve)
     },
     {
-        path: '/mhc-iView-doc/guide/start',
-        meta: {
-            title: '快速上手'
-        },
-        component: (resolve) => require(['./views/guide/start.vue'], resolve)
-    },
-    {
         path: '/mhc-iView-doc/components/color',
         meta: {
             title: '色彩 Color'
         },
         component: (resolve) => require(['./views/components/color.vue'], resolve)
-    },
-    {
-        path: '/mhc-iView-doc/components/font',
-        meta: {
-            title: '字体 Font'
-        },
-        component: (resolve) => require(['./views/components/font.vue'], resolve)
     },
     {
         path: '/mhc-iView-doc/components/button',
@@ -51,20 +37,6 @@ const routers = [
             title: '图标 Icon'
         },
         component: (resolve) => require(['./views/components/icon.vue'], resolve)
-    },
-    {
-        path: '/mhc-iView-doc/components/grid',
-        meta: {
-            title: '栅格 Grid'
-        },
-        component: (resolve) => require(['./views/components/grid.vue'], resolve)
-    },
-    {
-        path: '/mhc-iView-doc/components/layout',
-        meta: {
-            title: '布局 Layout'
-        },
-        component: (resolve) => require(['./views/components/layout.vue'], resolve)
     },
     {
         path: '/mhc-iView-doc/components/jsonEditor',

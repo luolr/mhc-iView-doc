@@ -1,60 +1,36 @@
 // 定义左侧导航
 
 const list = {
-    beforeComponents: [
+  beforeComponents: [
+    {
+      title: '安装',
+      titleEn: 'Installation',
+      path: '/mhc-iView-doc/guide/install'
+    }
+  ],
+  components: [
+    {
+      type: 'Basic',
+      title: '基础',
+      list: [
         {
-            title: '安装',
-            titleEn: 'Installation',
-            path: '/mhc-iView-doc/guide/install'
+          title: 'Color 色彩',
+          path: '/mhc-iView-doc/components/color',
+          img: 'color.png',
+          icon: 'android-color-palette'
         },
         {
-            title: '快速上手',
-            titleEn: 'Quick Start',
-            path: '/mhc-iView-doc/guide/start'
-        }
-    ],
-    components: [
+          title: 'Button 按钮',
+          path: '/mhc-iView-doc/components/button',
+          img: 'button.png',
+          icon: 'social-youtube-outline'
+        },
         {
-            type: 'Basic',
-            title: '基础',
-            list: [
-                {
-                    title: 'Color 色彩',
-                    path: '/mhc-iView-doc/components/color',
-                    img: 'color.png',
-                    icon: 'android-color-palette'
-                },
-                {
-                    title: 'Font 字体',
-                    path: '/mhc-iView-doc/components/font',
-                    img: 'font.png',
-                    icon: 'at'
-                },
-                {
-                    title: 'Button 按钮',
-                    path: '/mhc-iView-doc/components/button',
-                    img: 'button.png',
-                    icon: 'social-youtube-outline'
-                },
-                {
-                    title: 'Icon 图标',
-                    path: '/mhc-iView-doc/components/icon',
-                    img: 'icon.png',
-                    icon: 'ios-heart-outline'
-                },
-                {
-                    title: 'Grid 栅格',
-                    path: '/mhc-iView-doc/components/grid',
-                    img: 'grid.png',
-                    icon: 'ios-grid-view-outline'
-                },
-                {
-                    title: 'Layout 布局',
-                    path: '/mhc-iView-doc/components/layout',
-                    img: 'layout-new.png',
-                    icon: 'ios-browsers-outline'
-                },
-
+          title: 'Icon 图标',
+          path: '/mhc-iView-doc/components/icon',
+          img: 'icon.png',
+          icon: 'ios-heart-outline'
+        }
       ]
     },
     {
@@ -157,8 +133,8 @@ const list = {
           icon: 'ios-copy-outline'
         },
       ]
-     }
-    ]
+    }
+  ]
 };
 
 export default list;
