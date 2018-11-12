@@ -126,6 +126,36 @@ const list = {
           img: 'error.png',
           icon: 'navicon'
         },
+        {
+          title: '省市区联动 cityLinkage',
+          path: '/mhc-iView-doc/components/CityLinkage',
+          img: 'error.png',
+          icon: 'ios-more-outline'
+        },
+        {
+          title: '倒计时 countDowm',
+          path: '/mhc-iView-doc/components/CountDown',
+          img: 'error.png',
+          icon: 'ios-clock-outline'
+        },
+        {
+          title: '模块标题 blockHeader',
+          path: '/mhc-iView-doc/components/BlockHeader',
+          img: 'error.png',
+          icon: 'social-tumblr'
+        },
+        {
+          title: '文本裁剪 ClampLines',
+          path: '/mhc-iView-doc/components/ClampLines',
+          img: 'error.png',
+          icon: 'ios-more-outline'
+        },
+        {
+          title: '文本复制 TextCopy',
+          path: '/mhc-iView-doc/components/TextCopy',
+          img: 'error.png',
+          icon: 'ios-copy-outline'
+        },
       ]
      }
     ]

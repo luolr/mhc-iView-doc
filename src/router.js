@@ -142,6 +142,41 @@ const routers = [
     },
     component: (resolve) => require(['./views/components/listview.vue'], resolve)
   },
+  {
+    path: '/mhc-iView-doc/components/BlockHeader',
+    meta: {
+        title: '模块标题 BlockHeader'
+    },
+    component: (resolve) => require(['./views/components/BlockHeader.vue'], resolve)
+  },
+  {
+    path: '/mhc-iView-doc/components/CityLinkage',
+    meta: {
+        title: '省市区联动 CityLinkage'
+    },
+    component: (resolve) => require(['./views/components/CityLinkage.vue'], resolve)
+  },
+  {
+    path: '/mhc-iView-doc/components/CountDown',
+    meta: {
+        title: '倒计时 CountDown'
+    },
+    component: (resolve) => require(['./views/components/CountDown.vue'], resolve)
+  },
+  {
+    path: '/mhc-iView-doc/components/ClampLines',
+    meta: {
+        title: '文本裁剪 ClampLines'
+    },
+    component: (resolve) => require(['./views/components/ClampLines.vue'], resolve)
+  },
+  {
+    path: '/mhc-iView-doc/components/TextCopy',
+    meta: {
+        title: '文本复制 TextCopy'
+    },
+    component: (resolve) => require(['./views/components/TextCopy.vue'], resolve)
+  },
     {
         path: '*',
         redirect: '/'
